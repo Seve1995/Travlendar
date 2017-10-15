@@ -42,18 +42,18 @@ Therefore, RASD should be a model that is directed towards ensuring that the fin
 The document is addressed to all customers and users, system and requirement analysists, developers and programmers who participate to the implementation of the requirements, testers and project managers.
 
 \subsubsection{Purpose of the application}\label{RASD}
-The application should be useful for busy people that have to travel from a place to another one because of their engagements. It helps people by organizing their own calendar: it finds the best solution to reach a certain place in a specific time basing on user?s preferences. 
+The application should be useful for busy people that have to travel from a place to another one because of their engagements. It helps people by organizing their own calendar: it finds the best solution to reach a certain place in a specific time basing on user's preferences. 
 Users are able to see their meetings, their journey between them, their breaks and in every time, they can modify their day calendar by modifying an activity or deleting it.
 
 \subsection{Scope}\label{RASD}
 \subsubsection{Description of the given problem}\label{RASD}
 We want to create a calendar-based application which name is Travlendar+. It is a software that provides a support to everyone that has scheduling meetings at various locations. It helps the user in finding the best option to reach the destination in the optimal conditions and at a fixed time. 
-Once the user has registered and has inserted time and place of his/her meetings, the system automatically computes and accounts for travel time between appointments, to make sure that the client will not be late. Moreover, the user will be warned if the location is not reachable at the allotted time. Other services are provided, such as the possibility to identify the best mobility option basing on user?s preferences (preference or avoidance for a determined mean) and on external conditions (weather, strikes?), the opportunity to buy public transportation tickets and to locate the nearest bike of a bike sharing system or the nearest car of a car sharing system. It is also possible to select combinations of transportations means that minimize carbon footprint.
+Once the user has registered and has inserted time and place of his/her meetings, the system automatically computes and accounts for travel time between appointments, to make sure that the client will not be late. Moreover, the user will be warned if the location is not reachable at the allotted time. Other services are provided, such as the possibility to identify the best mobility option basing on user's preferences (preference or avoidance for a determined mean) and on external conditions (weather, strikes?), the opportunity to buy public transportation tickets and to locate the nearest bike of a bike sharing system or the nearest car of a car sharing system. It is also possible to select combinations of transportations means that minimize carbon footprint.
 Thanks to this application the users can also organize in a customizable way their break time between and appointment and one other, for example by managing a flexible lunch. 
 
 \subsubsection{Actual system}\label{RASD}
 Even if there already exist applications that allow users to find the best travel solution, this is a new kind of application for the innovative idea of managing the time. Therefore, we assume that the whole system will be created by new.
-However, the application will exploit applications or websites to allow the user to buy transportation?s tickets and to use sharing services. Moreover, it will profit by these websites to have real-time news on weather, strikes...
+However, the application will exploit applications or websites to allow the user to buy transportation's tickets and to use sharing services. Moreover, it will profit by these websites to have real-time news on weather, strikes...
 
 \subsubsection{Goals}\label{RASD}
 \begin{itemize}
@@ -71,9 +71,9 @@ However, the application will exploit applications or websites to allow the user
 \item [{[G\ped{10}]}]		Users should be able to provide constraints on different travel means;
 \item [{[G\ped{11}]}]		Users should be able to select combinations of transportation means that minimize carbon footprint;
 \item [{[G\ped{12}]}]		Users should be able to buy public transportation tickets or day/week/season pass basing on their needs;
-\item [{[G\ped{13}]}]		Users should be able to globally specify breaks? time and their minimum duration flexibly;
+\item [{[G\ped{13}]}]		Users should be able to globally specify breaks' time and their minimum duration flexibly;
 \item [{[G\ped{14}]}]		User should be able to add new breaks in the schedule with their duration;
-\item [{[G\ped{15}]}]	The system should be able to save user?s username and password if he/she wants to.
+\item [{[G\ped{15}]}]	The system should be able to save user's username and password if he/she wants to.
 \item [{[G\ped{16}]}]		The system should be able to compute and account for travel time between appointment;
 \item [{[G\ped{17}]}]		The system should be able to identify the best mobility option based on external variables like strikes, weather etc.;
 \item [{[G\ped{18}]}]		The system should be able to locate the nearest vehicle of a vehicle sharing system exploiting its application;
@@ -93,12 +93,12 @@ There are two types of actors:
 \subsection{Definitions, acronyms, abbreviations}\label{RASD}
 \subsubsection{Definitions}\label{RASD}
 \begin{itemize}
-\item Visitor: a person that is not registered yet, but has the access to the application?s information 
+\item Visitor: a person that is not registered yet, but has the access to the application's information 
 \item	Registered user: a person that is logged in the system and can create meetings.
 \item	Activity: an event that happens in the real world and that could be a meeting or a break.
-\item	Meeting: an activity among the registered user and other people. It can be created, modified and deleted by the meeting?s creator. 
+\item	Meeting: an activity among the registered user and other people. It can be created, modified and deleted by the meeting's creator. 
 \item	Break: an activity that a registered user can insert in order to manage it in a customizable way
-\item Trip: it indicates the route and the travel means chosen, based on user?s preferences.
+\item Trip: it indicates the route and the travel means chosen, based on user's preferences.
 \item	Creation screen: the screen of the application in which the registered user create a meeting or a break and enters its related details.
 \end{itemize}
 \subsubsection{Acronyms}\label{RASD}
@@ -137,8 +137,8 @@ Section 6: References
 
 Riprendiamo quanto visto nella sezione~\ref{sec:mod1}, bla bla...
 \subsection{Product perspective}\label{sec:mod1}
-Our application requires a smartphone (iOs/Android) to be executed and it requires an internet connection in order to benefit from the application?s main services.
-It also requires an active GPS connection to identify the user?s position. 
+Our application requires a smartphone (iOs/Android) to be executed and it requires an internet connection in order to benefit from the application's main services.
+It also requires an active GPS connection to identify the user's position. 
 Travlendar+ is similar to other pre-existing applications that compute the best route with the best means to reach a specific location (e.g. Moovit), and like them it is supported with updated time tables of all the travel means and with an estimation of travel time. 
 
 
@@ -157,10 +157,10 @@ To own a personal calendar, the user must have a device with an internet connect
 \item A registered user can create an unlimited number of meetings
 \item The calendar for each user is unique
 \item When meetings overlap, or they can not be reached in the allotted time, a warning is created
-\item In order to buy public transportation?s tickets or to use sharing systems the user is redirected to websites/apps that provide those services
-\item Warnings are visualized inside the meeting?s information screen
-\item When a warning is generated, a notification is sent to the user?s device 
-\item In the section ?My Account? a user can modify personal data and can express global preferences (e.g. activate/deactivate each travel means, specify the minimum lunch duration)
+\item In order to buy public transportation's tickets or to use sharing systems the user is redirected to websites/apps that provide those services
+\item Warnings are visualized inside the meeting's information screen
+\item When a warning is generated, a notification is sent to the user's device 
+\item In the section ``My Account'' a user can modify personal data and can express global preferences (e.g. activate/deactivate each travel means, specify the minimum lunch duration)
 \item In the creation screen a user can specify the type of activity to be added (break or meeting)
 \item To create a meeting, users must insert name, location, date, starting/ending hours. Optionally they can also insert a brief description 
 \item To create a break, users must insert the type of break
@@ -177,10 +177,10 @@ The application does not require any hardware interface.
 
 
 \subsubsection{Software interfaces}\label{sec:mod1}
-Travlendar+ does not provide for itself the possibility to directly buy the public transportation?s tickets and the possibility to use sharing systems, but redirects the user to the corresponding website or, if it?s already installed in the device, to the corresponding app.
+Travlendar+ does not provide for itself the possibility to directly buy the public transportation's tickets and the possibility to use sharing systems, but redirects the user to the corresponding website or, if it's already installed in the device, to the corresponding app.
 
 \subsubsection{Communication interfaces}\label{sec:mod1}
-The application needs an internet connection on the device in order to receive real-time information about traffic, strikes and weather. Furthermore, it?s required also for the communication with third party services that are provided in Travlendar+. 
+The application needs an internet connection on the device in order to receive real-time information about traffic, strikes and weather. Furthermore, it's required also for the communication with third party services that are provided in Travlendar+. 
 
 \subsection{Funcional requirements}\label{sec:mod1}
 \subsection{Performance requirements}\label{sec:mod1}
@@ -195,11 +195,11 @@ To be reactive and able to answer to a large number of requests, we assume that 
 We assume that there will be no problem with scalability even if it is a new software and it could suffer an unexpected growth in popularity and from an increase in workload.
 
 \subsection{Design constraints}\label{sec:mod1}
-The application will be developed with Java 8, so it will inherit all language?s constraints.
+The application will be developed with Java 8, so it will inherit all language's constraints.
 
 \subsubsection{Standards compliance}\label{sec:mod1}
 This RASD is written trying to be conformed to the IEEE Standard (ISO/IEC/IEEE 29148 dated 2011).
-We would like that our application?s life cycle process is conformed to the IEEE Standard, in particular to ISO/IEC 12207 dated 2008.
+We would like that our application's life cycle process is conformed to the IEEE Standard, in particular to ISO/IEC 12207 dated 2008.
 
 
 \subsubsection{Hardware limitation}\label{sec:mod1}
