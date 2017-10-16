@@ -32,21 +32,22 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Scenarios}{9}
 \contentsline {paragraph}{Scenario 1}{9}
 \contentsline {paragraph}{Scenario 2}{9}
+\contentsline {paragraph}{Scenario 5}{10}
 \contentsline {subsubsection}{\numberline {3.2.2}Use case diagrams}{10}
 \contentsline {subsection}{\numberline {3.3}Performance requirements}{10}
-\contentsline {subsection}{\numberline {3.4}Design constraints}{10}
-\contentsline {subsubsection}{\numberline {3.4.1}Standards compliance}{10}
+\contentsline {subsection}{\numberline {3.4}Design constraints}{11}
+\contentsline {subsubsection}{\numberline {3.4.1}Standards compliance}{11}
 \contentsline {subsubsection}{\numberline {3.4.2}Hardware limitation}{11}
 \contentsline {subsubsection}{\numberline {3.4.3}Any other constraint}{11}
 \contentsline {subsection}{\numberline {3.5}Software system attributes}{11}
 \contentsline {subsubsection}{\numberline {3.5.1}Reliability}{11}
-\contentsline {subsubsection}{\numberline {3.5.2}Availability}{11}
-\contentsline {subsubsection}{\numberline {3.5.3}Security}{11}
-\contentsline {paragraph}{External Interface Side}{11}
-\contentsline {paragraph}{Application side}{11}
+\contentsline {subsubsection}{\numberline {3.5.2}Availability}{12}
+\contentsline {subsubsection}{\numberline {3.5.3}Security}{12}
+\contentsline {paragraph}{External Interface Side}{12}
+\contentsline {paragraph}{Application side}{12}
 \contentsline {paragraph}{Server side}{12}
 \contentsline {subsubsection}{\numberline {3.5.4}Maintenability}{12}
 \contentsline {subsubsection}{\numberline {3.5.5}Portability}{12}
-\contentsline {section}{\numberline {4}Formal analysis using alloy}{12}
-\contentsline {section}{\numberline {5}Effort spent}{12}
-\contentsline {section}{\numberline {6}References}{12}
+\contentsline {section}{\numberline {4}Formal analysis using alloy}{13}
+\contentsline {section}{\numberline {5}Effort spent}{13}
+\contentsline {section}{\numberline {6}References}{13}

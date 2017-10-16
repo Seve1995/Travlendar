@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.15)  16 OCT 2017 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.15)  16 OCT 2017 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -346,18 +346,19 @@ File: "iPhoneX_mockup LOGIN".png Graphic file (type png)
 Package pdftex.def Info: "iPhoneX_mockup LOGIN".png used on input line 176.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
  [7] [8 <./iPhoneX_mockup LOGIN.png>] [9]
-Overfull \hbox (36.18472pt too wide) in paragraph at lines 216--218
+[10]
+Overfull \hbox (36.18472pt too wide) in paragraph at lines 219--221
 \OT1/cmr/m/n/12 This RA-SD is writ-ten try-ing to be con-for-med to the IEEE St
 an-dard (ISO/IEC/IEEE
  []
 
-[10] [11]
-Overfull \hbox (5.06862pt too wide) in paragraph at lines 251--252
+[11] [12]
+Overfull \hbox (5.06862pt too wide) in paragraph at lines 254--255
 []$\OT1/cmtt/m/n/12 http : / / www . iso . org / standard/$ \OT1/cmr/m/n/12 (Fo
 r the sec-tion ``Stan-dard Com-plian-
  []
 
-[12] (./Latex.aux)
+[13] (./Latex.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -369,17 +370,17 @@ Here is how much of TeX's memory you used:
  6083 multiletter control sequences out of 15000+600000
  12873 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,6n,25p,1180b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,6n,25p,1506b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Latex.pdf (14 pages, 1779850 bytes).
+Output written on Latex.pdf (15 pages, 1781386 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 80 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
