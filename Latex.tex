@@ -4,7 +4,8 @@
 
 \documentclass[12pt,titlepage]{article}
 \usepackage[italian]{babel}
-%\usepackage{graphics}
+\usepackage{graphics}
+\graphicspath{ {"/Users/Chiara/Desktop/POLIMI/SW ENGINEERING 2/PidoPlizzariSeverino"/} }
 \usepackage{url,amsfonts,epsfig}
 \usepackage[applemac]{inputenc} %comando per le lettere accentate se usate mac  
 %\usepackage[latin1]{inputenc} % comando per le lettere accentate se usate pc  
@@ -27,8 +28,6 @@
 
 \section{Introduction} \label{introduzione}
 \pagenumbering{arabic}
-
-
 
 \subsection{Purpose} \label{sec:purpose}
 
@@ -89,6 +88,7 @@ There are two types of actors:
 
 \end{itemize}
 
+\subsubsection{Class diagram}\label{sec:mod1}
 
 \subsection{Definitions, acronyms, abbreviations}\label{RASD}
 \subsubsection{Definitions}\label{RASD}
@@ -100,6 +100,7 @@ There are two types of actors:
 \item	Break: an activity that a registered user can insert in order to manage it in a customizable way
 \item Trip: it indicates the route and the travel means chosen, based on user's preferences.
 \item	Creation screen: the screen of the application in which the registered user create a meeting or a break and enters its related details.
+\item Blocked travel means: it is a travel means that the user has selected as unwanted.
 \end{itemize}
 \subsubsection{Acronyms}\label{RASD}
 \begin{itemize}
@@ -172,6 +173,9 @@ To own a personal calendar, the user must have a device with an internet connect
 Our application has been designed to be used through a smartphone or a tablet.
 The following mock-ups show the screens of the main features offered by the smartphone version. 
 
+\includegraphics[scale=0.15]{"iPhoneX_mockup LOGIN"}
+
+
 \subsubsection{Hardware interfaces}\label{sec:mod1}
 The application does not require any hardware interface. 
 
@@ -182,7 +186,18 @@ Travlendar+ does not provide for itself the possibility to directly buy the publ
 \subsubsection{Communication interfaces}\label{sec:mod1}
 The application needs an internet connection on the device in order to receive real-time information about traffic, strikes and weather. Furthermore, it's required also for the communication with third party services that are provided in Travlendar+. 
 
-\subsection{Funcional requirements}\label{sec:mod1}
+\subsection{Functional requirements}\label{sec:mod1}
+\subsubsection{Scenarios}\label{sec:mod1}
+\paragraph{Scenario 1}
+Dybala is a very busy football player that lives in Turin. Tomorrow morning he is going to have an important meeting with one of the main sponsor of the Juventus team, the Adidas, in Milan, and in the evening he has the Champions League's final. It is the most important match of the year, so he needs to organize his day at the best! He decides to use Travlendar+. He inserts the two activities in the list of meetings: "Meeting with Adidas", on 20th of May, from 11 am to 1 pm, in Corso Buenos Aires 40 (Milan) and "Match prep for the Final", on 20th of May, from 3 pm to 7 pm, at the Allianz Stadium (Turin). Since he wants to preserve energies for the Final, he selects "Walking" and "Bike" as blocked travel means in the Preferences' area. The application suggests him a trip with the train from Turin to Milan in the early morning because the extimated time for the route by car or taxi is reported to be slower due to the traffic. The application redirects him to the Trenitalia's website to buy the ticket. Then, for coming back, Travlendar+ suggests him to take a taxi because public transport timetables for the given time are not convenient. 
+
+\paragraph{Scenario 2}
+Giuseppe is a student at Politecnico of Milan. In view of the exams session, he has few time but he does not want to give up a good lunch with his friends. Therefore, he specifies in the "My Account" section of Travlendar+ that everyday he needs at least 30 minutes free to have a comfortable lunch between 11.30 am and 2.30 pm. He inserts the schedule of all his lessons. After having inserted the Formal Languages and Compilers's lesson of Wednesday, a warning appears to report an overlap with the fixed time reserved for the lunch. He can ignore the warning and decide what he prefers to do. Moreover, 
+
+ambientalista con footprint (global constraint), break in giorno specifico e viene indirizzato alla pagina dei ristoranti (Cracco), the weather forecast, strike (un concorrente di XFactor),  bike sharing che indirizza al sito/app e playstore, account registration (Trump), 
+
+\subsubsection{Use case diagrams}\label{sec:mod1}
+
 \subsection{Performance requirements}\label{sec:mod1}
 In order to guarantee the performance of our application, we have to specify:
 \begin{itemize}
