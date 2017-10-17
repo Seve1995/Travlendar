@@ -49,7 +49,7 @@ Users are able to see their meetings, their journey between them, their breaks a
 \subsection{Scope}\label{RASD}
 \subsubsection{Description of the given problem}\label{RASD}
 We want to create a calendar-based application which name is Travlendar+. It is a software that provides a support to everyone that has scheduling meetings at various locations. It helps the user in finding the best option to reach the destination in the optimal conditions and at a fixed time. 
-Once the user has registered and has inserted time and place of his/her meetings, the system automatically computes and accounts for travel time between appointments, to make sure that the client will not be late. Moreover, the user will be warned if the location is not reachable at the allotted time. Other services are provided, such as the possibility to identify the best mobility option basing on user's preferences (preference or avoidance for a determined mean) and on external conditions (weather, strikes), the opportunity to buy public transportation tickets and to locate the nearest bike of a bike sharing system or the nearest car of a car sharing system. It is also possible to select combinations of transportations means that minimize carbon footprint.
+Once the user has registered and has inserted time and place of his/her meetings, the system automatically computes and accounts for travel time between appointments, to make sure that the client will not be late. Moreover, the user will be warned if the location is not reachable at the allotted time. Other services are provided, such as the possibility to identify the best mobility option basing on user's preferences (preference or avoidance for a determined mean) and on external conditions (weather, strikes), the opportunity to buy public transportation tickets and to locate the nearest bike of a bike sharing system or the nearest car of a car sharing system. It is also possible to select combinations of transportations means that minimize carbon footprint and to specify the maximum walking distance.
 Thanks to this application the users can also organize in a customizable way their break time between and appointment and one other, for example by managing a flexible lunch. 
 
 \subsubsection{Actual system}\label{RASD}
@@ -73,13 +73,15 @@ However, the application will exploit applications or websites to allow the user
 \item [{[G\ped{12}]}]		Users should be able to buy public transportation tickets or day/week/season pass basing on their needs;
 \item [{[G\ped{13}]}]		Users should be able to globally specify breaks' time and their minimum duration flexibly;
 \item [{[G\ped{14}]}]		User should be able to add new breaks in the schedule with their duration;
-\item [{[G\ped{15}]}]	The system should be able to save user's username and password if he/she wants to.
-\item [{[G\ped{16}]}]		The system should be able to compute and account for travel time between appointment;
-\item [{[G\ped{17}]}]		The system should be able to identify the best mobility option based on external variables like strikes, weather etc.;
-\item [{[G\ped{18}]}]		The system should be able to locate the nearest vehicle of a vehicle sharing system exploiting its application;
-\item [{[G\ped{19}]}]		The system should be able to create a warning when the user cannot reach a location at a certain time;
-\item [{[G\ped{20}]}]		The system should be able to support different travel means;
- (Va aggiunto anche il fatto che si possono comprare biglietti?)
+\item [{[G\ped{15}]}]		User should be able to select the maximum walking distance;
+\item [{[G\ped{16}]}]	The system should be able to save user's username and password if he/she wants to;
+\item [{[G\ped{17}]}]		The system should be able to compute and account for travel time between appointment;
+\item [{[G\ped{18}]}]		The system should be able to identify the best mobility option based on external variables like strikes, weather etc.;
+\item [{[G\ped{19}]}]		The system should be able to locate the nearest vehicle of a vehicle sharing system exploiting its application;
+\item [{[G\ped{20}]}]		The system should be able to create a warning when the user cannot reach a location at a certain time;
+\item [{[G\ped{21}]}]		The system should be able to support different travel means;
+\item [{[G\ped{22}]}]		The system should be able to create a warning when a strike is announced in a day with activities;
+
  \end{itemize}
 \subsubsection{Actors}\label{RASD}
 There are two types of actors:
@@ -160,11 +162,12 @@ Travlendar+ offers a lot of options that can be customized, for example the user
 \item{Select combinations of transportation means that minimize carbon footprint;}
 \item{Deactivate public transportation in a certain time zone.}
 \end{itemize}
+
 \paragraph{The best route's computation}
-Once a meeting is created Travlendar+ suggests the best route between the previous, the current and the next activity that satisfies the constraints of the user. If the user is not satisfied with the proposed trip, he/she can choose another one between those suggested by the app. 
+Once a meeting is created Travlendar+ suggests the best route between the previous, the current and the next activity that satisfies the constraints of the user. If the user is not satisfied with the proposed trip, he/she can choose another one between those suggested by the app.
 
 \paragraph{Real time informations}
-Every time the system is updated with the information about the traffic, the weather, strikes ecc. The user can either receive the respective notification or visualize all the warnings in the main screen.All this warnings influence the choice of the travel means for the trip. 
+Every time the system is updated with the information about the traffic, the weather, strikes etc. The user can either receive the respective notification or visualize all the warnings in the main screen. All this warnings influence the choice of the travel means for the trip. 
 
 
 \paragraph{Possible future implementations} 
@@ -208,7 +211,6 @@ The following mock-ups show the screens of the main features offered by the smar
 \subsubsection{Hardware interfaces}\label{sec:mod1}
 The application does not require any hardware interface. 
 
-
 \subsubsection{Software interfaces}\label{sec:mod1}
 Travlendar+ does not provide for itself the possibility to directly buy the public transportation's tickets and the possibility to use sharing systems, but redirects the user to the corresponding website or, if it's already installed in the device, to the corresponding app.
 
@@ -236,15 +238,11 @@ Once it is installed, Trump opens it and he finds out that he has to sign in. He
 He has to insert a lot of personal informations: name Donald, surname Trump, date of birth 14/06/1946, address 1600 Pennsylvania Ave NW, Washington, username Tump, password ******** and at the end the telephone number +1 202-456-1111.
 Once he finishes to compile, he clicks "Sign in" and the screen for the registered users appears: there is the screen with the schedule of the day that is obviously empty for new users.
 
-
 \paragraph{Scenario 6}
-Leonardo Di Caprio is a famous actor that has always been active in fighting climate change. To raise awareness among the people about the environmental problems, he has the idea to live stream one of his ordinary day to show people the importance of using means of transport that minimize carbon footprint. 
+Leonardo DiCaprio is a famous actor that has always been active in fighting climate change. To raise awareness among the people about the environmental problems, he has the idea to live stream one of his ordinary day to show people the importance of using means of transport that minimize carbon footprint. 
 Leonardo decides to use Travlendar+ in order to arrange his trips in the day. Once the application is installed and he creates his personal account, Leonardo inserts three activities (all in New York) to be performed during the day. The application now suggests the ideal route that minimize travel durations, but in order to pursue his goal Leonardo enter the "My Account" section of the app and then he enables, in the preferences' area, the option "Minimize footprint". The route suggested by the application seems to be more eco-friendly, for example Travlendar+ proposes to him to rent a bike or to use a service of electric car sharing.
 
-\paragraph{Scenario 7}
-Claire is going to have a marry of her best friend on Sunday morning. Since after the ceremony there will be a big party with food and drink, she decides not to drive. To discover the best option to reach the church, she uses Travlendar+. The application suggests her to take the metro and then to walk for ten minutes from the underground station to to the destination. It's all perfect for her, but unfortunately she wakes up on Sunday morning and it is raining. She can not affords to walk under the rain because she has just gone to the hairdresser! She immediately logs in to the application to check an alternative trip. Travlendar+, that has an updated weather forecast, has already changed the trip: it suggests her to take the tram once exited from the underground station instead of walking. She notices looking at the tram schedule in the activity's details that she will not take much more to go there with this alternative, because trams of line 34 stops every 13 minutes. She will reach the destination in time.
-
-
+ the weather forecast, bike sharing
  
 \subsubsection{Use case diagrams}\label{sec:mod1}
 
@@ -256,16 +254,20 @@ In order to guarantee the performance of our application, we have to specify:
 \item Scalability
 \item Platform
 \end{itemize}
-To be reactive and able to answer to a large number of requests, we assume that the response time is close to 0 (from Jakon Nielsen book on Usability 0,1 seconds is about the limit to have the user feel that the system is reacting instantaneously), so it depends mostly on the internet connection of the platform used. 
+To be reactive and able to answer to a large number of requests, we assume that the response time is close to 0 (from Jakon Nielsen book on Usability 0.1 seconds is about the limit to have the user feel that the system is reacting instantaneously), so it depends mostly on the internet connection of the platform used. 
 We assume that there will be no problem with scalability even if it is a new software and it could suffer an unexpected growth in popularity and from an increase in workload.
 
 \subsection{Design constraints}\label{sec:mod1}
-The application will be developed with Java 8, so it will inherit all language's constraints.
+In order to be compatible both with Android and iOs, the application will be developed with in the following programming languages:
+\begin{itemize}
+\item Swift 4 (for the iOs version)
+\item Java 8 (for the Android version)
+\end{itemize}
+We have choose to use the last version of the programming languages to increase robustness and stability of the application, despite the fact that a lot of devices in the market will not be compatible because they're not up to date with the latest OS version.
 
 \subsubsection{Standards compliance}\label{sec:mod1}
 This RASD is written trying to be conformed to the IEEE Standard (ISO/IEC/IEEE 29148 dated 2011).
 We would like that our application's life cycle process is conformed to the IEEE Standard, in particular to ISO/IEC 12207 dated 2008.
-
 
 \subsubsection{Hardware limitation}\label{sec:mod1}
 Since it is a mobile application, Travlendar+ requires a smartphone or a tablet with internet connection and with the GPS to find the location of the user. 
@@ -291,7 +293,7 @@ An idea to implement the server side architecture is to strongly separate the da
 The application does not provide any specific API, but the whole application code will be documented to well inform future developers of how application works and how it has been developed. -> NON AVEVO LA PIU PALLIDA IDEA, HO PRESO LA FRASE DA UN ESEMPIO DI UN ALTRO ANNO!!!!!
 
 \subsubsection{Portability}\label{sec:mod1}
-The application could be used on every smartphone provided with iOs or Android. 
+In order to reach the highest number of devices on the market, the application could be used on every smartphone or tablet provided with iOs or Android. 
 \pagebreak
 \section{Formal analysis using alloy}\label{sec:crit}
 \pagebreak
