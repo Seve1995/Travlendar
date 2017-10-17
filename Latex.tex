@@ -4,14 +4,13 @@
 
 \documentclass[12pt,titlepage]{article}
 \usepackage[italian]{babel}
-\usepackage{graphics}
-\graphicspath{ {"/Users/Chiara/Desktop/POLIMI/SW ENGINEERING 2/PidoPlizzariSeverino"/} }
+%\usepackage{graphics}
 \usepackage{url,amsfonts,epsfig}
 \usepackage[applemac]{inputenc} %comando per le lettere accentate se usate mac  
 %\usepackage[latin1]{inputenc} % comando per le lettere accentate se usate pc  
 
 
-\title{\textsc{Questo � il titolo della mia tesi}}
+\title{\textsc{Questo e' il titolo della mia tesi}}
 \author{Pinco Pallino}
 
 \begin{document}
@@ -170,7 +169,7 @@ To own a personal calendar, the user must have a device with an internet connect
 Our application has been designed to be used through a smartphone or a tablet.
 The following mock-ups show the screens of the main features offered by the smartphone version. 
 
-\includegraphics[scale=0.15]{"iPhoneX_mockup LOGIN"}
+%\includegraphics[scale=0.15]{"iPhoneX_mockup LOGIN"}
 
 
 \subsubsection{Hardware interfaces}\label{sec:mod1}
@@ -189,7 +188,7 @@ The application needs an internet connection on the device in order to receive r
 Dybala is a very busy football player that lives in Turin. Tomorrow morning he is going to have an important meeting with one of the main sponsor of the Juventus team, the Adidas, in Milan, and in the evening he has the Champions League's final. It is the most important match of the year, so he needs to organize his day at the best! He decides to use Travlendar+. He inserts the two activities in the list of meetings: "Meeting with Adidas", on 20th of May, from 11 am to 1 pm, in Corso Buenos Aires 40 (Milan) and "Match prep for the Final", on 20th of May, from 3 pm to 7 pm, at the Allianz Stadium (Turin). Since he wants to preserve energies for the Final, he selects "Walking" and "Bike" as blocked travel means in the Preferences' area. The application suggests him a trip with the train from Turin to Milan in the early morning because the extimated time for the route by car or taxi is reported to be slower due to the traffic. The application redirects him to the Trenitalia's website to buy the ticket. Then, for coming back, Travlendar+ suggests him to take a taxi because public transport timetables for the given time are not convenient. 
 
 \paragraph{Scenario 2}
-Giuseppe is a student at Politecnico of Milan. In view of the exams session, he has few time but he does not want to give up a good lunch with his friends. Therefore, he specifies in the "My Account" section of Travlendar+ that everyday he needs at least 30 minutes free to have a comfortable lunch between 11.30 am and 2.30 pm. He inserts the schedule of all his lessons. After having inserted the Formal Languages and Compilers's lesson of Wednesday, a warning appears to report an overlap with the fixed time reserved for the lunch. He can ignore the warning and decide what he prefers to do. Moreover, 
+Giuseppe is a student at Politecnico of Milan. In view of the exams session, he has few time but he does not want to give up a good lunch with his friends. Therefore, he specifies in the "My Account" section of Travlendar+ that everyday he needs at least 30 minutes free to have a comfortable lunch between 11.30 am and 2.30 pm. He inserts the schedule of all his lessons. After having inserted the Formal Languages and Compilers's lesson of Wednesday, a warning appears to report an overlap with the fixed time reserved for the lunch. He can ignore the warning and decide what he prefers to do.
 
 \paragraph{Scenario 3}
 Carlo Cracco is a famous chef that has two restaurants in Milan. He would like to open a new restaurant in Verona. So he has to go to Verona to search for a place that can be restored as he likes and to meet architects and designers to decide all details of the new restaurant. He would like to have a coffee break between the afternoon appointments to restore himself. Therefore he uses Travlendar+ to organize the full day. He inserts all the meetings and he inserts also the coffee break: pressing the plus, Carlo selects the type ?Break?, choose the ?Coffee break?, he inserts the minimum duration for the break and he is readdressed to the website ?TripAdvisor?. In this way the chef can see what coffee is opened near the two appointments that he has before and after the break and he can choose the best one.
@@ -203,6 +202,11 @@ Also the USA president has become curious because of the fame of this new type o
 Once it is installed, Trump opens it and he finds out that he has to sign in. He clicked the "Sign in" button and a new screen appears. 
 He has to insert a lot of personal informations: name Donald, surname Trump, date of the birth 14/06/1946, address 1600 Pennsylvania Ave NW, Washington, username Tump, password ******** and at the end the telephon number +1 202-456-1111.
 Once he finishes to compile, he clicks "Sign in" and the screen for the registered users appears: there is the screen with the schedule of the day that is obviously empty for new users.
+
+
+\paragraph{Scenario 6}
+Leonardo DiCaprio is a famous actor that has always been active in fighting climate change. To raise awareness among the people about the environmental problems, he has the idea to live stream one of his ordinary day to show people the importance of using means of transport that minimize carbon footprint. 
+Leonardo decides to use Travlendar+ in order to arrange his trips in the day. Once the application is installed and he creates his personal account, Leonardo inserts three activities (all in New York) to be performed during the day. The application now suggests the ideal route that minimize travel durations, but in order to pursue his goal Leonardo enter the "My Account" section of the app and then he enables, in the preferences' area, the option "Minimize footprint". Now the route suggests to Leonardo a new route, that tries to be more eco-friendly, for example by suggesting him to rent a bike or to use a service of electric car sharing.
 
 ambientalista con footprint (global constraint), the weather forecast, bike sharing che indirizza al sito/app e playstore
 
@@ -220,6 +224,7 @@ To be reactive and able to answer to a large number of requests, we assume that 
 We assume that there will be no problem with scalability even if it is a new software and it could suffer an unexpected growth in popularity and from an increase in workload.
 
 \subsection{Design constraints}\label{sec:mod1}
+The application will be developed with Java 8, so it will inherit all language's constraints.
 
 \subsubsection{Standards compliance}\label{sec:mod1}
 This RASD is written trying to be conformed to the IEEE Standard (ISO/IEC/IEEE 29148 dated 2011).
@@ -247,10 +252,10 @@ An idea to implement the server side architecture is to strongly separate the da
 
 
 \subsubsection{Maintenability}\label{sec:mod1}
-The application does not provide any specific API, but the whole application code will be documented to well inform future developers of how application works and how it has been developed. In this way it is easy to fix some future problems that can appear. 
+The application does not provide any specific API, but the whole application code will be documented to well inform future developers of how application works and how it has been developed. -> NON AVEVO LA PIU PALLIDA IDEA, HO PRESO LA FRASE DA UN ESEMPIO DI UN ALTRO ANNO!!!!!
 
 \subsubsection{Portability}\label{sec:mod1}
-The application could be used on every devices provided with iOs or Android. 
+The application could be used on every smartphone provided with iOs or Android. 
 
 \section{Formal analysis using alloy}\label{sec:crit}
 \section{Effort spent}\label{sec:crit}
@@ -258,8 +263,6 @@ The application could be used on every devices provided with iOs or Android.
 \begin{itemize}
 \item [{[1]}] \url{http://www.1202performance.com/} (To understand the part of performance requirements)
 \item [{[2]}] \url{http://www.iso.org/standard/} (For the section ``Standard Compliance'')
-\item	[{[1]}]Specification Document: Mandatory Project Assignment.pdf;
-\item [{[2]}]	Requirement Engineering Part III.pdf;
 \end{itemize}
 
 
