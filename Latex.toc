@@ -13,7 +13,7 @@
 \contentsline {subsection}{\numberline {1.3}Definitions, acronyms, abbreviations}{4}
 \contentsline {subsubsection}{\numberline {1.3.1}Definitions}{4}
 \contentsline {subsubsection}{\numberline {1.3.2}Acronyms}{4}
-\contentsline {subsubsection}{\numberline {1.3.3}Abbreviations}{5}
+\contentsline {subsubsection}{\numberline {1.3.3}Abbreviations}{4}
 \contentsline {subsection}{\numberline {1.4}Revision history}{5}
 \contentsline {subsection}{\numberline {1.5}Reference documents}{5}
 \contentsline {subsection}{\numberline {1.6}Document structure}{5}
@@ -43,9 +43,10 @@
 \contentsline {paragraph}{Scenario 4}{10}
 \contentsline {paragraph}{Scenario 5}{11}
 \contentsline {paragraph}{Scenario 6}{11}
+\contentsline {paragraph}{Scenario 7}{12}
 \contentsline {subsubsection}{\numberline {3.2.2}Use case diagrams}{12}
 \contentsline {subsection}{\numberline {3.3}Performance requirements}{12}
-\contentsline {subsection}{\numberline {3.4}Design constraints}{12}
+\contentsline {subsection}{\numberline {3.4}Design constraints}{13}
 \contentsline {subsubsection}{\numberline {3.4.1}Standards compliance}{13}
 \contentsline {subsubsection}{\numberline {3.4.2}Hardware limitation}{13}
 \contentsline {subsubsection}{\numberline {3.4.3}Any other constraint}{13}
@@ -54,7 +55,7 @@
 \contentsline {subsubsection}{\numberline {3.5.2}Availability}{13}
 \contentsline {subsubsection}{\numberline {3.5.3}Security}{13}
 \contentsline {paragraph}{External Interface Side}{13}
-\contentsline {paragraph}{Application side}{13}
+\contentsline {paragraph}{Application side}{14}
 \contentsline {paragraph}{Server side}{14}
 \contentsline {subsubsection}{\numberline {3.5.4}Maintenability}{14}
 \contentsline {subsubsection}{\numberline {3.5.5}Portability}{14}
