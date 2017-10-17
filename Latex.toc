@@ -17,12 +17,18 @@
 \contentsline {subsection}{\numberline {1.4}Revision history}{5}
 \contentsline {subsection}{\numberline {1.5}Reference documents}{5}
 \contentsline {subsection}{\numberline {1.6}Document structure}{5}
+\contentsline {paragraph}{Section 1: Introduction}{5}
+\contentsline {paragraph}{Section 2: Overall Description}{5}
+\contentsline {paragraph}{Section 3: Specific Requirements}{5}
+\contentsline {paragraph}{Section 4: Formal Analysis using Alloy}{5}
+\contentsline {paragraph}{Section 5: Effort spent}{5}
+\contentsline {paragraph}{Section 6: References}{6}
 \contentsline {section}{\numberline {2}Overall description}{6}
 \contentsline {subsection}{\numberline {2.1}Product perspective}{6}
 \contentsline {subsection}{\numberline {2.2}Product functions}{6}
 \contentsline {paragraph}{Offline mode}{6}
 \contentsline {paragraph}{Map}{6}
-\contentsline {paragraph}{Personalization}{6}
+\contentsline {paragraph}{Personalization}{7}
 \contentsline {paragraph}{The best route's computation}{7}
 \contentsline {paragraph}{Real time informations}{7}
 \contentsline {paragraph}{Possible future implementations}{7}
