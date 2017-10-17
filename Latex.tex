@@ -41,12 +41,12 @@ The document is addressed to all customers and users, system and requirement ana
 
 \subsubsection{Purpose of the application}\label{RASD}
 The application should be useful for busy people that have to travel from a place to another one because of their engagements. It helps people by organizing their own calendar: it finds the best solution to reach a certain place in a specific time basing on user's preferences. 
-Users are able to see their meetings, their journey between them, their breaks and in every time, they can modify their day calendar by modifying an activity or deleting it.
+Users are able to see their meetings, their journey between them, their breaks and in every time they can modify their day calendar by modifying an activity or deleting it.
 
 \subsection{Scope}\label{RASD}
 \subsubsection{Description of the given problem}\label{RASD}
 We want to create a calendar-based application which name is Travlendar+. It is a software that provides a support to everyone that has scheduling meetings at various locations. It helps the user in finding the best option to reach the destination in the optimal conditions and at a fixed time. 
-Once the user has registered and has inserted time and place of his/her meetings, the system automatically computes and accounts for travel time between appointments, to make sure that the client will not be late. Moreover, the user will be warned if the location is not reachable at the allotted time. Other services are provided, such as the possibility to identify the best mobility option basing on user's preferences (preference or avoidance for a determined mean) and on external conditions (weather, strikes?), the opportunity to buy public transportation tickets and to locate the nearest bike of a bike sharing system or the nearest car of a car sharing system. It is also possible to select combinations of transportations means that minimize carbon footprint.
+Once the user has registered and has inserted time and place of his/her meetings, the system automatically computes and accounts for travel time between appointments, to make sure that the client will not be late. Moreover, the user will be warned if the location is not reachable at the allotted time. Other services are provided, such as the possibility to identify the best mobility option basing on user's preferences (preference or avoidance for a determined mean) and on external conditions (weather, strikes), the opportunity to buy public transportation tickets and to locate the nearest bike of a bike sharing system or the nearest car of a car sharing system. It is also possible to select combinations of transportations means that minimize carbon footprint.
 Thanks to this application the users can also organize in a customizable way their break time between and appointment and one other, for example by managing a flexible lunch. 
 
 \subsubsection{Actual system}\label{RASD}
@@ -55,7 +55,6 @@ However, the application will exploit applications or websites to allow the user
 
 \subsubsection{Goals}\label{RASD}
 \begin{itemize}
-
 
 \item [{[G\ped{1}]}]	Users should be able to sign up into application;
 \item [{[G\ped{2}]}]		Users should be able to log into application;
@@ -140,6 +139,15 @@ Travlendar+ is similar to other pre-existing applications that compute the best 
 
 
 \subsection{Product functions}\label{sec:mod1}
+We already identified the goals that characterized functionalities of Travlendar+. Instead, in this section, we offer a specific list of the main features of the application in order to explain better its utility. 
+\paragraph{Offline mode}
+Travlendar+ could be used in offline mode simply as a basic calendar. Users' can visualize in the main screen all their activities for the day, by clicking them they can see all details about the location and the time. In this mode it isn't possible to see the map with the computed trips. Users' can also insert new activities by pressing the plus button, whereas if they click on the calendar icon, they are able to visualize the whole calendar. 
+\paragraph{Map}
+
+\paragraph{Personalization}
+\paragraph{The best route's computation}
+\paragraph{Real time informations}
+
 \subsection{User characteristics}\label{sec:mod1}
 Travlendar+ has no specific user target: everyone, that is able to use a device with an internet connection, can take advantage of this new type of calendar application.
 However, the user, that we expect to benefit most, is a busy person who wants to organize his/her daily activities in the best way, finding the fastest and the most comfortable way to travel between two activities and to reach the destination on time.
@@ -162,6 +170,9 @@ To own a personal calendar, the user must have a device with an internet connect
 \item To create a meeting, users must insert name, location, date, starting/ending hours. Optionally they can also insert a brief description 
 \item To create a break, users must insert the type of break
 \end{itemize}
+
+\subsection{The World and The Machine}
+
 \section{Specific requirements}\label{sec:crit}
 
 \subsection{External interface requirements}\label{sec:mod1}
