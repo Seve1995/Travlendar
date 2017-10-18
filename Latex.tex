@@ -218,6 +218,51 @@ Travlendar+ does not provide for itself the possibility to directly buy the publ
 The application needs an internet connection on the device in order to receive real-time information about traffic, strikes and weather. Furthermore, it's required also for the communication with third party services that are provided in Travlendar+. 
 
 \subsection{Functional requirements}\label{sec:mod1}
+\begin{itemize}
+\item [{[G\ped{1}]}]	Users should be able to sign up into application;
+\begin{itemize}
+\item[{[R\ped{1}]}] The system should allow the visitor to begin the registration process by asking him/her all data that are necessary: name, surname, date of birth, email, username, password;
+\item[{[R\ped{2}]}] The system should be able to extract data from Facebook or Twitter if the visitor sign in with that application;
+\item[{[R\ped{3}]}] The system must not allow a registered user to perform registration process;
+\item[{[R\ped{4}]}] The system must allow visitors only to see the login page and the registration form;
+
+\item[{[D\ped{1}]}] The username must be unique; TODO VA IN R O IN D?? VEDI ESEMPI 
+\item[{[D\ped{2}]}] The password must be at least of 8 characters.
+\item[{[D\ped{3}]}] The email address must be correct.
+\end{itemize}
+\item [{[G\ped{2}]}]		Users should be able to log into application;
+\begin{itemize}
+\item[{[R\ped{1}]}] The system should allow only registered users to login;
+\item[{[R\ped{2}]}] Username and password inserted must be correct to perform the login;
+\item[{[R\ped{3}]}] Visitors cannot access to the calendar and to the map without login;
+\end{itemize}
+\item [{[G\ped{3}]}]		Users should be able to see their personal calendar;
+\begin{itemize}
+\item[{[R\ped{1}]}] The system must allow users to see their calendar with all their activities
+\end{itemize}
+\item [{[G\ped{4}]}]		Users should be able to see the map on which meetings are showed;
+\begin{itemize}
+
+\end{itemize}
+\item [{[G\ped{5}]}]		Users should be able to see their daily planner;
+\item [{[G\ped{6}]}]		Users should be able to create meetings with location and scheduled time;
+\item [{[G\ped{7}]}]		Users should be able to modify existing activities;
+\item [{[G\ped{8}]}]		Users should be able to delete activities;
+\item [{[G\ped{9}]}]		Users should be able to globally activate or deactivate each travel mean;
+\item [{[G\ped{10}]}]		Users should be able to provide constraints on different travel means;
+\item [{[G\ped{11}]}]		Users should be able to select combinations of transportation means that minimize carbon footprint;
+\item [{[G\ped{12}]}]		Users should be able to buy public transportation tickets or day/week/season pass basing on their needs;
+\item [{[G\ped{13}]}]		Users should be able to globally specify breaks' time and their minimum duration flexibly;
+\item [{[G\ped{14}]}]		User should be able to add new breaks in the schedule with their duration;
+\item [{[G\ped{15}]}]		User should be able to select the maximum walking distance;
+\item [{[G\ped{16}]}]	The system should be able to save user's username and password if he/she wants to;
+\item [{[G\ped{17}]}]		The system should be able to compute and account for travel time between appointment;
+\item [{[G\ped{18}]}]		The system should be able to identify the best mobility option based on external variables like strikes, weather etc.;
+\item [{[G\ped{19}]}]		The system should be able to locate the nearest vehicle of a vehicle sharing system exploiting its application;
+\item [{[G\ped{20}]}]		The system should be able to create a warning when the user cannot reach a location at a certain time;
+\item [{[G\ped{21}]}]		The system should be able to support different travel means;
+\item [{[G\ped{22}]}]		The system should be able to create a warning when a strike is announced in a day with activities.
+\end{itemize}
 \subsubsection{Scenarios}\label{sec:mod1}
 \paragraph{Scenario 1}
 Dybala is a very busy football player that lives in Turin. Tomorrow morning he is going to have an important meeting with one of the main sponsor of the Juventus team, the Adidas, in Milan, and in the evening he has the Champions League's final. It is the most important match of the year, so he needs to organize his day at the best! He decides to use Travlendar+. He inserts the two activities in the list of meetings: "Meeting with Adidas", on 20th of May, from 11 am to 1 pm, in Corso Buenos Aires 40 (Milan) and "Match prep for the Final", on 20th of May, from 3 pm to 7 pm, at the Allianz Stadium (Turin). Since he wants to preserve energies for the Final, he selects "Walking" and "Bike" as blocked travel means in the Preferences' area. The application suggests him a trip with the train from Turin to Milan in the early morning because the extimated time for the route by car or taxi is reported to be slower due to the traffic. The application redirects him to the Trenitalia's website to buy the ticket. Then, for coming back, Travlendar+ suggests him to take a taxi because public transport timetables for the given time are not convenient. 
@@ -295,7 +340,7 @@ An idea to implement the server side architecture is to strongly separate the da
 
 
 \subsubsection{Maintenability}\label{sec:mod1}
-The application does not provide any specific API, but the whole application code will be documented to well inform future developers of how application works and how it has been developed. -> NON AVEVO LA PIU PALLIDA IDEA, HO PRESO LA FRASE DA UN ESEMPIO DI UN ALTRO ANNO!!!!!
+The application does not provide any specific API, but the whole application code will be documented to well inform future developers of how application works and how it has been developed. 
 
 \subsubsection{Portability}\label{sec:mod1}
 In order to reach the highest number of devices on the market, the application could be used on every smartphone or tablet provided with iOs or Android. 
