@@ -293,8 +293,10 @@ Since he lives in Milan and he hates public transports, he decides to try the ap
 
 \pagebreak
 \subsubsection{Use case diagrams}\label{sec:mod1}
-\textbf{Registration} \linebreak
- \linebreak
+\begin{flushleft}
+\textbf{Registration} 
+\end{flushleft}
+
 \begin{tabular}{cp{10cm}} 
 Actor&Visitor\\ \hline 
 Goal& {[G\ped{1}]}\\ \hline
@@ -318,9 +320,10 @@ In case of exception the invalid fields are coloured with red. The visitor can't
 \end{tabular}
 
 \pagebreak
+\begin{flushleft}
+\textbf{Login} 
+\end{flushleft}
 
-\textbf{Login} \linebreak
- \linebreak
 \begin{tabular}{cp{10cm}} 
 Actor&Visitor, registered user\\ \hline 
 Goal& {[G\ped{2}]}\\ \hline
@@ -344,9 +347,11 @@ In both the cases the user is notified with an error message and invited to try 
 
 \pagebreak
 
-\textbf{NewActivity} 
-\linebreak
- \linebreak
+
+\begin{flushleft}
+\textbf{New activity}
+\end{flushleft}
+
 
 \begin{tabular}{cp{10cm}} 
 Actor&Registered user\\ \hline 
@@ -368,6 +373,7 @@ Exception& The possible exceptions are:
 
 \end{tabular}
 
+\pagebreak
 \subsection{Performance requirements}\label{sec:mod1}
 In order to guarantee the performance of our application, we have to specify:
 \begin{itemize}
