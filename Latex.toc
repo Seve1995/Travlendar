@@ -52,10 +52,10 @@
 \contentsline {paragraph}{Scenario 7}{14}
 \contentsline {paragraph}{Scenario 8}{14}
 \contentsline {subsubsection}{\numberline {3.2.2}Use case diagrams}{15}
-\contentsline {subsection}{\numberline {3.3}Performance requirements}{17}
+\contentsline {subsection}{\numberline {3.3}Performance requirements}{18}
 \contentsline {subsection}{\numberline {3.4}Design constraints}{18}
 \contentsline {subsubsection}{\numberline {3.4.1}Standards compliance}{18}
-\contentsline {subsubsection}{\numberline {3.4.2}Hardware limitation}{18}
+\contentsline {subsubsection}{\numberline {3.4.2}Hardware limitation}{19}
 \contentsline {subsubsection}{\numberline {3.4.3}Any other constraint}{19}
 \contentsline {subsection}{\numberline {3.5}Software system attributes}{19}
 \contentsline {subsubsection}{\numberline {3.5.1}Reliability}{19}
@@ -63,7 +63,7 @@
 \contentsline {subsubsection}{\numberline {3.5.3}Security}{19}
 \contentsline {paragraph}{External Interface Side}{19}
 \contentsline {paragraph}{Application side}{19}
-\contentsline {paragraph}{Server side}{19}
+\contentsline {paragraph}{Server side}{20}
 \contentsline {subsubsection}{\numberline {3.5.4}Maintenability}{20}
 \contentsline {subsubsection}{\numberline {3.5.5}Portability}{20}
 \contentsline {section}{\numberline {4}Formal analysis using alloy}{21}
