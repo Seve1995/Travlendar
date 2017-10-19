@@ -241,9 +241,6 @@ The application needs an internet connection on the device in order to receive r
 \item[{[R\ped{1}]}] The system must allow users to see their calendar with all their activities
 \end{itemize}
 \item [{[G\ped{4}]}]		Users should be able to see the map on which meetings are showed;
-\begin{itemize}
-
-\end{itemize}
 \item [{[G\ped{5}]}]		Users should be able to see their daily planner;
 \item [{[G\ped{6}]}]		Users should be able to create meetings with location and scheduled time;
 \item [{[G\ped{7}]}]		Users should be able to modify existing activities;
@@ -295,6 +292,48 @@ Guglielmo is a Computer science engineer. He works for a big company: he earns a
 Since he lives in Milan and he hates public transports, he decides to try the application Travlendar+. He enrolles in the app and in the section "My Account" he deactivates every public transportations and sharing cars. He has to go to work: when the trip is suggested, he presses on bike sharing's option because he really love the speed and he has a lot of time to reach the location. Guglielmo is redirected to the Ofo's application and from that application he can see where is the nearest bike. Finally he can go fast without taking any fine!
 
 \subsubsection{Use case diagrams}\label{sec:mod1}
+
+\begin{tabular}{cp{10cm}} 
+Actor&Visitor\\ \hline 
+Goal& {[G\ped{1}]}\\ \hline
+Input condition&NULL \\ \hline
+Event flow&\begin{enumerate}
+\item The visitor tap on "sign up" on the home page to start the registration process.
+\item The visitor fills in at least the mandatory fields, that are: name, surname, username, password, email, address, date of birth. The non-mandatory field is the telephone number.
+\item The visitor tap on "ok".
+\item The application saves the data and redirect him to the home page where he/can proceed to the login.
+\end{enumerate} \\ \hline
+Output condition&Registration process is completed. The visitor become a registered user. \\ \hline
+Exception& The possible exceptions are:
+\begin{enumerate}
+\item The visitor is already a registered user.
+\item The visitor fills one or more fields with invalid information.
+\item The visitor chooses an already existent username.
+\item The visitor inserts an email that is already associated to another user.
+\end{enumerate} 
+In case of exception the invalid fields are coloured with red. The visitor can't press "ok" until all fields are correctly filled.\\ \hline \
+
+\end{tabular}
+
+\begin{tabular}{cp{10cm}} 
+Actor&Visitor, registered user\\ \hline 
+Goal& {[G\ped{2}]}\\ \hline
+Input condition&The user is on the home page.\\ \hline
+Event flow&\begin{enumerate}
+\item The registered user fills the fields "username" and "password" with her/his username and password. Alternatively, a simple visitor can tap on "Login with Facebook" or "Login with twitter" in order to login directly without having completed the registration process.   
+\item If the access is not with Facebook or Twitter, after having inserted the username and password the registered user must tap on "Login".
+
+\end{enumerate} \\ \hline
+Output condition& Travlendar+ verifies user's credentials (either they have been directly inserted by the user or obtained through Facebook or Twitter) and if they are correct shows the main screen with the map with the activities.
+\\ \hline
+Exception& \begin{enumerate}
+\item The user inserts an incorrect username or password.
+\item The user's data obtained by Facebook or Twitter are invalid.
+\end{enumerate} 
+In both the cases the user is notified with an error message and invited to try again.\\ \hline \
+
+\end{tabular}
+
 
 \subsection{Performance requirements}\label{sec:mod1}
 In order to guarantee the performance of our application, we have to specify:
