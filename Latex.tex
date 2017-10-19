@@ -301,7 +301,7 @@ Event flow&\begin{enumerate}
 \item The visitor tap on "sign up" on the home page to start the registration process.
 \item The visitor fills in at least the mandatory fields, that are: name, surname, username, password, email, address, date of birth. The non-mandatory field is the telephone number.
 \item The visitor tap on "ok".
-\item The application saves the data and redirect him to the home page where he/can proceed to the login.
+\item The application saves the data and redirect him to the home page where he can proceed to the login.
 \end{enumerate} \\ \hline
 Output condition&Registration process is completed. The visitor become a registered user. \\ \hline
 Exception& The possible exceptions are:
@@ -326,7 +326,8 @@ Event flow&\begin{enumerate}
 \end{enumerate} \\ \hline
 Output condition& Travlendar+ verifies user's credentials (either they have been directly inserted by the user or obtained through Facebook or Twitter) and if they are correct shows the main screen with the map with the activities.
 \\ \hline
-Exception& \begin{enumerate}
+Exception& The possible exceptions are:
+\begin{enumerate}
 \item The user inserts an incorrect username or password.
 \item The user's data obtained by Facebook or Twitter are invalid.
 \end{enumerate} 
@@ -334,6 +335,26 @@ In both the cases the user is notified with an error message and invited to try 
 
 \end{tabular}
 
+
+\begin{tabular}{cp{10cm}} 
+Actor&Registered user\\ \hline 
+Goal& {[G\ped{8}]}, {[G\ped{14}]}\\ \hline
+Input condition&The registered user is already logged into Travlendar+.\\ \hline
+Event flow&\begin{enumerate}
+\item The registered user tap on the plus icon ("new activity button").
+\item Travlendar+ shows a new page with form, and the creation process starts. The user is required to specify the type of activity (meeting or break) and to insert all the attributes about the activity, such as name, date, time, location and favourite means. If the activity is of type "break", the registered user must also specify a minimum duration of the activity.
+\item The registered user tap on "ok".
+\end{enumerate} \\ \hline
+Output condition& Travlendar+ redirects the registered user on the main screen. On the map is appeared the new activity on its location. 
+\\ \hline
+Exception& The possible exceptions are:
+\begin{enumerate}
+\item The user does not want to complete the creation process. In such case he/she must tap on "back".
+\item The user does not fill a mandatory field or fills it with invalid data. In such cases the invalid fields are coloured with red. The user must insert the correct data in order to complete the creation of the activity.
+\end{enumerate} 
+\\ \hline \
+
+\end{tabular}
 
 \subsection{Performance requirements}\label{sec:mod1}
 In order to guarantee the performance of our application, we have to specify:
