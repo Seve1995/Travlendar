@@ -142,9 +142,16 @@ It also requires an active GPS connection to identify the user's position.
 Travlendar+ is similar to other pre-existing applications that compute the best route with the best means to reach a specific location (e.g. Moovit), and like them it is supported with updated time tables of all the travel means and with an estimation of travel time. 
 
 \subsubsection{Class diagram}\label{sec:mod1}
+\includegraphics[scale=0.22]{"Class Diagram"}
 
 \subsubsection{Statechart diagram }
+\paragraph{Application Diagram} \mbox{}\\
 
+\includegraphics[scale=0.47]{"Statemachine1"}
+\paragraph{Activity Diagram} \mbox{}\\
+
+\includegraphics[scale=0.40]{"Statemachine2"}
+\pagebreak
 \subsection{Product functions}\label{sec:mod1}
 We already identified the goals that characterized functionalities of Travlendar+. Instead, in this section, we offer a specific list of the main features of the application in order to explain better its utility. 
 
@@ -207,7 +214,7 @@ To own a personal calendar, the user must have a device with an internet connect
 Our application has been designed to be used through a smartphone or a tablet.
 The following mock-ups show the screens of the main features offered by the smartphone version. 
 
-%\includegraphics[scale=0.15]{"iPhoneX_mockup LOGIN"}
+\includegraphics[scale=0.15]{"iPhoneX_mockup LOGIN"}
 
 
 \subsubsection{Hardware interfaces}\label{sec:mod1}
@@ -243,7 +250,14 @@ The application needs an internet connection on the device in order to receive r
 \item[{[R\ped{1}]}] The system must allow users to see their calendar with all their activities
 \end{itemize}
 \item [{[G\ped{4}]}]		Users should be able to see the map on which meetings are showed;
+\begin{itemize}
+\item[{[R\ped{1}]}] The system must allow users to see the map with all their meetings;
+\item[{[R\ped{1}]}] The system must allow users to see the map with the trips of the day;
+\end{itemize}
 \item [{[G\ped{5}]}]		Users should be able to see their daily planner;
+\begin{itemize}
+\item[{[R\ped{1}]}] The system must allow users to see all activities of the day in the main screen;
+\end{itemize}
 \item [{[G\ped{6}]}]		Users should be able to create meetings with location and scheduled time;
 \item [{[G\ped{7}]}]		Users should be able to modify existing activities;
 \item [{[G\ped{8}]}]		Users should be able to delete activities;

@@ -24,49 +24,51 @@
 \contentsline {paragraph}{Section 6: References}{6}{section*.7}
 \contentsline {section}{\numberline {2}Overall description}{6}{section.2}
 \contentsline {subsection}{\numberline {2.1}Product perspective}{6}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}Class diagram}{6}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}Statechart diagram }{6}{subsubsection.2.1.2}
-\contentsline {subsection}{\numberline {2.2}Product functions}{6}{subsection.2.2}
-\contentsline {paragraph}{Offline mode}{6}{section*.8}
-\contentsline {paragraph}{Map}{6}{section*.9}
-\contentsline {paragraph}{Personalization}{7}{section*.10}
-\contentsline {paragraph}{The best route's computation}{7}{section*.11}
-\contentsline {paragraph}{Real time informations}{7}{section*.12}
-\contentsline {paragraph}{Possible future implementations}{7}{section*.13}
-\contentsline {subsection}{\numberline {2.3}User characteristics}{7}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Assumptions, dependencies and constraints}{8}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}The World and The Machine}{9}{subsection.2.5}
-\contentsline {section}{\numberline {3}Specific requirements}{10}{section.3}
-\contentsline {subsection}{\numberline {3.1}External interface requirements}{10}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}User interfaces}{10}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}Hardware interfaces}{10}{subsubsection.3.1.2}
-\contentsline {subsubsection}{\numberline {3.1.3}Software interfaces}{10}{subsubsection.3.1.3}
-\contentsline {subsubsection}{\numberline {3.1.4}Communication interfaces}{10}{subsubsection.3.1.4}
-\contentsline {subsection}{\numberline {3.2}Functional requirements}{10}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Scenarios}{12}{subsubsection.3.2.1}
-\contentsline {paragraph}{Scenario 1}{12}{section*.14}
-\contentsline {paragraph}{Scenario 2}{13}{section*.15}
-\contentsline {paragraph}{Scenario 3}{13}{section*.16}
-\contentsline {paragraph}{Scenario 4}{13}{section*.17}
-\contentsline {paragraph}{Scenario 5}{14}{section*.18}
-\contentsline {paragraph}{Scenario 6}{14}{section*.19}
-\contentsline {paragraph}{Scenario 7}{15}{section*.20}
-\contentsline {paragraph}{Scenario 8}{15}{section*.21}
-\contentsline {subsubsection}{\numberline {3.2.2}Use case diagrams}{16}{subsubsection.3.2.2}
-\contentsline {subsection}{\numberline {3.3}Performance requirements}{19}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Design constraints}{19}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Standards compliance}{19}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Hardware limitation}{20}{subsubsection.3.4.2}
-\contentsline {subsubsection}{\numberline {3.4.3}Any other constraint}{20}{subsubsection.3.4.3}
-\contentsline {subsection}{\numberline {3.5}Software system attributes}{20}{subsection.3.5}
-\contentsline {subsubsection}{\numberline {3.5.1}Reliability}{20}{subsubsection.3.5.1}
-\contentsline {subsubsection}{\numberline {3.5.2}Availability}{20}{subsubsection.3.5.2}
-\contentsline {subsubsection}{\numberline {3.5.3}Security}{20}{subsubsection.3.5.3}
-\contentsline {paragraph}{External Interface Side}{20}{section*.22}
-\contentsline {paragraph}{Application side}{20}{section*.23}
-\contentsline {paragraph}{Server side}{21}{section*.24}
-\contentsline {subsubsection}{\numberline {3.5.4}Maintenability}{21}{subsubsection.3.5.4}
-\contentsline {subsubsection}{\numberline {3.5.5}Portability}{21}{subsubsection.3.5.5}
-\contentsline {section}{\numberline {4}Formal analysis using alloy}{22}{section.4}
-\contentsline {section}{\numberline {5}Effort spent}{23}{section.5}
-\contentsline {section}{\numberline {6}References}{24}{section.6}
+\contentsline {subsubsection}{\numberline {2.1.1}Class diagram}{7}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Statechart diagram }{8}{subsubsection.2.1.2}
+\contentsline {paragraph}{Application Diagram}{8}{section*.8}
+\contentsline {paragraph}{Activity Diagram}{8}{section*.9}
+\contentsline {subsection}{\numberline {2.2}Product functions}{9}{subsection.2.2}
+\contentsline {paragraph}{Offline mode}{9}{section*.10}
+\contentsline {paragraph}{Map}{9}{section*.11}
+\contentsline {paragraph}{Personalization}{9}{section*.12}
+\contentsline {paragraph}{The best route's computation}{9}{section*.13}
+\contentsline {paragraph}{Real time informations}{10}{section*.14}
+\contentsline {paragraph}{Possible future implementations}{10}{section*.15}
+\contentsline {subsection}{\numberline {2.3}User characteristics}{10}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Assumptions, dependencies and constraints}{10}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}The World and The Machine}{11}{subsection.2.5}
+\contentsline {section}{\numberline {3}Specific requirements}{12}{section.3}
+\contentsline {subsection}{\numberline {3.1}External interface requirements}{12}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}User interfaces}{12}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Hardware interfaces}{13}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Software interfaces}{13}{subsubsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.4}Communication interfaces}{13}{subsubsection.3.1.4}
+\contentsline {subsection}{\numberline {3.2}Functional requirements}{13}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Scenarios}{15}{subsubsection.3.2.1}
+\contentsline {paragraph}{Scenario 1}{15}{section*.16}
+\contentsline {paragraph}{Scenario 2}{16}{section*.17}
+\contentsline {paragraph}{Scenario 3}{16}{section*.18}
+\contentsline {paragraph}{Scenario 4}{16}{section*.19}
+\contentsline {paragraph}{Scenario 5}{17}{section*.20}
+\contentsline {paragraph}{Scenario 6}{17}{section*.21}
+\contentsline {paragraph}{Scenario 7}{18}{section*.22}
+\contentsline {paragraph}{Scenario 8}{18}{section*.23}
+\contentsline {subsubsection}{\numberline {3.2.2}Use case diagrams}{19}{subsubsection.3.2.2}
+\contentsline {subsection}{\numberline {3.3}Performance requirements}{22}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Design constraints}{22}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Standards compliance}{22}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Hardware limitation}{23}{subsubsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.3}Any other constraint}{23}{subsubsection.3.4.3}
+\contentsline {subsection}{\numberline {3.5}Software system attributes}{23}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}Reliability}{23}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}Availability}{23}{subsubsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.3}Security}{23}{subsubsection.3.5.3}
+\contentsline {paragraph}{External Interface Side}{23}{section*.24}
+\contentsline {paragraph}{Application side}{23}{section*.25}
+\contentsline {paragraph}{Server side}{24}{section*.26}
+\contentsline {subsubsection}{\numberline {3.5.4}Maintenability}{24}{subsubsection.3.5.4}
+\contentsline {subsubsection}{\numberline {3.5.5}Portability}{24}{subsubsection.3.5.5}
+\contentsline {section}{\numberline {4}Formal analysis using alloy}{25}{section.4}
+\contentsline {section}{\numberline {5}Effort spent}{26}{section.5}
+\contentsline {section}{\numberline {6}References}{27}{section.6}
