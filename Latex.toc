@@ -10,6 +10,7 @@
 \contentsline {subsubsection}{\numberline {1.2.3}Goals}{2}{subsubsection.1.2.3}
 \contentsline {subsubsection}{\numberline {1.2.4}Actors}{3}{subsubsection.1.2.4}
 \contentsline {subsubsection}{\numberline {1.2.5}Class diagram}{4}{subsubsection.1.2.5}
+\contentsline {subsubsection}{\numberline {1.2.6}Statechart diagram }{4}{subsubsection.1.2.6}
 \contentsline {subsection}{\numberline {1.3}Definitions, acronyms, abbreviations}{4}{subsection.1.3}
 \contentsline {subsubsection}{\numberline {1.3.1}Definitions}{4}{subsubsection.1.3.1}
 \contentsline {subsubsection}{\numberline {1.3.2}Acronyms}{4}{subsubsection.1.3.2}

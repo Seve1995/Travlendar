@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.15)  19 OCT 2017 22:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.15)  20 OCT 2017 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -492,16 +492,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 438.
  (./Latex.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 438.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 438.
-Package rerunfilecheck Info: File `Latex.out' has not changed.
-(rerunfilecheck)             Checksum: 272EAD846FA2FDB557B866FDDDC08081;3261.
 
+
+Package rerunfilecheck Warning: File `Latex.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Latex.out':
+(rerunfilecheck)             Before: 272EAD846FA2FDB557B866FDDDC08081;3261
+(rerunfilecheck)             After:  29D253A97580C83AB664D8F0B24AF713;3340.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6366 strings out of 492995
- 93246 string characters out of 6132703
+ 6367 strings out of 492995
+ 93265 string characters out of 6132703
  191611 words of memory out of 5000000
  9741 multiletter control sequences out of 15000+600000
  12873 words of font info for 50 fonts, out of 8000000 for 9000
@@ -513,10 +519,10 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Latex.pdf (26 pages, 115244 bytes).
+Output written on Latex.pdf (26 pages, 115314 bytes).
 PDF statistics:
- 443 PDF objects out of 1000 (max. 8388607)
- 404 compressed objects within 5 object streams
- 113 named destinations out of 1000 (max. 500000)
+ 444 PDF objects out of 1000 (max. 8388607)
+ 405 compressed objects within 5 object streams
+ 114 named destinations out of 1000 (max. 500000)
  369 words of extra memory for PDF output out of 10000 (max. 10000000)
 
