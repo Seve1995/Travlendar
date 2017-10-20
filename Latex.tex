@@ -8,7 +8,7 @@
 \usepackage{url,amsfonts,epsfig}
 \usepackage[applemac]{inputenc} %comando per le lettere accentate se usate mac  
 %\usepackage[latin1]{inputenc} % comando per le lettere accentate se usate pc  
-\usepackage[pagebackref]{hyperref}
+
 
 \title{\textsc{Questo e' il titolo della mia tesi}}
 \author{Pinco Pallino}
@@ -91,8 +91,7 @@ There are two types of actors:
 
 \end{itemize}
 
-\subsubsection{Class diagram}\label{sec:mod1}
-\subsubsection{Statechart diagram }
+
 \subsection{Definitions, acronyms, abbreviations}\label{RASD}
 \subsubsection{Definitions}\label{RASD}
 \begin{itemize}
@@ -142,6 +141,11 @@ Our application requires a smartphone (iOs/Android) to be executed and it requir
 It also requires an active GPS connection to identify the user's position. 
 Travlendar+ is similar to other pre-existing applications that compute the best route with the best means to reach a specific location (e.g. Moovit), and like them it is supported with updated time tables of all the travel means and with an estimation of travel time. 
 
+\subsubsection{Class diagram}\label{sec:mod1}
+%\includegraphics[scale=0.15]{"ClassDiagram"}
+
+\subsubsection{Statechart}\label{sec:mod1}
+%\includegraphics[scale=0.15]{"Statemachine ActivityDiagramOfficial"}
 
 \subsection{Product functions}\label{sec:mod1}
 We already identified the goals that characterized functionalities of Travlendar+. Instead, in this section, we offer a specific list of the main features of the application in order to explain better its utility. 
@@ -241,6 +245,7 @@ The application needs an internet connection on the device in order to receive r
 \item[{[R\ped{1}]}] The system must allow users to see their calendar with all their activities
 \end{itemize}
 \item [{[G\ped{4}]}]		Users should be able to see the map on which meetings are showed;
+
 \item [{[G\ped{5}]}]		Users should be able to see their daily planner;
 \item [{[G\ped{6}]}]		Users should be able to create meetings with location and scheduled time;
 \item [{[G\ped{7}]}]		Users should be able to modify existing activities;
@@ -291,89 +296,8 @@ Claire is going to have a marry of her best friend on Sunday morning. Since afte
 Guglielmo is a Computer science engineer. He works for a big company: he earns a lot of money. Because he often had to move, he used a lot his car. Guglielmo was very reckless, in fact he went on taking fines, even very expensive. He didn't care about it. But once the police gave him another big fine and withdrew his driving licence and confiscate his car.
 Since he lives in Milan and he hates public transports, he decides to try the application Travlendar+. He enrolles in the app and in the section "My Account" he deactivates every public transportations and sharing cars. He has to go to work: when the trip is suggested, he presses on bike sharing's option because he really love the speed and he has a lot of time to reach the location. Guglielmo is redirected to the Ofo's application and from that application he can see where is the nearest bike. Finally he can go fast without taking any fine!
 
-\pagebreak
 \subsubsection{Use case diagrams}\label{sec:mod1}
-\begin{flushleft}
-\textbf{Registration} 
-\end{flushleft}
 
-\begin{tabular}{cp{10cm}} 
-Actor&Visitor\\ \hline 
-Goal& {[G\ped{1}]}\\ \hline
-Input condition&NULL \\ \hline
-Event flow&The registration's process is: \begin{enumerate}
-\item The visitor tap on "sign up" on the home page to start the registration process.
-\item The visitor fills in at least the mandatory fields, that are: name, surname, username, password, email, address, date of birth. The non-mandatory field is the telephone number.
-\item The visitor tap on "ok".
-\item The application saves the data and redirect him to the home page where he can proceed to the login.
-\end{enumerate} \\ \hline
-Output condition&Registration process is completed. The visitor become a registered user. \\ \hline
-Exception& The possible exceptions are:
-\begin{enumerate}
-\item The visitor is already a registered user.
-\item The visitor fills one or more fields with invalid information.
-\item The visitor chooses an already existent username.
-\item The visitor inserts an email that is already associated to another user.
-\end{enumerate} 
-In case of exception the invalid fields are coloured with red. The visitor can't press "ok" until all fields are correctly filled.\\ \hline \
-
-\end{tabular}
-
-\pagebreak
-\begin{flushleft}
-\textbf{Login} 
-\end{flushleft}
-
-\begin{tabular}{cp{10cm}} 
-Actor&Visitor, registered user\\ \hline 
-Goal& {[G\ped{2}]}\\ \hline
-Input condition&The user is on the home page.\\ \hline
-Event flow&The login's process is:\begin{enumerate}
-\item The registered user fills the fields "username" and "password" with her/his username and password. Alternatively, a simple visitor can tap on "Login with Facebook" or "Login with twitter" in order to login directly without having completed the registration process.   
-\item If the access is not with Facebook or Twitter, after having inserted the username and password the registered user must tap on "Login".
-
-\end{enumerate} \\ \hline
-Output condition& Travlendar+ verifies user's credentials (either they have been directly inserted by the user or obtained through Facebook or Twitter) and if they are correct shows the main screen with the map with the activities.
-\\ \hline
-Exception& The possible exceptions are:
-\begin{enumerate}
-\item The user inserts an incorrect username or password.
-\item The user's data obtained by Facebook or Twitter are invalid.
-\end{enumerate} 
-In both the cases the user is notified with an error message and invited to try again.\\ \hline \
-
-\end{tabular}
-
-
-\pagebreak
-
-
-\begin{flushleft}
-\textbf{New activity}
-\end{flushleft}
-
-
-\begin{tabular}{cp{10cm}} 
-Actor&Registered user\\ \hline 
-Goal& {[G\ped{8}]}, {[G\ped{14}]}\\ \hline
-Input condition&The registered user is already logged into Travlendar+.\\ \hline
-Event flow&The process for the creation of a new activity is: \begin{enumerate}
-\item The registered user tap on the plus icon ("new activity button").
-\item Travlendar+ shows a new page with form, and the creation process starts. The user is required to specify the type of activity (meeting or break) and to insert all the attributes about the activity, such as name, date, time, location and favourite means. If the activity is of type "break", the registered user must also specify a minimum duration of the activity.
-\item The registered user tap on "ok".
-\end{enumerate} \\ \hline
-Output condition& Travlendar+ redirects the registered user on the main screen. On the map is appeared the new activity on its location. 
-\\ \hline
-Exception& The possible exceptions are:
-\begin{enumerate}
-\item The user does not want to complete the creation process. In such case he/she must tap on "back".
-\item The user does not fill a mandatory field or fills it with invalid data. In such cases the invalid fields are coloured with red. The user must insert the correct data in order to complete the creation of the activity.
-\end{enumerate} 
-\\ \hline \
-
-\end{tabular}
-
-\pagebreak
 \subsection{Performance requirements}\label{sec:mod1}
 In order to guarantee the performance of our application, we have to specify:
 \begin{itemize}
