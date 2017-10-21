@@ -91,8 +91,7 @@ There are two types of actors:
 
 \end{itemize}
 
-\subsubsection{Class diagram}\label{sec:mod1}
-\subsubsection{Statechart diagram }
+
 \subsection{Definitions, acronyms, abbreviations}\label{RASD}
 \subsubsection{Definitions}\label{RASD}
 \begin{itemize}
@@ -142,6 +141,9 @@ Our application requires a smartphone (iOs/Android) to be executed and it requir
 It also requires an active GPS connection to identify the user's position. 
 Travlendar+ is similar to other pre-existing applications that compute the best route with the best means to reach a specific location (e.g. Moovit), and like them it is supported with updated time tables of all the travel means and with an estimation of travel time. 
 
+\subsubsection{Class diagram}\label{sec:mod1}
+
+\subsubsection{Statechart diagram }
 
 \subsection{Product functions}\label{sec:mod1}
 We already identified the goals that characterized functionalities of Travlendar+. Instead, in this section, we offer a specific list of the main features of the application in order to explain better its utility. 
@@ -205,7 +207,7 @@ To own a personal calendar, the user must have a device with an internet connect
 Our application has been designed to be used through a smartphone or a tablet.
 The following mock-ups show the screens of the main features offered by the smartphone version. 
 
-\includegraphics[scale=0.15]{"iPhoneX_mockup LOGIN"}
+%\includegraphics[scale=0.15]{"iPhoneX_mockup LOGIN"}
 
 
 \subsubsection{Hardware interfaces}\label{sec:mod1}
@@ -241,14 +243,7 @@ The application needs an internet connection on the device in order to receive r
 \item[{[R\ped{1}]}] The system must allow users to see their calendar with all their activities
 \end{itemize}
 \item [{[G\ped{4}]}]		Users should be able to see the map on which meetings are showed;
-\begin{itemize}
-\item[{[R\ped{1}]}] The system must allow users to see the map with all their meetings;
-\item[{[R\ped{1}]}] The system must allow users to see the map with the trips of the day;
-\end{itemize}
 \item [{[G\ped{5}]}]		Users should be able to see their daily planner;
-\begin{itemize}
-\item[{[R\ped{1}]}] The system must allow users to see all activities of the day in the main screen;
-\end{itemize}
 \item [{[G\ped{6}]}]		Users should be able to create meetings with location and scheduled time;
 \item [{[G\ped{7}]}]		Users should be able to modify existing activities;
 \item [{[G\ped{8}]}]		Users should be able to delete activities;
@@ -327,9 +322,6 @@ In case of exception the invalid fields are coloured with red. The visitor can't
 \end{tabular}
 
 \pagebreak
-
-\includegraphics[scale=0.65]{"UseCase Registration"}
-\pagebreak
 \begin{flushleft}
 \textbf{Login} 
 \end{flushleft}
@@ -357,9 +349,7 @@ In both the cases the user is notified with an error message and invited to try 
 
 \pagebreak
 
-\includegraphics[scale=0.7]{"UseCase Login"}
 
-\pagebreak
 \begin{flushleft}
 \textbf{New activity}
 \end{flushleft}
@@ -384,34 +374,99 @@ Exception& The possible exceptions are:
 \\ \hline \
 
 \end{tabular}
+\pagebreak
+\begin{flushleft}
+\textbf{Modify activity}
+\end{flushleft}
+
+\begin{tabular}{cp{10cm}} 
+Actor&Registered user U \\ \hline 
+Goal& {[G\ped{7}]}\\ \hline
+Input condition&U is the creator of the event A and is logged in.\\ \hline
+Event flow&The process for the modification of a new activity is: \begin{enumerate}
+\item U taps on the activity A on the map (coloured with blue if A is a meeting, with red if A is a break) or in the section "MyActivities".
+\item The application shows the screen form of the activity that contains the fields to fill with the attributes.
+\item U can modify the fields.
+\item U taps on "ok" when he/she has completed the modification.
+\item The application update the calendar with the new information.
+\item The application redirects U to the main screen. 
+\end{enumerate} \\ \hline
+Output condition& Travlendar+ updates the calendar with the activity modified, then redirects U on the main screen. If the location of the location has been modified, on the map on the main screen the activity appears in the new location.
+\\ \hline
+Exception& The possible exceptions are:
+\begin{enumerate}
+\item U insert an invalid modification.
+\item U does not apply any modification.
+\end{enumerate} 
+In the first case the invalid field is highlighted with red. In the second one the U can press "ok" and continue, but it will not effectively change nothing.
+\\ \hline \
+
+\end{tabular}
 
 \pagebreak
 \begin{flushleft}
-\textbf{Delete an activity}
-\end{flushleft}
-\pagebreak
-\includegraphics[scale=0.7]{"UseCase Delete"}
-\pagebreak
-\begin{flushleft}
-\textbf{Modify an activity}
+\textbf{Delete activity}
 \end{flushleft}
 
-\pagebreak
-\includegraphics[scale=0.6]{"UseCase Modify activity"}
-\pagebreak
-\begin{flushleft}
-\textbf{Choose the favourite trip}
-\end{flushleft}
-\pagebreak
-\includegraphics[scale=0.65]{"UseCase Choose trip"}
-\pagebreak
-\begin{flushleft}
-\textbf{Modify user's preferences}
-\end{flushleft}
-\pagebreak
-\includegraphics[scale=0.65]{"UseCase Modify user preferences"}
-\pagebreak
+\begin{tabular}{cp{10cm}} 
+Actor&Registered user U \\ \hline 
+Goal& {[G\ped{7}]}\\ \hline
+Input condition&U is the creator of the event A and is logged in.\\ \hline
+Event flow&U selects the activity and taps on "delete". The applications asks a confirm for the elimination. If U answers "ok", the activity is deleted from the calendar.\\ \hline
+Output condition& Travlendar+ updates the calendar, in particular it deletes the activity from the map and from the calendar.
+\\ \hline
+Exception& The possible exceptions is that U has already tapped on "delete" but he/she does not want to delete the activity. In that case he/she can tap on "exit" when the system asks for the confirmation.
+\\ \hline \
 
+\end{tabular}
+
+\pagebreak
+\begin{flushleft}
+\textbf{Choose a favourite trip}
+\end{flushleft}
+
+\begin{tabular}{cp{10cm}} 
+Actor&Registered user U \\ \hline 
+Goal& {[G\ped{7}]}\\ \hline
+Input condition&U is the creator of the event A and is logged in.\\ \hline
+Event flow&Once the activity has been created, on the screen appears a list of the possible trip with various means. U can choose one tapping on it. \\ \hline
+Output condition& Travlendar+ updates the calendar with the activity, in particular highlights the trip between the meetings of the day in blue. 
+\\ \hline
+Exception& The possible exceptions are:
+\begin{enumerate}
+\item The trip chosen is not valid because it takes too much time, and U risks to not arrive in time. 
+\item The trip chosen is not available because of traffic or in case of a strike. ?
+\end{enumerate} 
+In both cases a notification arrives on U's screen, and invites him/her to do another trip.\\ \hline 
+
+\end{tabular}
+ \pagebreak
+\begin{flushleft}
+\textbf{Modify the preferences}
+\end{flushleft}
+
+\begin{tabular}{cp{10cm}} 
+Actor&Registered user U \\ \hline 
+Goal& {[G\ped{9}]}, {[G\ped{11}]}\\ \hline
+Input condition&U is logged in.\\ \hline
+Event flow&Once U is in the main screen, to modify the preferences he can:
+\begin{enumerate}
+\item Tap on "menu" symbol.
+\item Tap on "App preferences".
+\item Tap on "Activate/Deactivate transportation means" or on "Minimize carbon footprint". In the first case U can activate or deactivate one or more transportation means from a list, and in the second one he can activate or deactivate the option of minimize carbon footprint.
+\end{enumerate} 
+\\ \hline
+Output condition& The application saves the changes. In the trips proposed to U, it will not comprehend trips with the deactivated travel means. If the option of minimize carbon footprint is activated, Travlendar+ will propose trip with the minimun carbon footprint. \\ \hline
+Exception& The possible exceptions are:
+\begin{enumerate}
+\item U wants to activate/deactivate a travel means that is already active/non-active.
+\item U wants to activate/deactivate the option of minimize the carbon footprint, but this option is already active/non-active.
+\end{enumerate}
+In both cases the new change will overwrite the last one.\\ \hline 
+
+\end{tabular}
+
+\pagebreak
 
 \subsection{Performance requirements}\label{sec:mod1}
 In order to guarantee the performance of our application, we have to specify:
