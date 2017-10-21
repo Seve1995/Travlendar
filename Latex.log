@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.17)  20 OCT 2017 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.17)  21 OCT 2017 08:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -424,7 +424,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 age.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 ...dards compliance}{22}{subsubsection.3.4.1}
+l.60 ...dards compliance}{32}{subsubsection.3.4.1}
                                                    [1])
 \tf@toc=\write4
 \openout4 = `Latex.toc'.
@@ -442,12 +442,12 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
  [3] [4]
-[5] <"Class Diagram".png, id=285, 1238.37656pt x 2384.91pt>
+[5] <"Class Diagram".png, id=285, 931.98187pt x 1452.92813pt>
 File: "Class Diagram".png Graphic file (type png)
 
 <use "Class Diagram".png>
 Package pdftex.def Info: "Class Diagram".png used on input line 145.
-(pdftex.def)             Requested size: 272.44368pt x 524.68184pt.
+(pdftex.def)             Requested size: 335.51321pt x 523.05373pt.
  [6]
 Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
@@ -499,39 +499,109 @@ Overfull \hbox (25.582pt too wide) in paragraph at lines 316--337
 [][] 
  []
 
-[19]
-Underfull \hbox (badness 4168) in paragraph at lines 356--357
+[19] <"UseCase Registration".png, id=378, 709.14937pt x 501.37312pt>
+File: "UseCase Registration".png Graphic file (type png)
+
+<use "UseCase Registration".png>
+Package pdftex.def Info: "UseCase Registration".png used on input line 340.
+(pdftex.def)             Requested size: 460.94164pt x 325.88866pt.
+
+Overfull \hbox (88.56645pt too wide) in paragraph at lines 340--342
+[][]
+ []
+
+[20 <./UseCase Registration.png>]
+Underfull \hbox (badness 4168) in paragraph at lines 359--360
 []\OT1/cmr/m/n/12 The user in-serts an in-cor-rect user-na-me or
  []
 
 
-Overfull \hbox (25.582pt too wide) in paragraph at lines 343--362
+Overfull \hbox (25.582pt too wide) in paragraph at lines 346--365
 [][] 
  []
 
-[20]
-Overfull \hbox (25.582pt too wide) in paragraph at lines 372--391
+[21] <"UseCase Login".png, id=392, 670.00313pt x 334.24875pt>
+File: "UseCase Login".png Graphic file (type png)
+
+<use "UseCase Login".png>
+Package pdftex.def Info: "UseCase Login".png used on input line 369.
+(pdftex.def)             Requested size: 468.999pt x 233.97252pt.
+
+Overfull \hbox (96.62381pt too wide) in paragraph at lines 369--370
 [][] 
  []
 
-[21]
-Overfull \hbox (36.18472pt too wide) in paragraph at lines 413--415
+[22 <./UseCase Login.png>]
+Overfull \hbox (25.582pt too wide) in paragraph at lines 377--396
+[][] 
+ []
+
+[23] [24] <"UseCase Delete".png, id=412, 671.50874pt x 344.03531pt>
+File: "UseCase Delete".png Graphic file (type png)
+
+<use "UseCase Delete".png>
+Package pdftex.def Info: "UseCase Delete".png used on input line 402.
+(pdftex.def)             Requested size: 470.05292pt x 240.82307pt.
+
+Overfull \hbox (80.05292pt too wide) in paragraph at lines 402--404
+[]
+ []
+
+[25 <./UseCase Delete.png>] [26]
+<"UseCase Modify activity".png, id=423, 785.93625pt x 587.94656pt>
+File: "UseCase Modify activity".png Graphic file (type png)
+
+<use "UseCase Modify activity".png>
+Package pdftex.def Info: "UseCase Modify activity".png used on input line 409.
+(pdftex.def)             Requested size: 471.56538pt x 352.77066pt.
+
+Overfull \hbox (99.1902pt too wide) in paragraph at lines 409--411
+[][]
+ []
+
+[27 <./UseCase Modify activity.png>] [28]
+<"UseCase Choose trip".png, id=434, 662.475pt x 519.44063pt>
+File: "UseCase Choose trip".png Graphic file (type png)
+
+<use "UseCase Choose trip".png>
+Package pdftex.def Info: "UseCase Choose trip".png used on input line 415.
+(pdftex.def)             Requested size: 430.60365pt x 337.6324pt.
+
+Overfull \hbox (40.60365pt too wide) in paragraph at lines 415--417
+[]
+ []
+
+[29 <./UseCase Choose trip.png>] [30]
+<"UseCase Modify user preferences".png, id=444, 707.64375pt x 459.21562pt>
+File: "UseCase Modify user preferences".png Graphic file (type png)
+
+<use "UseCase Modify user preferences".png>
+Package pdftex.def Info: "UseCase Modify user preferences".png used on input li
+ne 421.
+(pdftex.def)             Requested size: 459.963pt x 298.4866pt.
+
+Overfull \hbox (69.963pt too wide) in paragraph at lines 421--423
+[]
+ []
+
+[31 <./UseCase Modify user preferences.png>]
+Overfull \hbox (36.18472pt too wide) in paragraph at lines 445--447
 \OT1/cmr/m/n/12 This RA-SD is writ-ten try-ing to be con-for-med to the IEEE St
 an-dard (ISO/IEC/IEEE
  []
 
-[22] [23] [24] [25] [26]
-Overfull \hbox (5.06862pt too wide) in paragraph at lines 450--451
+[32] [33] [34] [35] [36]
+Overfull \hbox (5.06862pt too wide) in paragraph at lines 482--483
 [][]$\OT1/cmtt/m/n/12 http : / / www . iso . org / standard/$[] \OT1/cmr/m/n/12
  (For the sec-tion ``Stan-dard Com-plian-
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 454.
-[27]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 454.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 486.
+[37]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 486.
  (./Latex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 454.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 454.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 486.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 486.
 Package rerunfilecheck Info: File `Latex.out' has not changed.
 (rerunfilecheck)             Checksum: F1DA2F1F113A3C2CA1BCBE5142648B50;3340.
 
@@ -540,10 +610,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6395 strings out of 494437
- 94277 string characters out of 6166644
+ 6435 strings out of 494437
+ 95241 string characters out of 6166644
  189460 words of memory out of 5000000
- 9550 multiletter control sequences out of 15000+600000
+ 9574 multiletter control sequences out of 15000+600000
  12873 words of font info for 50 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  32i,12n,28p,1505b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -554,10 +624,10 @@ mcsc10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts
 nts/cm/cmr8.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb>
-Output written on Latex.pdf (30 pages, 2172740 bytes).
+Output written on Latex.pdf (40 pages, 2319513 bytes).
 PDF statistics:
- 476 PDF objects out of 1000 (max. 8388607)
- 425 compressed objects within 5 object streams
- 120 named destinations out of 1000 (max. 500000)
- 397 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 534 PDF objects out of 1000 (max. 8388607)
+ 461 compressed objects within 5 object streams
+ 130 named destinations out of 1000 (max. 500000)
+ 427 words of extra memory for PDF output out of 10000 (max. 10000000)
 
