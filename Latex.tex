@@ -205,7 +205,7 @@ To own a personal calendar, the user must have a device with an internet connect
 Our application has been designed to be used through a smartphone or a tablet.
 The following mock-ups show the screens of the main features offered by the smartphone version. 
 
-%\includegraphics[scale=0.15]{"iPhoneX_mockup LOGIN"}
+\includegraphics[scale=0.15]{"iPhoneX_mockup LOGIN"}
 
 
 \subsubsection{Hardware interfaces}\label{sec:mod1}
@@ -241,7 +241,14 @@ The application needs an internet connection on the device in order to receive r
 \item[{[R\ped{1}]}] The system must allow users to see their calendar with all their activities
 \end{itemize}
 \item [{[G\ped{4}]}]		Users should be able to see the map on which meetings are showed;
+\begin{itemize}
+\item[{[R\ped{1}]}] The system must allow users to see the map with all their meetings;
+\item[{[R\ped{1}]}] The system must allow users to see the map with the trips of the day;
+\end{itemize}
 \item [{[G\ped{5}]}]		Users should be able to see their daily planner;
+\begin{itemize}
+\item[{[R\ped{1}]}] The system must allow users to see all activities of the day in the main screen;
+\end{itemize}
 \item [{[G\ped{6}]}]		Users should be able to create meetings with location and scheduled time;
 \item [{[G\ped{7}]}]		Users should be able to modify existing activities;
 \item [{[G\ped{8}]}]		Users should be able to delete activities;
@@ -320,6 +327,9 @@ In case of exception the invalid fields are coloured with red. The visitor can't
 \end{tabular}
 
 \pagebreak
+
+\includegraphics[scale=0.65]{"UseCase Registration"}
+\pagebreak
 \begin{flushleft}
 \textbf{Login} 
 \end{flushleft}
@@ -347,7 +357,9 @@ In both the cases the user is notified with an error message and invited to try 
 
 \pagebreak
 
+\includegraphics[scale=0.7]{"UseCase Login"}
 
+\pagebreak
 \begin{flushleft}
 \textbf{New activity}
 \end{flushleft}
@@ -374,6 +386,33 @@ Exception& The possible exceptions are:
 \end{tabular}
 
 \pagebreak
+\begin{flushleft}
+\textbf{Delete an activity}
+\end{flushleft}
+\pagebreak
+\includegraphics[scale=0.7]{"UseCase Delete"}
+\pagebreak
+\begin{flushleft}
+\textbf{Modify an activity}
+\end{flushleft}
+
+\pagebreak
+\includegraphics[scale=0.6]{"UseCase Modify activity"}
+\pagebreak
+\begin{flushleft}
+\textbf{Choose the favourite trip}
+\end{flushleft}
+\pagebreak
+\includegraphics[scale=0.65]{"UseCase Choose trip"}
+\pagebreak
+\begin{flushleft}
+\textbf{Modify user's preferences}
+\end{flushleft}
+\pagebreak
+\includegraphics[scale=0.65]{"UseCase Modify user preferences"}
+\pagebreak
+
+
 \subsection{Performance requirements}\label{sec:mod1}
 In order to guarantee the performance of our application, we have to specify:
 \begin{itemize}
