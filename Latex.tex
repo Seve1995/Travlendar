@@ -3,24 +3,58 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[12pt,titlepage]{article}
-\usepackage[italian]{babel}
+
 \usepackage{graphics}
+\usepackage{xcolor}
 \usepackage{url,amsfonts,epsfig}
 \usepackage[applemac]{inputenc} %comando per le lettere accentate se usate mac  
+%\usepackage[T1]{fontenc}
+%\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
 %\usepackage[latin1]{inputenc} % comando per le lettere accentate se usate pc  
 \usepackage[pagebackref]{hyperref}
-
-\title{\textsc{Questo e' il titolo della mia tesi}}
-\author{Pinco Pallino}
+\hypersetup{
+colorlinks=false,
+allbordercolors=white
+}
 
 \begin{document}
+%Code for title page
+\begin{titlepage}
+\centering
+\includegraphics[width=0.5\textwidth]{Logo}\par
+	\vspace{1.5cm}
+	{\Large{\textsc{{{\color{red}{ \textbf{T}rav}}lendar{\color{red}{+}}}} \\ 
+		Software Engineering 2} \par}
+	\vspace{1.5cm}
+	{\LARGE \textbf{Requirements Analysis and Specification Document} \par}
+	\vspace{1.5cm}
+	{\Large\itshape Sara Pid\'o\par}
+	{\Large\itshape Chiara Plizzari\par}
+	{\Large\itshape Giuseppe Severino\par}
+	\vspace{2cm}
+	\vfill
+	% Bottom of the page
+	%{\large Document version: 3.1\par}
+	\pagebreak
+	{\large \today \par}
+\end{titlepage}
 
+
+
+
+%
+%\title{\textsc{Questo e' il titolo della mia tesi}}
+%\author{Pinco Pallino}
+
+
+ 
 \pagenumbering{roman}
 
 %%%% Opzione per interlinea 2
 %%%\baselineskip 18pt
 
-\maketitle
+%\maketitle
 
 \tableofcontents
 %%\listoffigures
