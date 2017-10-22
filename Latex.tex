@@ -3,24 +3,58 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[12pt,titlepage]{article}
-\usepackage[italian]{babel}
+
 \usepackage{graphics}
+\usepackage{xcolor}
 \usepackage{url,amsfonts,epsfig}
 \usepackage[applemac]{inputenc} %comando per le lettere accentate se usate mac  
+%\usepackage[T1]{fontenc}
+%\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
 %\usepackage[latin1]{inputenc} % comando per le lettere accentate se usate pc  
 \usepackage[pagebackref]{hyperref}
-
-\title{\textsc{Questo e' il titolo della mia tesi}}
-\author{Pinco Pallino}
+\hypersetup{
+colorlinks=false,
+allbordercolors=white
+}
 
 \begin{document}
+%Code for title page
+\begin{titlepage}
+\centering
+\includegraphics[width=0.5\textwidth]{Logo}\par
+	\vspace{1.5cm}
+	{\Large{\textsc{{{\color{red}{ \textbf{T}rav}}lendar{\color{red}{+}}}} \\ 
+		Software Engineering 2} \par}
+	\vspace{1.5cm}
+	{\LARGE \textbf{Requirements Analysis and Specification Document} \par}
+	\vspace{1.5cm}
+	{\Large\itshape Sara Pid\'o\par}
+	{\Large\itshape Chiara Plizzari\par}
+	{\Large\itshape Giuseppe Severino\par}
+	\vspace{2cm}
+	\vfill
+	% Bottom of the page
+	%{\large Document version: 3.1\par}
+	\pagebreak
+	{\large \today \par}
+\end{titlepage}
 
+
+
+
+%
+%\title{\textsc{Questo e' il titolo della mia tesi}}
+%\author{Pinco Pallino}
+
+
+ 
 \pagenumbering{roman}
 
 %%%% Opzione per interlinea 2
 %%%\baselineskip 18pt
 
-\maketitle
+%\maketitle
 
 \tableofcontents
 %%\listoffigures
@@ -390,11 +424,8 @@ Event flow&The process for the creation of a new activity is: \begin{enumerate}
 \end{enumerate} \\ \hline
 Output condition& Travlendar+ redirects the registered user on the main screen. On the map is appeared the new activity on its location. 
 \\ \hline
-Exception& The possible exceptions are:
-\begin{enumerate}
-\item The user does not want to complete the creation process. In such case he/she must tap on "back".
-\item The user does not fill a mandatory field or fills it with invalid data. In such cases the invalid fields are coloured with red. The user must insert the correct data in order to complete the creation of the activity.
-\end{enumerate} 
+Exception& The possible exception is that the user does not fill a mandatory field or fills it with invalid data. In such cases the invalid fields are coloured with red. The user must insert the correct data in order to complete the creation of the activity.
+
 \\ \hline \
 
 \end{tabular}
@@ -412,9 +443,10 @@ Actor&Registered user U \\ \hline
 Goal& {[G\ped{7}]}\\ \hline
 Input condition&U is the creator of the event A and is logged in.\\ \hline
 Event flow&The process for the modification of a new activity is: \begin{enumerate}
-\item U taps on the activity A on the map (coloured with blue if A is a meeting, with red if A is a break) or in the section "MyActivities".
+\item U taps on the activity A on the map (coloured with blue if A is a meeting, with red if A is a break) or in the section "My activities".
+\item U taps on the "modify" symbol.
 \item The application shows the screen form of the activity that contains the fields to fill with the attributes.
-\item U can modify the fields.
+\item U can modify the fields by tapping on it.
 \item U taps on "ok" when he/she has completed the modification.
 \item The application update the calendar with the new information.
 \item The application redirects U to the main screen. 
@@ -423,10 +455,10 @@ Output condition& Travlendar+ updates the calendar with the activity modified, t
 \\ \hline
 Exception& The possible exceptions are:
 \begin{enumerate}
-\item U insert an invalid modification.
-\item U does not apply any modification.
+\item U inserts an invalid modification.
+\item U does not want to apply the modifications.
 \end{enumerate} 
-In the first case the invalid field is highlighted with red. In the second one the U can press "ok" and continue, but it will not effectively change nothing.
+In the first case the invalid field is highlighted with red. In the second one the U can tap "cancel" and no changes will be made.
 \\ \hline \
 
 \end{tabular}
@@ -443,10 +475,15 @@ In the first case the invalid field is highlighted with red. In the second one t
 Actor&Registered user U \\ \hline 
 Goal& {[G\ped{7}]}\\ \hline
 Input condition&U is the creator of the event A and is logged in.\\ \hline
-Event flow&U selects the activity and taps on "delete". The applications asks a confirm for the elimination. If U answers "ok", the activity is deleted from the calendar.\\ \hline
+Event flow&The elimination of an activity's process is: 
+\begin{enumerate}
+\item U selects the activity from the map or from the section "My activities".
+\item U taps on "delete". 
+\item The applications asks a confirm for the elimination. If U answers "ok", the activity is deleted from the calendar.
+\end{enumerate}\\ \hline
 Output condition& Travlendar+ updates the calendar, in particular it deletes the activity from the map and from the calendar.
 \\ \hline
-Exception& The possible exceptions is that U has already tapped on "delete" but he/she does not want to delete the activity. In that case he/she can tap on "exit" when the system asks for the confirmation.
+Exception& The possible exceptions is that U has already tapped on "delete" but he/she does not want to delete the activity. In that case he/she can tap on "cancel" when the system asks for the confirmation.
 \\ \hline \
 
 \end{tabular}
