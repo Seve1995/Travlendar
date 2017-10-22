@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.15)  21 OCT 2017 23:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.15)  22 OCT 2017 12:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -425,7 +425,7 @@ x.tocpdfTeX warning (ext4): destination with the same identifier (name{page.i})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 ...dards compliance}{32}{subsubsection.3.4.1}
+l.60 ...dards compliance}{33}{subsubsection.3.4.1}
                                                    [1])
 \tf@toc=\write4
 \openout4 = `Latex.toc'.
@@ -533,99 +533,99 @@ Overfull \hbox (96.62381pt too wide) in paragraph at lines 369--370
  []
 
 [22 <./UseCase Login.png>]
-Overfull \hbox (25.582pt too wide) in paragraph at lines 377--397
+Overfull \hbox (25.582pt too wide) in paragraph at lines 377--394
 [][]
  []
 
 [23]
-Overfull \hbox (25.582pt too wide) in paragraph at lines 401--424
+Overfull \hbox (25.582pt too wide) in paragraph at lines 398--422
 [][] 
  []
 
-[24] <"UseCase Modify activity".png, id=421, 785.93625pt x 587.94656pt>
+[24] <"UseCase Modify activity".png, id=420, 785.93625pt x 587.94656pt>
 File: "UseCase Modify activity".png Graphic file (type png)
 
 <use "UseCase Modify activity".png>
-Package pdftex.def Info: "UseCase Modify activity".png used on input line 426.
+Package pdftex.def Info: "UseCase Modify activity".png used on input line 424.
 (pdftex.def)             Requested size: 471.56538pt x 352.77066pt.
 
-Overfull \hbox (99.1902pt too wide) in paragraph at lines 426--429
+Overfull \hbox (99.1902pt too wide) in paragraph at lines 424--427
 [][]
  []
 
 [25 <./UseCase Modify activity.png>]
-<"UseCase Delete".png, id=427, 671.50874pt x 344.03531pt>
+<"UseCase Delete".png, id=426, 671.50874pt x 344.03531pt>
 File: "UseCase Delete".png Graphic file (type png)
 
 <use "UseCase Delete".png>
-Package pdftex.def Info: "UseCase Delete".png used on input line 445.
+Package pdftex.def Info: "UseCase Delete".png used on input line 448.
 (pdftex.def)             Requested size: 470.05292pt x 240.82307pt.
 
-Overfull \hbox (25.582pt too wide) in paragraph at lines 433--447
+Overfull \hbox (25.582pt too wide) in paragraph at lines 431--450
 [][]
  []
 
 
-Overfull \hbox (80.05292pt too wide) in paragraph at lines 433--447
+Overfull \hbox (80.05292pt too wide) in paragraph at lines 431--450
 []
  []
 
-[26 <./UseCase Delete.png>] [27]
-Overfull \hbox (25.582pt too wide) in paragraph at lines 452--467
+[26] [27 <./UseCase Delete.png>] [28]
+Overfull \hbox (25.582pt too wide) in paragraph at lines 455--470
 [][] 
  []
 
-[28] <"UseCase Choose trip".png, id=444, 662.475pt x 519.44063pt>
+[29] <"UseCase Choose trip".png, id=450, 662.475pt x 519.44063pt>
 File: "UseCase Choose trip".png Graphic file (type png)
 
 <use "UseCase Choose trip".png>
-Package pdftex.def Info: "UseCase Choose trip".png used on input line 469.
+Package pdftex.def Info: "UseCase Choose trip".png used on input line 472.
 (pdftex.def)             Requested size: 430.60365pt x 337.6324pt.
 
-Overfull \hbox (58.22847pt too wide) in paragraph at lines 469--470
+Overfull \hbox (58.22847pt too wide) in paragraph at lines 472--473
 [][] 
  []
 
-[29 <./UseCase Choose trip.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 485--486
+[30 <./UseCase Choose trip.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 488--489
 []\OT1/cmr/m/n/12 Tap on "Ac-ti-va-te/Deactivate trans-por-ta-tion
  []
 
-<"UseCase Modify user preferences".png, id=450, 707.64375pt x 459.21562pt>
+<"UseCase Modify user preferences".png, id=456, 707.64375pt x 459.21562pt>
 File: "UseCase Modify user preferences".png Graphic file (type png)
 
 <use "UseCase Modify user preferences".png>
 Package pdftex.def Info: "UseCase Modify user preferences".png used on input li
-ne 498.
+ne 501.
 (pdftex.def)             Requested size: 459.963pt x 298.4866pt.
 
-Overfull \hbox (25.582pt too wide) in paragraph at lines 477--499
+Overfull \hbox (25.582pt too wide) in paragraph at lines 480--502
 [][]
  []
 
 
-Overfull \hbox (69.963pt too wide) in paragraph at lines 477--499
+Overfull \hbox (69.963pt too wide) in paragraph at lines 480--502
 [] 
  []
 
-[30] [31 <./UseCase Modify user preferences.png>]
-Overfull \hbox (36.18472pt too wide) in paragraph at lines 522--524
+[31] [32 <./UseCase Modify user preferences.png>]
+Overfull \hbox (36.18472pt too wide) in paragraph at lines 525--527
 \OT1/cmr/m/n/12 This RA-SD is writ-ten try-ing to be con-for-med to the IEEE St
 an-dard (ISO/IEC/IEEE
  []
 
-[32] [33] [34] [35] [36]
-Overfull \hbox (5.06862pt too wide) in paragraph at lines 559--560
+[33] [34] [35] [36] [37]
+Overfull \hbox (5.06862pt too wide) in paragraph at lines 562--563
 [][]$\OT1/cmtt/m/n/12 http : / / www . iso . org / standard/$[] \OT1/cmr/m/n/12
  (For the sec-tion ``Stan-dard Com-plian-
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 563.
-[37]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 563.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 566.
+[38]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 566.
  (./Latex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 563.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 563.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 566.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 566.
 Package rerunfilecheck Info: File `Latex.out' has not changed.
 (rerunfilecheck)             Checksum: F1DA2F1F113A3C2CA1BCBE5142648B50;3340.
 
@@ -634,8 +634,8 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6450 strings out of 492995
- 94896 string characters out of 6132703
+ 6453 strings out of 492995
+ 94917 string characters out of 6132703
  193153 words of memory out of 5000000
  9782 multiletter control sequences out of 15000+600000
  12873 words of font info for 50 fonts, out of 8000000 for 9000
@@ -647,10 +647,10 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Latex.pdf (40 pages, 2323800 bytes).
+Output written on Latex.pdf (41 pages, 2324092 bytes).
 PDF statistics:
- 553 PDF objects out of 1000 (max. 8388607)
- 480 compressed objects within 5 object streams
- 145 named destinations out of 1000 (max. 500000)
+ 559 PDF objects out of 1000 (max. 8388607)
+ 485 compressed objects within 5 object streams
+ 148 named destinations out of 1000 (max. 500000)
  427 words of extra memory for PDF output out of 10000 (max. 10000000)
 
