@@ -480,7 +480,9 @@ In case of exception the invalid fields are coloured with red. The visitor can't
 \centering
 \makebox[\textwidth]{\includegraphics[scale=0.64]{"SequenceDiagram Registration"} }
 \end{figure}
- \pagebreak
+
+\clearpage
+\newpage
 
 
 \begin{flushleft}
@@ -520,9 +522,9 @@ In both the cases the user is notified with an error message and invited to try 
 
 \end{figure}
 
-
+\clearpage
+\newpage
  
-\pagebreak 
 \begin{flushleft}
 \textbf{New activity}
 \end{flushleft}
@@ -555,7 +557,8 @@ Exception& The possible exception is that the user does not fill a mandatory fie
 %\centering
 %\makebox[\textwidth]{\includegraphics[scale=0.55]{"SequenceDiagram Login"} } }
 %\end{figure}
-\pagebreak 
+\clearpage
+\newpage
 
 
 \begin{flushleft}
@@ -593,9 +596,9 @@ In the first case the invalid field is highlighted with red. In the second one t
 \makebox[\textwidth]{\includegraphics[scale=0.6]{"UseCase Modify activity"}  }
 
 \end{figure}
+\clearpage
+\newpage
 
-\pagebreak 
-\pagebreak
 \begin{flushleft}
 \textbf{Delete activity}
 \end{flushleft}
@@ -622,8 +625,9 @@ Exception& The possible exceptions is that U has already tapped on "delete" but 
 \makebox[\textwidth]{\includegraphics[scale=0.7]{"UseCase Delete"} }
 
 \end{figure}
+\clearpage
+\newpage
 
-\pagebreak 
 
 \begin{flushleft}
 \textbf{Choose a favourite trip}
@@ -633,13 +637,13 @@ Exception& The possible exceptions is that U has already tapped on "delete" but 
 Actor&Registered user U \\ \hline 
 Goal& {[G\ped{10}]}\\ \hline
 Input condition&U is the creator of the event A and is logged in.\\ \hline
-Event flow&Once the activity has been created, on the screen appears a list of the possible trip with various means. U can choose one tapping on it. \\ \hline
+Event flow&Once the activity has been created, the screen with the choice of the trip between all meetings of that day appears. U can choose one by tapping on it. \\ \hline
 Output condition& Travlendar+ updates the calendar with the activity, in particular highlights the trip between the meetings of the day in blue. 
 \\ \hline
 Exception& The possible exceptions are:
 \begin{enumerate}
-\item The trip chosen is not valid because it takes too much time, and U risks to not arrive in time. 
-\item The trip chosen is not available because of traffic or in case of a strike. ?
+\item The trip chosen takes too much time, and U risks to not arrive in time. 
+\item The trip chosen is not available because of traffic or in case of a strike. 
 \end{enumerate} 
 In both cases a notification arrives on U's screen, and invites him/her to do another trip.\\ \hline 
 
@@ -655,7 +659,8 @@ In both cases a notification arrives on U's screen, and invites him/her to do an
 
 
 
- \pagebreak
+\clearpage
+\newpage
 \begin{flushleft}
 \textbf{Modify global preferences}
 \end{flushleft}
@@ -693,7 +698,8 @@ In both cases the new change will overwrite the last one.\\ \hline
 \end{figure}
 
 
-\pagebreak
+\clearpage
+\newpage
 
 \subsection{Performance requirements}\label{sec:mod1}
 In order to guarantee the performance of our application, we have to specify:
