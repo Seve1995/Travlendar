@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.15)  23 OCT 2017 21:51
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.17)  23 OCT 2017 20:33
+>>>>>>> master
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -481,36 +485,58 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 127.
+<<<<<<< HEAD
  [3] [4]
 [5] <"Class Diagramv2".png, id=294, 1463.4675pt x 1129.21875pt>
 File: "Class Diagramv2".png Graphic file (type png)
 
 <use "Class Diagramv2".png>
 Package pdftex.def Info: "Class Diagramv2".png used on input line 186.
+=======
+ [3]
+[4] [5] <"Class Diagramv2".png, id=293, 1463.4675pt x 1129.21875pt>
+File: "Class Diagramv2".png Graphic file (type png)
+
+<use "Class Diagramv2".png>
+Package pdftex.def Info: "Class Diagramv2".png used on input line 195.
+>>>>>>> master
 (pdftex.def)             Requested size: 585.37663pt x 451.6795pt.
  [6] [7 <./Class Diagramv2.png>]
-<"Statemachine1".png, id=307, 536.0025pt x 383.18156pt>
+<"Statemachine1".png, id=306, 536.0025pt x 383.18156pt>
 File: "Statemachine1".png Graphic file (type png)
 
 <use "Statemachine1".png>
+<<<<<<< HEAD
 Package pdftex.def Info: "Statemachine1".png used on input line 194.
+=======
+Package pdftex.def Info: "Statemachine1".png used on input line 203.
+>>>>>>> master
 (pdftex.def)             Requested size: 321.60397pt x 229.9107pt.
 
-<"Statemachine2".png, id=308, 1136.74687pt x 581.92406pt>
+<"Statemachine2".png, id=307, 1136.74687pt x 581.92406pt>
 File: "Statemachine2".png Graphic file (type png)
 
 <use "Statemachine2".png>
+<<<<<<< HEAD
 Package pdftex.def Info: "Statemachine2".png used on input line 197.
 (pdftex.def)             Requested size: 511.53137pt x 261.8634pt.
 
 
 LaTeX Warning: Float too large for page by 17.35736pt on input line 199.
+=======
+Package pdftex.def Info: "Statemachine2".png used on input line 206.
+(pdftex.def)             Requested size: 511.53137pt x 261.8634pt.
 
-[8] [9 <./Statemachine1.png> <./Statemachine2.png>] [10] [11]
-<"worldAndMachine".png, id=336, 722.7pt x 451.6875pt>
+
+LaTeX Warning: Float too large for page by 17.35736pt on input line 208.
+>>>>>>> master
+
+[8] [9 <./Statemachine1.png> <./Statemachine2.png>] [10]
+<"worldAndMachine".png, id=331, 633.36626pt x 403.5075pt>
 File: "worldAndMachine".png Graphic file (type png)
 
 <use "worldAndMachine".png>
+<<<<<<< HEAD
 Package pdftex.def Info: "worldAndMachine".png used on input line 264.
 (pdftex.def)             Requested size: 469.74944pt x 293.59338pt.
 
@@ -528,26 +554,49 @@ Package pdftex.def Info: "iPhoneX_mockup LOGIN".png used on input line 274.
  [13 <./iPhoneX_mockup LOGIN.png>] [14]
 [15] [16] [17] [18] [19] [20] [21]
 Underfull \hbox (badness 1648) in paragraph at lines 450--451
+=======
+Package pdftex.def Info: "worldAndMachine".png used on input line 272.
+(pdftex.def)             Requested size: 411.6832pt x 262.27676pt.
+ [11] [12 <./worldAndMachine.png>]
+<"iPhoneX_mockup LOGIN".png, id=341, 1505.625pt x 2810.5pt>
+File: "iPhoneX_mockup LOGIN".png Graphic file (type png)
+
+<use "iPhoneX_mockup LOGIN".png>
+Package pdftex.def Info: "iPhoneX_mockup LOGIN".png used on input line 284.
+(pdftex.def)             Requested size: 225.834pt x 421.55681pt.
+ [13 <./iPhoneX_mockup LOGIN.png>] [14]
+[15] [16] [17] [18] [19] [20] [21]
+Underfull \hbox (badness 1648) in paragraph at lines 460--461
+>>>>>>> master
 []\OT1/cmr/m/n/12 The vi-si-tor in-serts an email that is al-rea-dy
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (25.582pt too wide) in paragraph at lines 434--455
+=======
+Overfull \hbox (25.582pt too wide) in paragraph at lines 444--465
+>>>>>>> master
 [][] 
  []
 
-[22] <"UseCase Registration".png, id=403, 709.14937pt x 501.37312pt>
+[22] <"UseCase Registration".png, id=402, 709.14937pt x 501.37312pt>
 File: "UseCase Registration".png Graphic file (type png)
 
 <use "UseCase Registration".png>
+<<<<<<< HEAD
 Package pdftex.def Info: "UseCase Registration".png used on input line 459.
+=======
+Package pdftex.def Info: "UseCase Registration".png used on input line 470.
+>>>>>>> master
 (pdftex.def)             Requested size: 460.94164pt x 325.88866pt.
 
-<"SequenceDiagram Registration".png, id=404, 691.08188pt x 886.81313pt>
+<"SequenceDiagram Registration".png, id=403, 691.08188pt x 886.81313pt>
 File: "SequenceDiagram Registration".png Graphic file (type png)
 
 <use "SequenceDiagram Registration".png>
 Package pdftex.def Info: "SequenceDiagram Registration".png used on input line 
+<<<<<<< HEAD
 460.
 (pdftex.def)             Requested size: 442.2909pt x 567.55847pt.
 
@@ -559,32 +608,50 @@ Overfull \hbox (88.56645pt too wide) in paragraph at lines 459--461
 Overfull \hbox (52.2909pt too wide) in paragraph at lines 459--461
 [] 
  []
+=======
+476.
+(pdftex.def)             Requested size: 442.2909pt x 567.55847pt.
 
-[23 <./UseCase Registration.png>]
-Overfull \vbox (19.05847pt too high) has occurred while \output is active []
+>>>>>>> master
+
+LaTeX Warning: Float too large for page by 19.05847pt on input line 477.
 
 
+<<<<<<< HEAD
 [24 <./SequenceDiagram Registration.png>]
 Underfull \hbox (badness 4168) in paragraph at lines 479--480
+=======
+Underfull \hbox (badness 4168) in paragraph at lines 498--499
+>>>>>>> master
 []\OT1/cmr/m/n/12 The user in-serts an in-cor-rect user-na-me or
  []
 
 
+<<<<<<< HEAD
 Overfull \hbox (25.582pt too wide) in paragraph at lines 466--485
+=======
+Overfull \hbox (25.582pt too wide) in paragraph at lines 485--504
+>>>>>>> master
 [][] 
  []
 
-[25] <"UseCase Login".png, id=423, 670.00313pt x 334.24875pt>
+[23 <./UseCase Registration.png>] [24 <./SequenceDiagram Registration.png>]
+[25] <"UseCase Login".png, id=422, 670.00313pt x 334.24875pt>
 File: "UseCase Login".png Graphic file (type png)
 
 <use "UseCase Login".png>
+<<<<<<< HEAD
 Package pdftex.def Info: "UseCase Login".png used on input line 489.
+=======
+Package pdftex.def Info: "UseCase Login".png used on input line 509.
+>>>>>>> master
 (pdftex.def)             Requested size: 468.999pt x 233.97252pt.
 
-<"SequenceDiagram Login".png, id=424, 805.50937pt x 1139.00531pt>
+<"SequenceDiagram Login".png, id=423, 805.50937pt x 1139.00531pt>
 File: "SequenceDiagram Login".png Graphic file (type png)
 
 <use "SequenceDiagram Login".png>
+<<<<<<< HEAD
 Package pdftex.def Info: "SequenceDiagram Login".png used on input line 490.
 (pdftex.def)             Requested size: 443.03152pt x 626.45486pt.
 
@@ -603,15 +670,26 @@ Overfull \vbox (77.95486pt too high) has occurred while \output is active []
 
 [27 <./SequenceDiagram Login.png>]
 Overfull \hbox (25.582pt too wide) in paragraph at lines 498--515
+=======
+Package pdftex.def Info: "SequenceDiagram Login".png used on input line 514.
+(pdftex.def)             Requested size: 443.03152pt x 626.45486pt.
+
+
+LaTeX Warning: Float too large for page by 77.95486pt on input line 516.
+
+
+Overfull \hbox (25.582pt too wide) in paragraph at lines 526--543
+>>>>>>> master
 [][]
  []
 
-[28]
-<"UseCase Creation of an activity".png, id=444, 880.79062pt x 501.37312pt>
+[26 <./UseCase Login.png>] [27 <./SequenceDiagram Login.png>] [28]
+<"UseCase Creation of an activity".png, id=443, 880.79062pt x 501.37312pt>
 File: "UseCase Creation of an activity".png Graphic file (type png)
 
 <use "UseCase Creation of an activity".png>
 Package pdftex.def Info: "UseCase Creation of an activity".png used on input li
+<<<<<<< HEAD
 ne 516.
 (pdftex.def)             Requested size: 440.39423pt x 250.68594pt.
 
@@ -621,13 +699,21 @@ Overfull \hbox (68.01904pt too wide) in paragraph at lines 516--517
 
 [29 <./UseCase Creation of an activity.png>]
 Overfull \hbox (25.582pt too wide) in paragraph at lines 523--547
+=======
+ne 547.
+(pdftex.def)             Requested size: 440.39423pt x 250.68594pt.
+
+Overfull \hbox (25.582pt too wide) in paragraph at lines 560--584
+>>>>>>> master
 [][] 
  []
 
-[30] <"UseCase Modify activity".png, id=463, 785.93625pt x 587.94656pt>
+[29 <./UseCase Creation of an activity.png>] [30]
+<"UseCase Modify activity".png, id=462, 785.93625pt x 587.94656pt>
 File: "UseCase Modify activity".png Graphic file (type png)
 
 <use "UseCase Modify activity".png>
+<<<<<<< HEAD
 Package pdftex.def Info: "UseCase Modify activity".png used on input line 549.
 (pdftex.def)             Requested size: 471.56538pt x 352.77066pt.
 
@@ -654,13 +740,33 @@ Overfull \hbox (80.05292pt too wide) in paragraph at lines 556--575
 
 [32] [33 <./UseCase Delete.png>] [34]
 Overfull \hbox (25.582pt too wide) in paragraph at lines 580--595
+=======
+Package pdftex.def Info: "UseCase Modify activity".png used on input line 588.
+(pdftex.def)             Requested size: 471.56538pt x 352.77066pt.
+
+<"UseCase Delete".png, id=463, 671.50874pt x 344.03531pt>
+File: "UseCase Delete".png Graphic file (type png)
+
+<use "UseCase Delete".png>
+Package pdftex.def Info: "UseCase Delete".png used on input line 617.
+(pdftex.def)             Requested size: 470.05292pt x 240.82307pt.
+
+Overfull \hbox (25.582pt too wide) in paragraph at lines 598--620
+[][]
+ []
+
+[31 <./UseCase Modify activity.png>] [32]
+Overfull \hbox (25.582pt too wide) in paragraph at lines 627--642
+>>>>>>> master
 [][] 
  []
 
-[35] <"UseCase Choose trip".png, id=493, 662.475pt x 519.44063pt>
+[33 <./UseCase Delete.png>]
+<"UseCase Choose trip".png, id=484, 662.475pt x 519.44063pt>
 File: "UseCase Choose trip".png Graphic file (type png)
 
 <use "UseCase Choose trip".png>
+<<<<<<< HEAD
 Package pdftex.def Info: "UseCase Choose trip".png used on input line 597.
 (pdftex.def)             Requested size: 430.60365pt x 337.6324pt.
 
@@ -670,22 +776,33 @@ Overfull \hbox (58.22847pt too wide) in paragraph at lines 597--598
 
 [36 <./UseCase Choose trip.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 613--614
+=======
+Package pdftex.def Info: "UseCase Choose trip".png used on input line 646.
+(pdftex.def)             Requested size: 430.60365pt x 337.6324pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 666--667
+>>>>>>> master
 []\OT1/cmr/m/n/12 Tap on "Ac-ti-va-te/Deactivate trans-por-ta-tion
  []
 
-<"UseCase Modify user preferences".png, id=499, 707.64375pt x 459.21562pt>
+<"UseCase Modify user preferences".png, id=485, 707.64375pt x 459.21562pt>
 File: "UseCase Modify user preferences".png Graphic file (type png)
 
 <use "UseCase Modify user preferences".png>
 Package pdftex.def Info: "UseCase Modify user preferences".png used on input li
+<<<<<<< HEAD
 ne 626.
+=======
+ne 681.
+>>>>>>> master
 (pdftex.def)             Requested size: 459.963pt x 298.4866pt.
 
-<"SequenceDiagram Modify user's preferences".png, id=500, 660.21657pt x 612.789
+<"SequenceDiagram Modify user's preferences".png, id=486, 660.21657pt x 612.789
 37pt>
 File: "SequenceDiagram Modify user's preferences".png Graphic file (type png)
  <use "SequenceDiagram Modify user's preferences".png>
 Package pdftex.def Info: "SequenceDiagram Modify user's preferences".png used o
+<<<<<<< HEAD
 n input line 627.
 (pdftex.def)             Requested size: 462.14844pt x 428.94963pt.
 
@@ -706,22 +823,48 @@ Overfull \hbox (72.14844pt too wide) in paragraph at lines 605--629
 [37] [38 <./UseCase Modify user preferences.png>] [39 <./SequenceDiagram Modify
  user's preferences.png>]
 Overfull \hbox (36.18472pt too wide) in paragraph at lines 650--652
+=======
+n input line 686.
+(pdftex.def)             Requested size: 462.14844pt x 428.94963pt.
+
+Overfull \hbox (25.582pt too wide) in paragraph at lines 658--689
+[][]
+ []
+
+[34 <./UseCase Choose trip.png>] [35] [36 <./UseCase Modify user preferences.pn
+g>] [37 <./SequenceDiagram Modify user's preferences.png>]
+Overfull \hbox (36.18472pt too wide) in paragraph at lines 713--715
+>>>>>>> master
 \OT1/cmr/m/n/12 This RA-SD is writ-ten try-ing to be con-for-med to the IEEE St
 an-dard (ISO/IEC/IEEE
  []
 
+<<<<<<< HEAD
 [40] [41] [42] [43] [44]
 Overfull \hbox (5.06862pt too wide) in paragraph at lines 687--688
+=======
+[38] [39] [40] [41]
+Overfull \hbox (5.06862pt too wide) in paragraph at lines 753--754
+>>>>>>> master
 [][]$\OT1/cmtt/m/n/12 http : / / www . iso . org / standard/$[] \OT1/cmr/m/n/12
  (For the sec-tion ``Stan-dard Com-plian-
  []
 
+<<<<<<< HEAD
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 691.
 [45]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 691.
  (./Latex.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 691.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 691.
+=======
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 757.
+[42]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 757.
+ (./Latex.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 757.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 757.
+>>>>>>> master
 Package rerunfilecheck Info: File `Latex.out' has not changed.
 (rerunfilecheck)             Checksum: D26DE88D88780D108531291588E8FFFD;3340.
 
@@ -730,13 +873,21 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  6928 strings out of 492995
  101005 string characters out of 6132703
  202700 words of memory out of 5000000
  10234 multiletter control sequences out of 15000+600000
+=======
+ 6925 strings out of 494437
+ 101459 string characters out of 6166644
+ 199007 words of memory out of 5000000
+ 10026 multiletter control sequences out of 15000+600000
+>>>>>>> master
  11234 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  32i,12n,35p,1505b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
+<<<<<<< HEAD
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
@@ -746,9 +897,21 @@ cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
 l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 Output written on Latex.pdf (49 pages, 2704624 bytes).
+=======
+</usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx8.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr17.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr8.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmtt12.pfb>
+Output written on Latex.pdf (46 pages, 2632292 bytes).
+>>>>>>> master
 PDF statistics:
- 617 PDF objects out of 1000 (max. 8388607)
- 518 compressed objects within 6 object streams
- 156 named destinations out of 1000 (max. 500000)
+ 603 PDF objects out of 1000 (max. 8388607)
+ 507 compressed objects within 6 object streams
+ 153 named destinations out of 1000 (max. 500000)
  462 words of extra memory for PDF output out of 10000 (max. 10000000)
 
