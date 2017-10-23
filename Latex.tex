@@ -22,19 +22,20 @@ allbordercolors=white
 %Code for title page
 \begin{titlepage}
 \centering
-\includegraphics[width=0.5\textwidth]{Logo}\par
+\includegraphics[width=0.4\textwidth]{Logo}\par
 	{{Politecnico di Milano} \par}
 	{{A.A. 2017/2018} \par}
 	\vspace{1.5cm}
-	%\includegraphics[width=0.2\textwidth]{worldAndmachine}\par
-	{\Large{\textsc{{{\color{red}{ \textbf{T}rav}}lendar{\color{red}{+}}}} \\ 
-		Software Engineering 2} \par}
+	\includegraphics[width=0.9\textwidth]{LogoTravlendar}\par
+	%{\Large{\textsc{{{\color{red}{ \textbf{T}rav}}lendar{\color{red}{+}}}} \\ 
+		%Software Engineering 2} \par}
 	\vspace{1.5cm}
-	{\huge \textbf{Requirements Analysis and Specification Document} \par}
+	{\Huge \textbf {RASD}\par}
+	{ \textbf{Requirements Analysis and Specification Document} \par}
 	\vspace{1.5cm}
 	{\Large\itshape Sara Pid\'o  }{\Large   {  894744}\par}
 	{\Large\itshape Chiara Plizzari }{\Large   {  893901}\par}
-	{\Large\itshape Giuseppe Severino\par}
+	{\Large\itshape Giuseppe Severino }{\Large   {  893901}\par}
 	\vspace{2cm}
 	\vfill
 	% Bottom of the page
@@ -44,11 +45,6 @@ allbordercolors=white
 \end{titlepage}
 
 
-
-
-%
-%\title{\textsc{Questo e' il titolo della mia tesi}}
-%\author{Pinco Pallino}
 
 
  
@@ -77,7 +73,7 @@ The main goal of this document is to describe the system by clearly specifying f
 RASD takes into account the limits and the constraints of the problem and its possible solutions. 
 It provides feedback to the costumer, it serves as an input to the design specification, as a product validation check and as a contractual basis between the costumer and the developer.
 Therefore, RASD should be a model that is directed towards ensuring that the final system conforms to client needs.
-The document is addressed to all customers and users, system and requirement analysists, developers and programmers who participate to the implementation of the requirements, testers and project managers.
+The document is addressed to all customers and users, system and requirement analysts, developers and programmers who participate to the implementation of the requirements, testers and project managers.
 
 \subsubsection{Purpose of the application}\label{RASD}
 The application should be useful for busy people that have to travel from a place to another one because of their engagements. It helps people by organizing their own calendar: it finds the best solution to reach a certain place in a specific time basing on user's preferences. 
@@ -178,16 +174,26 @@ Our application requires a smartphone (iOs/Android) to be executed and it requir
 It also requires an active GPS connection to identify the user's position. 
 Travlendar+ is similar to other pre-existing applications that compute the best route with the best means to reach a specific location (e.g. Moovit), and like them it is supported with updated time tables of all the travel means and with an estimation of travel time. 
 
+\begin{figure}
 \subsubsection{Class diagram}\label{sec:mod1}
-\includegraphics[scale=0.36]{"Class Diagram"} 
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.4]{"Class Diagramv2"} }
+\caption{Class Diagram}
+\end{figure}
+
+ \pagebreak
+ \begin{figure}
+\subsubsection{Statechart diagram }\label{sec:mod1}
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.6]{"Statemachine1"}  }
+\caption{Login}
+\par
+\makebox[\textwidth]{\includegraphics[scale=0.45]{"Statemachine2"} }
+\caption{Application}
+\end{figure}
+
+
  
-\subsubsection{Statechart diagram }
-\paragraph{Application Diagram} \mbox{}\\ 
- 
-\includegraphics[scale=0.47]{"Statemachine1"} 
-\paragraph{Activity Diagram} \mbox{}\\ 
- 
-\includegraphics[scale=0.40]{"Statemachine2"} 
 \pagebreak 
 \subsection{Product functions}\label{sec:mod1}
 We already identified the goals that characterized functionalities of Travlendar+. Instead, in this section, we offer a specific list of the main features of the application in order to explain better its utility. 
@@ -376,7 +382,8 @@ In case of exception the invalid fields are coloured with red. The visitor can't
 \end{tabular}
 
 \pagebreak
- 
+
+
 \includegraphics[scale=0.65]{"UseCase Registration"} 
 \includegraphics[scale=0.64]{"SequenceDiagram Registration"} 
 
