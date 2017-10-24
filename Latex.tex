@@ -1,6 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% BOZZA PER TESI DI LAUREA IN LATEX
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \documentclass[12pt,titlepage]{article}
 
@@ -35,7 +33,7 @@ allbordercolors=white
 	\vspace{1.5cm}
 	{\Large\itshape Sara Pid\'o  }{\Large   {  894744}\par}
 	{\Large\itshape Chiara Plizzari }{\Large   {  893901}\par}
-	{\Large\itshape Giuseppe Severino }{\Large   {  893901}\par}
+	{\Large\itshape Giuseppe Severino }{\Large   {  898458}\par}
 	\vspace{2cm}
 	\vfill
 	% Bottom of the page
@@ -285,8 +283,32 @@ We insert also an example of these components, even if it is not complete.
 Our application has been designed to be used through a smartphone or a tablet.
 The following mock-ups show the screens of the main features offered by the smartphone version. 
 
+\begin{figure}
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.15]{"mockup login"} }
+\caption{This is the login screen that appears when a visitor opens the application.}
+\end{figure}
 
-\includegraphics[scale=0.15]{"iPhoneX_mockup LOGIN"} 
+\begin{figure}
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.15]{"mockup meeting"} }
+\caption{This is the main screen that appears when a registered user logs in.}
+\end{figure}
+
+\begin{figure}
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.15]{"mockup options"} }
+\caption{To modify user's preferences, to go to the map screen and for other features, the user should tap on the menu icon on the left top corner.}
+\end{figure}
+
+
+\begin{figure}
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.15]{"mockup map"} }
+\caption{This is the screen that shows the map with all activities of the current day. Moreover it shows the different trips that the user should do.The activities are shown through a tap on the pointer.}
+\end{figure}
+
+
 
 \subsubsection{Hardware interfaces}\label{sec:mod1}
 The application does not require any hardware interface. 
@@ -557,10 +579,11 @@ Exception& The possible exception is that the user does not fill a mandatory fie
 \makebox[\textwidth]{\includegraphics[scale=0.5]{"UseCase Creation of an activity"}  }
 \caption{Use case of the creation of an activity}
 \end{figure}
-%\begin{figure}
-%\centering
-%\makebox[\textwidth]{\includegraphics[scale=0.55]{"SequenceDiagram Login"} } }
-%\end{figure}
+\begin{figure}
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.45]{"Sequence createActivity"} } 
+\caption{Sequence diagram of the creation of an activity}
+\end{figure}
 \clearpage
 \newpage
 
@@ -601,6 +624,11 @@ In the first case the invalid field is highlighted with red. In the second one t
 \caption{Use case of modifying an activity}
 
 \end{figure}
+\begin{figure}
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.45]{"Sequence modifyActivity"} } 
+\caption{Sequence diagram of the modification of an activity}
+\end{figure}
 \clearpage
 \newpage
 
@@ -630,6 +658,11 @@ Exception& The possible exceptions is that U has already tapped on "delete" but 
 \makebox[\textwidth]{\includegraphics[scale=0.7]{"UseCase Delete"} }
 \caption{Use case of deletion of an activity}
 
+\end{figure}
+\begin{figure}
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.45]{"Sequence deleteActivity"} } 
+\caption{Sequence diagram of deletion on an activity}
 \end{figure}
 \clearpage
 \newpage
@@ -663,7 +696,12 @@ In both cases a notification arrives on U's screen, and invites him/her to do an
 
 \end{figure}
 
+\begin{figure}
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.65]{"Sequence chooseFavouriteTrip"} }
+\caption{Sequence diagram of choosing the trip}
 
+\end{figure}
 
 
 \clearpage
