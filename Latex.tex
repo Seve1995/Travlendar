@@ -160,12 +160,10 @@ There are two types of actors:
 ments Specifications;
 \item "Alloy come strumento di analisi e progettazione di sistemi software" (graduate thesis of Claudio Vallorani);
 \item Alloy Language Reference;
-\item Example documents: 
-\begin{itemize}
-\item RASD sample from A.Y. 2015/2016;
-\item RASD sample from A.Y. 2016/2017;
+\item Example RASD of previous years;
+\item "Introduzione all'arte della composizione tipografica con LATEX".
 \end{itemize}
-\end{itemize}
+
 
 \subsection{Document structure}\label{RASD}
 This document is structured as follows:
@@ -239,12 +237,10 @@ Every time the system is updated with the information about the traffic, the wea
 
 
 \paragraph{Possible future implementations} 
-There are some interesting ideas that can be applied to Travlendar+ in the near future, for example: 
+There are some interesting ideas that can be applied to Travlendar+ in the near future. Here we make some examples.
 \begin{itemize}
 \item Users can specify in the calendar also how they want to spend their break time. If they have a lot of time between an appointment and another, they can decide to have an "entertainment break". In this case they will select it, and Travlendar+ will inform them of the entertainment activities near the meeting point (i.e. cinemas, museums...).
-\item The external websites on which Travlendar+ deals could be integrated. In this way users are not redirected to other websites, but they can manage all from the same application. For example, they would not need to use the Trenitalia's website to buy train tickets (this implies that they also have to register and insert their payment method to other websites ecc..), or they will not need to install other applications to use a vehicle-sharing service.  In order to do this, it will be requested to the user during the registration process to insert the payment data. Since the payment data need more protection, it could be implement a system that send the password to the user at the moment of the registration to guarantee more security.
-\item Users can invite friends to an event at which they participate. 
-\item Users can ask some friends that participate at the same meetings to share part of the trip with them.
+\item The external websites on which Travlendar+ deals could be integrated. In this way users are not redirected to other websites, but they can manage all from the same application. For example, they would not need to use the Trenitalia's website to buy train tickets (this implies that they also have to register and insert their payment method to other websites ecc..), or they will not need to install other applications to use a vehicle-sharing service.  In order to do this, it will be requested to the user during the registration process to insert the payment data. 
 \end{itemize}
 
 \subsection{User characteristics}\label{sec:mod1}
@@ -254,20 +250,20 @@ To own a personal calendar, the user must have a device with an internet connect
 
 \subsection{Assumptions, dependencies and constraints}\label{sec:mod1}
 \begin{itemize}
-\item To become a registered user, a visitor must either insert name, surname, username, password, email, address, date of birth, telephone number or sign up with Facebook or Twitter
-\item A visitor can see only the log in and registration page
-\item Password must be at least 8-characters long for security reason
-\item To log in a registered user must provide the username and the password associated to him/her
-\item A registered user can create an unlimited number of meetings
-\item The calendar for each user is unique
-\item When meetings overlap, or they can not be reached in the allotted time, a warning is created
-\item In order to buy public transportation's tickets or to use sharing systems the user is redirected to websites/apps that provide those services
-\item Warnings are visualized inside the meeting's information screen
-\item When a warning is generated, a notification is sent to the user's device 
-\item In the section ``My Account'' a user can modify personal data and can express global preferences (e.g. activate/deactivate each travel means, specify the minimum lunch duration)
-\item In the creation screen a user can specify the type of activity to be added (break or meeting)
-\item To create a meeting, users must insert name, location, date, starting/ending hours. Optionally they can also insert a brief description 
-\item To create a break, users must insert the type of break
+\item To become a registered user, a visitor must either insert name, surname, username, password, email, address, date of birth, telephone number or sign up with Facebook or Twitter.
+\item A visitor can see only the log in and registration page.
+\item Password must be at least 8-characters long for security reason.
+\item To log in a registered user must provide the username and the password associated to him/her.
+\item A registered user can create an unlimited number of meetings.
+\item The calendar for each user is unique.
+\item When meetings overlap, or they can not be reached in the allotted time, a warning is created in order to make the user modify meetings or trips.
+\item In order to buy public transportation's tickets or to use vehicle sharing systems the user is redirected to websites/apps that provide those services.
+\item Warnings are visualized inside the meeting's information screen.
+\item When a warning is generated, a notification is sent to the user's device .
+\item In the section ``My Account'' a user can modify personal data and can express global preferences (e.g. activate/deactivate each travel means, specify the minimum lunch duration).
+\item In the creation screen a user must specify the type of activity to be added (break or meeting).
+\item To create a meeting, users must insert name, location, date, starting/ending hours. Optionally they can also insert a brief description.
+\item The application is real-time informed about traffic, weather and strikes.
 \end{itemize}
 
 
@@ -446,7 +442,7 @@ Dybala is a very busy football player that lives in Turin. Tomorrow morning he i
 Giuseppe is a student at Politecnico of Milan. In view of the exams session, he has few time but he does not want to give up a good lunch with his friends. Therefore, he specifies in the "My Account" section of Travlendar+ that everyday he needs at least 30 minutes free to have a comfortable lunch between 11.30 am and 2.30 pm. He inserts the schedule of all his lessons. After having inserted the Formal Languages and Compilers's lesson of Wednesday, a warning appears to report an overlap with the fixed time reserved for the lunch. He can ignore the warning and decide what he prefers to do.
 
 \paragraph{Scenario 3}
-Carlo Cracco is a famous chef that has two restaurants in Milan. He would like to open a new restaurant in Verona. So he has to go to Verona to search for a place that can be restored as he likes and to meet architects and designers to decide all details of the new restaurant. He would like to have a coffee break between the afternoon appointments to restore himself. Therefore he uses Travlendar+ to organize the full day. He inserts all the meetings and he also inserts the coffee break: pressing the plus symbol in the main screen, Carlo selects the type ``Break'', choose the ``Coffee break'', he inserts the minimum duration for the break and he is readdressed to the website ``TripAdvisor''. In this way the chef can see what coffee is opened near the two appointments that he has before and after the break and he can choose the best one.
+Carlo Cracco is a famous chef that has two restaurants in Milan. He would like to open a new restaurant in Verona. So he has to go to Verona to search for a place that can be restored as he likes and to meet architects and designers to decide all details of the new restaurant. He would like to have a coffee break between the afternoon appointments to restore himself. Therefore he uses Travlendar+ to organize the full day. He inserts all the meetings and he also inserts the coffee break: pressing the plus symbol in the main screen, Carlo selects the type ``Break'', he inserts the minimum duration for the break and he is readdressed to the website ``TripAdvisor''. In this way the chef can see what coffee is opened near the two appointments that he has before and after the break and he can choose the best one.
 
 \paragraph{Scenario 4}
 Lorenzo Fragola is a young boy with a strong passion for singing, so he decides to go to an audition for XFactor, the most famous music talent show in Italy. The audition will take place on the 30th of July in Milan, at Arena Civica. Lorenzo lives in Catania and decides to use Travlendar+ to program the trip for the audition. He inserts the meeting in the system, with the date, the location and the time, and vizualizes the trip. The two available means suggested by the application are the train, which takes 13 hours, and the car, which takes 14 hours. Since both take too long, he decides to organize himself the trip with the plane. Once he will be in Milan, he will use the application to go to the Arena Civica. The trip suggested is by autobus from the airport to the railway station, and than by metro to the Arena. Unfortunately, one week before the audition, a warning appears on his phone: on the day of the audition there will be a strike of ATM! At first time Lorenzo is a little bit worried, but immediately sees that Travlendar+ has suggested him an alternative trip by car (taxi or car sharing) from the railway station to the Arena. He will choose at that day the best option. When the moment arrives, he selects car sharing as favourite means, and the application redirects him on the playstore to download the Enjoy's application (the car sharing service). Through Enjoy's application he can see that there is a car near the station and he can book it.
@@ -459,15 +455,22 @@ He has to insert a lot of personal informations: name Donald, surname Trump, dat
 Once he finishes to compile, he clicks "Sign in" and the screen for the registered users appears: there is the screen with the schedule of the day that is obviously empty for new users.
 
 \paragraph{Scenario 6}
+Mr. Bean is a very busy man that uses Travlendar+ to manage his great number of appointments. Once he inserts a work meeting in the morning between 10.00 and 12.00, he decides to go with his loved car. After that he knows that he has to be present to a ceremony for his teddy bear's birthday that should start on 11.45 a.m.. This cannot be possible!!! Travlendar+ notifies him with a warning that there is an overlap between two appointment. Therefore Mr Bean closes the warning and decides to go out of the conference before to arrive on time at the birthday.
+Mr Bean is very excited and decides to have a stop in a toy shop to buy a present. So he inserts in the application the new activity but there is another problem. With a warning, Travlendar+ warns him that if he wants to arrive on time at the ceremony, he cannot go to the shop. Hence he does not confirm the creation of the activity.
+
+\paragraph{Scenario 7}
 Leonardo DiCaprio is a famous actor that has always been active in fighting climate change. To raise awareness among the people about the environmental problems, he has the idea to live stream one of his ordinary day to show people the importance of using means of transport that minimize carbon footprint. 
 Leonardo decides to use Travlendar+ in order to arrange his trips in the day. Once the application is installed and he creates his personal account, Leonardo inserts three activities (all in New York) to be performed during the day. The application now suggests the ideal route that minimize travel durations, but in order to pursue his goal Leonardo enter the "My Account" section of the app and then he enables, in the preferences' area, the option "Minimize footprint". The route suggested by the application seems to be more eco-friendly, for example Travlendar+ proposes to him to rent a bike or to use a service of electric car sharing.
 
-\paragraph{Scenario 7}
+\paragraph{Scenario 8}
 Claire is going to have a marry of her best friend on Sunday morning. Since after the ceremony there will be a big party with food and drink, she decides not to drive. To discover the best option to reach the church, she uses Travlendar+. The application suggests her to take the metro and then to walk for ten minutes from the underground station to to the destination. It's all perfect for her, but unfortunately she wakes up on Sunday morning and it is raining. She can not affords to walk under the rain because she has just gone to the hairdresser! She immediately logs in to the application to check an alternative trip. Travlendar+, that has an updated weather forecast, has already changed the trip: it suggests her to take the tram once exited from the underground station instead of walking. She notices looking at the tram schedule in the activity's details that she will not take much more to go there with this alternative, because trams of line 34 stops every 13 minutes. She will reach the destination in time.
 
-\paragraph{Scenario 8}
+\paragraph{Scenario 9}
 Guglielmo is a Computer science engineer. He works for a big company: he earns a lot of money. Because he often had to move, he used a lot his car. Guglielmo was very reckless, in fact he went on taking fines, even very expensive. He didn't care about it. But once the police gave him another big fine and withdrew his driving licence and confiscate his car.
 Since he lives in Milan and he hates public transports, he decides to try the application Travlendar+. He enrolles in the app and in the section "My Account" he deactivates every public transportations and sharing cars. He has to go to work: when the trip is suggested, he presses on bike sharing's option because he really love the speed and he has a lot of time to reach the location. Guglielmo is redirected to the Ofo's application and from that application he can see where is the nearest bike. Finally he can go fast without taking any fine!
+
+
+
 
 \pagebreak
 \subsubsection{Use case diagrams}\label{sec:mod1}
@@ -777,7 +780,8 @@ This RASD is written trying to be conformed to the IEEE Standard (ISO/IEC/IEEE 2
 We would like that our application's life cycle process is conformed to the IEEE Standard, in particular to ISO/IEC 12207 dated 2008.
 
 \subsubsection{Hardware limitation}\label{sec:mod1}
-Since it is a mobile application, Travlendar+ requires a smartphone or a tablet with internet connection and with the GPS to find the location of the user. 
+Since it is a mobile application, Travlendar+ requires a smartphone or a tablet with internet connection and with the GPS to find the location of the user.
+Moreover users must have enough storage space to install Travlendar+. 
 
 \subsubsection{Any other constraint}\label{sec:mod1}
 \subsection{Software system attributes}\label{sec:mod1}
@@ -786,14 +790,9 @@ The system must be active 24/7 to guarantee all the services in every occasion.
 
 \subsubsection{Availability}\label{sec:mod1}
 \subsubsection{Security}\label{sec:mod1}
-\paragraph{External Interface Side} 
-Travlendar+ application is equipped with a login authentication to protect the information of users. Some precautions about the password are necessary to limit vulnerability and to guarantee a complete security of the user?s payment data. First, in order to avoid brute force attacks, it is necessary to develop a system that requires a strong password, for example containing at least 8 characters comprehensive of numbers and capital letters. This expedient is not sufficient against key logger attacks, against which is needed multi-factor authentication. A possible solution is a two-factor authentication, for example with a code sent by email or sms to the user. 
 
-\paragraph{Application side}
-The application layer is the hardest to defend. To prevent injection attacks it is useful to employ comprehensive data sanitization or to use a web application firewall. Moreover, to avoid sensitive data exposure, such as the credit cards or authentication credentials, it is needed the implementation security measures like the encryption of the data or the definition of accessibility, secure authentication gateway (for example the use of the advanced standard security technology like SST or TSL) and a backup plan.
+Travlendar+ application is equipped with a login authentication to protect the information of users. Some precautions about the password are necessary to limit vulnerability and to guarantee a complete security of the user's payment data. First, in order to avoid brute force attacks, it is necessary to develop a system that requires a strong password, for example containing at least 8 characters comprehensive of numbers and capital letters.
 
-\paragraph{Server side}
-An idea to implement the server side architecture is to strongly separate the data from application and to use firewalls to separate one zone to each others. 
 
 
 \subsubsection{Maintenability}\label{sec:mod1}
@@ -812,8 +811,9 @@ The total amount of time required to build this document is about 33 hours of wo
 
 \section{References}\label{sec:crit}
 \begin{itemize}
-\item [{[1]}] \url{http://www.1202performance.com/} (To understand the part of performance requirements)
-\item [{[2]}] \url{http://www.iso.org/standard/} (For the section ``Standard Compliance'')
+\item Professor Rossi's slides;
+\item [{[1]}] \url{http://www.1202performance.com/} (To understand the part of performance requirements);
+\item [{[2]}] \url{http://www.iso.org/standard/} (For the section ``Standard Compliance'').
 \end{itemize}
 
 

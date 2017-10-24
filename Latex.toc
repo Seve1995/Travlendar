@@ -52,19 +52,17 @@
 \contentsline {paragraph}{Scenario 6}{23}{section*.19}
 \contentsline {paragraph}{Scenario 7}{24}{section*.20}
 \contentsline {paragraph}{Scenario 8}{24}{section*.21}
-\contentsline {subsubsection}{\numberline {3.2.2}Use case diagrams}{25}{subsubsection.3.2.2}
-\contentsline {subsection}{\numberline {3.3}Performance requirements}{46}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Design constraints}{46}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Standards compliance}{46}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Hardware limitation}{47}{subsubsection.3.4.2}
-\contentsline {subsubsection}{\numberline {3.4.3}Any other constraint}{47}{subsubsection.3.4.3}
-\contentsline {subsection}{\numberline {3.5}Software system attributes}{47}{subsection.3.5}
-\contentsline {subsubsection}{\numberline {3.5.1}Reliability}{47}{subsubsection.3.5.1}
-\contentsline {subsubsection}{\numberline {3.5.2}Availability}{47}{subsubsection.3.5.2}
-\contentsline {subsubsection}{\numberline {3.5.3}Security}{47}{subsubsection.3.5.3}
-\contentsline {paragraph}{External Interface Side}{47}{section*.22}
-\contentsline {paragraph}{Application side}{47}{section*.23}
-\contentsline {paragraph}{Server side}{48}{section*.24}
+\contentsline {paragraph}{Scenario 9}{24}{section*.22}
+\contentsline {subsubsection}{\numberline {3.2.2}Use case diagrams}{26}{subsubsection.3.2.2}
+\contentsline {subsection}{\numberline {3.3}Performance requirements}{47}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Design constraints}{47}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Standards compliance}{47}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Hardware limitation}{48}{subsubsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.3}Any other constraint}{48}{subsubsection.3.4.3}
+\contentsline {subsection}{\numberline {3.5}Software system attributes}{48}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}Reliability}{48}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}Availability}{48}{subsubsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.3}Security}{48}{subsubsection.3.5.3}
 \contentsline {subsubsection}{\numberline {3.5.4}Maintenability}{48}{subsubsection.3.5.4}
 \contentsline {subsubsection}{\numberline {3.5.5}Portability}{48}{subsubsection.3.5.5}
 \contentsline {section}{\numberline {4}Formal analysis using alloy}{49}{section.4}
