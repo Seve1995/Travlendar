@@ -67,21 +67,21 @@ allbordercolors=white
 \medskip
 \subsubsection{Description of the RASD}\label{RASD}
 RASD stands for Requirements Analysis and Specification Document.
-The main goal of this document is to describe the system by clearly specifying functional and non-functional requirements in structured though informal form in order to provide a guideline.
+The main goal of this document is to describe the system by clearly specifying functional and non-functional requirements in a structured though informal form in order to provide a guideline.
 RASD takes into account the limits and the constraints of the problem and its possible solutions. 
-It provides feedback to the costumer, it serves as an input to the design specification, as a product validation check and as a contractual basis between the costumer and the developer.
+It provides feedback to the customer, it serves as an input to the design specification, as a product validation check and as a contractual basis between the customer and the developer.
 Therefore, RASD should be a model that is directed towards ensuring that the final system conforms to client needs.
-The document is addressed to all customers and users, system and requirement analysts, developers and programmers who participate to the implementation of the requirements, testers and project managers.
+The document is addressed to all customers and users, system and requirement analysts, developers and programmers who participate in the implementation of the requirements, testers and project managers.
 
 \subsubsection{Purpose of the application}\label{RASD}
-The application should be useful for busy people that have to travel from a place to another one because of their engagements. It helps people in organizing their own calendar: it finds the best solution to reach a certain place in a specific time basing on user's preferences. 
+The application should be useful for busy people that have to travel from a place to another one because of their engagements. It helps people by organizing their own calendar: it finds the best solution to reach a certain place in a specific time basing on user's preferences. 
 Users are able to see their meetings, their journey between them, their breaks and in every time they can modify their day calendar by modifying an activity or deleting it.
 
 \subsection{Scope}\label{RASD}
 \subsubsection{Description of the given problem}\label{RASD}
 We want to create a calendar-based application which name is Travlendar+. It is a software that provides a support to everyone that has scheduling meetings at various locations. It helps the user in finding the best option to reach the destination in the optimal conditions and at a fixed time. 
 Once the user has registered and has inserted time and place of his/her meetings, the system automatically computes and accounts for travel time between appointments, to make sure that the client will not be late. Moreover, the user will be warned if the location is not reachable at the allotted time. Other services are provided, such as the possibility to identify the best mobility option basing on user's preferences (preference or avoidance for a determined mean) and on external conditions (weather, strikes), the opportunity to buy public transportation tickets and to locate the nearest bike of a bike sharing system or the nearest car of a car sharing system. It is also possible to select combinations of transportations means that minimize carbon footprint and to specify the maximum walking distance.
-Thanks to this application the users can also organize in a customizable way their break time between and appointment and one other, for example by managing a flexible lunch. 
+Thanks to this application the users can also organize in a customizable way their break time between an appointment and one other, for example by managing a flexible lunch. 
 
 \subsubsection{Actual system}\label{RASD}
 Even if there already exist applications that allow users to find the best travel solution, this is a new kind of application for the innovative idea of managing the time. Therefore, we assume that the whole system will be created by new.
@@ -131,11 +131,11 @@ There are two types of actors:
 \subsection{Definitions, acronyms, abbreviations}\label{RASD}
 \subsubsection{Definitions}\label{RASD}
 \begin{itemize}
-\item Visitor: a person that is not registered yet, but has the access to the application's information.
-\item	Registered user: a person that is logged in the system and can create activities.
+\item Visitor: a person that is not registered yet, but has the access to the application's information 
+\item	Registered user: a person that is logged in the system and can create meetings.
 \item	Activity: an event that happens in the real world and that could be a meeting or a break.
 \item	Meeting: an activity among the registered user and other people. It can be created, modified and deleted by the meeting's creator. 
-\item	Break: an activity that a registered user can insert in order to manage it in a customizable way.
+\item	Break: an activity that a registered user can insert in order to manage it in a customizable way
 \item Trip: it indicates the route and the travel means chosen, based on user's preferences.
 \item Global preferences: they are global attributes that registered users can modify and those are valid for all trips (i.e. minimize carbon footprint).
 \item	Creation screen: the screen of the application in which the registered user create a meeting or a break and enters its related details.
@@ -158,11 +158,10 @@ There are two types of actors:
 \item Specification Document: Mandatory project assignment;
 \item IEEE Std 830-1998 IEEE Recommended Practice for Software Require-
 ments Specifications;
-\item ``Alloy come strumento di analisi e progettazione di sistemi software" (graduate thesis of Claudio Vallorani);
+\item "Alloy come strumento di analisi e progettazione di sistemi software" (graduate thesis of Claudio Vallorani);
 \item Alloy Language Reference;
 \item Example RASD of previous years;
-\item ``\\
-Introduzione all'arte della composizione tipografica con LATEX".
+\item "Introduzione all'arte della composizione tipografica con LATEX".
 \end{itemize}
 
 
@@ -171,13 +170,13 @@ This document is structured as follows:
 \paragraph{Section 1: Introduction}
 In this section it is described the purpose of this document, the main goals of the given problem and a brief description of its main characteristics. 
 \paragraph{Section 2: Overall Description}
-It provides further information about the application with a summary of major functions and it states all the assumptions and the constraints.
+It provides further information about the application with a summary of major functions and it states all the assumptions and the constraints 
 \paragraph{Section 3: Specific Requirements}
-In this part we include more details about the requirements.
+In this part we include more details about the requirements 
 \paragraph{Section 4: Formal Analysis using Alloy}
 This section provides the Alloy model and all the proves that it supplies.
 \paragraph{Section 5: Effort spent}
-Here are reported the information about the hours of work spent by each member of the group by doing this project.
+Here are reported the information about the hours of work spent by each member of the group by doing this project 
 \paragraph{Section 6: References}
 \pagebreak
 
@@ -196,7 +195,9 @@ Travlendar+ is similar to other pre-existing applications that compute the best 
 \caption{Class Diagram}
 \end{figure}
 
- \pagebreak
+
+ \clearpage
+\newpage
  \begin{figure}
 \subsubsection{Statechart diagram }\label{sec:mod1}
 \centering
@@ -207,7 +208,8 @@ Travlendar+ is similar to other pre-existing applications that compute the best 
 \caption{Application}
 \end{figure}
 
-
+\clearpage
+\newpage
  
 \pagebreak 
 \subsection{Product functions}\label{sec:mod1}
@@ -231,7 +233,7 @@ Travlendar+ offers a lot of options that can be customized, for example, the use
 \end{itemize}
 
 \paragraph{The best route's computation}
-Once a meeting is created Travlendar+ suggests the best route between the previous, the current and the next activity of the day that satisfies the constraints of the user. If the user is not satisfied with the proposed trip, he/she can choose another one trip between those suggested by the app.
+Once a meeting is created Travlendar+ suggests the best route between the previous, the current and the next activity that satisfies the constraints of the user. If the user is not satisfied with the proposed trip, he/she can choose another one between those suggested by the app.
 
 \paragraph{Real-time information}
 Every time the system is updated with the information about the traffic, the weather, strikes etc. The user can either receive the respective notification or visualize all the warnings on the main screen. All these warnings influence the choice of the travel means for the trip. 
@@ -292,19 +294,22 @@ The following mock-ups show the screens of the main features offered by the smar
 \makebox[\textwidth]{\includegraphics[scale=0.15]{"mockup login"} }
 \caption{This is the login screen that appears when a visitor opens the application.}
 \end{figure}
-
+\clearpage
+\newpage
 \begin{figure}
 \centering
 \makebox[\textwidth]{\includegraphics[scale=0.15]{"mockup meeting"} }
 \caption{This is the main screen that appears when a registered user logs in.}
 \end{figure}
-
+\clearpage
+\newpage
 \begin{figure}
 \centering
 \makebox[\textwidth]{\includegraphics[scale=0.15]{"mockup options"} }
 \caption{To modify user's preferences, to go to the map screen and for other features, the user should tap on the menu icon on the left top corner.}
 \end{figure}
-
+\clearpage
+\newpage
 
 \begin{figure}
 \centering
@@ -312,7 +317,8 @@ The following mock-ups show the screens of the main features offered by the smar
 \caption{This is the screen that shows the map with all activities of the current day. Moreover, it shows the different trips that the user should do.The activities are shown through a tap on the pointer.}
 \end{figure}
 
-
+\clearpage
+\newpage
 
 \subsubsection{Hardware interfaces}\label{sec:mod1}
 The application does not require any hardware interface. 
