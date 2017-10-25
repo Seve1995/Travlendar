@@ -29,8 +29,8 @@
 \contentsline {paragraph}{Offline mode}{8}{section*.8}
 \contentsline {paragraph}{Map}{8}{section*.9}
 \contentsline {paragraph}{Personalization}{8}{section*.10}
-\contentsline {paragraph}{The best route's computation}{8}{section*.11}
 \contentsline {subsubsection}{\numberline {2.1.2}Statechart diagram }{9}{subsubsection.2.1.2}
+\contentsline {paragraph}{The best route's computation}{10}{section*.11}
 \contentsline {paragraph}{Real time informations}{10}{section*.12}
 \contentsline {paragraph}{Possible future implementations}{10}{section*.13}
 \contentsline {subsection}{\numberline {2.3}User characteristics}{10}{subsection.2.3}
