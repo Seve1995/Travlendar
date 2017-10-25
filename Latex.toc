@@ -31,7 +31,7 @@
 \contentsline {paragraph}{Map}{9}{section*.9}
 \contentsline {paragraph}{Personalization}{9}{section*.10}
 \contentsline {paragraph}{The best route's computation}{9}{section*.11}
-\contentsline {paragraph}{Real time informations}{10}{section*.12}
+\contentsline {paragraph}{Real-time information}{10}{section*.12}
 \contentsline {paragraph}{Possible future implementations}{10}{section*.13}
 \contentsline {subsection}{\numberline {2.3}User characteristics}{10}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Assumptions, dependencies and constraints}{11}{subsection.2.4}
@@ -63,7 +63,7 @@
 \contentsline {subsubsection}{\numberline {3.5.1}Reliability}{48}{subsubsection.3.5.1}
 \contentsline {subsubsection}{\numberline {3.5.2}Availability}{48}{subsubsection.3.5.2}
 \contentsline {subsubsection}{\numberline {3.5.3}Security}{48}{subsubsection.3.5.3}
-\contentsline {subsubsection}{\numberline {3.5.4}Maintenability}{48}{subsubsection.3.5.4}
+\contentsline {subsubsection}{\numberline {3.5.4}Maintainability}{48}{subsubsection.3.5.4}
 \contentsline {subsubsection}{\numberline {3.5.5}Portability}{48}{subsubsection.3.5.5}
 \contentsline {section}{\numberline {4}Formal analysis using alloy}{49}{section.4}
 \contentsline {section}{\numberline {5}Effort spent}{50}{section.5}

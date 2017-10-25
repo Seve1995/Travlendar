@@ -112,7 +112,7 @@ Users should be able to:
 \item [{[G\ped{7}]}]	 provide constraints on different travel means;
 \item [{[G\ped{8}]}]	buy public transportation tickets or day/week/season pass basing on their needs;
 
-\item [{[G\ped{9}]}]	see on Tripadvisor adviced places when they insert new breaks;
+\item [{[G\ped{9}]}]	see on Tripadvisor advised places when they insert new breaks;
 \item [{[G\ped{10}]}]	choose the favourite travel option basing on travel time and travel means;
 \item [{[G\ped{11}]}]	locate the nearest vehicle of a vehicle sharing system exploiting its application;
 \item [{[G\ped{12}]}]	know if they cannot arrive on time to a certain meeting;
@@ -123,7 +123,7 @@ Users should be able to:
 There are two types of actors:
 \begin{itemize}
 \item Visitors: people that download the application and that are not registered in the system but they have free access to the login page, the sign-up page.
-\item Registered users: they can see all the pages available to visitors and after successful login they can take advantage of all the services of the application.
+\item Registered users: they can see all the pages available to visitors and after successful login, they can take advantage of all the services of the application.
 
 \end{itemize}
 
@@ -137,7 +137,7 @@ There are two types of actors:
 \item	Meeting: an activity among the registered user and other people. It can be created, modified and deleted by the meeting's creator. 
 \item	Break: an activity that a registered user can insert in order to manage it in a customizable way
 \item Trip: it indicates the route and the travel means chosen, based on user's preferences.
-\item Global preferences: they are global attributes that registered users can modify and that are valid for all trips (i.e. minimize carbon footprint).
+\item Global preferences: they are global attributes that registered users can modify and those are valid for all trips (i.e. minimize carbon footprint).
 \item	Creation screen: the screen of the application in which the registered user create a meeting or a break and enters its related details.
 \item Blocked travel means: it is a travel means that the user has selected as unwanted.
 \end{itemize}
@@ -155,7 +155,7 @@ There are two types of actors:
 
 \subsection{Reference documents}\label{RASD}
 \begin{itemize}
-\item Specification Documenti: Mandatory project assignment;
+\item Specification Document: Mandatory project assignment;
 \item IEEE Std 830-1998 IEEE Recommended Practice for Software Require-
 ments Specifications;
 \item "Alloy come strumento di analisi e progettazione di sistemi software" (graduate thesis of Claudio Vallorani);
@@ -186,7 +186,7 @@ Here are reported the information about the hours of work spent by each member o
 \subsection{Product perspective}\label{sec:mod1}
 Our application requires a smartphone (iOs/Android) to be executed and it requires an internet connection in order to benefit from the application's main services.
 It also requires an active GPS connection to identify the user's position. 
-Travlendar+ is similar to other pre-existing applications that compute the best route with the best means to reach a specific location (e.g. Moovit), and like them it is supported with updated time tables of all the travel means and with an estimation of travel time. 
+Travlendar+ is similar to other pre-existing applications that compute the best route with the best means to reach a specific location (e.g. Moovit), and like them, it is supported with updated timetables of all the travel means and with an estimation of travel time. 
 
 \begin{figure}
 \subsubsection{Class diagram}\label{sec:mod1}
@@ -216,16 +216,16 @@ Travlendar+ is similar to other pre-existing applications that compute the best 
 We already identified the goals that characterized functionalities of Travlendar+. Instead, in this section, we offer a specific list of the main features of the application in order to explain better its utility. 
 
 \paragraph{Offline mode}
-Travlendar+ could be used in offline mode simply as a basic calendar. Users' can visualize in the main screen all their activities for the day, by clicking them they can see all details about the location and the time. In this mode it isn't possible to see the map with the computed trips. Users' can also insert new activities by pressing the plus button, whereas if they click on the calendar icon, they are able to visualize the whole calendar. 
+Travlendar+ could be used in offline mode simply as a basic calendar. Users' can visualize on the main screen all their activities for the day, by clicking them they can see all details about the location and the time. In this mode, it isn't possible to see the map with the computed trips. Users' can also insert new activities by pressing the plus button, whereas if they click on the calendar icon, they are able to visualize the whole calendar. 
 
 \paragraph{Map}
-The application offers the possibility to visualize the map of the interested area. If there is any activity saved in the calendar for the current day, an indicator is shown in its location. On the map a blue line highlights the trip between the different meetings of the day. By pressing an activity appears also the chosen path to reach it from the actual location. By pressing "GO" it can be visualized the whole path of the day.
+The application offers the possibility to visualize the map of the interested area. If there is any activity saved in the calendar for the current day, an indicator is shown in its location. On the map, a blue line highlights the trip between the different meetings of the day. By pressing an activity appears also the chosen path to reach it from the actual location. By pressing "GO" it can be visualized the whole path of the day.
 
 \paragraph{Personalization}
-Travlendar+ offers a lot of options that can be customized, for example the user can:
+Travlendar+ offers a lot of options that can be customized, for example, the user can:
 \begin{itemize}
-\item{Specify a minimum duration of the lunch time;}
-\item {Specify everyday lunch time;}
+\item{Specify a minimum duration of the lunchtime;}
+\item {Specify everyday lunchtime;}
 \item{Activate or deactivate travel means;}
 \item{Insert the maximum walking distance;}
 \item{Select combinations of transportation means that minimize carbon footprint;}
@@ -235,15 +235,15 @@ Travlendar+ offers a lot of options that can be customized, for example the user
 \paragraph{The best route's computation}
 Once a meeting is created Travlendar+ suggests the best route between the previous, the current and the next activity that satisfies the constraints of the user. If the user is not satisfied with the proposed trip, he/she can choose another one between those suggested by the app.
 
-\paragraph{Real time informations}
-Every time the system is updated with the information about the traffic, the weather, strikes etc. The user can either receive the respective notification or visualize all the warnings in the main screen. All this warnings influence the choice of the travel means for the trip. 
+\paragraph{Real-time information}
+Every time the system is updated with the information about the traffic, the weather, strikes etc. The user can either receive the respective notification or visualize all the warnings on the main screen. All these warnings influence the choice of the travel means for the trip. 
 
 
 \paragraph{Possible future implementations} 
 There are some interesting ideas that can be applied to Travlendar+ in the near future. Here we make some examples.
 \begin{itemize}
-\item Users can specify in the calendar also how they want to spend their break time. If they have a lot of time between an appointment and another, they can decide to have an "entertainment break". In this case they will select it, and Travlendar+ will inform them of the entertainment activities near the meeting point (i.e. cinemas, museums...).
-\item The external websites on which Travlendar+ deals could be integrated. In this way users are not redirected to other websites, but they can manage all from the same application. For example, they would not need to use the Trenitalia's website to buy train tickets (this implies that they also have to register and insert their payment method to other websites ecc..), or they will not need to install other applications to use a vehicle-sharing service.  In order to do this, it will be requested to the user during the registration process to insert the payment data. 
+\item Users can specify in the calendar also how they want to spend their break time. If they have a lot of time between an appointment and another, they can decide to have an "entertainment break". In this case, they will select it, and Travlendar+ will inform them of the entertainment activities near the meeting point (i.e. cinemas, museums...).
+\item The external websites on which Travlendar+ deals could be integrated. In this way, users are not redirected to other websites, but they can manage all from the same application. For example, they would not need to use the Trenitalia's website to buy train tickets (this implies that they also have to register and insert their payment method to other websites etc..), or they will not need to install other applications to use a vehicle-sharing service.  In order to do this, it will be requested to the user during the registration process to insert the payment data. 
 \end{itemize}
 
 \subsection{User characteristics}\label{sec:mod1}
@@ -254,17 +254,17 @@ To own a personal calendar, the user must have a device with an internet connect
 \subsection{Assumptions, dependencies and constraints}\label{sec:mod1}
 \begin{itemize}
 \item To become a registered user, a visitor must either insert name, surname, username, password, email, address, date of birth, telephone number or sign up with Facebook or Twitter.
-\item A visitor can see only the log in and registration page.
+\item A visitor can see only the login and registration page.
 \item Password must be at least 8-characters long for security reason.
-\item To log in a registered user must provide the username and the password associated to him/her.
+\item To log in a registered user must provide the username and the password associated with him/her.
 \item A registered user can create an unlimited number of meetings.
 \item The calendar for each user is unique.
 \item When meetings overlap, or they can not be reached in the allotted time, a warning is created in order to make the user modify meetings or trips.
-\item In order to buy public transportation's tickets or to use vehicle sharing systems the user is redirected to websites/apps that provide those services.
+\item In order to buy public transportation's tickets or to use vehicle sharing systems, the user is redirected to websites/apps that provide those services.
 \item Warnings are visualized inside the meeting's information screen.
 \item When a warning is generated, a notification is sent to the user's device .
 \item In the section ``My Account'' a user can modify personal data and can express global preferences (e.g. activate/deactivate each travel means, specify the minimum lunch duration).
-\item In the creation screen a user must specify the type of activity to be added (break or meeting).
+\item In the creation screen, a user must specify the type of activity to be added (break or meeting).
 \item To create a meeting, users must insert name, location, date, starting/ending hours. Optionally they can also insert a brief description.
 \item The application is real-time informed about traffic, weather and strikes.
 \end{itemize}
@@ -273,7 +273,7 @@ To own a personal calendar, the user must have a device with an internet connect
 \begin{figure}
 \subsection{The World and The Machine}\label{sec:mod1}
 \begin{flushleft}
-In order to analyze Travlendar+, we would like to consider The World and Machine model. It was presented in 1995 by M.Jackson and P.Zave and it is useful to identify requirements. In this way we can divide them in three parts: the portion of the real-world that interact with the application (the World), the portion of the system to be developed (the Machine) and the intersection between the two (Shared phenomena), that are all world informations known or managed by Travlendar+.
+In order to analyze Travlendar+, we would like to consider The World and Machine model. It was presented in 1995 by M.Jackson and P.Zave and it is useful to identify requirements. In this way, we can divide them into three parts: the portion of the real-world that interact with the application (the World), the portion of the system to be developed (the Machine) and the intersection between the two (Shared phenomena), that are all world information known or managed by Travlendar+.
 We insert also an example of these components, even if it is not complete.
 \end{flushleft}
 
@@ -314,7 +314,7 @@ The following mock-ups show the screens of the main features offered by the smar
 \begin{figure}
 \centering
 \makebox[\textwidth]{\includegraphics[scale=0.15]{"mockup map"} }
-\caption{This is the screen that shows the map with all activities of the current day. Moreover it shows the different trips that the user should do.The activities are shown through a tap on the pointer.}
+\caption{This is the screen that shows the map with all activities of the current day. Moreover, it shows the different trips that the user should do.The activities are shown through a tap on the pointer.}
 \end{figure}
 
 \clearpage
@@ -324,17 +324,17 @@ The following mock-ups show the screens of the main features offered by the smar
 The application does not require any hardware interface. 
 
 \subsubsection{Software interfaces}\label{sec:mod1}
-Travlendar+ does not provide for itself the possibility to directly buy the public transportation's tickets and the possibility to use sharing systems, but redirects the user to the corresponding website or, if it's already installed in the device, to the corresponding app.
+Travlendar+ does not provide for itself the possibility to directly buy public transportation's tickets and the possibility to use sharing systems, but redirects the user to the corresponding website or, if it's already installed in the device, to the corresponding app.
 
 \subsubsection{Communication interfaces}\label{sec:mod1}
-The application needs an internet connection on the device in order to receive real-time information about traffic, strikes and weather. Furthermore, it's required also for the communication with third party services that are provided in Travlendar+. 
+The application needs an internet connection on the device in order to receive real-time information about traffic, strikes and weather. Furthermore, it's required also for the communication with third-party services that are provided in Travlendar+. 
 
 \subsection{Functional requirements}\label{sec:mod1}
 \begin{itemize}
-\item[\textbf{ {[G\ped{1}]}}]	\textbf{	Users should be able to sign up into application.}
+\item[\textbf{ {[G\ped{1}]}}]	\textbf{	Users should be able to sign up into the application.}
 \begin{itemize}
 \item[{[R\ped{1}]}] The system should allow the visitor to begin the registration process by asking him/her all mandatory data: name, surname, date of birth, email, username, password.
-\item[{[R\ped{2}]}] The system should be able to extract data from Facebook or Twitter if the visitor sign in with that application.
+\item[{[R\ped{2}]}] The system should be able to extract data from Facebook or Twitter if the visitor signs in with that application.
 \item[{[R\ped{3}]}] The system must not allow a registered user to perform registration process.
 \item[{[R\ped{4}]}] The system must allow visitors only to see the login page and the registration form.
 
@@ -344,9 +344,9 @@ The application needs an internet connection on the device in order to receive r
 \end{itemize}
 \item[\textbf{ {[G\ped{2}]}}]	\textbf{	Users should be able to log into application.}
 \begin{itemize}
-\item[{[R\ped{1}]}] The system should allow only registered users to login.
+\item[{[R\ped{1}]}] The system should allow only registered users to log in.
 \item[{[R\ped{2}]}] Username and password inserted must be correct to perform the login.
-\item[{[R\ped{3}]}] Visitors cannot access to the calendar and to the map without login.
+\item[{[R\ped{3}]}] Visitors cannot access the calendar and to the map without login.
 \end{itemize}
 \item[\textbf{ {[G\ped{3}]}}]	\textbf{	Users should be able to create activities.}
 \begin{itemize}
@@ -384,7 +384,7 @@ The application needs an internet connection on the device in order to receive r
 \item[{[R\ped{4}]}] A travel means that should be activated must be non-active.
 \item[{[R\ped{5}]}]  The system should not allow users to deactivate all travel means otherwise the computation of the trip is not possible.
 \item[{[R\ped{6}]}]  The system should be able to calculate the carbon footprint and to minimize it.
-\item[{[R\ped{6}]}]  The system should be able to provide a solution to have a break if a user specify it.
+\item[{[R\ped{7}]}]  The system should be able to provide a solution to have a break if a user specifies it.
 \item[{[D\ped{1}]}] Travel means must be available in the reality.
 \end{itemize}
 \item[\textbf{ {[G\ped{7}]}	}]	\textbf{Users should be able to provide constraints on different travel means.}
@@ -399,14 +399,14 @@ The application needs an internet connection on the device in order to receive r
 \item[\textbf{ {[G\ped{8}]}}]	\textbf{	Users should be able to buy public transportation tickets or day/week/season pass basing on their needs.}
 \begin{itemize}
 \item[{[R\ped{1}]}]  Users should be registered and logged in.
-\item[{[R\ped{2}]}]  The system should be able to open the application or the web site of the service that provide that type of trip.
+\item[{[R\ped{2}]}]  The system should be able to open the application or the website of the service that provides that type of trip.
 \item[{[R\ped{3}]}] Users must confirm if they want to open an external application.
 \item[{[D\ped{1}]}]  The chosen travel means must provide a web service.
 \end{itemize}
-\item[\textbf{ {[G\ped{9}]}}]	\textbf{	Users should be able to see on Tripadvisor adviced places when they insert new breaks.}
+\item[\textbf{ {[G\ped{9}]}}]	\textbf{	Users should be able to see on Tripadvisor advised places when they insert new breaks.}
 \begin{itemize}
 \item[{[R\ped{1}]}]  Users should be registered and logged in.
-\item[{[R\ped{2}]}]  The system should be able to open the application or the web site of Tripadvisor.
+\item[{[R\ped{2}]}]  The system should be able to open the application or the website of Tripadvisor.
 \item[{[R\ped{3}]}] Users must confirm if they want to open an external application.
 \end{itemize}
 \item[\textbf{ {[G\ped{10}]}}]	\textbf{	Users should be able to choose the favourite travel option basing on travel time and travel means.}
@@ -414,14 +414,14 @@ The application needs an internet connection on the device in order to receive r
 \item[{[R\ped{1}]}]  Users should be registered and logged in.
 \item[{[R\ped{2}]}]  The system should be able to compute the different routes with several travel means.
 \item[{[R\ped{3}]}] The system should be able to know the activities of the day and provide a route between them.
-\item[{[R\ped{4}]}] The system should be able to calculate necessary time for each trip option.
+\item[{[R\ped{4}]}] The system should be able to calculate the necessary time for each trip option.
 \end{itemize}
 \item[\textbf{ {[G\ped{11}]}}]	\textbf{	Users should be able to locate the nearest vehicle of a vehicle sharing system exploiting its application.}
 \begin{itemize}
 \item[{[R\ped{1}]}]  Users should be registered and logged in.
-\item[{[R\ped{2}]}]  The system should be able to open the application or the web site of the service.
+\item[{[R\ped{2}]}]  The system should be able to open the application or the website of the service.
 \item[{[R\ped{3}]}] Users must confirm if they want to open an external application.
-\item[{[D\ped{1}]}]  The chosen service must have an application or a web site.
+\item[{[D\ped{1}]}]  The chosen service must have an application or a website.
 \end{itemize}
 \item[\textbf{ {[G\ped{11}]}}]	\textbf{	Users should be able to know if they cannot arrive on time to a certain meeting.}
 \begin{itemize}
@@ -430,7 +430,7 @@ The application needs an internet connection on the device in order to receive r
 \item[{[R\ped{3}]}]  The system should be able to notify the user if there is not any option that makes him/her arrive on time.
 \item[{[R\ped{4}]}] Users should be able to close the warning.
 \end{itemize}
-\item[\textbf{ {[G\ped{11}]}}]	\textbf{	Users should be able to know problem that can cause changes in trip.}
+\item[\textbf{ {[G\ped{11}]}}]	\textbf{	Users should be able to know problems that can cause changes in trip.}
 \begin{itemize}
 \item[{[R\ped{1}]}]  Users should be registered and logged in.
 \item[{[R\ped{2}]}] The system should be informed about weather, strikes and traffic in real time exploiting other systems.
@@ -438,43 +438,43 @@ The application needs an internet connection on the device in order to receive r
 \item[{[R\ped{4}]}] Users should be able to close the warning.
 \item[{[R\ped{5}]}] Users should be able to change the trip.
 \item[{[R\ped{6}]}]  The system should be able to open again the screen with the different trip options
-\item[{[D\ped{1}]}]  The real time informations must be correct and provided by reliable sites.
+\item[{[D\ped{1}]}]  The real-time information must be correct and provided by reliable sites.
 \end{itemize}
 \end{itemize}
 \subsubsection{Scenarios}\label{sec:mod1}
 \paragraph{Scenario 1} 
-Dybala is a very busy football player that lives in Turin. Tomorrow morning he is going to have an important meeting with one of the main sponsor of the Juventus team, the Adidas, in Milan, and in the evening he has the Champions League's final. It is the most important match of the year, so he needs to organize his day at the best! He decides to use Travlendar+. He inserts the two activities in the list of meetings: "Meeting with Adidas", on 20th of May, from 11 am to 1 pm, in Corso Buenos Aires 40 (Milan) and "Match prep for the Final", on 20th of May, from 3 pm to 7 pm, at the Allianz Stadium (Turin). Since he wants to preserve energies for the Final, he selects "Walking" and "Bike" as blocked travel means in the Preferences' area. The application suggests him a trip with the train from Turin to Milan in the early morning because the extimated time for the route by car or taxi is reported to be slower due to the traffic. The application redirects him to the Trenitalia's website to buy the ticket. Then, for coming back, Travlendar+ suggests him to take a taxi because public transport timetables for the given time are not convenient. 
+Dybala is a very busy football player that lives in Turin. Tomorrow morning he is going to have an important meeting with one of the main sponsor of the Juventus team, the Adidas, in Milan, and in the evening he has the Champions League's final. It is the most important match of the year, so he needs to organize his day at the best! He decides to use Travlendar+. He inserts the two activities in the list of meetings: ``Meeting with Adidas", on 20th of May, from 11 am to 1 pm, in Corso Buenos Aires 40 (Milan) and ``Match prep for the Final", on 20th of May, from 3 pm to 7 pm, at the Allianz Stadium (Turin). Since he wants to preserve energies for the Final, he selects "Walking" and "Bike" as blocked travel means in the Preferences' area. The application suggests him a trip with the train from Turin to Milan in the early morning because the estimated time for the route by car or taxi is reported to be slower due to the traffic. The application redirects him to the Trenitalia's website to buy the ticket. Then, for coming back, Travlendar+ suggests him to take a taxi because public transport timetables for the given time are not convenient. 
 
 \paragraph{Scenario 2}
-Giuseppe is a student at Politecnico of Milan. In view of the exams session, he has few time but he does not want to give up a good lunch with his friends. Therefore, he specifies in the "My Account" section of Travlendar+ that everyday he needs at least 30 minutes free to have a comfortable lunch between 11.30 am and 2.30 pm. He inserts the schedule of all his lessons. After having inserted the Formal Languages and Compilers's lesson of Wednesday, a warning appears to report an overlap with the fixed time reserved for the lunch. He can ignore the warning and decide what he prefers to do.
+Giuseppe is a student at Politecnico of Milan. In view of the exams session, he has not much time but he does not want to give up a good lunch with his friends. Therefore, he specifies in the "My Account" section of Travlendar+ that every day he needs at least 30 minutes free to have a comfortable lunch between 11.30 am and 2.30 pm. He inserts the schedule of all his lessons. After having inserted the Formal Languages and Compilers' lesson of Wednesday, a warning appears to report an overlap with the fixed time reserved for the lunch. He can ignore the warning and decide what he prefers to do.
 
 \paragraph{Scenario 3}
-Carlo Cracco is a famous chef that has two restaurants in Milan. He would like to open a new restaurant in Verona. So he has to go to Verona to search for a place that can be restored as he likes and to meet architects and designers to decide all details of the new restaurant. He would like to have a coffee break between the afternoon appointments to restore himself. Therefore he uses Travlendar+ to organize the full day. He inserts all the meetings and he also inserts the coffee break: pressing the plus symbol in the main screen, Carlo selects the type ``Break'', he inserts the minimum duration for the break and he is readdressed to the website ``TripAdvisor''. In this way the chef can see what coffee is opened near the two appointments that he has before and after the break and he can choose the best one.
+Carlo Cracco is a famous chef that has two restaurants in Milan. He would like to open a new restaurant in Verona. So he has to go to Verona to search for a place that can be restored as he likes and to meet architects and designers to decide all details of the new restaurant. He would like to have a coffee break between the afternoon appointments to restore himself. Therefore he uses Travlendar+ to organize the full day. He inserts all the meetings and he also inserts the coffee break: pressing the plus symbol on the main screen, Carlo selects the type ``Break'', he inserts the minimum duration for the break and he is readdressed to the website ``TripAdvisor''. In this way, the chef can see what coffee is opened near the two appointments that he has before and after the break and he can choose the best one.
 
 \paragraph{Scenario 4}
-Lorenzo Fragola is a young boy with a strong passion for singing, so he decides to go to an audition for XFactor, the most famous music talent show in Italy. The audition will take place on the 30th of July in Milan, at Arena Civica. Lorenzo lives in Catania and decides to use Travlendar+ to program the trip for the audition. He inserts the meeting in the system, with the date, the location and the time, and vizualizes the trip. The two available means suggested by the application are the train, which takes 13 hours, and the car, which takes 14 hours. Since both take too long, he decides to organize himself the trip with the plane. Once he will be in Milan, he will use the application to go to the Arena Civica. The trip suggested is by autobus from the airport to the railway station, and than by metro to the Arena. Unfortunately, one week before the audition, a warning appears on his phone: on the day of the audition there will be a strike of ATM! At first time Lorenzo is a little bit worried, but immediately sees that Travlendar+ has suggested him an alternative trip by car (taxi or car sharing) from the railway station to the Arena. He will choose at that day the best option. When the moment arrives, he selects car sharing as favourite means, and the application redirects him on the playstore to download the Enjoy's application (the car sharing service). Through Enjoy's application he can see that there is a car near the station and he can book it.
+Lorenzo Fragola is a young boy with a strong passion for singing, so he decides to go to an audition for XFactor, the most famous music talent show in Italy. The audition will take place on the 30th of July in Milan, at Arena Civica. Lorenzo lives in Catania and decides to use Travlendar+ to program the trip for the audition. He inserts the meeting in the system, with the date, the location and the time, and visualizes the trip. The two available means suggested by the application are the train, which takes 13 hours, and the car, which takes 14 hours. Since both take too long, he decides to organize himself the trip with the plane. Once he will be in Milan, he will use the application to go to the Arena Civica. The trip suggested is by autobus from the airport to the railway station, and then by metro to the Arena. Unfortunately, one week before the audition, a warning appears on his phone: on the day of the audition, there will be a strike of ATM! At first Lorenzo is a little bit worried, but immediately sees that Travlendar+ has suggested him an alternative trip by car (taxi or car sharing) from the railway station to the Arena. He will choose at that day the best option. When the moment arrives, he selects car sharing as favourite means, and the application redirects him on the play store to download the Enjoy's application (the car-sharing service). Through Enjoy's application, he can see that there is a car near the station and he can book it.
 
 \paragraph{Scenario 5}
-Travlendar+ is become a very well known application. A lot of people start to use it and find Travlendar+ the most useful application of 2017. 
-Also the USA president has become curious because of the fame of this new type of smart calendar. He decides to try it: he has an Iphone X and he goes to the AppStore and install it.
+Travlendar+ has become a very well known application. A lot of people start to use it and find Travlendar+ the most useful application of 2017. 
+Also, the USA president has become curious because of the fame of this new type of smart calendar. He decides to try it: he has an iPhone X and he goes to the AppStore and installs it.
 Once it is installed, Trump opens it and he finds out that he has to sign in. He clicked the "Sign in" button and a new screen appears. 
-He has to insert a lot of personal informations: name Donald, surname Trump, date of birth 14/06/1946, address 1600 Pennsylvania Ave NW, Washington, username Tump, password ******** and at the end the telephone number +1 202-456-1111.
-Once he finishes to compile, he clicks "Sign in" and the screen for the registered users appears: there is the screen with the schedule of the day that is obviously empty for new users.
+He has to insert a lot of personal information: name Donald, surname Trump, date of birth 14/06/1946, address 1600 Pennsylvania Ave NW, Washington, username Tump, password ******** and at the end the telephone number +1 202-456-1111.
+Once he finishes compiling, he clicks "Sign in" and the screen for the registered users appears: there is the screen with the schedule of the day that is obviously empty for new users.
 
 \paragraph{Scenario 6}
-Mr. Bean is a very busy man that uses Travlendar+ to manage his great number of appointments. Once he inserts a work meeting in the morning between 10.00 and 12.00, he decides to go with his loved car. After that he knows that he has to be present to a ceremony for his teddy bear's birthday that should start at 11.45 a.m.. This cannot be possible!!! Travlendar+ notifies him with a warning that there is an overlap between two appointment. Therefore Mr Bean closes the warning and decides to go out of the conference before to arrive on time at the birthday.
-Mr Bean is very excited and decides to have a stop in a toy shop to buy a present. So he inserts in the application the new activity but there is another problem. With a warning, Travlendar+ warns him that if he wants to arrive on time at the ceremony, he cannot go to the shop. Hence he does not confirm the creation of the activity.
+Mr. Bean is a very busy man that uses Travlendar+ to manage his great number of appointments. Once he inserts a work meeting in the morning between 10.00 and 12.00, he decides to go with his loved car. After that, he knows that he has to be present to a ceremony for his teddy bear's birthday that should start at 11.45 a.m.. This cannot be possible!!! Travlendar+ notifies him with a warning that there is an overlap between two appointments. Therefore Mr. Bean closes the warning and decides to go out of the conference before to arrive on time at the birthday.
+Mr. Bean is very excited and decides to have a stop in a toy shop to buy a present. So he inserts in the application the new activity but there is another problem. With a warning, Travlendar+ warns him that if he wants to arrive on time at the ceremony, he cannot go to the shop. Hence he does not confirm the creation of the activity.
 
 \paragraph{Scenario 7}
-Leonardo DiCaprio is a famous actor that has always been active in fighting climate change. To raise awareness among the people about the environmental problems, he has the idea to live stream one of his ordinary day to show people the importance of using means of transport that minimize carbon footprint. 
-Leonardo decides to use Travlendar+ in order to arrange his trips in the day. Once the application is installed and he creates his personal account, Leonardo inserts three activities (all in New York) to be performed during the day. The application now suggests the ideal route that minimize travel durations, but in order to pursue his goal Leonardo enter the "My Account" section of the app and then he enables, in the preferences' area, the option "Minimize footprint". The route suggested by the application seems to be more eco-friendly, for example Travlendar+ proposes to him to rent a bike or to use a service of electric car sharing.
+Leonardo DiCaprio is a famous actor that has always been active in fighting climate change. To raise awareness among the people about the environmental problems, he has the idea to live stream one of his ordinary day to show people the importance of using means of transport that minimizes carbon footprint. 
+Leonardo decides to use Travlendar+ in order to arrange his trips in the day. Once the application is installed and he creates his personal account, Leonardo inserts three activities (all in New York) to be performed during the day. The application now suggests the ideal route that minimize travel durations, but in order to pursue his goal Leonardo enter the "My Account" section of the app and then he enables, in the preferences' area, the option "Minimize footprint". The route suggested by the application seems to be more eco-friendly, for example, Travlendar+ proposes to him to rent a bike or to use a service of electric car sharing.
 
 \paragraph{Scenario 8}
-Claire is going to have a marry of her best friend on Sunday morning. Since after the ceremony there will be a big party with food and drink, she decides not to drive. To discover the best option to reach the church, she uses Travlendar+. The application suggests her to take the metro and then to walk for ten minutes from the underground station to to the destination. It's all perfect for her, but unfortunately she wakes up on Sunday morning and it is raining. She can not affords to walk under the rain because she has just gone to the hairdresser! She immediately logs in to the application to check an alternative trip. Travlendar+, that has an updated weather forecast, has already changed the trip: it suggests her to take the tram once exited from the underground station instead of walking. She notices looking at the tram schedule in the activity's details that she will not take much more to go there with this alternative, because trams of line 34 stops every 13 minutes. She will reach the destination in time.
+Claire is going to have a marry of her best friend on Sunday morning. Since after the ceremony there will be a big party with food and drink, she decides not to drive. To discover the best option to reach the church, she uses Travlendar+. The application suggests her to take the metro and then to walk for ten minutes from the underground station to the destination. It's all perfect for her, but unfortunately, she wakes up on Sunday morning and it is raining. She can not afford to walk under the rain because she has just gone to the hairdresser! She immediately logs in to the application to check an alternative trip. Travlendar+, that has an updated weather forecast, has already changed the trip: it suggests her to take the tram once exited from the underground station instead of walking. She notices looking at the tram schedule in the activity's details that she will not take much more to go there with this alternative because trams of line 34 stops every 13 minutes. She will reach the destination in time.
 
 \paragraph{Scenario 9}
-Guglielmo is a Computer science engineer. He works for a big company: he earns a lot of money. Because he often had to move, he used a lot his car. Guglielmo was very reckless, in fact he went on taking fines, even very expensive. He didn't care about it. But once the police gave him another big fine and withdrew his driving licence and confiscate his car.
-Since he lives in Milan and he hates public transports, he decides to try the application Travlendar+. He enrolles in the app and in the section "My Account" he deactivates every public transportations and sharing cars. He has to go to work: when the trip is suggested, he presses on bike sharing's option because he really love the speed and he has a lot of time to reach the location. Guglielmo is redirected to the Ofo's application and from that application he can see where is the nearest bike. Finally he can go fast without taking any fine!
+Guglielmo is a Computer science engineer. He works for a big company: he earns a lot of money. Because he often had to move, he used a lot his car. Guglielmo was very reckless, in fact, he went on taking fines, even very expensive. He didn't care about it. But once the police gave him another big fine and withdrew his driving license and confiscate his car.
+Since he lives in Milan and he hates public transports, he decides to try the application Travlendar+. He enrolls in the app and in the section "My Account" he deactivates every public transportations and sharing cars. He has to go to work: when the trip is suggested, he presses on bike sharing's option because he really love the speed and he has a lot of time to reach the location. Guglielmo is redirected to the Ofo's application and from that application, he can see where is the nearest bike. Finally, he can go fast without taking any fine!
 
 
 
@@ -493,17 +493,17 @@ Event flow&The registration's process is: \begin{enumerate}
 \item The visitor tap on "sign up" on the home page to start the registration process.
 \item The visitor fills in at least the mandatory fields, that are: name, surname, username, password, email, address, date of birth. The non-mandatory field is the telephone number.
 \item The visitor tap on "ok".
-\item The application saves the data and redirect him to the home page where he can proceed to the login.
+\item The application saves the data and redirects him to the home page where he can proceed to the login.
 \end{enumerate} \\ \hline
-Output condition&Registration process is completed. The visitor become a registered user. \\ \hline
+Output condition&Registration process is completed. The visitor becomes a registered user. \\ \hline
 Exception& The possible exceptions are:
 \begin{enumerate}
 \item The visitor is already a registered user.
 \item The visitor fills one or more fields with invalid information.
 \item The visitor chooses an already existent username.
-\item The visitor inserts an email that is already associated to another user.
+\item The visitor inserts an email that is already associated with another user.
 \end{enumerate} 
-In case of exception the invalid fields are coloured with red. The visitor can't press "ok" until all fields are correctly filled.\\ \hline \
+In case of an exception the invalid fields are coloured with red. The visitor can't press "ok" until all fields are correctly filled.\\ \hline \
 
 \end{tabular}
 
@@ -533,9 +533,9 @@ In case of exception the invalid fields are coloured with red. The visitor can't
 \begin{tabular}{cp{10cm}} 
 Actor&Visitor, registered user\\ \hline 
 Goal& {[G\ped{2}]}\\ \hline
-Input condition&The user is on the home page.\\ \hline
+Input condition&The user is on the homepage.\\ \hline
 Event flow&The login's process is:\begin{enumerate}
-\item The registered user fills the fields "username" and "password" with her/his username and password. Alternatively, a simple visitor can tap on "Login with Facebook" or "Login with twitter" in order to login directly without having completed the registration process.   
+\item The registered user fills the fields "username" and "password" with her/his username and password. Alternatively, a simple visitor can tap on "Login with Facebook" or "Login with Twitter" in order to login directly without having completed the registration process.   
 \item If the access is not with Facebook or Twitter, after having inserted the username and password the registered user must tap on "Login".
 
 \end{enumerate} \\ \hline
@@ -546,7 +546,7 @@ Exception& The possible exceptions are:
 \item The user inserts an incorrect username or password.
 \item The user's data obtained by Facebook or Twitter are invalid.
 \end{enumerate} 
-In both the cases the user is notified with an error message and invited to try again.\\ \hline \
+In both the cases, the user is notified with an error message and invited to try again.\\ \hline \
 
 \end{tabular}
 
@@ -578,12 +578,12 @@ Goal& {[G\ped{3}]}\\ \hline
 Input condition&The registered user is already logged into Travlendar+.\\ \hline
 Event flow&The process for the creation of a new activity is: \begin{enumerate}
 \item The registered user tap on the plus icon ("new activity button").
-\item Travlendar+ shows a new page with form, and the creation process starts. The user is required to specify the type of activity (meeting or break) and to insert all the attributes about the activity, such as name, date, time, location and favourite means. If the activity is of type "break", the registered user must also specify a minimum duration of the activity.
+\item Travlendar+ shows a new page with the form, and the creation process starts. The user is required to specify the type of activity (meeting or break) and to insert all the attributes about the activity, such as name, date, time, location and favourite means. If the activity is of type "break", the registered user must also specify a minimum duration of the activity.
 \item The registered user tap on "ok".
 \end{enumerate} \\ \hline
 Output condition& Travlendar+ redirects the registered user on the main screen. On the map is appeared the new activity on its location. 
 \\ \hline
-Exception& The possible exception is that the user does not fill a mandatory field or fills it with invalid data. In such cases the invalid fields are coloured with red. The user must insert the correct data in order to complete the creation of the activity.
+Exception& The possible exception is that the user does not fill a mandatory field or fills it with invalid data. In such cases, the invalid fields are coloured with red. The user must insert the correct data in order to complete the creation of the activity.
 
 \\ \hline \
 
@@ -619,7 +619,7 @@ Event flow&The process for the modification of a new activity is: \begin{enumera
 \item The application shows the screen form of the activity that contains the fields to fill with the attributes.
 \item U can modify the fields by tapping on it.
 \item U taps on "ok" when he/she has completed the modification.
-\item The application update the calendar with the new information.
+\item The application updates the calendar with the new information.
 \item The application redirects U to the main screen. 
 \end{enumerate} \\ \hline
 Output condition& Travlendar+ updates the calendar with the activity modified, then redirects U on the main screen. If the location of the location has been modified, on the map on the main screen the activity appears in the new location.
@@ -629,7 +629,7 @@ Exception& The possible exceptions are:
 \item U inserts an invalid modification.
 \item U does not want to apply the modifications.
 \end{enumerate} 
-In the first case the invalid field is highlighted with red. In the second one the U can tap "cancel" and no changes will be made.
+In the first case, the invalid field is highlighted with red. In the second one, the U can tap "cancel" and no changes will be made.
 \\ \hline \
 
 \end{tabular}
@@ -661,11 +661,11 @@ Event flow&The elimination of an activity's process is:
 \begin{enumerate}
 \item U selects the activity from the map or from the section "My activities".
 \item U taps on "delete". 
-\item The applications asks a confirm for the elimination. If U answers "ok", the activity is deleted from the calendar.
+\item The application asks a confirm for the elimination. If U answers "ok", the activity is deleted from the calendar.
 \end{enumerate}\\ \hline
-Output condition& Travlendar+ updates the calendar, in particular it deletes the activity from the map and from the calendar.
+Output condition& Travlendar+ updates the calendar, in particular, it deletes the activity from the map and from the calendar.
 \\ \hline
-Exception& The possible exceptions is that U has already tapped on "delete" but he/she does not want to delete the activity. In that case he/she can tap on "cancel" when the system asks for the confirmation.
+Exception& The possible exception is that U has already tapped on "delete" but he/she does not want to delete the activity. In that case he/she can tap on "cancel" when the system asks for the confirmation.
 \\ \hline \
 
 \end{tabular}
@@ -694,14 +694,14 @@ Actor&Registered user U \\ \hline
 Goal& {[G\ped{10}]}\\ \hline
 Input condition&U is the creator of the event A and is logged in.\\ \hline
 Event flow&Once the activity has been created, the screen with the choice of the trip between all meetings of that day appears. U can choose one by tapping on it. \\ \hline
-Output condition& Travlendar+ updates the calendar with the activity, in particular highlights the trip between the meetings of the day in blue. 
+Output condition& Travlendar+ updates the calendar with the activity, in particular, highlights the trip between the meetings of the day in blue. 
 \\ \hline
 Exception& The possible exceptions are:
 \begin{enumerate}
 \item The trip chosen takes too much time, and U risks to not arrive in time. 
 \item The trip chosen is not available because of traffic or in case of a strike. 
 \end{enumerate} 
-In both cases a notification arrives on U's screen, and invites him/her to do another trip.\\ \hline 
+In both cases, a notification arrives on U's screen and invites him/her to do another trip.\\ \hline 
 
 \end{tabular}
 
@@ -731,20 +731,20 @@ In both cases a notification arrives on U's screen, and invites him/her to do an
 Actor&Registered user U \\ \hline 
 Goal& {[G\ped{6}]}\\ \hline
 Input condition&U is logged in.\\ \hline
-Event flow&Once U is in the main screen, to modify the preferences he can:
+Event flow&Once U is on the main screen, to modify the preferences he can:
 \begin{enumerate}
 \item Tap on "menu" symbol.
 \item Tap on "App preferences".
-\item Tap on "Activate/Deactivate transportation means" or on "Minimize carbon footprint". In the first case U can activate or deactivate one or more transportation means from a list, and in the second one he can activate or deactivate the option of minimize carbon footprint.
+\item Tap on "Activate/Deactivate transportation means" or on "Minimize carbon footprint". In the first case, U can activate or deactivate one or more transportation means from a list, and in the second one, he can activate or deactivate the option of minimize carbon footprint.
 \end{enumerate} 
 \\ \hline
-Output condition& The application saves the changes. In the trips proposed to U, it will not comprehend trips with the deactivated travel means. If the option of minimize carbon footprint is activated, Travlendar+ will propose trip with the minimun carbon footprint. \\ \hline
+Output condition& The application saves the changes. In the trips proposed to U, it will not comprehend trips with the deactivated travel means. If the option of minimizing carbon footprint is activated, Travlendar+ will propose trip with the minimum carbon footprint. \\ \hline
 Exception& The possible exceptions are:
 \begin{enumerate}
 \item U wants to activate/deactivate a travel means that is already active/non-active.
-\item U wants to activate/deactivate the option of minimize the carbon footprint, but this option is already active/non-active.
+\item U wants to activate/deactivate the option of minimizing the carbon footprint, but this option is already active/non-active.
 \end{enumerate}
-In both cases the new change will overwrite the last one.\\ \hline 
+In both cases, the new change will overwrite the last one.\\ \hline 
 
 \end{tabular}
 \pagebreak 
@@ -775,20 +775,20 @@ To be reactive and able to answer to a large number of requests, we assume that 
 We assume that there will be no problem with scalability even if it is a new software and it could suffer an unexpected growth in popularity and from an increase in workload.
 
 \subsection{Design constraints}\label{sec:mod1}
-In order to be compatible both with Android and iOs, the application will be developed with in the following programming languages:
+In order to be compatible both with Android and iOs, the application will be developed within the following programming languages:
 \begin{itemize}
 \item Swift 4 (for the iOs version)
 \item Java 8 (for the Android version)
 \end{itemize}
-We have choose to use the last version of the programming languages to increase robustness and stability of the application, despite the fact that a lot of devices in the market will not be compatible because they're not up to date with the latest OS version.
+We have chosen to use the last version of the programming languages to increase robustness and stability of the application, despite the fact that a lot of devices in the market will not be compatible because they're not up to date with the latest OS version.
 
 \subsubsection{Standards compliance}\label{sec:mod1}
 This RASD is written trying to be conformed to the IEEE Standard (ISO/IEC/IEEE 29148 dated 2011).
-We would like that our application's life cycle process is conformed to the IEEE Standard, in particular to ISO/IEC 12207 dated 2008.
+We would like that our application's lifecycle process is conformed to the IEEE Standard, in particular to ISO/IEC 12207 dated 2008.
 
 \subsubsection{Hardware limitation}\label{sec:mod1}
 Since it is a mobile application, Travlendar+ requires a smartphone or a tablet with internet connection and with the GPS to find the location of the user.
-Moreover users must have enough storage space to install Travlendar+. 
+Moreover, users must have enough storage space to install Travlendar+. 
 
 \subsubsection{Any other constraint}\label{sec:mod1}
 \subsection{Software system attributes}\label{sec:mod1}
@@ -802,7 +802,7 @@ Travlendar+ application is equipped with a login authentication to protect the i
 
 
 
-\subsubsection{Maintenability}\label{sec:mod1}
+\subsubsection{Maintainability}\label{sec:mod1}
 The application does not provide any specific API, but the whole application code will be documented to well inform future developers of how application works and how it has been developed. 
 
 \subsubsection{Portability}\label{sec:mod1}
@@ -811,7 +811,7 @@ In order to reach the highest number of devices on the market, the application c
 \section{Formal analysis using alloy}\label{sec:crit}
 \pagebreak
 \section{Effort spent}\label{sec:crit}
-We managed to distribute the workload fairly between days and team members in a way that allow us to finish a few days before the deadline and have time for an accurate check in the last days.
+We managed to distribute the workload fairly between days and team members in a way that allows us to finish a few days before the deadline and have time for an accurate check in the last days.
 We worked together most of the times and trying to do something every day, as it can be shown by Git commits.
 The total amount of time required to build this document is about 33 hours of work per person.
 \pagebreak
