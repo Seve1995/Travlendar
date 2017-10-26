@@ -3,6 +3,10 @@
 \documentclass[12pt,titlepage]{article}
 
 \usepackage{graphics}
+
+\usepackage{array}
+\usepackage{color}
+\usepackage{colortbl}
 \usepackage{xcolor}
 \usepackage{url,amsfonts,epsfig}
 \usepackage[applemac]{inputenc} %comando per le lettere accentate se usate mac  
@@ -266,23 +270,23 @@ To own a personal calendar, the user must have a device with an internet connect
 %\item In the creation screen, a user must specify the type of activity to be added (break or meeting).
 %\item To create a meeting, users must insert name, location, date, starting/ending hours. Optionally they can also insert a brief description.
 %\item The application is real-time informed about traffic, weather and strikes.
-\item[{[A\ped{1}]}]  Accurate registered user's location is known by GPS.
-\item [{[A\ped{2}]}] The user knows the right details about the activities.
-\item [{[A\ped{3}]}] The public transportations are always in time.
-\item [{[A\ped{4}]}] The external third part services (e.g. vehicle sharing systems, google maps, travel means' websites ecc...) work correctly.
-\item [{[A\ped{5}]}] The news about the traffic, the weather and strikes are correct.
+\item [{[A\textsubscript{1}]}]  Accurate registered user's location is known by GPS.
+\item [{[A\textsubscript{2}]}] The user knows the right details about the activities.
+\item [{[A\textsubscript{3}]}] The public transportations are always in time.
+\item [{[A\textsubscript{4}]}] The external third part services (e.g. vehicle sharing systems, google maps, travel means' websites ecc...) work correctly.
+\item [{[A\textsubscript{5}]}] The news about the traffic, the weather and strikes are correct.
 \end{itemize}
 
 \paragraph{Dependencies}
 \begin{itemize}
-\item[{[DE\ped{1}]}]  The application depends on external application and websites for some services, such as: the purchase of public transportation's tickets, the use of vehicle sharing systems. 
-\item [{[DE\ped{2}]}] The application bases on some other services like google maps, meteo services and traffic services and uses the received information to guarantee its services.
+\item[{[DE\textsubscript{1}]}]  The application depends on external application and websites for some services, such as: the purchase of public transportation's tickets, the use of vehicle sharing systems. 
+\item [{[DE\textsubscript{2}]}] The application bases on some other services like google maps, meteo services and traffic services and uses the received information to guarantee its services.
 \end{itemize}
 
 \paragraph{Constraints}
 \begin{itemize}
-\item [{[C\ped{1}]}] Travlendar+ requires a smartphone or a tablet with internet connection in order to offer its functionalities.
-\item [{[C\ped{2}]}] Travlendar+ needs a GPS service to find the correct location of the user.
+\item [{[C\textsubscript{1}]}] Travlendar+ requires a smartphone or a tablet with internet connection in order to offer its functionalities.
+\item [{[C\textsubscript{2}]}] Travlendar+ needs a GPS service to find the correct location of the user.
 
 \end{itemize}
 
@@ -371,6 +375,17 @@ Travlendar+ does not provide for itself the possibility to directly buy public t
 The application needs an internet connection on the device in order to receive real-time information about traffic, strikes and weather. Furthermore, it's required also for the communication with third-party services that are provided in Travlendar+. 
 
 \subsection{Functional requirements}\label{sec:mod1}
+\definecolor{lightgray}{rgb}{0.83, 0.83, 0.83}
+\definecolor{anti-flashwhite}{rgb}{0.95, 0.95, 0.96}
+\begin{tabular}{llccr}
+\rowcolor{red}
+ Raw ID & Goal ID & Req ID & Use case ID \\
+\rowcolor{lightgray}
+ quattro & cinque & sei & sette \\
+\rowcolor{anti-flashwhite}
+sette & otto & nove & dieci 
+\end{tabular}
+
 \begin{itemize}
 %\item[\textbf{ {[G\textsubscript{1}]}}]	\textbf{	Users should be able to sign up into the application.}
 %\begin{itemize}
