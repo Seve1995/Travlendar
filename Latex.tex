@@ -96,20 +96,24 @@ However, the application will exploit applications or websites to allow the user
 
 \item [{[G\textsubscript{1}]}]	A user should be able to go to a meeting.
 \item [{[G\textsubscript{2}]}]	A user should be able to know if he/she cannot arrive on time to a meeting.
-\item [{[G\textsubscript{3}]}]	A user should be able to have a break that has a certain duration between two meetings.
+\item [{[G\textsubscript{3}]}]	A user should be able to have a break that has a minimum duration between two meetings.
 \item [{[G\textsubscript{4}]}]	The time or the location of a meeting can be modified.
 
 \item [{[G\textsubscript{5}]}]  A user should be able to unsay  a meeting.
-\item [{[G\textsubscript{6}]}]	A user does not want to use some travel means.
-\item [{[G\textsubscript{7}]}]	A user does not want to walk more than a specific distance.
-\item [{[G\textsubscript{8}]}] A user should always be able to have a break between two specific times and with a minimum duration.
-\item [{[G\textsubscript{9}]}] A user should be able to minimize carbon footprint when he/she goes to a meeting.
-\item [{[G\textsubscript{10}]}] A user should be able to know every possible option to go to a meeting with different travel means in order to choose the suitable one.
+\item  [{[G\textsubscript{6}]}] A user should be able to have some preferences for the trip.
+\begin{itemize}
+\item [{[G\textsubscript{6.1}]}]	A user should be able not to use some travel means.
+\item [{[G\textsubscript{6.2}]}]	A user should be able not to walk more than a specific distance.
+\item [{[G\textsubscript{6.3}]}] A user should be able to minimize carbon footprint when he/she goes to a meeting.
+\end{itemize}
+
+
+\item [{[G\textsubscript{7}]}] A user should be able to know every possible option to go to a meeting with different travel means in order to choose the suitable one.
 %\item [{[G\textsubscript{7}]}]	 provide constraints on different travel means;
-\item [{[G\textsubscript{11}]}]	A user should be able to buy public transportation tickets or day/week/season pass basing on his/her needs.
-\item [{[G\textsubscript{12}]}]	A user would like to see on Tripadvisor advised places for his/her breaks.
-\item [{[G\textsubscript{13}]}]	A user would like to locate the nearest vehicle of a vehicle sharing system if he/she wants to use that type of travel means.
-\item [{[G\textsubscript{14}]}]	A user would like to have real-time news on strikes, weather and traffic.
+\item [{[G\textsubscript{8}]}]	A user should be able to buy public transportation tickets or day/week/season pass basing on his/her needs.
+\item [{[G\textsubscript{9}]}]	A user would like to see on Tripadvisor advised places for his/her breaks.
+\item [{[G\textsubscript{10}]}]	A user would like to locate the nearest vehicle of a vehicle sharing system if he/she wants to use that type of travel means.
+\item [{[G\textsubscript{11}]}]	A user would like to have real-time news on strikes, weather and traffic.
 
  \end{itemize}
 \subsubsection{Actors}\label{RASD}
@@ -375,6 +379,7 @@ Travlendar+ does not provide for itself the possibility to directly buy public t
 The application needs an internet connection on the device in order to receive real-time information about traffic, strikes and weather. Furthermore, it's required also for the communication with third-party services that are provided in Travlendar+. 
 
 \subsection{Functional requirements}\label{sec:mod1}
+\paragraph{Prerequisites}
 \definecolor{lightgray}{rgb}{0.83, 0.83, 0.83}
 \definecolor{anti-flashwhite}{rgb}{0.95, 0.95, 0.96}
 \begin{tabular}{llccr}
@@ -387,6 +392,13 @@ sette & otto & nove & dieci
 \end{tabular}
 
 \begin{itemize}
+\item[{[R\textsubscript{1}]}] The system should allow the visitor to begin the registration process by asking him/her all mandatory data: name, surname, date of birth, email, username, password.
+\item[{[R\textsubscript{2}]}] The system should be able to extract data from Facebook or Twitter if the visitor signs in with that application.
+\item[{[R\textsubscript{3}]}] The system must not allow a registered user to perform registration process.
+\item[{[R\textsubscript{4}]}] The system must allow visitors only to see the login page and the registration form.
+\item[{[R\textsubscript{5}]}] The system should allow only registered users to log in.
+\item[{[R\textsubscript{6}]}] Username and password inserted must be correct to perform the login.
+\paragraph{Requirements}
 %\item[\textbf{ {[G\textsubscript{1}]}}]	\textbf{	Users should be able to sign up into the application.}
 %\begin{itemize}
 %\item[{[R\textsubscript{1}]}] The system should allow the visitor to begin the registration process by asking him/her all mandatory data: name, surname, date of birth, email, username, password.
@@ -407,16 +419,29 @@ sette & otto & nove & dieci
 \item[\textbf{ {[G\textsubscript{1}]}}]	\textbf{	A user should be able to go to a meeting.}
 \begin{itemize}
 %\item[{[R\textsubscript{1}]}] The system should allow only registered users to create activities.
-\item[{[R\textsubscript{1}]}] The system should allow registered users to create activities.
+\item[{[R\textsubscript{1}]}] The system should allow registered users to create meetings.
 %\item[{[R\textsubscript{2}]}] Users must be logged in the application.
 \item[{[R\textsubscript{2}]}] Users must complete the form by filling the mandatory fields and confirm the creation.
-\item[{[R\textsubscript{3}]}] Users must specify the type of activity (meeting or break).
-\item[{[R\textsubscript{4}]}] The system should provide different form based on the type of the activity.
+%\item[{[R\textsubscript{3}]}] Users must specify the type of activity (meeting or break).
+%\item[{[R\textsubscript{4}]}] The system should provide different form based on the type of the activity.
 
 %\item[{[D\textsubscript{1}]}]  Time must be included between 00.00 and 23.59.
 %\item[{[D\textsubscript{2}]}]  Dates must be specified in the form of dd/mm/yyyy.
 %\item[{[D\textsubscript{3}]}]  Dates must be fixed in the current day or after.
 %\item[{[D\textsubscript{4}]}] Days must be included between 1/01 and 31/12
+\end{itemize}
+\item[\textbf{ {[G\textsubscript{2}]}}]	\textbf{	A user should be able to know if he/she cannot arrive on time to a meeting.}
+\begin{itemize}
+\item[{[R\textsubscript{1}]}] The system should be able to calculate necessary time for each trip option.
+\item[{[R\textsubscript{2}]}]  The system should be able to notify the user if there is not any option that makes him/her arrive on time.
+\item[{[R\textsubscript{3}]}] Users should be able to close the warning.
+\end{itemize}
+
+\item[\textbf{ {[G\textsubscript{3}]}}]	\textbf{	A user should be able to have a break that has a certain duration between two meetings.}
+\begin{itemize}
+\item[{[R\textsubscript{1}]}]  The system should allow the user to create an activity with type "Break".
+\item[{[R\textsubscript{2}]}]  The system should allow the user to specify the minimum duration of the break.
+\item[{[R\textsubscript{3}]}]  The system should be able to provide a solution to have a break if a user specifies it.
 \end{itemize}
 \item[\textbf{ {[G\textsubscript{4}]}}]	\textbf{	The time or the location of a meeting can be modified.}
 \begin{itemize}
@@ -425,77 +450,61 @@ sette & otto & nove & dieci
 \item[{[R\textsubscript{3}]}] Users must confirm the modification to conclude the process.
 \item[{[R\textsubscript{4}]}] Modified data will not be available any more after the update.
 \end{itemize}
-\item[\textbf{ {[G\textsubscript{5}]}}]	\textbf{		Users should be able to delete activities.}
+\item[\textbf{ {[G\textsubscript{5}]}}]	\textbf{	A user should be able to unsay a meeting.}
 \begin{itemize}
-\item[{[R\textsubscript{1}]}]  Users should be registered and logged in.
-\item[{[R\textsubscript{2}]}] The activity that the user wants to delete must be already created.
-\item[{[R\textsubscript{3}]}] Users must confirm the elimination of the activity.
-\item[{[R\textsubscript{4}]}] Activity will not be seen on the calendar and on the map.
+\item[{[R\textsubscript{1}]}] The activity that the user wants to delete must be already created.
+\item[{[R\textsubscript{2}]}] Users must confirm the elimination of the activity.
+\item[{[R\textsubscript{3}]}] Activity will not be seen on the calendar and on the map.
 \item[{[R\textsubscript{4}]}] Deleting process is not reversible.
 \end{itemize}
-\item[\textbf{ {[G\textsubscript{6}]}}]	\textbf{	Users should be able to insert global preferences.}
+\item[\textbf{ {[G\textsubscript{6}]}}]	\textbf{A user should be able to have some preferences for the trip.}
 \begin{itemize}
-\item[{[R\textsubscript{1}]}]  Users should be registered and logged in.
-\item[{[R\textsubscript{2}]}]  The system must keep track of user's preferences.
-\item[{[R\textsubscript{3}]}] A travel means that should be deactivated must be active.
-\item[{[R\textsubscript{4}]}] A travel means that should be activated must be non-active.
-\item[{[R\textsubscript{5}]}]  The system should not allow users to deactivate all travel means otherwise the computation of the trip is not possible.
-\item[{[R\textsubscript{6}]}]  The system should be able to calculate the carbon footprint and to minimize it.
-\item[{[R\textsubscript{7}]}]  The system should be able to provide a solution to have a break if a user specifies it.
-\item[{[D\textsubscript{1}]}] Travel means must be available in the reality.
-\end{itemize}
-\item[\textbf{ {[G\textsubscript{7}]}	}]	\textbf{Users should be able to provide constraints on different travel means.}
-\begin{itemize}
-\item[{[R\textsubscript{1}]}]  Users should be registered and logged in.
-\item[{[R\textsubscript{2}]}]  The system should not allow users to impose constraints on deactivated travel means.
-
-\item[{[D\textsubscript{1}]}] Travel means must be available in the reality.
-\item[{[D\textsubscript{2}]}] Constraints must be reasonable.
+\item[{[R\textsubscript{1}]}]  The system must keep track of user's preferences.
+\item[{[R\textsubscript{2}]}] A travel means that should be deactivated must be active.
+\item[{[R\textsubscript{3}]}] A travel means that should be activated must be non-active.
+\item[{[R\textsubscript{4}]}]  The system should not allow users to deactivate all travel means otherwise the computation of the trip is not possible.
+\item[{[R\textsubscript{5}]}]  The system should be able to calculate the carbon footprint and to minimize it.
+\item[{[R\textsubscript{6}]}]  The system should not allow users to impose constraints on deactivated travel means.
+%\item[{[R\textsubscript{7}]}]  The system should be able to provide a solution to have a break if a user specifies it.
+%\item[{[D\textsubscript{1}]}] Travel means must be available in the reality.
 \end{itemize}
 
-\item[\textbf{ {[G\textsubscript{8}]}}]	\textbf{	Users should be able to buy public transportation tickets or day/week/season pass basing on their needs.}
+%\item[{[D\textsubscript{1}]}] Travel means must be available in the reality.
+%\item[{[D\textsubscript{2}]}] Constraints must be reasonable.
+\item[\textbf{ {[G\textsubscript{7}]}}]	\textbf{	A user should be able to know every possible option to go to a meeting with different travel means in order to choose the suitable one.}
 \begin{itemize}
-\item[{[R\textsubscript{1}]}]  Users should be registered and logged in.
-\item[{[R\textsubscript{2}]}]  The system should be able to open the application or the website of the service that provides that type of trip.
-\item[{[R\textsubscript{3}]}] Users must confirm if they want to open an external application.
-\item[{[D\textsubscript{1}]}]  The chosen travel means must provide a web service.
+\item[{[R\textsubscript{1}]}]  The system should be able to compute the different routes with several travel means.
+\item[{[R\textsubscript{2}]}] The system should be able to know the activities of the day and provide a route between them.
+\item[{[R\textsubscript{3}]}] The system should be able to calculate the necessary time for each trip option and shows it to the user.
 \end{itemize}
-\item[\textbf{ {[G\textsubscript{9}]}}]	\textbf{	Users should be able to see on Tripadvisor advised places when they insert new breaks.}
+
+\item[\textbf{ {[G\textsubscript{8}]}}]	\textbf{	A user should be able to buy public transportation tickets or day/week/season pass basing on his/her needs.}
 \begin{itemize}
-\item[{[R\textsubscript{1}]}]  Users should be registered and logged in.
-\item[{[R\textsubscript{2}]}]  The system should be able to open the application or the website of Tripadvisor.
-\item[{[R\textsubscript{3}]}] Users must confirm if they want to open an external application.
+\item[{[R\textsubscript{1}]}]  The system should be able to open the application or the website of the service that provides that type of trip.
+\item[{[R\textsubscript{2}]}] Users must confirm if they want to open an external application.
+%\item[{[D\textsubscript{1}]}]  The chosen travel means must provide a web service.
 \end{itemize}
-\item[\textbf{ {[G\textsubscript{10}]}}]	\textbf{	Users should be able to choose the favourite travel option basing on travel time and travel means.}
+\item[\textbf{ {[G\textsubscript{9}]}}]	\textbf{	A user would like to see on Tripadvisor advised places for his/her breaks.}
 \begin{itemize}
-\item[{[R\textsubscript{1}]}]  Users should be registered and logged in.
-\item[{[R\textsubscript{2}]}]  The system should be able to compute the different routes with several travel means.
-\item[{[R\textsubscript{3}]}] The system should be able to know the activities of the day and provide a route between them.
-\item[{[R\textsubscript{4}]}] The system should be able to calculate the necessary time for each trip option.
+\item[{[R\textsubscript{1}]}]  The system should be able to open the application or the website of Tripadvisor.
+\item[{[R\textsubscript{2}]}] Users must confirm if they want to open an external application.
 \end{itemize}
-\item[\textbf{ {[G\textsubscript{11}]}}]	\textbf{	Users should be able to locate the nearest vehicle of a vehicle sharing system exploiting its application.}
+
+\item[\textbf{ {[G\textsubscript{11}]}}]	\textbf{	A user would like to locate the nearest vehicle of a vehicle sharing system if he/she wants to use that type of travel means.}
 \begin{itemize}
-\item[{[R\textsubscript{1}]}]  Users should be registered and logged in.
-\item[{[R\textsubscript{2}]}]  The system should be able to open the application or the website of the service.
-\item[{[R\textsubscript{3}]}] Users must confirm if they want to open an external application.
-\item[{[D\textsubscript{1}]}]  The chosen service must have an application or a website.
+\item[{[R\textsubscript{1}]}]  The system should be able to open the application or the website of the service.
+\item[{[R\textsubscript{2}]}] Users must confirm if they want to open an external application.
+%\item[{[D\textsubscript{1}]}]  The chosen service must have an application or a website.
 \end{itemize}
-\item[\textbf{ {[G\textsubscript{11}]}}]	\textbf{	Users should be able to know if they cannot arrive on time to a certain meeting.}
+
+\item[\textbf{ {[G\textsubscript{11}]}}]	\textbf{	A user would like to have real-time news on strikes, weather and traffic.}
 \begin{itemize}
-\item[{[R\textsubscript{1}]}]  Users should be registered and logged in.
-\item[{[R\textsubscript{2}]}] The system should be able to calculate necessary time for each trip option.
-\item[{[R\textsubscript{3}]}]  The system should be able to notify the user if there is not any option that makes him/her arrive on time.
-\item[{[R\textsubscript{4}]}] Users should be able to close the warning.
-\end{itemize}
-\item[\textbf{ {[G\textsubscript{11}]}}]	\textbf{	Users should be able to know problems that can cause changes in trip.}
-\begin{itemize}
-\item[{[R\textsubscript{1}]}]  Users should be registered and logged in.
-\item[{[R\textsubscript{2}]}] The system should be informed about weather, strikes and traffic in real time exploiting other systems.
-\item[{[R\textsubscript{3}]}]  The system should be able to notify the user if there are problems that can change his/her trips.
-\item[{[R\textsubscript{4}]}] Users should be able to close the warning.
-\item[{[R\textsubscript{5}]}] Users should be able to change the trip.
-\item[{[R\textsubscript{6}]}]  The system should be able to open again the screen with the different trip options
-\item[{[D\textsubscript{1}]}]  The real-time information must be correct and provided by reliable sites.
+\item[{[R\textsubscript{1}]}] The system should be informed about weather, strikes and traffic in real time exploiting other systems.
+\item[{[R\textsubscript{2}]}]  The system should be able to notify the user if there are problems that can change his/her trips.
+\item[{[R\textsubscript{3}]}] Users should be able to close the warning.
+\item[{[R\textsubscript{4}]}] Users should be able to change the trip.
+\item[{[R\textsubscript{5}]}]  The system should be able to open again the screen with the different trip options
+%\item[{[D\textsubscript{1}]}]  The real-time information must be correct and provided by reliable sites.
 \end{itemize}
 \end{itemize}
 \subsubsection{Scenarios}\label{sec:mod1}
