@@ -1,9 +1,7 @@
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.15)  26 OCT 2017 18:34
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**Latex.tex
-(./Latex.tex
+**./Latex.tex
+(Latex.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
@@ -109,9 +107,9 @@ File: babel.def 2017/05/19 3.10 Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen107
 )
-\it@lettering=\count89
-\it@doublequoteactive=\count90
-\it@ISOcompliance=\count91
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
@@ -159,6 +157,7 @@ Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
 Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 Package: xcolor-patch 2016/05/16 xcolor patch
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
@@ -173,13 +172,13 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen108
-\Hy@linkcounter=\count93
-\Hy@pagecounter=\count94
+\Hy@linkcounter=\count89
+\Hy@pagecounter=\count90
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count95
+\Hy@SavedSpaceFactor=\count91
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -200,10 +199,10 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-\c@Hy@tempcnt=\count96
+\c@Hy@tempcnt=\count92
 LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen109
-\Fld@menulength=\count97
+\Fld@menulength=\count93
 \Field@Width=\dimen110
 \Fld@charsize=\dimen111
 Package hyperref Info: Hyper figures OFF on input line 6358.
@@ -215,22 +214,21 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count98
-\c@Item=\count99
-\c@Hfootnote=\count100
+\Hy@abspage=\count94
+\c@Item=\count95
+\c@Hfootnote=\count96
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count101
-\c@bookmark@seq@number=\count102
+\Fld@listcount=\count97
+\c@bookmark@seq@number=\count98
 \Hy@SectionHShift=\skip43
 )
 Package hyperref Info: Option `colorlinks' set `false' on input line 17.
-
-(./Latex.aux
+ (Latex.aux
 
 LaTeX Warning: Label `RASD' multiply defined.
 
@@ -376,16 +374,16 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
  (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count103
+\scratchcounter=\count99
 \scratchdimen=\dimen112
 \scratchbox=\box26
-\nofMPsegments=\count104
-\nofMParguments=\count105
+\nofMPsegments=\count100
+\nofMParguments=\count101
 \everyMPshowfont=\toks18
-\MPscratchCnt=\count106
+\MPscratchCnt=\count102
 \MPscratchDim=\dimen113
-\MPnumerator=\count107
-\makeMPintoPDFobject=\count108
+\MPnumerator=\count103
+\makeMPintoPDFobject=\count104
 \everyMPtoPDFconversion=\toks19
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -423,7 +421,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count109
+\c@section@level=\count105
 )
 LaTeX Info: Redefining \ref on input line 19.
 LaTeX Info: Redefining \pageref on input line 19.
@@ -433,13 +431,13 @@ LaTeX Info: Redefining \nameref on input line 19.
 \@outlinefile=\write3
 \openout3 = `Latex.out'.
 
- <Logo.png, id=192, 348.30125pt x 305.14pt>
+ <Logo.png, id=191, 348.30125pt x 305.14pt>
 File: Logo.png Graphic file (type png)
 
 <use Logo.png>
 Package pdftex.def Info: Logo.png used on input line 23.
 (pdftex.def)             Requested size: 155.99762pt x 136.66452pt.
- <LogoTravlendar.png, id=194, 462.22687pt x 99.37125pt>
+ <LogoTravlendar.png, id=193, 462.22687pt x 99.37125pt>
 File: LogoTravlendar.png Graphic file (type png)
 
 <use LogoTravlendar.png>
@@ -454,7 +452,7 @@ LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 4.
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -471,12 +469,12 @@ l.85
 .2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.103 \item [{[G\ped{10}]}]
-                            A user should be able to know every possible opt...
+l.103 \item [{[G\textsubscript{10}]}]
+                                      A user should be able to know every po...
 [2]
 Overfull \hbox (30.44434pt too wide) in paragraph at lines 105--106
-[]\OT1/cmr/m/n/12 A user should be able to buy pu-blic trans-por-ta-tion tic-ke
--ts or day/week/season
+[]\OT1/cmr/m/n/12 A user should be able to buy pub-lic trans-porta-tion tick-et
+s or day/week/season
  []
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 114.
@@ -494,14 +492,14 @@ File: "Class Diagramv2".png Graphic file (type png)
 Package pdftex.def Info: "Class Diagramv2".png used on input line 187.
 (pdftex.def)             Requested size: 585.37663pt x 451.6795pt.
  [6] [7 <./Class Diagramv2.png>]
-<"Statemachine1".png, id=306, 536.0025pt x 383.18156pt>
+<"Statemachine1".png, id=303, 536.0025pt x 383.18156pt>
 File: "Statemachine1".png Graphic file (type png)
 
 <use "Statemachine1".png>
 Package pdftex.def Info: "Statemachine1".png used on input line 197.
 (pdftex.def)             Requested size: 321.60397pt x 229.9107pt.
 
-<"Statemachine2".png, id=307, 1136.74687pt x 585.68813pt>
+<"Statemachine2".png, id=304, 1136.74687pt x 585.68813pt>
 File: "Statemachine2".png Graphic file (type png)
 
 <use "Statemachine2".png>
@@ -511,8 +509,13 @@ Package pdftex.def Info: "Statemachine2".png used on input line 200.
 
 LaTeX Warning: Float too large for page by 19.05118pt on input line 202.
 
-[8 <./Statemachine1.png> <./Statemachine2.png>] [9
+[8 <./Statemachine1.png> <./Statemachine2.png>]
+Overfull \hbox (5.01074pt too wide) in paragraph at lines 215--216
+ []\OT1/cmr/bx/n/12 Personalization[] \OT1/cmr/m/n/12 Travlen-dar+ of-fers a lo
+t of op-tions that can be cus-tomized,
+ []
 
+[9
 
 ] [10]
 <"worldAndMachine".png, id=331, 633.36626pt x 403.5075pt>
@@ -767,11 +770,12 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 869.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 869.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 869.
 Package rerunfilecheck Info: File `Latex.out' has not changed.
-(rerunfilecheck)             Checksum: 69156D35180E89BF4F9FE926015D5408;3341.
+(rerunfilecheck)             Checksum: 5431D5D1D3AB9447271FD5A07452EDEF;3388.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 849.
  ) 
 Here is how much of TeX's memory you used:
  7010 strings out of 492995
