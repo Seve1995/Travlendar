@@ -471,9 +471,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `Latex.toc'.
 
-
-[2]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) h
-as been already used, duplicate ignored
+ [2]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) 
+has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.89 
