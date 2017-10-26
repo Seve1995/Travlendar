@@ -90,19 +90,19 @@ However, the application will exploit applications or websites to allow the user
 \subsubsection{Goals}\label{RASD}
 \begin{itemize}
 
-\item [{[G\ped{1}]}]	A user wants to go to a meeting.
-\item [{[G\ped{2}]}]	A user wants to arrive on time to a meeting.
-\item [{[G\ped{3}]}]	A user wants to have a break that has a certain duration between two meetings.
+\item [{[G\ped{1}]}]	A user should be able to go to a meeting.
+\item [{[G\ped{2}]}]	A user should be able to know if he/she cannot arrive on time to a meeting.
+\item [{[G\ped{3}]}]	A user should be able to have a break that has a certain duration between two meetings.
 \item [{[G\ped{4}]}]	The time or the location of a meeting can be modified.
 
-\item [{[G\ped{5}]}]  A user does not want to go any more to a meeting.
+\item [{[G\ped{5}]}]  A user should be able to unsay  a meeting.
 \item [{[G\ped{6}]}]	A user does not want to use some travel means.
 \item [{[G\ped{7}]}]	A user does not want to walk more than a specific distance.
-\item [{[G\ped{8}]}] A user always wants to have a break between two specific times and with a minimum duration.
-\item [{[G\ped{9}]}] A user wants to minimize carbon footprint when he/she goes to a meeting.
-\item [{[G\ped{10}]}] A user wants to know every possible option to go to a meeting with different travel means in order to choose the suitable one.
+\item [{[G\ped{8}]}] A user should always be able to have a break between two specific times and with a minimum duration.
+\item [{[G\ped{9}]}] A user should be able to minimize carbon footprint when he/she goes to a meeting.
+\item [{[G\ped{10}]}] A user should be able to know every possible option to go to a meeting with different travel means in order to choose the suitable one.
 %\item [{[G\ped{7}]}]	 provide constraints on different travel means;
-\item [{[G\ped{11}]}]	A user wants to buy public transportation tickets or day/week/season pass basing on his/her needs.
+\item [{[G\ped{11}]}]	A user should be able to buy public transportation tickets or day/week/season pass basing on his/her needs.
 \item [{[G\ped{12}]}]	A user would like to see on Tripadvisor advised places for his/her breaks.
 \item [{[G\ped{13}]}]	A user would like to locate the nearest vehicle of a vehicle sharing system if he/she wants to use that type of travel means.
 \item [{[G\ped{14}]}]	A user would like to have real-time news on strikes, weather and traffic.
@@ -352,42 +352,43 @@ The application needs an internet connection on the device in order to receive r
 
 \subsection{Functional requirements}\label{sec:mod1}
 \begin{itemize}
-\item[\textbf{ {[G\ped{1}]}}]	\textbf{	Users should be able to sign up into the application.}
-\begin{itemize}
-\item[{[R\ped{1}]}] The system should allow the visitor to begin the registration process by asking him/her all mandatory data: name, surname, date of birth, email, username, password.
-\item[{[R\ped{2}]}] The system should be able to extract data from Facebook or Twitter if the visitor signs in with that application.
-\item[{[R\ped{3}]}] The system must not allow a registered user to perform registration process.
-\item[{[R\ped{4}]}] The system must allow visitors only to see the login page and the registration form.
+%\item[\textbf{ {[G\ped{1}]}}]	\textbf{	Users should be able to sign up into the application.}
+%\begin{itemize}
+%\item[{[R\ped{1}]}] The system should allow the visitor to begin the registration process by asking him/her all mandatory data: name, surname, date of birth, email, username, password.
+%\item[{[R\ped{2}]}] The system should be able to extract data from Facebook or Twitter if the visitor signs in with that application.
+%\item[{[R\ped{3}]}] The system must not allow a registered user to perform registration process.
+%\item[{[R\ped{4}]}] The system must allow visitors only to see the login page and the registration form.
 
-\item[{[D\ped{1}]}] The username must be unique.
-\item[{[D\ped{2}]}] The password must be at least of 8 characters.
-\item[{[D\ped{3}]}] The email address must be correct.
-\end{itemize}
-\item[\textbf{ {[G\ped{2}]}}]	\textbf{	Users should be able to log into application.}
+%\item[{[D\ped{1}]}] The username must be unique.
+%\item[{[D\ped{2}]}] The password must be at least of 8 characters.
+%\item[{[D\ped{3}]}] The email address must be correct.
+%\end{itemize}
+%\item[\textbf{ {[G\ped{2}]}}]	\textbf{	Users should be able to log into application.}
+%\begin{itemize}
+%\item[{[R\ped{1}]}] The system should allow only registered users to log in.
+%\item[{[R\ped{2}]}] Username and password inserted must be correct to perform the login.
+%\item[{[R\ped{3}]}] Visitors cannot access the calendar and to the map without login.
+%\end{itemize}
+\item[\textbf{ {[G\ped{1}]}}]	\textbf{	A user should be able to go to a meeting.}
 \begin{itemize}
-\item[{[R\ped{1}]}] The system should allow only registered users to log in.
-\item[{[R\ped{2}]}] Username and password inserted must be correct to perform the login.
-\item[{[R\ped{3}]}] Visitors cannot access the calendar and to the map without login.
-\end{itemize}
-\item[\textbf{ {[G\ped{3}]}}]	\textbf{	Users should be able to create activities.}
-\begin{itemize}
-\item[{[R\ped{1}]}] The system should allow only registered users to create activities.
-\item[{[R\ped{2}]}] Users must be logged in the application.
-\item[{[R\ped{3}]}] Users must complete the form by filling the mandatory fields and confirm the creation.
-\item[{[R\ped{4}]}] Users must specify the type of activity (meeting or break).
-\item[{[R\ped{5}]}] The system should provide different form based on the type of the activity.
+%\item[{[R\ped{1}]}] The system should allow only registered users to create activities.
+\item[{[R\ped{1}]}] The system should allow registered users to create activities.
+%\item[{[R\ped{2}]}] Users must be logged in the application.
+\item[{[R\ped{2}]}] Users must complete the form by filling the mandatory fields and confirm the creation.
+\item[{[R\ped{3}]}] Users must specify the type of activity (meeting or break).
+\item[{[R\ped{4}]}] The system should provide different form based on the type of the activity.
 
-\item[{[D\ped{1}]}]  Time must be included between 00.00 and 23.59.
-\item[{[D\ped{2}]}]  Dates must be specified in the form of dd/mm/yyyy.
-\item[{[D\ped{3}]}]  Dates must be fixed in the current day or after.
-\item[{[D\ped{4}]}] Days must be included between 1/01 and 31/12
+%\item[{[D\ped{1}]}]  Time must be included between 00.00 and 23.59.
+%\item[{[D\ped{2}]}]  Dates must be specified in the form of dd/mm/yyyy.
+%\item[{[D\ped{3}]}]  Dates must be fixed in the current day or after.
+%\item[{[D\ped{4}]}] Days must be included between 1/01 and 31/12
 \end{itemize}
-\item[\textbf{ {[G\ped{4}]}}]	\textbf{			Users should be able to modify existing activities.}
+\item[\textbf{ {[G\ped{4}]}}]	\textbf{	The time or the location of a meeting can be modified.}
 \begin{itemize}
-\item[{[R\ped{1}]}]  Users should be registered and logged in.
+%\item[{[R\ped{1}]}]  Users should be registered and logged in.
 \item[{[R\ped{2}]}] The activity that the user wants to modify must be already created.
 \item[{[R\ped{3}]}] Users must confirm the modification to conclude the process.
-\item[{[R\ped{4}]}] Modified data will not be available anymore after the update.
+\item[{[R\ped{4}]}] Modified data will not be available any more after the update.
 \end{itemize}
 \item[\textbf{ {[G\ped{5}]}}]	\textbf{		Users should be able to delete activities.}
 \begin{itemize}
