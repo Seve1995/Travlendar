@@ -52,7 +52,7 @@
 \contentsline {paragraph}{Scenario 4}{25}{section*.20}
 \contentsline {paragraph}{Scenario 5}{26}{section*.21}
 \contentsline {paragraph}{Scenario 6}{26}{section*.22}
-\contentsline {paragraph}{Scenario 7}{27}{section*.23}
+\contentsline {paragraph}{Scenario 7}{26}{section*.23}
 \contentsline {paragraph}{Scenario 8}{27}{section*.24}
 \contentsline {paragraph}{Scenario 9}{27}{section*.25}
 \contentsline {subsubsection}{\numberline {3.2.2}Use case diagrams}{29}{subsubsection.3.2.2}
