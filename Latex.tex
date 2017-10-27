@@ -151,6 +151,7 @@ There are two types of actors:
 \item Ai: i-assumption 
 \item DEi: i-dependency
 \item Ci: i-constraint
+\item Ui: i-use case
 \end{itemize}
 \subsection{Revision history}\label{RASD}
 
@@ -378,19 +379,13 @@ Travlendar+ does not provide for itself the possibility to directly buy public t
 \subsubsection{Communication interfaces}\label{sec:mod1}
 The application needs an internet connection on the device in order to receive real-time information about traffic, strikes and weather. Furthermore, it's required also for the communication with third-party services that are provided in Travlendar+. 
 
-\subsection{Functional requirements}\label{sec:mod1}
-\paragraph{Prerequisites}
-\definecolor{lightgray}{rgb}{0.83, 0.83, 0.83}
-\definecolor{anti-flashwhite}{rgb}{0.95, 0.95, 0.96}
-\begin{tabular}{llccr}
-\rowcolor{red}
- Raw ID & Goal ID & Req ID & Use case ID \\
-\rowcolor{lightgray}
- quattro & cinque & sei & sette \\
-\rowcolor{anti-flashwhite}
-sette & otto & nove & dieci 
-\end{tabular}
 
+
+
+
+\subsection{Functional requirements}\label{sec:mod1}
+
+\paragraph{Prerequisites}
 \begin{itemize}
 \item[{[R\textsubscript{1}]}] The system should allow the visitor to begin the registration process by asking him/her all mandatory data: name, surname, date of birth, email, username, password.
 \item[{[R\textsubscript{2}]}] The system should be able to extract data from Facebook or Twitter if the visitor signs in with that application.
@@ -552,8 +547,9 @@ Since he lives in Milan and he hates public transports, he decides to try the ap
 \end{flushleft}
 
 \begin{tabular}{cp{10cm}} 
+Use case ID& {[U\textsubscript{1}]}\\ \hline
 Actor&Visitor\\ \hline 
-Goal& {[G\textsubscript{1}]}\\ \hline
+
 Input condition&NULL \\ \hline
 Event flow&The registration's process is: \begin{enumerate}
 \item The visitor tap on ``sign up" on the home page to start the registration process.
@@ -597,8 +593,9 @@ In case of an exception the invalid fields are coloured with red. The visitor ca
 \end{flushleft}
 
 \begin{tabular}{cp{10cm}} 
+Use case ID& {[U\textsubscript{2}]}\\ \hline
 Actor&Visitor, registered user\\ \hline 
-Goal& {[G\textsubscript{2}]}\\ \hline
+
 Input condition&The user is on the homepage.\\ \hline
 Event flow&The login's process is:\begin{enumerate}
 \item The registered user fills the fields ``username" and ``password" with her/his username and password. Alternatively, a simple visitor can tap on "Login with Facebook" or "Login with Twitter" in order to login directly without having completed the registration process.   
@@ -639,8 +636,8 @@ In both the cases, the user is notified with an error message and invited to try
 
 
 \begin{tabular}{cp{10cm}} 
+Use case ID& {[U\textsubscript{3}]}\\ \hline
 Actor&Registered user\\ \hline 
-Goal& {[G\textsubscript{3}]}\\ \hline
 Input condition&The registered user is already logged into Travlendar+.\\ \hline
 Event flow&The process for the creation of a new activity is: \begin{enumerate}
 \item The registered user tap on the plus icon (``new activity button").
@@ -667,17 +664,17 @@ Exception& The possible exception is that the user does not fill a mandatory fie
 \makebox[\textwidth]{\includegraphics[scale=0.45]{"Sequence createActivity"} } 
 \caption{Sequence diagram of the creation of an activity}
 \end{figure}
+
 \clearpage
 \newpage
-
 
 \begin{flushleft}
 \textbf{Modify activity}
 \end{flushleft}
 
 \begin{tabular}{cp{10cm}} 
+Use case ID& {[U\textsubscript{4}]}\\ \hline
 Actor&Registered user U \\ \hline 
-Goal& {[G\textsubscript{4}]}\\ \hline
 Input condition&U is the creator of the event A and is logged in.\\ \hline
 Event flow&The process for the modification of a new activity is: \begin{enumerate}
 \item U taps on the activity A on the map (coloured with blue if A is a meeting, with red if A is a break), in the section ``My activities" or in the main screen with the activity of today.
@@ -700,12 +697,13 @@ In the first case, the invalid field is highlighted with red. In the second one,
 
 \end{tabular}
 
-\pagebreak 
+
 \begin{figure}
 \centering
 \makebox[\textwidth]{\includegraphics[scale=0.6]{"UseCase Modify activity"}  }
 \caption{Use case of modifying an activity}
-
+\clearpage
+\newpage
 \end{figure}
 \begin{figure}
 \centering
@@ -720,8 +718,9 @@ In the first case, the invalid field is highlighted with red. In the second one,
 \end{flushleft}
 
 \begin{tabular}{cp{10cm}} 
+Use case ID& {[U\textsubscript{5}]}\\ \hline
 Actor&Registered user U \\ \hline 
-Goal& {[G\textsubscript{5}]}\\ \hline
+
 Input condition&U is the creator of the event A and is logged in.\\ \hline
 Event flow&The elimination of an activity's process is: 
 \begin{enumerate}
@@ -756,8 +755,9 @@ Exception& The possible exception is that U has already tapped on "delete" but h
 \end{flushleft}
 
 \begin{tabular}{cp{10cm}} 
+Use case ID& {[U\textsubscript{6}]}\\ \hline
 Actor&Registered user U \\ \hline 
-Goal& {[G\textsubscript{10}]}\\ \hline
+
 Input condition&U is the creator of the event A and is logged in.\\ \hline
 Event flow&Once the activity has been created, the screen with the choice of the trip between all meetings of that day appears. U can choose one by tapping on it. \\ \hline
 Output condition& Travlendar+ updates the calendar with all the details about the trip in the corresponding activities and highlights the trip between the meetings of the day in blue. 
@@ -794,8 +794,9 @@ In both cases, a notification arrives on U's screen and Travlendar+ invites him/
 \end{flushleft}
 
 \begin{tabular}{cp{10cm}} 
+Use case ID& {[U\textsubscript{7}]}\\ \hline
 Actor&Registered user U \\ \hline 
-Goal& {[G\textsubscript{6}]}\\ \hline
+
 Input condition&U is logged in.\\ \hline
 Event flow&Once U is on the main screen, to modify the preferences he can:
 \begin{enumerate}
@@ -825,9 +826,38 @@ In both cases, the new change will overwrite the last one.\\ \hline
 \caption{Sequence diagram of modifying user's preferences}
 \end{figure}
 
-
 \clearpage
 \newpage
+
+ \subsubsection{Traceability matrix}
+\definecolor{lightgray}{rgb}{0.83, 0.83, 0.83}
+\definecolor{anti-flashwhite}{rgb}{0.95, 0.95, 0.96}
+\begin{tabular}{llccr}
+\rowcolor{red}
+Goal ID & Req ID & Assumption ID & Use case ID \\
+\rowcolor{lightgray}
+ G1 &R1, R2 & A2&  U3 \\
+\rowcolor{anti-flashwhite}
+G2 & R1, R2, R3 & A1, A3, A4, A5& -\\
+\rowcolor{lightgray}
+G3 & R1, R2, R3 & - & U7 \\
+\rowcolor{anti-flashwhite}
+G4 & R2, R3, R4 & A2 & U4 \\
+\rowcolor{lightgray}
+G5 & R1, R2, R3, R4 & A2& U5 \\
+\rowcolor{anti-flashwhite}
+G6 & R1, R2, R3, R4, R5, R6 & - &  U7 \\
+\rowcolor{lightgray}
+G7 & R1, R2, R3 &A4, A5& U6 \\
+\rowcolor{anti-flashwhite}
+G8 & R1, R2 & A4& - \\
+\rowcolor{lightgray}
+G9 & R1, R2 & A4& - \\
+\rowcolor{anti-flashwhite}
+G10 & R1, R2 & A4& - \\
+\rowcolor{lightgray}
+G11 & R1, R2, R3, R4, R5 & A5&- 
+\end{tabular}
 
 \subsection{Performance requirements}\label{sec:mod1}
 In order to guarantee the performance of our application, we have to specify:
