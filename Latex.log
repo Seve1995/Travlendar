@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.15)  27 OCT 2017 11:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.15)  27 OCT 2017 10:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -655,18 +655,14 @@ Package pdftex.def Info: "UseCase Creation of an activity".png used on input li
 ne 657.
 (pdftex.def)             Requested size: 440.39423pt x 250.68594pt.
 
-<"Sequence createActvity".png, id=501, 1284.29813pt x 1184.17406pt>
-File: "Sequence createActvity".png Graphic file (type png)
+<"Sequence createActivity".png, id=501, 1284.29813pt x 1068.99374pt>
+File: "Sequence createActivity".png Graphic file (type png)
 
-<use "Sequence createActvity".png>
-Package pdftex.def Info: "Sequence createActvity".png used on input line 662.
-(pdftex.def)             Requested size: 577.92882pt x 532.87341pt.
-
-
-LaTeX Warning: Float too large for page by 11.20673pt on input line 664.
-
-[36 <./UseCase Creation of an activity.png>] [37 <./Sequence createActvity.png>
-]
+<use "Sequence createActivity".png>
+Package pdftex.def Info: "Sequence createActivity".png used on input line 662.
+(pdftex.def)             Requested size: 577.92882pt x 481.04274pt.
+ [36 <./UseCase Creation of an activity.png>] [37 <./Sequence createActivity.pn
+g>]
 Overfull \hbox (25.582pt too wide) in paragraph at lines 673--697
 [][] 
  []
@@ -686,12 +682,12 @@ Overfull \vbox (11.89986pt too high) has occurred while \output is active []
 [39] [40
 
  <./UseCase Modify activity.png>]
-<"Sequence modifyActivity".png, id=539, 1174.3875pt x 1121.69063pt>
+<"Sequence modifyActivity".png, id=539, 1174.3875pt x 1111.90407pt>
 File: "Sequence modifyActivity".png Graphic file (type png)
 
 <use "Sequence modifyActivity".png>
 Package pdftex.def Info: "Sequence modifyActivity".png used on input line 708.
-(pdftex.def)             Requested size: 528.4695pt x 504.75612pt.
+(pdftex.def)             Requested size: 528.4695pt x 500.3522pt.
  [41 <./Sequence modifyActivity.png>]
 <"UseCase Delete".png, id=546, 671.50874pt x 344.03531pt>
 File: "UseCase Delete".png Graphic file (type png)
@@ -700,12 +696,12 @@ File: "UseCase Delete".png Graphic file (type png)
 Package pdftex.def Info: "UseCase Delete".png used on input line 738.
 (pdftex.def)             Requested size: 470.05292pt x 240.82307pt.
 
-<"Sequence deleteActivity".png, id=547, 1202.99437pt x 953.06062pt>
+<"Sequence deleteActivity".png, id=547, 1202.99437pt x 943.27406pt>
 File: "Sequence deleteActivity".png Graphic file (type png)
 
 <use "Sequence deleteActivity".png>
 Package pdftex.def Info: "Sequence deleteActivity".png used on input line 744.
-(pdftex.def)             Requested size: 541.34247pt x 428.87332pt.
+(pdftex.def)             Requested size: 541.34247pt x 424.4694pt.
 
 Overfull \hbox (25.582pt too wide) in paragraph at lines 718--747
 [][]
@@ -784,7 +780,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 921.
  ) 
 Here is how much of TeX's memory you used:
  6751 strings out of 492995
- 100125 string characters out of 6132703
+ 100130 string characters out of 6132703
  195723 words of memory out of 5000000
  10005 multiletter control sequences out of 15000+600000
  11234 words of font info for 42 fonts, out of 8000000 for 9000
@@ -798,7 +794,7 @@ sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
 cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
 l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Latex.pdf (60 pages, 8342847 bytes).
+Output written on Latex.pdf (60 pages, 8326068 bytes).
 PDF statistics:
  711 PDF objects out of 1000 (max. 8388607)
  586 compressed objects within 6 object streams
