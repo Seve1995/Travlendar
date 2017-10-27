@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.15)  27 OCT 2017 15:00
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.15)  27 OCT 2017 14:26
->>>>>>> master
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.15)  27 OCT 2017 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -49,6 +45,9 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
 ))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen103
@@ -344,7 +343,6 @@ LaTeX Warning: Label `sec:mod1' multiply defined.
 
 LaTeX Warning: Label `sec:mod1' multiply defined.
 
-<<<<<<< HEAD
 
 LaTeX Warning: Label `sec:mod1' multiply defined.
 
@@ -375,59 +373,6 @@ LaTeX Warning: Label `sec:mod1' multiply defined.
 
 LaTeX Warning: Label `sec:crit' multiply defined.
 
-
-LaTeX Warning: Label `sec:crit' multiply defined.
-
-
-LaTeX Warning: Label `sec:mod1' multiply defined.
-
-
-LaTeX Warning: Label `sec:mod1' multiply defined.
-
-
-LaTeX Warning: Label `sec:mod1' multiply defined.
-
-
-LaTeX Warning: Label `sec:mod1' multiply defined.
-
-
-LaTeX Warning: Label `sec:mod1' multiply defined.
-
-
-LaTeX Warning: Label `sec:mod1' multiply defined.
-
-=======
-
-LaTeX Warning: Label `sec:mod1' multiply defined.
-
-
-LaTeX Warning: Label `sec:mod1' multiply defined.
-
-
-LaTeX Warning: Label `sec:mod1' multiply defined.
-
-
-LaTeX Warning: Label `sec:mod1' multiply defined.
-
-
-LaTeX Warning: Label `sec:mod1' multiply defined.
-
-
-LaTeX Warning: Label `sec:mod1' multiply defined.
-
-
-LaTeX Warning: Label `sec:mod1' multiply defined.
-
-
-LaTeX Warning: Label `sec:mod1' multiply defined.
-
-
-LaTeX Warning: Label `sec:mod1' multiply defined.
-
-
-LaTeX Warning: Label `sec:crit' multiply defined.
-
->>>>>>> master
 
 LaTeX Warning: Label `sec:crit' multiply defined.
 
@@ -500,28 +445,19 @@ LaTeX Info: Redefining \nameref on input line 23.
 \@outlinefile=\write3
 \openout3 = `Latex.out'.
 
-<<<<<<< HEAD
- <Logo.png, id=225, 348.30125pt x 305.14pt>
-=======
  <Logo.png, id=196, 348.30125pt x 305.14pt>
->>>>>>> master
 File: Logo.png Graphic file (type png)
 
 <use Logo.png>
 Package pdftex.def Info: Logo.png used on input line 27.
 (pdftex.def)             Requested size: 155.99762pt x 136.66452pt.
-<<<<<<< HEAD
- <LogoTravlendar.png, id=227, 462.22687pt x 99.37125pt>
-=======
  <LogoTravlendar.png, id=198, 462.22687pt x 99.37125pt>
->>>>>>> master
 File: LogoTravlendar.png Graphic file (type png)
 
 <use LogoTravlendar.png>
 Package pdftex.def Info: LogoTravlendar.png used on input line 31.
 (pdftex.def)             Requested size: 350.99762pt x 75.45924pt.
  [1
-<<<<<<< HEAD
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Logo.
 png> <./LogoTravlendar.png>] [2] (./Latex.toc
@@ -532,18 +468,6 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
-=======
-
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Logo.
-png> <./LogoTravlendar.png>] [2] (./Latex.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
-
->>>>>>> master
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1])
@@ -575,44 +499,32 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
  [3] [4] [5]
-<<<<<<< HEAD
-<"Class Diagramv2".png, id=334, 1463.4675pt x 1129.21875pt>
-=======
 <"Class Diagramv2".png, id=298, 1463.4675pt x 1129.21875pt>
->>>>>>> master
 File: "Class Diagramv2".png Graphic file (type png)
 
 <use "Class Diagramv2".png>
-Package pdftex.def Info: "Class Diagramv2".png used on input line 194.
+Package pdftex.def Info: "Class Diagramv2".png used on input line 195.
 (pdftex.def)             Requested size: 585.37663pt x 451.6795pt.
  [6] [7 <./Class Diagramv2.png>]
-<<<<<<< HEAD
-<"Statemachine1".png, id=346, 536.0025pt x 383.18156pt>
-=======
 <"Statemachine1".png, id=311, 536.0025pt x 383.18156pt>
->>>>>>> master
 File: "Statemachine1".png Graphic file (type png)
 
 <use "Statemachine1".png>
-Package pdftex.def Info: "Statemachine1".png used on input line 204.
+Package pdftex.def Info: "Statemachine1".png used on input line 205.
 (pdftex.def)             Requested size: 321.60397pt x 229.9107pt.
 
-<<<<<<< HEAD
-<"Statemachine2".png, id=347, 1136.74687pt x 585.68813pt>
-=======
 <"Statemachine2".png, id=312, 1136.74687pt x 585.68813pt>
->>>>>>> master
 File: "Statemachine2".png Graphic file (type png)
 
 <use "Statemachine2".png>
-Package pdftex.def Info: "Statemachine2".png used on input line 207.
+Package pdftex.def Info: "Statemachine2".png used on input line 208.
 (pdftex.def)             Requested size: 511.53137pt x 263.55722pt.
 
 
-LaTeX Warning: Float too large for page by 19.05118pt on input line 209.
+LaTeX Warning: Float too large for page by 19.05118pt on input line 210.
 
 [8 <./Statemachine1.png> <./Statemachine2.png>]
-Overfull \hbox (5.01074pt too wide) in paragraph at lines 225--226
+Overfull \hbox (5.01074pt too wide) in paragraph at lines 226--227
  []\OT1/cmr/bx/n/12 Personalization[] \OT1/cmr/m/n/12 Travlen-dar+ of-fers a lo
 t of op-tions that can be cus-tomized,
  []
@@ -620,118 +532,62 @@ t of op-tions that can be cus-tomized,
 [9
 
 
-<<<<<<< HEAD
-] [10] <"worldAndMachine".png, id=371, 633.36626pt x 403.5075pt>
+] [10] <"worldAndMachine".png, id=336, 633.36626pt x 403.5075pt>
 File: "worldAndMachine".png Graphic file (type png)
 
 <use "worldAndMachine".png>
 Package pdftex.def Info: "worldAndMachine".png used on input line 309.
 (pdftex.def)             Requested size: 411.6832pt x 262.27676pt.
  [11] [12] [13 <./worldAndMachine.png>]
-<"mockup login".png, id=388, 1505.625pt x 2810.5pt>
+<"mockup login".png, id=353, 1505.625pt x 2810.5pt>
 File: "mockup login".png Graphic file (type png)
  <use "mockup login".png>
 Package pdftex.def Info: "mockup login".png used on input line 322.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
 
 [14] [15 <./mockup login.png>]
-<"mockup meeting".png, id=400, 1505.625pt x 2810.5pt>
+<"mockup meeting".png, id=365, 1505.625pt x 2810.5pt>
 File: "mockup meeting".png Graphic file (type png)
 
 <use "mockup meeting".png>
 Package pdftex.def Info: "mockup meeting".png used on input line 330.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
  [16 <./mockup meeting.png>]
-<"mockup options".png, id=406, 1505.625pt x 2810.5pt>
+<"mockup options".png, id=371, 1505.625pt x 2810.5pt>
 File: "mockup options".png Graphic file (type png)
 
 <use "mockup options".png>
 Package pdftex.def Info: "mockup options".png used on input line 338.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
  [17 <./mockup options.png>]
-<"mockup add activity".png, id=412, 1505.625pt x 2810.5pt>
+<"mockup add activity".png, id=377, 1505.625pt x 2810.5pt>
 File: "mockup add activity".png Graphic file (type png)
 
 <use "mockup add activity".png>
 Package pdftex.def Info: "mockup add activity".png used on input line 346.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
  [18 <./mockup add activity.png>]
-<"mockup modify activity".png, id=418, 1505.625pt x 2810.5pt>
+<"mockup modify activity".png, id=383, 1505.625pt x 2810.5pt>
 File: "mockup modify activity".png Graphic file (type png)
 
 <use "mockup modify activity".png>
 Package pdftex.def Info: "mockup modify activity".png used on input line 354.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
  [19 <./mockup modify activity.png>]
-<"mockup trip selection".png, id=424, 1505.625pt x 2810.5pt>
+<"mockup trip selection".png, id=389, 1505.625pt x 2810.5pt>
 File: "mockup trip selection".png Graphic file (type png)
 
 <use "mockup trip selection".png>
 Package pdftex.def Info: "mockup trip selection".png used on input line 362.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
  [20 <./mockup trip selection.png>]
-<"mockup map".png, id=430, 1505.625pt x 2810.5pt>
+<"mockup map".png, id=395, 1505.625pt x 2810.5pt>
 File: "mockup map".png Graphic file (type png)
  <use "mockup map".png>
 Package pdftex.def Info: "mockup map".png used on input line 370.
-=======
-] [10] <"worldAndMachine".png, id=336, 633.36626pt x 403.5075pt>
-File: "worldAndMachine".png Graphic file (type png)
-
-<use "worldAndMachine".png>
-Package pdftex.def Info: "worldAndMachine".png used on input line 304.
-(pdftex.def)             Requested size: 411.6832pt x 262.27676pt.
- [11] [12 <./worldAndMachine.png>]
-<"mockup login".png, id=349, 1505.625pt x 2810.5pt>
-File: "mockup login".png Graphic file (type png)
- <use "mockup login".png>
-Package pdftex.def Info: "mockup login".png used on input line 317.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
 
-[13] [14 <./mockup login.png>]
-<"mockup meeting".png, id=360, 1505.625pt x 2810.5pt>
-File: "mockup meeting".png Graphic file (type png)
-
-<use "mockup meeting".png>
-Package pdftex.def Info: "mockup meeting".png used on input line 325.
-(pdftex.def)             Requested size: 225.834pt x 421.55681pt.
- [15 <./mockup meeting.png>]
-<"mockup options".png, id=367, 1505.625pt x 2810.5pt>
-File: "mockup options".png Graphic file (type png)
-
-<use "mockup options".png>
-Package pdftex.def Info: "mockup options".png used on input line 333.
-(pdftex.def)             Requested size: 225.834pt x 421.55681pt.
- [16 <./mockup options.png>]
-<"mockup add activity".png, id=373, 1505.625pt x 2810.5pt>
-File: "mockup add activity".png Graphic file (type png)
-
-<use "mockup add activity".png>
-Package pdftex.def Info: "mockup add activity".png used on input line 341.
-(pdftex.def)             Requested size: 225.834pt x 421.55681pt.
- [17 <./mockup add activity.png>]
-<"mockup modify activity".png, id=379, 1505.625pt x 2810.5pt>
-File: "mockup modify activity".png Graphic file (type png)
-
-<use "mockup modify activity".png>
-Package pdftex.def Info: "mockup modify activity".png used on input line 349.
-(pdftex.def)             Requested size: 225.834pt x 421.55681pt.
- [18 <./mockup modify activity.png>]
-<"mockup trip selection".png, id=385, 1505.625pt x 2810.5pt>
-File: "mockup trip selection".png Graphic file (type png)
-
-<use "mockup trip selection".png>
-Package pdftex.def Info: "mockup trip selection".png used on input line 357.
-(pdftex.def)             Requested size: 225.834pt x 421.55681pt.
- [19 <./mockup trip selection.png>]
-<"mockup map".png, id=391, 1505.625pt x 2810.5pt>
-File: "mockup map".png Graphic file (type png)
- <use "mockup map".png>
-Package pdftex.def Info: "mockup map".png used on input line 365.
->>>>>>> master
-(pdftex.def)             Requested size: 225.834pt x 421.55681pt.
-
-[20 <./mockup map.png>] [21
+[21 <./mockup map.png>] [22
 
 
 
@@ -739,40 +595,23 @@ Package pdftex.def Info: "mockup map".png used on input line 365.
 
 
 
-<<<<<<< HEAD
 ] [23] [24] [25] [26] [27] [28] [29]
 Overfull \hbox (25.582pt too wide) in paragraph at lines 552--574
 [][] 
  []
 
-[30] <"UseCase Registration".png, id=495, 709.14937pt x 501.37312pt>
+[30] <"UseCase Registration".png, id=460, 709.14937pt x 501.37312pt>
 File: "UseCase Registration".png Graphic file (type png)
 
 <use "UseCase Registration".png>
 Package pdftex.def Info: "UseCase Registration".png used on input line 579.
 (pdftex.def)             Requested size: 460.94164pt x 325.88866pt.
 
-<"SequenceDiagram Registration".png, id=496, 691.08188pt x 886.81313pt>
-=======
-] [22] [23] [24] [25] [26] [27] [28]
-Overfull \hbox (25.582pt too wide) in paragraph at lines 547--569
-[][] 
- []
-
-[29] <"UseCase Registration".png, id=456, 709.14937pt x 501.37312pt>
-File: "UseCase Registration".png Graphic file (type png)
-
-<use "UseCase Registration".png>
-Package pdftex.def Info: "UseCase Registration".png used on input line 574.
-(pdftex.def)             Requested size: 460.94164pt x 325.88866pt.
-
-<"SequenceDiagram Registration".png, id=457, 691.08188pt x 886.81313pt>
->>>>>>> master
+<"SequenceDiagram Registration".png, id=461, 691.08188pt x 886.81313pt>
 File: "SequenceDiagram Registration".png Graphic file (type png)
 
 <use "SequenceDiagram Registration".png>
 Package pdftex.def Info: "SequenceDiagram Registration".png used on input line 
-<<<<<<< HEAD
 586.
 (pdftex.def)             Requested size: 442.2909pt x 567.55847pt.
 
@@ -781,30 +620,19 @@ LaTeX Warning: Float too large for page by 45.89178pt on input line 588.
 
 [31 <./UseCase Registration.png>] [32 <./SequenceDiagram Registration.png>]
 Overfull \hbox (25.582pt too wide) in paragraph at lines 598--618
-=======
-581.
-(pdftex.def)             Requested size: 442.2909pt x 567.55847pt.
-
-
-LaTeX Warning: Float too large for page by 45.89178pt on input line 583.
-
-[30 <./UseCase Registration.png>] [31 <./SequenceDiagram Registration.png>]
-Overfull \hbox (25.582pt too wide) in paragraph at lines 593--613
->>>>>>> master
 [][] 
  []
 
-[32
+[33
 
-<<<<<<< HEAD
-] <"UseCase Login".png, id=518, 670.00313pt x 334.24875pt>
+] <"UseCase Login".png, id=483, 670.00313pt x 334.24875pt>
 File: "UseCase Login".png Graphic file (type png)
 
 <use "UseCase Login".png>
 Package pdftex.def Info: "UseCase Login".png used on input line 623.
 (pdftex.def)             Requested size: 468.999pt x 233.97252pt.
 
-<"SequenceDiagram Login".png, id=519, 805.50937pt x 1139.00531pt>
+<"SequenceDiagram Login".png, id=484, 805.50937pt x 1139.00531pt>
 File: "SequenceDiagram Login".png Graphic file (type png)
 
 <use "SequenceDiagram Login".png>
@@ -816,70 +644,33 @@ LaTeX Warning: Float too large for page by 104.78818pt on input line 631.
 
 [34 <./UseCase Login.png>] [35 <./SequenceDiagram Login.png>]
 Overfull \hbox (25.582pt too wide) in paragraph at lines 641--658
-=======
-] <"UseCase Login".png, id=478, 670.00313pt x 334.24875pt>
-File: "UseCase Login".png Graphic file (type png)
-
-<use "UseCase Login".png>
-Package pdftex.def Info: "UseCase Login".png used on input line 618.
-(pdftex.def)             Requested size: 468.999pt x 233.97252pt.
-
-<"SequenceDiagram Login".png, id=479, 805.50937pt x 1139.00531pt>
-File: "SequenceDiagram Login".png Graphic file (type png)
-
-<use "SequenceDiagram Login".png>
-Package pdftex.def Info: "SequenceDiagram Login".png used on input line 624.
-(pdftex.def)             Requested size: 443.03152pt x 626.45486pt.
-
-
-LaTeX Warning: Float too large for page by 104.78818pt on input line 626.
-
-[33 <./UseCase Login.png>] [34 <./SequenceDiagram Login.png>]
-Overfull \hbox (25.582pt too wide) in paragraph at lines 636--653
->>>>>>> master
 [][]
  []
 
-[35
+[36
 
 ]
-<<<<<<< HEAD
-<"UseCase Creation of an activity".png, id=539, 880.79062pt x 501.37312pt>
-=======
-<"UseCase Creation of an activity".png, id=500, 880.79062pt x 501.37312pt>
->>>>>>> master
+<"UseCase Creation of an activity".png, id=504, 880.79062pt x 501.37312pt>
 File: "UseCase Creation of an activity".png Graphic file (type png)
 
 <use "UseCase Creation of an activity".png>
 Package pdftex.def Info: "UseCase Creation of an activity".png used on input li
-<<<<<<< HEAD
 ne 662.
 (pdftex.def)             Requested size: 440.39423pt x 250.68594pt.
 
-<"Sequence createActivity".png, id=540, 1284.29813pt x 1068.99374pt>
+<"Sequence createActivity".png, id=505, 1284.29813pt x 1068.99374pt>
 File: "Sequence createActivity".png Graphic file (type png)
 
 <use "Sequence createActivity".png>
 Package pdftex.def Info: "Sequence createActivity".png used on input line 667.
-=======
-ne 657.
-(pdftex.def)             Requested size: 440.39423pt x 250.68594pt.
-
-<"Sequence createActivity".png, id=501, 1284.29813pt x 1068.99374pt>
-File: "Sequence createActivity".png Graphic file (type png)
-
-<use "Sequence createActivity".png>
-Package pdftex.def Info: "Sequence createActivity".png used on input line 662.
->>>>>>> master
 (pdftex.def)             Requested size: 577.92882pt x 481.04274pt.
- [36 <./UseCase Creation of an activity.png>] [37 <./Sequence createActivity.pn
+ [37 <./UseCase Creation of an activity.png>] [38 <./Sequence createActivity.pn
 g>]
-<<<<<<< HEAD
 Overfull \hbox (25.582pt too wide) in paragraph at lines 678--702
 [][] 
  []
 
-<"UseCase Modify activity".png, id=553, 785.93625pt x 587.94656pt>
+<"UseCase Modify activity".png, id=518, 785.93625pt x 587.94656pt>
 File: "UseCase Modify activity".png Graphic file (type png)
 
 <use "UseCase Modify activity".png>
@@ -888,7 +679,7 @@ Package pdftex.def Info: "UseCase Modify activity".png used on input line 706.
  [39
 
 ]
-<"Sequence modifyActivity".png, id=559, 1174.3875pt x 1121.69063pt>
+<"Sequence modifyActivity".png, id=524, 1174.3875pt x 1121.69063pt>
 File: "Sequence modifyActivity".png Graphic file (type png)
 
 <use "Sequence modifyActivity".png>
@@ -898,14 +689,14 @@ Package pdftex.def Info: "Sequence modifyActivity".png used on input line 713.
 
  <./UseCase Modify activity.png>]
 [42 <./Sequence modifyActivity.png>]
-<"UseCase Delete".png, id=586, 671.50874pt x 344.03531pt>
+<"UseCase Delete".png, id=550, 671.50874pt x 344.03531pt>
 File: "UseCase Delete".png Graphic file (type png)
 
 <use "UseCase Delete".png>
 Package pdftex.def Info: "UseCase Delete".png used on input line 743.
 (pdftex.def)             Requested size: 470.05292pt x 240.82307pt.
 
-<"Sequence deleteActivity".png, id=587, 1202.99437pt x 953.06062pt>
+<"Sequence deleteActivity".png, id=551, 1202.99437pt x 953.06062pt>
 File: "Sequence deleteActivity".png Graphic file (type png)
 
 <use "Sequence deleteActivity".png>
@@ -913,159 +704,73 @@ Package pdftex.def Info: "Sequence deleteActivity".png used on input line 749.
 (pdftex.def)             Requested size: 541.34247pt x 428.87332pt.
 
 Overfull \hbox (25.582pt too wide) in paragraph at lines 723--752
-=======
-Overfull \hbox (25.582pt too wide) in paragraph at lines 673--697
-[][] 
- []
-
-<"UseCase Modify activity".png, id=514, 785.93625pt x 587.94656pt>
-File: "UseCase Modify activity".png Graphic file (type png)
-
-<use "UseCase Modify activity".png>
-Package pdftex.def Info: "UseCase Modify activity".png used on input line 701.
-(pdftex.def)             Requested size: 471.56538pt x 352.77066pt.
- [38
-
-]
-Overfull \vbox (11.89986pt too high) has occurred while \output is active []
-
-
-[39] [40
-
- <./UseCase Modify activity.png>]
-<"Sequence modifyActivity".png, id=539, 1174.3875pt x 1111.90407pt>
-File: "Sequence modifyActivity".png Graphic file (type png)
-
-<use "Sequence modifyActivity".png>
-Package pdftex.def Info: "Sequence modifyActivity".png used on input line 708.
-(pdftex.def)             Requested size: 528.4695pt x 500.3522pt.
- [41 <./Sequence modifyActivity.png>]
-<"UseCase Delete".png, id=546, 671.50874pt x 344.03531pt>
-File: "UseCase Delete".png Graphic file (type png)
-
-<use "UseCase Delete".png>
-Package pdftex.def Info: "UseCase Delete".png used on input line 738.
-(pdftex.def)             Requested size: 470.05292pt x 240.82307pt.
-
-<"Sequence deleteActivity".png, id=547, 1202.99437pt x 943.27406pt>
-File: "Sequence deleteActivity".png Graphic file (type png)
-
-<use "Sequence deleteActivity".png>
-Package pdftex.def Info: "Sequence deleteActivity".png used on input line 744.
-(pdftex.def)             Requested size: 541.34247pt x 424.4694pt.
-
-Overfull \hbox (25.582pt too wide) in paragraph at lines 718--747
->>>>>>> master
 [][]
  []
 
-[42
+[43
 
-<<<<<<< HEAD
 ] [44 <./UseCase Delete.png>] [45 <./Sequence deleteActivity.png>]
 Overfull \hbox (25.582pt too wide) in paragraph at lines 760--776
-=======
-] [43 <./UseCase Delete.png>] [44 <./Sequence deleteActivity.png>]
-Overfull \hbox (25.582pt too wide) in paragraph at lines 755--771
->>>>>>> master
 [][] 
  []
 
-[45
+[46
 
-<<<<<<< HEAD
-] <"UseCase Choose trip".png, id=614, 662.475pt x 519.44063pt>
+] <"UseCase Choose trip".png, id=579, 662.475pt x 519.44063pt>
 File: "UseCase Choose trip".png Graphic file (type png)
 
 <use "UseCase Choose trip".png>
 Package pdftex.def Info: "UseCase Choose trip".png used on input line 780.
 (pdftex.def)             Requested size: 430.60365pt x 337.6324pt.
 
-<"Sequence chooseFavouriteTrip".png, id=615, 861.2175pt x 534.49687pt>
-=======
-] <"UseCase Choose trip".png, id=574, 662.475pt x 519.44063pt>
-File: "UseCase Choose trip".png Graphic file (type png)
-
-<use "UseCase Choose trip".png>
-Package pdftex.def Info: "UseCase Choose trip".png used on input line 775.
-(pdftex.def)             Requested size: 430.60365pt x 337.6324pt.
-
-<"Sequence chooseFavouriteTrip".png, id=575, 861.2175pt x 534.49687pt>
->>>>>>> master
+<"Sequence chooseFavouriteTrip".png, id=580, 861.2175pt x 534.49687pt>
 File: "Sequence chooseFavouriteTrip".png Graphic file (type png)
 
 <use "Sequence chooseFavouriteTrip".png>
 Package pdftex.def Info: "Sequence chooseFavouriteTrip".png used on input line 
-<<<<<<< HEAD
 787.
 (pdftex.def)             Requested size: 559.78474pt x 347.41884pt.
  [47 <./UseCase Choose trip.png>]
 [48 <./Sequence chooseFavouriteTrip.png>]
-<"UseCase Modify user preferences".png, id=628, 707.64375pt x 459.21562pt>
-=======
-782.
-(pdftex.def)             Requested size: 559.78474pt x 347.41884pt.
- [46 <./UseCase Choose trip.png>]
-[47 <./Sequence chooseFavouriteTrip.png>]
-<"UseCase Modify user preferences".png, id=589, 707.64375pt x 459.21562pt>
->>>>>>> master
+<"UseCase Modify user preferences".png, id=593, 707.64375pt x 459.21562pt>
 File: "UseCase Modify user preferences".png Graphic file (type png)
 
 <use "UseCase Modify user preferences".png>
 Package pdftex.def Info: "UseCase Modify user preferences".png used on input li
-<<<<<<< HEAD
 ne 823.
 (pdftex.def)             Requested size: 459.963pt x 298.4866pt.
 
-<"SequenceDiagram Modify user's preferences".png, id=629, 660.21657pt x 612.789
-=======
-ne 818.
-(pdftex.def)             Requested size: 459.963pt x 298.4866pt.
-
-<"SequenceDiagram Modify user's preferences".png, id=590, 660.21657pt x 612.789
->>>>>>> master
+<"SequenceDiagram Modify user's preferences".png, id=594, 660.21657pt x 612.789
 37pt>
 File: "SequenceDiagram Modify user's preferences".png Graphic file (type png)
  <use "SequenceDiagram Modify user's preferences".png>
 Package pdftex.def Info: "SequenceDiagram Modify user's preferences".png used o
-<<<<<<< HEAD
 n input line 828.
 (pdftex.def)             Requested size: 462.14844pt x 428.94963pt.
 
 Overfull \hbox (25.582pt too wide) in paragraph at lines 799--831
-=======
-n input line 823.
-(pdftex.def)             Requested size: 462.14844pt x 428.94963pt.
-
-Overfull \hbox (25.582pt too wide) in paragraph at lines 794--826
->>>>>>> master
 [][]
  []
 
-[48
+[49
 
-] [49 <./UseCase Modify user preferences.png>] [50 <./SequenceDiagram Modify us
-er's preferences.png>] [51
+] [50 <./UseCase Modify user preferences.png>] [51 <./SequenceDiagram Modify us
+er's preferences.png>] [52
 
 ]
-<<<<<<< HEAD
 Overfull \hbox (36.18472pt too wide) in paragraph at lines 885--887
-=======
-Overfull \hbox (36.18472pt too wide) in paragraph at lines 880--882
->>>>>>> master
 \OT1/cmr/m/n/12 This RASD is writ-ten try-ing to be con-formed to the IEEE Stan
 -dard (ISO/IEC/IEEE
  []
 
-<<<<<<< HEAD
-[53] [54] <"Alloy/1 - DataType".png, id=664, 489.32813pt x 536.75531pt>
+[53] [54] <"Alloy/1 - DataType".png, id=629, 489.32813pt x 536.75531pt>
 File: "Alloy/1 - DataType".png Graphic file (type png)
 
 <use "Alloy/1 - DataType".png>
 Package pdftex.def Info: "Alloy/1 - DataType".png used on input line 915.
 (pdftex.def)             Requested size: 366.99518pt x 402.56548pt.
  [55 <./Alloy/1 - DataType.png>]
-<"Alloy/2 - Signatures".png, id=669, 314.67563pt x 451.6875pt>
+<"Alloy/2 - Signatures".png, id=635, 314.67563pt x 451.6875pt>
 File: "Alloy/2 - Signatures".png Graphic file (type png)
 
 <use "Alloy/2 - Signatures".png>
@@ -1074,7 +779,7 @@ Package pdftex.def Info: "Alloy/2 - Signatures".png used on input line 922.
  [56
 
  <./Alloy/2 - Signatures.png>]
-<"Alloy/3 - Signatures".png, id=674, 304.13625pt x 645.16031pt>
+<"Alloy/3 - Signatures".png, id=641, 304.13625pt x 645.16031pt>
 File: "Alloy/3 - Signatures".png Graphic file (type png)
 
 <use "Alloy/3 - Signatures".png>
@@ -1088,14 +793,14 @@ LaTeX Warning: Float too large for page by 32.1389pt on input line 929.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [57 <./Alloy/3 - Signatures.png>]
-<"Alloy/4 - Facts".png, id=680, 402.00188pt x 656.4525pt>
+<"Alloy/4 - Facts".png, id=647, 402.00188pt x 656.4525pt>
 File: "Alloy/4 - Facts".png Graphic file (type png)
 
 <use "Alloy/4 - Facts".png>
 Package pdftex.def Info: "Alloy/4 - Facts".png used on input line 935.
 (pdftex.def)             Requested size: 241.20297pt x 393.87454pt.
 
-<"Alloy/5 - Facts".png, id=681, 482.55281pt x 529.22719pt>
+<"Alloy/5 - Facts".png, id=648, 482.55281pt x 529.22719pt>
 File: "Alloy/5 - Facts".png Graphic file (type png)
 
 <use "Alloy/5 - Facts".png>
@@ -1113,7 +818,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
  <./Alloy/4 - Facts.png>] [59 <./Alloy/5 - Facts.png>]
-<"Alloy/6 - Facts".png, id=690, 472.76625pt x 364.36125pt>
+<"Alloy/6 - Facts".png, id=658, 472.76625pt x 364.36125pt>
 File: "Alloy/6 - Facts".png Graphic file (type png)
 
 <use "Alloy/6 - Facts".png>
@@ -1127,7 +832,7 @@ Overfull \hbox (86.68172pt too wide) in paragraph at lines 944--945
 [60
 
  <./Alloy/6 - Facts.png>]
-<"Alloy/7 - Assertions".png, id=695, 469.755pt x 548.0475pt>
+<"Alloy/7 - Assertions".png, id=663, 469.755pt x 548.0475pt>
 File: "Alloy/7 - Assertions".png Graphic file (type png)
 
 <use "Alloy/7 - Assertions".png>
@@ -1136,7 +841,7 @@ Package pdftex.def Info: "Alloy/7 - Assertions".png used on input line 951.
  [61
 
  <./Alloy/7 - Assertions.png>]
-<"Alloy/8 - Predicates".png, id=700, 516.42938pt x 437.38406pt>
+<"Alloy/8 - Predicates".png, id=669, 516.42938pt x 437.38406pt>
 File: "Alloy/8 - Predicates".png Graphic file (type png)
 
 <use "Alloy/8 - Predicates".png>
@@ -1147,7 +852,7 @@ Overfull \hbox (1.2377pt too wide) in paragraph at lines 958--959
 [][] 
  []
 
-<"Alloy/9 - Execution results".png, id=701, 460.72125pt x 118.94438pt>
+<"Alloy/9 - Execution results".png, id=670, 460.72125pt x 118.94438pt>
 File: "Alloy/9 - Execution results".png Graphic file (type png)
 
 <use "Alloy/9 - Execution results".png>
@@ -1157,127 +862,54 @@ Package pdftex.def Info: "Alloy/9 - Execution results".png used on input line 9
  [62
 
  <./Alloy/8 - Predicates.png> <./Alloy/9 - Execution results.png>]
-
-! LaTeX Error: Environment landscape undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.966 \begin{landscape}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<"Alloy/10 - Instance1".png, id=706, 1786.675pt x 760.8425pt>
+<"Alloy/10 - Instance1".png, id=677, 1786.675pt x 760.8425pt>
 File: "Alloy/10 - Instance1".png Graphic file (type png)
 
 <use "Alloy/10 - Instance1".png>
 Package pdftex.def Info: "Alloy/10 - Instance1".png used on input line 970.
 (pdftex.def)             Requested size: 625.34563pt x 266.29886pt.
 
-Overfull \hbox (239.26225pt too wide) in paragraph at lines 970--971
+Overfull \hbox (80.76225pt too wide) in paragraph at lines 970--971
 [][] 
  []
 
 [63
 
+
  <./Alloy/10 - Instance1.png (PNG copy)>]
-
-! LaTeX Error: \begin{document} ended by \end{landscape}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.973 \end{landscape}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment landscape undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.975 \begin{landscape}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<"Alloy/11 - Instance2".png, id=713, 2187.17125pt x 768.8725pt>
+<"Alloy/11 - Instance2".png, id=684, 2187.17125pt x 768.8725pt>
 File: "Alloy/11 - Instance2".png Graphic file (type png)
 
 <use "Alloy/11 - Instance2".png>
 Package pdftex.def Info: "Alloy/11 - Instance2".png used on input line 978.
 (pdftex.def)             Requested size: 656.15645pt x 230.66353pt.
 
-Overfull \hbox (270.07307pt too wide) in paragraph at lines 978--979
+Overfull \hbox (111.57307pt too wide) in paragraph at lines 978--979
 [][] 
  []
 
 [64
 
+
+
  <./Alloy/11 - Instance2.png (PNG copy)>]
-
-! LaTeX Error: \begin{document} ended by \end{landscape}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.981 \end{landscape}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment landscape undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.983 \begin{landscape}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<"Alloy/12 - Instance3".png, id=718, 2303.60625pt x 897.3525pt>
+<"Alloy/12 - Instance3".png, id=689, 2303.60625pt x 897.3525pt>
 File: "Alloy/12 - Instance3".png Graphic file (type png)
 
 <use "Alloy/12 - Instance3".png>
 Package pdftex.def Info: "Alloy/12 - Instance3".png used on input line 986.
 (pdftex.def)             Requested size: 691.08722pt x 269.20782pt.
 
-Overfull \hbox (305.00385pt too wide) in paragraph at lines 986--987
+Overfull \hbox (146.50385pt too wide) in paragraph at lines 986--987
 [][] 
  []
 
 [65
 
- <./Alloy/12 - Instance3.png (PNG copy)>]
 
-! LaTeX Error: \begin{document} ended by \end{landscape}.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.989 \end{landscape}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ <./Alloy/12 - Instance3.png (PNG copy)>] [66
 
-[66
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1008.
@@ -1287,40 +919,25 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 1008.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1008.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1008.
 
-Package rerunfilecheck Info: File `Latex.out' has not changed.
-(rerunfilecheck)             Checksum: 044EE87B0824567EB118C10C0F215CBE;3858.
-=======
-[52] [53] [54] [55]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 921.
- [56]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 921.
- (./Latex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 921.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 921.
-Package rerunfilecheck Info: File `Latex.out' has not changed.
-(rerunfilecheck)             Checksum: 089A5DE2A3426B2C42245F67CEF70E62;3420.
->>>>>>> master
 
+
+Package rerunfilecheck Warning: File `Latex.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Latex.out':
+(rerunfilecheck)             Before: 089A5DE2A3426B2C42245F67CEF70E62;3420
+(rerunfilecheck)             After:  044EE87B0824567EB118C10C0F215CBE;3858.
 
 LaTeX Warning: There were multiply-defined labels.
 
-<<<<<<< HEAD
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1008.
  ) 
 Here is how much of TeX's memory you used:
- 6839 strings out of 492995
- 102110 string characters out of 6132703
- 195721 words of memory out of 5000000
- 10062 multiletter control sequences out of 15000+600000
-=======
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 921.
- ) 
-Here is how much of TeX's memory you used:
- 6751 strings out of 492995
- 100130 string characters out of 6132703
- 195723 words of memory out of 5000000
- 10005 multiletter control sequences out of 15000+600000
->>>>>>> master
+ 6844 strings out of 492995
+ 102246 string characters out of 6132703
+ 195880 words of memory out of 5000000
+ 10064 multiletter control sequences out of 15000+600000
  11234 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,13n,35p,1503b,468s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1332,19 +949,10 @@ sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
 cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
 l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-<<<<<<< HEAD
-Output written on Latex.pdf (71 pages, 9193176 bytes).
+Output written on Latex.pdf (71 pages, 9192487 bytes).
 PDF statistics:
- 808 PDF objects out of 1000 (max. 8388607)
- 659 compressed objects within 7 object streams
+ 780 PDF objects out of 1000 (max. 8388607)
+ 631 compressed objects within 7 object streams
  209 named destinations out of 1000 (max. 500000)
- 636 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-Output written on Latex.pdf (60 pages, 8326068 bytes).
-PDF statistics:
- 711 PDF objects out of 1000 (max. 8388607)
- 586 compressed objects within 6 object streams
- 191 named destinations out of 1000 (max. 500000)
- 520 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> master
+ 580 words of extra memory for PDF output out of 10000 (max. 10000000)
 
