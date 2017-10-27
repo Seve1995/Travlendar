@@ -3,6 +3,10 @@
 \documentclass[12pt,titlepage]{article}
 
 \usepackage{graphics}
+
+\usepackage{array}
+\usepackage{color}
+\usepackage{colortbl}
 \usepackage{xcolor}
 \usepackage{url,amsfonts,epsfig}
 \usepackage[applemac]{inputenc} %comando per le lettere accentate se usate mac  
@@ -270,7 +274,11 @@ To own a personal calendar, the user must have a device with an internet connect
 %\item In the creation screen, a user must specify the type of activity to be added (break or meeting).
 %\item To create a meeting, users must insert name, location, date, starting/ending hours. Optionally they can also insert a brief description.
 %\item The application is real-time informed about traffic, weather and strikes.
+<<<<<<< HEAD
 \item[{[A\textsubscript{1}]}]  Accurate registered user's location is known by GPS.
+=======
+\item [{[A\textsubscript{1}]}]  Accurate registered user's location is known by GPS.
+>>>>>>> master
 \item [{[A\textsubscript{2}]}] The user knows the right details about the activities.
 \item [{[A\textsubscript{3}]}] The public transportations are always in time.
 \item [{[A\textsubscript{4}]}] The external third part services (e.g. vehicle sharing systems, google maps, travel means' websites ecc...) work correctly.
@@ -376,6 +384,17 @@ The application needs an internet connection on the device in order to receive r
 
 \subsection{Functional requirements}\label{sec:mod1}
 \paragraph{Prerequisites}
+\definecolor{lightgray}{rgb}{0.83, 0.83, 0.83}
+\definecolor{anti-flashwhite}{rgb}{0.95, 0.95, 0.96}
+\begin{tabular}{llccr}
+\rowcolor{red}
+ Raw ID & Goal ID & Req ID & Use case ID \\
+\rowcolor{lightgray}
+ quattro & cinque & sei & sette \\
+\rowcolor{anti-flashwhite}
+sette & otto & nove & dieci 
+\end{tabular}
+
 \begin{itemize}
 \item[{[R\textsubscript{1}]}] The system should allow the visitor to begin the registration process by asking him/her all mandatory data: name, surname, date of birth, email, username, password.
 \item[{[R\textsubscript{2}]}] The system should be able to extract data from Facebook or Twitter if the visitor signs in with that application.
