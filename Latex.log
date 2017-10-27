@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.15)  27 OCT 2017 10:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.17)  27 OCT 2017 11:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Latex.tex
 (./Latex.tex
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+Babel <3.10> and hyphenation patterns for 22 language(s) loaded.
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size12.clo
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,29 +23,29 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen103
 \extrarowheight=\dimen104
@@ -53,23 +53,23 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \extratabsurround=\skip43
 \backup@length=\skip44
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks15
 \minrowclearance=\skip45
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -84,11 +84,11 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup4
@@ -96,13 +96,13 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/epsfig.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
@@ -112,21 +112,21 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \epsfxsize=\dimen107
 \epsfysize=\dimen108
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/applemac.def
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/applemac.def
 File: applemac.def 2015/03/17 v1.2c Input encoding file
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2017/05/19 3.10 The Babel package
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel-english/english.ldf
+(/usr/local/texlive/2017basic/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/01/24 v3.3q English support from the babel system
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
+(/usr/local/texlive/2017basic/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2017/05/19 3.10 Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen109
@@ -135,14 +135,16 @@ File: babel.def 2017/05/19 3.10 Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.s
+ty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/hobsub-generic.st
+y
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -181,26 +183,25 @@ Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+) (/usr/local/texlive/2017basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen110
 \Hy@linkcounter=\count89
 \Hy@pagecounter=\count90
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count91
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4498.
@@ -211,10 +212,10 @@ Package hyperref Info: Backreferencing ON on input line 4516.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/backref.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/hyperref/backref.sty
 Package: backref 2016/05/21 v1.39 Bibliographical back referencing
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -241,7 +242,7 @@ LaTeX Info: Redefining \pageref on input line 6432.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
 \Fld@listcount=\count97
 \c@bookmark@seq@number=\count98
@@ -393,7 +394,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
- (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2017basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count99
 \scratchdimen=\dimen114
@@ -406,10 +407,9 @@ LaTeX Font Info:    ... okay on input line 23.
 \MPnumerator=\count103
 \makeMPintoPDFobject=\count104
 \everyMPtoPDFconversion=\toks21
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -419,17 +419,17 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box27
 Package hyperref Info: Link coloring OFF on input line 23.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/local/texlive/2017basic/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/gettitlestring.st
+y
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count105
@@ -437,8 +437,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 23.
 LaTeX Info: Redefining \pageref on input line 23.
 LaTeX Info: Redefining \nameref on input line 23.
-
-(./Latex.out) (./Latex.out)
+ (./Latex.out) (./Latex.out)
 \@outlinefile=\write3
 \openout3 = `Latex.out'.
 
@@ -456,23 +455,24 @@ Package pdftex.def Info: LogoTravlendar.png used on input line 31.
 (pdftex.def)             Requested size: 350.99762pt x 75.45924pt.
  [1
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Logo.
-png> <./LogoTravlendar.png>] [2] (./Latex.toc
+{/usr/local/texlive/2017basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./
+Logo.png> <./LogoTravlendar.png>] [2] (./Latex.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1])
 \tf@toc=\write4
 \openout4 = `Latex.toc'.
 
- [2]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) 
-has been already used, duplicate ignored
+
+[2]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) h
+as been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.89 
@@ -490,13 +490,13 @@ s or day/week/season
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 120.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
- [3] [4] [5]
-<"Class Diagramv2".png, id=298, 1463.4675pt x 1129.21875pt>
+ [3] [4]
+[5] <"Class Diagramv2".png, id=298, 1463.4675pt x 1129.21875pt>
 File: "Class Diagramv2".png Graphic file (type png)
 
 <use "Class Diagramv2".png>
@@ -533,58 +533,58 @@ t of op-tions that can be cus-tomized,
 File: "worldAndMachine".png Graphic file (type png)
 
 <use "worldAndMachine".png>
-Package pdftex.def Info: "worldAndMachine".png used on input line 304.
+Package pdftex.def Info: "worldAndMachine".png used on input line 307.
 (pdftex.def)             Requested size: 411.6832pt x 262.27676pt.
- [11] [12 <./worldAndMachine.png>]
-<"mockup login".png, id=349, 1505.625pt x 2810.5pt>
+ [11] [12] [13 <./worldAndMachine.png>]
+<"mockup login".png, id=353, 1505.625pt x 2810.5pt>
 File: "mockup login".png Graphic file (type png)
  <use "mockup login".png>
-Package pdftex.def Info: "mockup login".png used on input line 317.
+Package pdftex.def Info: "mockup login".png used on input line 320.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
 
-[13] [14 <./mockup login.png>]
-<"mockup meeting".png, id=360, 1505.625pt x 2810.5pt>
+[14] [15 <./mockup login.png>]
+<"mockup meeting".png, id=365, 1505.625pt x 2810.5pt>
 File: "mockup meeting".png Graphic file (type png)
 
 <use "mockup meeting".png>
-Package pdftex.def Info: "mockup meeting".png used on input line 325.
+Package pdftex.def Info: "mockup meeting".png used on input line 328.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
- [15 <./mockup meeting.png>]
-<"mockup options".png, id=367, 1505.625pt x 2810.5pt>
+ [16 <./mockup meeting.png>]
+<"mockup options".png, id=371, 1505.625pt x 2810.5pt>
 File: "mockup options".png Graphic file (type png)
 
 <use "mockup options".png>
-Package pdftex.def Info: "mockup options".png used on input line 333.
+Package pdftex.def Info: "mockup options".png used on input line 336.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
- [16 <./mockup options.png>]
-<"mockup add activity".png, id=373, 1505.625pt x 2810.5pt>
+ [17 <./mockup options.png>]
+<"mockup add activity".png, id=377, 1505.625pt x 2810.5pt>
 File: "mockup add activity".png Graphic file (type png)
 
 <use "mockup add activity".png>
-Package pdftex.def Info: "mockup add activity".png used on input line 341.
+Package pdftex.def Info: "mockup add activity".png used on input line 344.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
- [17 <./mockup add activity.png>]
-<"mockup modify activity".png, id=379, 1505.625pt x 2810.5pt>
+ [18 <./mockup add activity.png>]
+<"mockup modify activity".png, id=383, 1505.625pt x 2810.5pt>
 File: "mockup modify activity".png Graphic file (type png)
 
 <use "mockup modify activity".png>
-Package pdftex.def Info: "mockup modify activity".png used on input line 349.
+Package pdftex.def Info: "mockup modify activity".png used on input line 352.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
- [18 <./mockup modify activity.png>]
-<"mockup trip selection".png, id=385, 1505.625pt x 2810.5pt>
+ [19 <./mockup modify activity.png>]
+<"mockup trip selection".png, id=389, 1505.625pt x 2810.5pt>
 File: "mockup trip selection".png Graphic file (type png)
 
 <use "mockup trip selection".png>
-Package pdftex.def Info: "mockup trip selection".png used on input line 357.
+Package pdftex.def Info: "mockup trip selection".png used on input line 360.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
- [19 <./mockup trip selection.png>]
-<"mockup map".png, id=391, 1505.625pt x 2810.5pt>
+ [20 <./mockup trip selection.png>]
+<"mockup map".png, id=395, 1505.625pt x 2810.5pt>
 File: "mockup map".png Graphic file (type png)
  <use "mockup map".png>
-Package pdftex.def Info: "mockup map".png used on input line 365.
+Package pdftex.def Info: "mockup map".png used on input line 368.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
 
-[20 <./mockup map.png>] [21
+[21 <./mockup map.png>] [22
 
 
 
@@ -592,212 +592,210 @@ Package pdftex.def Info: "mockup map".png used on input line 365.
 
 
 
-] [22] [23] [24] [25] [26] [27] [28]
-Overfull \hbox (25.582pt too wide) in paragraph at lines 547--569
+] [23] [24] [25] [26] [27] [28] [29]
+Overfull \hbox (25.582pt too wide) in paragraph at lines 550--572
 [][] 
  []
 
-[29] <"UseCase Registration".png, id=456, 709.14937pt x 501.37312pt>
+[30] <"UseCase Registration".png, id=460, 709.14937pt x 501.37312pt>
 File: "UseCase Registration".png Graphic file (type png)
 
 <use "UseCase Registration".png>
-Package pdftex.def Info: "UseCase Registration".png used on input line 574.
+Package pdftex.def Info: "UseCase Registration".png used on input line 577.
 (pdftex.def)             Requested size: 460.94164pt x 325.88866pt.
 
-<"SequenceDiagram Registration".png, id=457, 691.08188pt x 886.81313pt>
+<"SequenceDiagram Registration".png, id=461, 691.08188pt x 886.81313pt>
 File: "SequenceDiagram Registration".png Graphic file (type png)
 
 <use "SequenceDiagram Registration".png>
 Package pdftex.def Info: "SequenceDiagram Registration".png used on input line 
-581.
+584.
 (pdftex.def)             Requested size: 442.2909pt x 567.55847pt.
 
 
-LaTeX Warning: Float too large for page by 45.89178pt on input line 583.
+LaTeX Warning: Float too large for page by 45.89178pt on input line 586.
 
-[30 <./UseCase Registration.png>] [31 <./SequenceDiagram Registration.png>]
-Overfull \hbox (25.582pt too wide) in paragraph at lines 593--613
+[31 <./UseCase Registration.png>] [32 <./SequenceDiagram Registration.png>]
+Overfull \hbox (25.582pt too wide) in paragraph at lines 596--616
 [][] 
  []
 
-[32
+[33
 
-] <"UseCase Login".png, id=478, 670.00313pt x 334.24875pt>
+] <"UseCase Login".png, id=483, 670.00313pt x 334.24875pt>
 File: "UseCase Login".png Graphic file (type png)
 
 <use "UseCase Login".png>
-Package pdftex.def Info: "UseCase Login".png used on input line 618.
+Package pdftex.def Info: "UseCase Login".png used on input line 621.
 (pdftex.def)             Requested size: 468.999pt x 233.97252pt.
 
-<"SequenceDiagram Login".png, id=479, 805.50937pt x 1139.00531pt>
+<"SequenceDiagram Login".png, id=484, 805.50937pt x 1139.00531pt>
 File: "SequenceDiagram Login".png Graphic file (type png)
 
 <use "SequenceDiagram Login".png>
-Package pdftex.def Info: "SequenceDiagram Login".png used on input line 624.
+Package pdftex.def Info: "SequenceDiagram Login".png used on input line 627.
 (pdftex.def)             Requested size: 443.03152pt x 626.45486pt.
 
 
-LaTeX Warning: Float too large for page by 104.78818pt on input line 626.
+LaTeX Warning: Float too large for page by 104.78818pt on input line 629.
 
-[33 <./UseCase Login.png>] [34 <./SequenceDiagram Login.png>]
-Overfull \hbox (25.582pt too wide) in paragraph at lines 636--653
+[34 <./UseCase Login.png>] [35 <./SequenceDiagram Login.png>]
+Overfull \hbox (25.582pt too wide) in paragraph at lines 639--656
 [][]
  []
 
-[35
+[36
 
 ]
-<"UseCase Creation of an activity".png, id=500, 880.79062pt x 501.37312pt>
+<"UseCase Creation of an activity".png, id=504, 880.79062pt x 501.37312pt>
 File: "UseCase Creation of an activity".png Graphic file (type png)
 
 <use "UseCase Creation of an activity".png>
 Package pdftex.def Info: "UseCase Creation of an activity".png used on input li
-ne 657.
+ne 660.
 (pdftex.def)             Requested size: 440.39423pt x 250.68594pt.
 
-<"Sequence createActivity".png, id=501, 1284.29813pt x 1068.99374pt>
+<"Sequence createActivity".png, id=505, 1284.29813pt x 1068.99374pt>
 File: "Sequence createActivity".png Graphic file (type png)
 
 <use "Sequence createActivity".png>
-Package pdftex.def Info: "Sequence createActivity".png used on input line 662.
+Package pdftex.def Info: "Sequence createActivity".png used on input line 665.
 (pdftex.def)             Requested size: 577.92882pt x 481.04274pt.
- [36 <./UseCase Creation of an activity.png>] [37 <./Sequence createActivity.pn
+ [37 <./UseCase Creation of an activity.png>] [38 <./Sequence createActivity.pn
 g>]
-Overfull \hbox (25.582pt too wide) in paragraph at lines 673--697
+Overfull \hbox (25.582pt too wide) in paragraph at lines 676--700
 [][] 
  []
 
-<"UseCase Modify activity".png, id=514, 785.93625pt x 587.94656pt>
+<"UseCase Modify activity".png, id=518, 785.93625pt x 587.94656pt>
 File: "UseCase Modify activity".png Graphic file (type png)
 
 <use "UseCase Modify activity".png>
-Package pdftex.def Info: "UseCase Modify activity".png used on input line 701.
-(pdftex.def)             Requested size: 471.56538pt x 352.77066pt.
- [38
+Package pdftex.def Info: "UseCase Modify activity".png used on input line 704.
+(pdftex.def)             Requested size: 392.96716pt x 293.97256pt.
+ [39
 
 ]
-Overfull \vbox (11.89986pt too high) has occurred while \output is active []
-
-
-[39] [40
-
- <./UseCase Modify activity.png>]
-<"Sequence modifyActivity".png, id=539, 1174.3875pt x 1111.90407pt>
+<"Sequence modifyActivity".png, id=524, 1174.3875pt x 1111.90407pt>
 File: "Sequence modifyActivity".png Graphic file (type png)
 
 <use "Sequence modifyActivity".png>
-Package pdftex.def Info: "Sequence modifyActivity".png used on input line 708.
+Package pdftex.def Info: "Sequence modifyActivity".png used on input line 711.
 (pdftex.def)             Requested size: 528.4695pt x 500.3522pt.
- [41 <./Sequence modifyActivity.png>]
-<"UseCase Delete".png, id=546, 671.50874pt x 344.03531pt>
+ [40] [41
+
+ <./UseCase Modify activity.png>]
+[42 <./Sequence modifyActivity.png>]
+<"UseCase Delete".png, id=550, 671.50874pt x 344.03531pt>
 File: "UseCase Delete".png Graphic file (type png)
 
 <use "UseCase Delete".png>
-Package pdftex.def Info: "UseCase Delete".png used on input line 738.
+Package pdftex.def Info: "UseCase Delete".png used on input line 741.
 (pdftex.def)             Requested size: 470.05292pt x 240.82307pt.
 
-<"Sequence deleteActivity".png, id=547, 1202.99437pt x 943.27406pt>
+<"Sequence deleteActivity".png, id=551, 1202.99437pt x 943.27406pt>
 File: "Sequence deleteActivity".png Graphic file (type png)
 
 <use "Sequence deleteActivity".png>
-Package pdftex.def Info: "Sequence deleteActivity".png used on input line 744.
+Package pdftex.def Info: "Sequence deleteActivity".png used on input line 747.
 (pdftex.def)             Requested size: 541.34247pt x 424.4694pt.
 
-Overfull \hbox (25.582pt too wide) in paragraph at lines 718--747
+Overfull \hbox (25.582pt too wide) in paragraph at lines 721--750
 [][]
  []
 
-[42
+[43
 
-] [43 <./UseCase Delete.png>] [44 <./Sequence deleteActivity.png>]
-Overfull \hbox (25.582pt too wide) in paragraph at lines 755--771
+] [44 <./UseCase Delete.png>] [45 <./Sequence deleteActivity.png>]
+Overfull \hbox (25.582pt too wide) in paragraph at lines 758--774
 [][] 
  []
 
-[45
+[46
 
-] <"UseCase Choose trip".png, id=574, 662.475pt x 519.44063pt>
+] <"UseCase Choose trip".png, id=579, 662.475pt x 519.44063pt>
 File: "UseCase Choose trip".png Graphic file (type png)
 
 <use "UseCase Choose trip".png>
-Package pdftex.def Info: "UseCase Choose trip".png used on input line 775.
+Package pdftex.def Info: "UseCase Choose trip".png used on input line 778.
 (pdftex.def)             Requested size: 430.60365pt x 337.6324pt.
 
-<"Sequence chooseFavouriteTrip".png, id=575, 861.2175pt x 534.49687pt>
+<"Sequence chooseFavouriteTrip".png, id=580, 861.2175pt x 534.49687pt>
 File: "Sequence chooseFavouriteTrip".png Graphic file (type png)
 
 <use "Sequence chooseFavouriteTrip".png>
 Package pdftex.def Info: "Sequence chooseFavouriteTrip".png used on input line 
-782.
+785.
 (pdftex.def)             Requested size: 559.78474pt x 347.41884pt.
- [46 <./UseCase Choose trip.png>]
-[47 <./Sequence chooseFavouriteTrip.png>]
-<"UseCase Modify user preferences".png, id=589, 707.64375pt x 459.21562pt>
+ [47 <./UseCase Choose trip.png>]
+[48 <./Sequence chooseFavouriteTrip.png>]
+<"UseCase Modify user preferences".png, id=593, 707.64375pt x 459.21562pt>
 File: "UseCase Modify user preferences".png Graphic file (type png)
 
 <use "UseCase Modify user preferences".png>
 Package pdftex.def Info: "UseCase Modify user preferences".png used on input li
-ne 818.
+ne 821.
 (pdftex.def)             Requested size: 459.963pt x 298.4866pt.
 
-<"SequenceDiagram Modify user's preferences".png, id=590, 660.21657pt x 612.789
+<"SequenceDiagram Modify user's preferences".png, id=594, 660.21657pt x 612.789
 37pt>
 File: "SequenceDiagram Modify user's preferences".png Graphic file (type png)
  <use "SequenceDiagram Modify user's preferences".png>
 Package pdftex.def Info: "SequenceDiagram Modify user's preferences".png used o
-n input line 823.
+n input line 826.
 (pdftex.def)             Requested size: 462.14844pt x 428.94963pt.
 
-Overfull \hbox (25.582pt too wide) in paragraph at lines 794--826
+Overfull \hbox (25.582pt too wide) in paragraph at lines 797--829
 [][]
  []
 
-[48
+[49
 
-] [49 <./UseCase Modify user preferences.png>] [50 <./SequenceDiagram Modify us
-er's preferences.png>] [51
+] [50 <./UseCase Modify user preferences.png>] [51 <./SequenceDiagram Modify us
+er's preferences.png>] [52
 
 ]
-Overfull \hbox (36.18472pt too wide) in paragraph at lines 880--882
+Overfull \hbox (36.18472pt too wide) in paragraph at lines 883--885
 \OT1/cmr/m/n/12 This RASD is writ-ten try-ing to be con-formed to the IEEE Stan
 -dard (ISO/IEC/IEEE
  []
 
-[52] [53] [54] [55]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 921.
- [56]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 921.
+[53] [54] [55] [56]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 924.
+ [57]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 924.
  (./Latex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 921.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 921.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 924.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 924.
 Package rerunfilecheck Info: File `Latex.out' has not changed.
 (rerunfilecheck)             Checksum: 089A5DE2A3426B2C42245F67CEF70E62;3420.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 921.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 924.
  ) 
 Here is how much of TeX's memory you used:
- 6751 strings out of 492995
- 100130 string characters out of 6132703
- 195723 words of memory out of 5000000
- 10005 multiletter control sequences out of 15000+600000
+ 6752 strings out of 494437
+ 100647 string characters out of 6166644
+ 192030 words of memory out of 5000000
+ 9797 multiletter control sequences out of 15000+600000
  11234 words of font info for 42 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 319 hyphenation exceptions out of 8191
  34i,13n,35p,1503b,468s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Latex.pdf (60 pages, 8326068 bytes).
+</usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx8.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr17.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr8.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmtt12.pfb>
+Output written on Latex.pdf (61 pages, 8326591 bytes).
 PDF statistics:
- 711 PDF objects out of 1000 (max. 8388607)
- 586 compressed objects within 6 object streams
- 191 named destinations out of 1000 (max. 500000)
+ 716 PDF objects out of 1000 (max. 8388607)
+ 590 compressed objects within 6 object streams
+ 192 named destinations out of 1000 (max. 500000)
  520 words of extra memory for PDF output out of 10000 (max. 10000000)
 
