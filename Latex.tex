@@ -3,7 +3,7 @@
 \documentclass[12pt,titlepage]{article}
 
 \usepackage{graphics}
-\usepackage{lscape}
+\usepackage{pdflscape}
 \usepackage{array}
 \usepackage{color}
 \usepackage{colortbl}
@@ -42,14 +42,10 @@ allbordercolors=white
 	\vfill
 	% Bottom of the page
 	%{\large Document version: 3.1\par}
-	\pagebreak
-	{\large \today \par}
 \end{titlepage}
 
+\newpage\null\thispagestyle{empty}\newpage
 
-
-
- 
 \pagenumbering{roman}
 
 %%%% Opzione per interlinea 2
@@ -675,7 +671,7 @@ Exception& The possible exception is that the user does not fill a mandatory fie
 \textbf{Modify activity}
 \end{flushleft}
 
-\begin{tabular}{cp{10cm}} 
+\begin{tabular}{cp{10.5cm}} 
 Use case ID& {[U\textsubscript{4}]}\\ \hline
 Actor&Registered user U \\ \hline 
 Input condition&U is the creator of the event A and is logged in.\\ \hline
@@ -932,7 +928,7 @@ This is our Alloy model for our application. It has been created starting from t
 \newpage
 \subsection{Facts}\label{sec:mod1}
 \begin{figure}[h]
-\makebox{\includegraphics[scale=0.6]{"Alloy/4 - Facts"} }
+\makebox{\includegraphics[scale=0.65]{"Alloy/4 - Facts"} }
 \end{figure}
 \begin{figure}[h]
 \makebox{\includegraphics[scale=0.9]{"Alloy/5 - Facts"} }
@@ -968,6 +964,7 @@ This is our Alloy model for our application. It has been created starting from t
 \subsection{Generated worlds}\label{sec:mod1}
 \begin{figure}[h]
 \makebox{\includegraphics[scale=0.35]{"Alloy/10 - Instance1"} }
+\caption{This instance shows the "showBlockedTravelMeansInMeetings" predicate}
 \end{figure}
 \clearpage
 \end{landscape}
@@ -976,6 +973,7 @@ This is our Alloy model for our application. It has been created starting from t
 \newpage
 \begin{figure}[h]
 \makebox{\includegraphics[scale=0.3]{"Alloy/11 - Instance2"} }
+\caption{This instance shows the "showWarningWithOverlappingTime" predicate}
 \end{figure}
 \clearpage
 \end{landscape}
@@ -984,6 +982,7 @@ This is our Alloy model for our application. It has been created starting from t
 \newpage
 \begin{figure}[h]
 \makebox{\includegraphics[scale=0.3]{"Alloy/12 - Instance3"} }
+\caption{This instance shows the "showWorld" predicate}
 \end{figure}
 \clearpage
 \end{landscape}
