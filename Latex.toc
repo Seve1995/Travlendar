@@ -70,5 +70,12 @@
 \contentsline {subsubsection}{\numberline {3.5.4}Maintainability}{54}{subsubsection.3.5.4}
 \contentsline {subsubsection}{\numberline {3.5.5}Portability}{54}{subsubsection.3.5.5}
 \contentsline {section}{\numberline {4}Formal analysis using alloy}{55}{section.4}
-\contentsline {section}{\numberline {5}Effort spent}{56}{section.5}
-\contentsline {section}{\numberline {6}References}{57}{section.6}
+\contentsline {subsection}{\numberline {4.1}Data type signatures}{55}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Signatures}{56}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Facts}{58}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Assertions}{61}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Predicates}{62}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Execution results}{62}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Generated worlds}{63}{subsection.4.7}
+\contentsline {section}{\numberline {5}Effort spent}{66}{section.5}
+\contentsline {section}{\numberline {6}References}{67}{section.6}
