@@ -44,5 +44,12 @@
 \BOOKMARK [3][-]{subsubsection.3.5.4}{Maintainability}{subsection.3.5}% 44
 \BOOKMARK [3][-]{subsubsection.3.5.5}{Portability}{subsection.3.5}% 45
 \BOOKMARK [1][-]{section.4}{Formal analysis using alloy}{}% 46
-\BOOKMARK [1][-]{section.5}{Effort spent}{}% 47
-\BOOKMARK [1][-]{section.6}{References}{}% 48
+\BOOKMARK [2][-]{subsection.4.1}{Data type signatures}{section.4}% 47
+\BOOKMARK [2][-]{subsection.4.2}{Signatures}{section.4}% 48
+\BOOKMARK [2][-]{subsection.4.3}{Facts}{section.4}% 49
+\BOOKMARK [2][-]{subsection.4.4}{Assertions}{section.4}% 50
+\BOOKMARK [2][-]{subsection.4.5}{Predicates}{section.4}% 51
+\BOOKMARK [2][-]{subsection.4.6}{Execution results}{section.4}% 52
+\BOOKMARK [2][-]{subsection.4.7}{Generated worlds}{section.4}% 53
+\BOOKMARK [1][-]{section.5}{Effort spent}{}% 54
+\BOOKMARK [1][-]{section.6}{References}{}% 55
