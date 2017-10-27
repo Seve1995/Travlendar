@@ -144,6 +144,9 @@ There are two types of actors:
 \item	Gi: i-goal
 \item	Ri: i-requirement
 \item	Di: i-domain assumption
+\item Ai: i-assumption 
+\item DEi: i-dependency
+\item Ci: i-constraint
 \end{itemize}
 \subsection{Revision history}\label{RASD}
 
@@ -249,26 +252,43 @@ However, the user that we expect to benefit most is a busy person who wants to o
 To own a personal calendar, the user must have a device with an internet connection and register with all necessary data or sign in with Facebook or Twitter.
 
 \subsection{Assumptions, dependencies and constraints}\label{sec:mod1}
+\paragraph{Assumptions}
 \begin{itemize}
-\item To become a registered user, a visitor must either insert name, surname, username, password, email, address, date of birth, telephone number or sign up with Facebook or Twitter.
-\item A visitor can see only the login and registration page.
-\item Password must be at least 8-characters long for security reason.
-\item To log in a registered user must provide the username and the password associated with him/her.
-\item A registered user can create an unlimited number of meetings.
-\item The calendar for each user is unique.
-\item When meetings overlap, or they can not be reached in the allotted time, a warning is created in order to make the user modify meetings or trips.
-\item In order to buy public transportation's tickets or to use vehicle sharing systems, the user is redirected to websites/apps that provide those services.
-\item Warnings are visualized inside the meeting's information screen.
-\item When a warning is generated, a notification is sent to the user's device.
-\item If the trip chosen is expected to be done by a vehicle sharing system, we assume that in the starting location there are some vehicles available.
-\item If there are some problems with a trip, and in consequence it is unavailable, a warning is sent to the user. The user can close the warning, and the application will automatically open the screen with the choice of the trip in order to let him choose another one.
-\item In the section ``My Account'' a user can modify personal data and can express global preferences (e.g. activate/deactivate each travel means, specify the minimum lunch duration).
-\item In the creation screen, a user must specify the type of activity to be added (break or meeting).
-\item To create a meeting, users must insert name, location, date, starting/ending hours. Optionally they can also insert a brief description.
-\item The application is real-time informed about traffic, weather and strikes.
-
+%\item To become a registered user, a visitor must either insert name, surname, username, password, email, address, date of birth, telephone number or sign up with Facebook or Twitter.
+%\item A visitor can see only the login and registration page.
+%\item Password must be at least 8-characters long for security reason.
+%\item To log in a registered user must provide the username and the password associated with him/her.
+%\item A registered user can create an unlimited number of meetings.
+%\item The calendar for each user is unique.
+%\item When meetings overlap, or they can not be reached in the allotted time, a warning is created in order to make the user modify meetings or trips.
+%\item In order to buy public transportation's tickets or to use vehicle sharing systems, the user is redirected to websites/apps that provide those services.
+%\item Warnings are visualized inside the meeting's information screen.
+%\item When a warning is generated, a notification is sent to the user's device.
+%\item If the trip chosen is expected to be done by a vehicle sharing system, we assume that in the starting location there are some vehicles available.
+%\item If there are some problems with a trip, and in consequence it is unavailable, a warning is sent to the user. The user can close the warning, and the application will automatically open the screen with the choice of the trip in order to let him choose another one.
+%\item In the section ``My Account'' a user can modify personal data and can express global preferences (e.g. activate/deactivate each travel means, specify the minimum lunch duration).
+%\item In the creation screen, a user must specify the type of activity to be added (break or meeting).
+%\item To create a meeting, users must insert name, location, date, starting/ending hours. Optionally they can also insert a brief description.
+%\item The application is real-time informed about traffic, weather and strikes.
+\item[{[A\textsubscript{1}]}]  Accurate registered user's location is known by GPS.
+\item [{[A\textsubscript{2}]}] The user knows the right details about the activities.
+\item [{[A\textsubscript{3}]}] The public transportations are always in time.
+\item [{[A\textsubscript{4}]}] The external third part services (e.g. vehicle sharing systems, google maps, travel means' websites ecc...) work correctly.
+\item [{[A\textsubscript{5}]}] The news about the traffic, the weather and strikes are correct.
 \end{itemize}
 
+\paragraph{Dependencies}
+\begin{itemize}
+\item[{[DE\textsubscript{1}]}]  The application depends on external application and websites for some services, such as: the purchase of public transportation's tickets, the use of vehicle sharing systems. 
+\item [{[DE\textsubscript{2}]}] The application bases on some other services like google maps, meteo services and traffic services and uses the received information to guarantee its services.
+\end{itemize}
+
+\paragraph{Constraints}
+\begin{itemize}
+\item [{[C\textsubscript{1}]}] Travlendar+ requires a smartphone or a tablet with internet connection in order to offer its functionalities.
+\item [{[C\textsubscript{2}]}] Travlendar+ needs a GPS service to find the correct location of the user.
+
+\end{itemize}
 
 \begin{figure}
 \subsection{The World and The Machine}\label{sec:mod1}
@@ -363,7 +383,11 @@ The application needs an internet connection on the device in order to receive r
 \item[{[R\textsubscript{4}]}] The system must allow visitors only to see the login page and the registration form.
 \item[{[R\textsubscript{5}]}] The system should allow only registered users to log in.
 \item[{[R\textsubscript{6}]}] Username and password inserted must be correct to perform the login.
+\end{itemize}
 \paragraph{Requirements}
+\begin{itemize}
+
+
 %\item[\textbf{ {[G\textsubscript{1}]}}]	\textbf{	Users should be able to sign up into the application.}
 %\begin{itemize}
 %\item[{[R\textsubscript{1}]}] The system should allow the visitor to begin the registration process by asking him/her all mandatory data: name, surname, date of birth, email, username, password.
