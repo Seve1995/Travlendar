@@ -62,12 +62,11 @@
 \contentsline {subsection}{\numberline {3.3}Performance requirements}{50}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Design constraints}{50}{subsection.3.4}
 \contentsline {subsubsection}{\numberline {3.4.1}Hardware limitation}{51}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Any other constraint}{51}{subsubsection.3.4.2}
 \contentsline {subsection}{\numberline {3.5}Software system attributes}{51}{subsection.3.5}
 \contentsline {subsubsection}{\numberline {3.5.1}Reliability}{51}{subsubsection.3.5.1}
 \contentsline {subsubsection}{\numberline {3.5.2}Availability}{51}{subsubsection.3.5.2}
 \contentsline {subsubsection}{\numberline {3.5.3}Security}{51}{subsubsection.3.5.3}
-\contentsline {subsubsection}{\numberline {3.5.4}Maintainability}{51}{subsubsection.3.5.4}
+\contentsline {subsubsection}{\numberline {3.5.4}Mainteinability}{51}{subsubsection.3.5.4}
 \contentsline {subsubsection}{\numberline {3.5.5}Portability}{52}{subsubsection.3.5.5}
 \contentsline {section}{\numberline {4}Formal analysis using alloy}{53}{section.4}
 \contentsline {subsection}{\numberline {4.1}Data type signatures}{53}{subsection.4.1}
