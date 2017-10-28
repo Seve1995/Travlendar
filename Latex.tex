@@ -214,7 +214,7 @@ Travlendar+ is similar to other pre-existing applications that compute the best 
  
 \pagebreak 
 \subsection{Product functions}\label{sec:mod1}
-We already identified the goals that characterized functionalities of Travlendar+. Instead, in this section, we offer a specific list of the main features of the application in order to explain better its utility. 
+n this section, we will offer a specific list of the main features of the application in order to explain better its utility. 
 
 \paragraph{Offline mode}
 Travlendar+ could be used in offline mode simply as a basic calendar. Users' can visualize on the main screen all their activities for the day, by clicking them they can see all details about the location and the time. In this mode, it isn't possible to see the map with the computed trips. Users' can also insert new activities by pressing the plus button, whereas if they click on the calendar icon, they are able to visualize the whole calendar. 
@@ -234,7 +234,7 @@ Travlendar+ offers a lot of options that can be customized, for example, the use
 \end{itemize}
 
 \paragraph{The best route's computation}
-Once a meeting is created Travlendar+ suggests the best route between the previous, the current and the next activity of the day that satisfies the constraints of the user. If the user is not satisfied with the proposed trip, he/she can choose another one between those suggested by the app.
+Once a meeting is created Travlendar+ suggests the best route between the previous, the current and the next activity of the day that satisfies the constraints of the user. If the user is not satisfied with the proposed trip, he/she can choose another one between those suggested by the app. Moreover the user can buy tickets online or find the nearest vehicle of a sharing system if he/she needs.
 
 \paragraph{Real-time information}
 Every time the system is updated with the information about the traffic, the weather, strikes etc. The user can either receive the respective notification or visualize all the warnings on the main screen. All these warnings influence the choice of the travel means for the trip. 
@@ -309,14 +309,20 @@ We insert also an example of these components, even if it is not complete.
 \end{figure}
 
 \pagebreak
+
+
+
+\begin{figure}
+\begin{flushleft}
+
+
 \section{Specific requirements}\label{sec:crit}
 
 \subsection{External interface requirements}\label{sec:mod1}
 \subsubsection{User interfaces}\label{sec:mod1}
 Our application has been designed to be used through a smartphone or a tablet.
 The following mock-ups show the screens of the main features offered by the smartphone version. 
-
-\begin{figure}
+\end{flushleft}
 \centering
 \makebox[\textwidth]{\includegraphics[scale=0.15]{"mockup login"} }
 \caption{This is the login screen that appears when a visitor opens the application.}
@@ -395,7 +401,7 @@ The application needs an internet connection on the device in order to receive r
 \item[{[R\textsubscript{4}]}] The system must allow visitors only to see the login page and the registration form.
 \item[{[R\textsubscript{5}]}] The system should allow only registered users to log in.
 \item[{[R\textsubscript{6}]}] Username and password inserted must be correct to perform the login.
-\paragraph{Requirements}
+
 %\item[\textbf{ {[G\textsubscript{1}]}}]	\textbf{	Users should be able to sign up into the application.}
 %\begin{itemize}
 %\item[{[R\textsubscript{1}]}] The system should allow the visitor to begin the registration process by asking him/her all mandatory data: name, surname, date of birth, email, username, password.
@@ -412,7 +418,10 @@ The application needs an internet connection on the device in order to receive r
 %\item[{[R\textsubscript{1}]}] The system should allow only registered users to log in.
 %\item[{[R\textsubscript{2}]}] Username and password inserted must be correct to perform the login.
 %\item[{[R\textsubscript{3}]}] Visitors cannot access the calendar and to the map without login.
-%\end{itemize}
+\end{itemize}
+\paragraph{Requirements}
+\begin{itemize}
+
 \item[\textbf{ {[G\textsubscript{1}]}}]	\textbf{	A user should be able to go to a meeting.}
 \begin{itemize}
 %\item[{[R\textsubscript{1}]}] The system should allow only registered users to create activities.
@@ -816,6 +825,7 @@ Exception& The possible exceptions are:
 In both cases, the new change will overwrite the last one.\\ \hline 
 
 \end{tabular}
+
 \pagebreak 
 \begin{figure}
 \centering
@@ -880,9 +890,6 @@ In order to be compatible both with Android and iOs, the application will be dev
 \end{itemize}
 We have chosen to use the last version of the programming languages to increase robustness and stability of the application, despite the fact that a lot of devices in the market will not be compatible because they're not up to date with the latest OS version.
 
-\subsubsection{Standards compliance}\label{sec:mod1}
-This RASD is written trying to be conformed to the IEEE Standard (ISO/IEC/IEEE 29148 dated 2011).
-We would like that our application's lifecycle process is conformed to the IEEE Standard, in particular to ISO/IEC 12207 dated 2008.
 
 \subsubsection{Hardware limitation}\label{sec:mod1}
 Since it is a mobile application, Travlendar+ requires a smartphone or a tablet with internet connection and with the GPS to find the location of the user.
@@ -896,7 +903,7 @@ The system must be active 24/7 to guarantee all the services in every occasion.
 \subsubsection{Availability}\label{sec:mod1}
 \subsubsection{Security}\label{sec:mod1}
 
-Travlendar+ application is equipped with a login authentication to protect the information of users. Some precautions about the password are necessary to limit vulnerability and to guarantee a complete security of the user's payment data. First, in order to avoid brute force attacks, it is necessary to develop a system that requires a strong password, for example containing at least 8 characters comprehensive of numbers and capital letters.
+Travlendar+ application is equipped with a login authentication to protect the information of users. Some precautions about the password are necessary to limit vulnerability and to guarantee a complete security of the user's data. In order to avoid brute force attacks, it is necessary to develop a system that requires a strong password, for example containing at least 8 characters comprehensive of numbers and capital letters. 
 
 
 
@@ -992,7 +999,7 @@ This is our Alloy model for our application. It has been created starting from t
 \section{Effort spent}\label{sec:crit}
 We managed to distribute the workload fairly between days and team members in a way that allows us to finish a few days before the deadline and have time for an accurate check in the last days.
 We worked together most of the times and trying to do something every day, as it can be shown by Git commits.
-The total amount of time required to build this document is about 33 hours of work per person.
+The total amount of time required to build this document is about 34 hours of work per person.
 \pagebreak
 
 \section{References}\label{sec:crit}
