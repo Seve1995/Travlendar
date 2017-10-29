@@ -1,4 +1,4 @@
-![alt text](https://i.imgur.com/JgV9gkR.png =250px)
+![alt text](https://i.imgur.com/JgV9gkR.png =250x)
 
 #  Travlendar+ Project - Software Engineering II
 Project of Software Engineering 2
