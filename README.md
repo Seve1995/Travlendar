@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/JgV9gkR.png" width="460.5" height="49" />
+<img src="https://i.imgur.com/9e9I0nI.png">
 
 #  Travlendar+ Project - Software Engineering II
 Project of Software Engineering 2
