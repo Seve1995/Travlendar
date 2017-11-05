@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.17)  5 NOV 2017 19:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.17)  5 NOV 2017 21:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -327,14 +327,14 @@ LaTeX Info: Redefining \nameref on input line 21.
 \openout3 = `Latex.out'.
 
 
-<Logos/LogoPolimi.png, id=84, 348.30125pt x 305.14pt>
+<Logos/LogoPolimi.png, id=96, 348.30125pt x 305.14pt>
 File: Logos/LogoPolimi.png Graphic file (type png)
 
 <use Logos/LogoPolimi.png>
 Package pdftex.def Info: Logos/LogoPolimi.png used on input line 25.
 (pdftex.def)             Requested size: 155.99762pt x 136.66452pt.
 
-<Logos/LogoTravlendar.png, id=86, 462.22687pt x 99.37125pt>
+<Logos/LogoTravlendar.png, id=98, 462.22687pt x 99.37125pt>
 File: Logos/LogoTravlendar.png Graphic file (type png)
 
 <use Logos/LogoTravlendar.png>
@@ -378,28 +378,21 @@ been already used, duplicate ignored
 l.80 \item M
             eeting: an activity among the registered user and other people. ...
 [1] [2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
  [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
  (./Latex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
-
-
-Package rerunfilecheck Warning: File `Latex.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Latex.out':
-(rerunfilecheck)             Before: FA564E22E3B40A52A981BFDBCD807893;1254
-(rerunfilecheck)             After:  5EFAE2E929A04FD45384F452B20141D7;1436.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
+Package rerunfilecheck Info: File `Latex.out' has not changed.
+(rerunfilecheck)             Checksum: 5EFAE2E929A04FD45384F452B20141D7;1436.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 142.
  ) 
 Here is how much of TeX's memory you used:
- 6468 strings out of 494437
- 95531 string characters out of 6166644
- 189346 words of memory out of 5000000
- 9684 multiletter control sequences out of 15000+600000
+ 6471 strings out of 494437
+ 95579 string characters out of 6166644
+ 190346 words of memory out of 5000000
+ 9687 multiletter control sequences out of 15000+600000
  10756 words of font info for 40 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  34i,5n,35p,392b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -409,10 +402,10 @@ mr12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmr17.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmti12.pfb>
-Output written on Latex.pdf (7 pages, 144923 bytes).
+Output written on Latex.pdf (7 pages, 145537 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
+ 197 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
  38 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 195 words of extra memory for PDF output out of 10000 (max. 10000000)
 
