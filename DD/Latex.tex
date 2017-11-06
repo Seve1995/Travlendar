@@ -121,7 +121,19 @@ Here are reported the information about the hours of work spent by each member o
 \section{Architectural Design}
 \subsection{Overview}
 This section deals with the architecture of Travlendar+. It is written to explain architectural choices made for the system. These decisions are supported by different diagrams to highlight the view of components and their interactions and to clarify architectural styles adopted in a better way.
+
+The most suitable system architecture that will allow to satisfy all requirements is a three tier architecture. It is helpful also because allows any of the three tiers to be upgraded or replaced independently in response to changes in requirements or technology.
+In this pattern, we have three subsystems to decouple logic and data, logic and presentation: 
+\begin{itemize}
+\item Presentation layer: it is the topmost level of the application. It provides a graphic user interface to the client and it communicates with other levels by which it puts out the results to the client displaying information  related to the services and also acquires its inputs to send to other tiers.
+\item Application layer:  it is the mid level. It controls Travlendar+'s functionalities by performing detailed computation. It coordinates the application, processes commands, makes logical decisions and evaluations and perform calculations. This layer also interacts with external systems that support our application.
+\item Data layer: it is the level in which information are stored and managed. It includes the data persistence mechanisms (database servers, file shares etc.) and the data access layer that encapsulates the persistence mechanism and exposes the data. It is kept independent from application logic and presentation layer.
+\item
+\end{itemize}
+TODO IMMAGINE
+TODO HIGH LEVEL COMPONENTS
 \subsection{Component View}
+In this section we will present the whole system. We will focus on all components and their interactions. This diagram will provide also an overview on interfaces that components provide for interactions.
 \subsection{Deployment View}
 \subsection{Runtime View}
 \subsection{Component Interfaces}
