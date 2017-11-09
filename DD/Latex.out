@@ -14,10 +14,12 @@
 \BOOKMARK [2][-]{subsection.2.4}{Runtime View}{section.2}% 14
 \BOOKMARK [2][-]{subsection.2.5}{Component Interfaces}{section.2}% 15
 \BOOKMARK [2][-]{subsection.2.6}{Selected Architectural Styles and Patterns}{section.2}% 16
-\BOOKMARK [2][-]{subsection.2.7}{Other Design Decisions}{section.2}% 17
-\BOOKMARK [1][-]{section.3}{Algorithm Design}{}% 18
-\BOOKMARK [1][-]{section.4}{User Interface Design}{}% 19
-\BOOKMARK [1][-]{section.5}{Requirements Traceability}{}% 20
-\BOOKMARK [1][-]{section.6}{Implementation, Integration and Test Plan}{}% 21
-\BOOKMARK [1][-]{section.7}{Effort Spent}{}% 22
-\BOOKMARK [1][-]{section.8}{References}{}% 23
+\BOOKMARK [3][-]{subsubsection.2.6.1}{Three-Tier Architecture}{subsection.2.6}% 17
+\BOOKMARK [3][-]{subsubsection.2.6.2}{Design Pattern}{subsection.2.6}% 18
+\BOOKMARK [2][-]{subsection.2.7}{Other Design Decisions}{section.2}% 19
+\BOOKMARK [1][-]{section.3}{Algorithm Design}{}% 20
+\BOOKMARK [1][-]{section.4}{User Interface Design}{}% 21
+\BOOKMARK [1][-]{section.5}{Requirements Traceability}{}% 22
+\BOOKMARK [1][-]{section.6}{Implementation, Integration and Test Plan}{}% 23
+\BOOKMARK [1][-]{section.7}{Effort Spent}{}% 24
+\BOOKMARK [1][-]{section.8}{References}{}% 25

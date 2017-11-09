@@ -128,9 +128,10 @@ In this pattern, we have three subsystems to decouple logic and data, logic and 
 \item Presentation layer: it is the topmost level of the application. It provides a graphic user interface to the client and it communicates with other levels by which it puts out the results to the client displaying information  related to the services and also acquires its inputs to send to other tiers.
 \item Application layer:  it is the mid level. It controls Travlendar+'s functionalities by performing detailed computation. It coordinates the application, processes commands, makes logical decisions and evaluations and perform calculations. This layer also interacts with external systems that support our application.
 \item Data layer: it is the level in which information are stored and managed. It includes the data persistence mechanisms (database servers, file shares etc.) and the data access layer that encapsulates the persistence mechanism and exposes the data. It is kept independent from application logic and presentation layer.
-
 \end{itemize}
-TODO IMMAGINE
+
+\includegraphics[scale=0.5]{"General Architecture - Page 1"}
+
 TODO HIGH LEVEL COMPONENTS
 \subsection{Component View}
 In this section we will present the whole system. We will focus on all components and their interactions. This diagram will provide also an overview on interfaces that components provide for interactions.
@@ -138,6 +139,24 @@ In this section we will present the whole system. We will focus on all component
 \subsection{Runtime View}
 \subsection{Component Interfaces}
 \subsection{Selected Architectural Styles and Patterns}
+\subsubsection{Three-Tier Architecture} 
+As we said before the architectural style that we have chosen for our application is a standard three-tier architecture. The tiers are the following:
+1. GUI Tier: Thin clients. They display information and make the different services and functionalities reachable from the client. Clients can communicate with other tiers.
+2. Application Tier: It controls application functionality, manages requests coming from the clients and sends results, data and notifications to them. It retrieves data from the Data Tier.
+3. Database Tier: Houses database servers where information is stored and retrieved. Data in this tier is kept independent of application servers.
+
+\subsubsection{Design Pattern}
+We will list all design patterns that we think can be useful for Travlendar+.
+
+\begin{itemize}
+\item Client-Server
+\item MVC Pattern
+\item State Pattern
+\end{itemize}
+
+\paragraph{Client Server}
+\paragraph{MVC}
+\paragraph{State Pattern}
 \subsection{Other Design Decisions}
 
 \section{Algorithm Design}
