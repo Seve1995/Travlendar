@@ -155,6 +155,9 @@ We will list all design patterns that we think can be useful for Travlendar+.
 \end{itemize}
 
 \paragraph{Client Server}
+The application is designed to follow the Client-Server communication model. Travlendar+ should be distributed, reachable from a large number of different devices and it needs to provide the service to all of them.
+We would like to have thin clients: we design the server to manage requests and data, while the client should only see results and provides the user with the possibility of exploiting every functionality that they can use.
+Moreover the client-server model allows our system to have high maintainability and scalability.
 \paragraph{MVC}
 \paragraph{State Pattern}
 \subsection{Other Design Decisions}

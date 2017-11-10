@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.15)  6 NOV 2017 13:14
@@ -7,6 +8,9 @@ This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format
 =======
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.17)  7 NOV 2017 13:41
 >>>>>>> master
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.17)  7 NOV 2017 19:12
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -399,16 +403,16 @@ Overfull \hbox (25.10884pt too wide) in paragraph at lines 133--134
 [][] 
  []
 
-[4] [5 <./General Architecture - Page 1.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
- [6] [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
+[4] [5 <./General Architecture - Page 1.png>] [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
  (./Latex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
 Package rerunfilecheck Info: File `Latex.out' has not changed.
 (rerunfilecheck)             Checksum: 656DDAF5EE7EDECE8C1F71A49DD02211;1593.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
  ) 
 Here is how much of TeX's memory you used:
 <<<<<<< HEAD
@@ -442,12 +446,16 @@ mr12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmr17.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmti12.pfb>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 Output written on Latex.pdf (8 pages, 147178 bytes).
 >>>>>>> master
 =======
 Output written on Latex.pdf (10 pages, 296363 bytes).
 >>>>>>> master
+=======
+Output written on Latex.pdf (10 pages, 296825 bytes).
+>>>>>>> Stashed changes
 PDF statistics:
  225 PDF objects out of 1000 (max. 8388607)
  200 compressed objects within 2 object streams

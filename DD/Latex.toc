@@ -27,7 +27,7 @@
 \contentsline {subsubsection}{\numberline {2.6.2}Design Pattern}{6}{subsubsection.2.6.2}
 \contentsline {paragraph}{Client Server}{6}{section*.10}
 \contentsline {paragraph}{MVC}{6}{section*.11}
-\contentsline {paragraph}{State Pattern}{6}{section*.12}
+\contentsline {paragraph}{State Pattern}{7}{section*.12}
 \contentsline {subsection}{\numberline {2.7}Other Design Decisions}{7}{subsection.2.7}
 \contentsline {section}{\numberline {3}Algorithm Design}{7}{section.3}
 \contentsline {section}{\numberline {4}User Interface Design}{7}{section.4}
