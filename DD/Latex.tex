@@ -136,6 +136,18 @@ TODO HIGH LEVEL COMPONENTS
 \subsection{Component View}
 In this section we will present the whole system. We will focus on all components and their interactions. This diagram will provide also an overview on interfaces that components provide for interactions.
 \subsection{Deployment View}
+TODO INSERIRE DEPLOYMENT
+
+In  this section we want to show the deployment of our application showing the physical structure of the system.
+We will use two servers, one for the application and the other for the data. We do not specify the type of the server to use but it should be powerful enough to support all data and all requests that there will be.
+
+The application server will run on the execution environment JavaEE and communication with the database are possible thanks to Java Persistence API which will wrap all database functionalities.
+The application server will handle all the logic behind the system.
+
+The database server will run on the DBMS with the software MySQL. We will choose this software because it is reliable and moreover it is widely spread. This server communicates only with the application server.
+
+Clients can use application through smartphones or tablets. The application will communicate with the application server in a direct way.
+
 \subsection{Runtime View}
 \subsection{Component Interfaces}
 \subsection{Selected Architectural Styles and Patterns}
