@@ -144,7 +144,7 @@ We will use two servers, one for the application and the other for the data. We 
 The application server will run on the execution environment JavaEE and communication with the database are possible thanks to Java Persistence API which will wrap all database functionalities.
 The application server will handle all the logic behind the system.
 
-The database server will run on the DBMS with the software MySQL. We will choose this software because it is reliable and moreover it is widely spread. This server communicates only with the application server.
+The database server will run on the DBMS with the software MySQL. We will choose this software because it is reliable and moreover it is widely spread because it is free. This server communicates only with the application server.
 
 Clients can use application through smartphones or tablets. The application will communicate with the application server in a direct way.
 
@@ -157,21 +157,31 @@ As we said before the architectural style that we have chosen for our applicatio
 2. Application Tier: It controls application functionality, manages requests coming from the clients and sends results, data and notifications to them. It retrieves data from the Data Tier.
 3. Database Tier: Houses database servers where information is stored and retrieved. Data in this tier is kept independent of application servers.
 
-\subsubsection{Design Pattern}
-We will list all design patterns that we think can be useful for Travlendar+.
-
+We choose this type of architecture because it has proved to be effective. It allows a developer the opportunity to extend, modularize, and be able to configure their application.
+Here we list 5 benefits of separating an application into three different tiers:
 \begin{itemize}
-\item Client-Server
-\item MVC Pattern
-\item State Pattern
+\item[1] It gives you the ability to update the technology stack of one tier, without impacting other areas of the application.
+\item[2] It allows for different development teams to each work on their own areas of expertise.
+\item[3] You are able to scale the application up and out, e.g. you can use different technologies to deploy database instead of being stack with only one.
+\item[4] It adds reliability and more independence of the underlying servers or services.
+\item[5] It provides an ease of maintenance of the code base, managing presentation code and business logic separately.
 \end{itemize}
-
+Moreover with three-tier architecture there is the possibility to use new technologies as soon as they become available. This ensures the product is ready to adapt. There is the possibility to redesign your product.
+\subsubsection{Design Pattern}
 \paragraph{Client Server}
 The application is designed to follow the Client-Server communication model. Travlendar+ should be distributed, reachable from a large number of different devices and it needs to provide the service to all of them.
 We would like to have thin clients: we design the server to manage requests and data, while the client should only see results and provides the user with the possibility of exploiting every functionality that they can use.
 Moreover the client-server model allows our system to have high maintainability and scalability.
-\paragraph{MVC}
-\paragraph{State Pattern}
+
+
+\paragraph{MVC Pattern} The application follow the Model-View-Controller software design pattern. This allows our application to be separated into three communicating parts.
+\begin{itemize}
+\item The model represents only the data and nothing else. It does not depend on the controller or on the view.
+\item The controller provides model data to the view and receives user actions from the view. It depends on the other two parts.
+\item The view displays the data and sends user actions to the controller.
+\end{itemize}
+We choose to use this pattern for different reasons: it fits very well with three-tier architecture, it guarantees more reusability to our application and it provides modularity.
+
 \subsection{Other Design Decisions}
 
 \section{Algorithm Design}
@@ -181,8 +191,39 @@ Moreover the client-server model allows our system to have high maintainability 
 \section{Requirements Traceability}
 
 \section{Implementation, Integration and Test Plan}
+In this part we will define a plan to test implementation of our application and also the integration between components.
+We would like to identify:
+\begin{itemize}
+\item objectives and scope;
+\item documents and items that need to be available to perform the various quality assurance activities;
+\item items to be tested;
+\item  the analysis and test activities to be performed;
+\end{itemize}
+
+\paragraph{Objectives and scope}
+\paragraph{Available documents}
+To perform an implementation and an integration test plan with meangingful results, we need that the RASD is available and already completed and discussed at the point the testing will be performed. It describes the application and the functionalities of it.
+Moreover it is required the DD because it provides an idea of the architecture of the system and it depicts components and their functionalities.
+\paragraph{Items to be tested}
+\paragraph{Analysis and test activites}
+
+
+
+%BOZZA TODO LARGE OR SMALL SYSTEM? SEE SLIDES
+%We think that for our application the best approach is a combination between top-down and bottom-up and . In fact using this type of testing, there are a lot of advantages, such that:
+%\begin{itemize}
+%\item major design faults are caught early;
+%\item operational modules are thoroughly tested, so they can be reused with confidence;
+%\item there is fault isolation at all times.
+%\end{itemize} 
+
+
+
 
 \section{Effort Spent}
 
 \section{References}
+For test plan:
+https://cs.uwaterloo.ca/~gweddell/cs446/ITandPC.pdf
+http://www.csun.edu/~eugean/comp380/slides/ch15-4spp.pdf
 \end{document}

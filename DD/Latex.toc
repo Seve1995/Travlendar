@@ -24,14 +24,17 @@
 \contentsline {subsection}{\numberline {2.5}Component Interfaces}{6}{subsection.2.5}
 \contentsline {subsection}{\numberline {2.6}Selected Architectural Styles and Patterns}{6}{subsection.2.6}
 \contentsline {subsubsection}{\numberline {2.6.1}Three-Tier Architecture}{6}{subsubsection.2.6.1}
-\contentsline {subsubsection}{\numberline {2.6.2}Design Pattern}{6}{subsubsection.2.6.2}
+\contentsline {subsubsection}{\numberline {2.6.2}Design Pattern}{7}{subsubsection.2.6.2}
 \contentsline {paragraph}{Client Server}{7}{section*.10}
-\contentsline {paragraph}{MVC}{7}{section*.11}
-\contentsline {paragraph}{State Pattern}{7}{section*.12}
-\contentsline {subsection}{\numberline {2.7}Other Design Decisions}{7}{subsection.2.7}
-\contentsline {section}{\numberline {3}Algorithm Design}{7}{section.3}
-\contentsline {section}{\numberline {4}User Interface Design}{7}{section.4}
-\contentsline {section}{\numberline {5}Requirements Traceability}{7}{section.5}
-\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{7}{section.6}
-\contentsline {section}{\numberline {7}Effort Spent}{7}{section.7}
-\contentsline {section}{\numberline {8}References}{7}{section.8}
+\contentsline {paragraph}{MVC Pattern}{7}{section*.11}
+\contentsline {subsection}{\numberline {2.7}Other Design Decisions}{8}{subsection.2.7}
+\contentsline {section}{\numberline {3}Algorithm Design}{8}{section.3}
+\contentsline {section}{\numberline {4}User Interface Design}{8}{section.4}
+\contentsline {section}{\numberline {5}Requirements Traceability}{8}{section.5}
+\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{8}{section.6}
+\contentsline {paragraph}{Objectives and scope}{8}{section*.12}
+\contentsline {paragraph}{Available documents}{8}{section*.13}
+\contentsline {paragraph}{Items to be tested}{8}{section*.14}
+\contentsline {paragraph}{Analysis and test activites}{8}{section*.15}
+\contentsline {section}{\numberline {7}Effort Spent}{9}{section.7}
+\contentsline {section}{\numberline {8}References}{9}{section.8}
