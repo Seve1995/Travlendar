@@ -18,8 +18,10 @@
 \BOOKMARK [3][-]{subsubsection.2.6.2}{Design Pattern}{subsection.2.6}% 18
 \BOOKMARK [2][-]{subsection.2.7}{Other Design Decisions}{section.2}% 19
 \BOOKMARK [1][-]{section.3}{Algorithm Design}{}% 20
-\BOOKMARK [1][-]{section.4}{User Interface Design}{}% 21
-\BOOKMARK [1][-]{section.5}{Requirements Traceability}{}% 22
-\BOOKMARK [1][-]{section.6}{Implementation, Integration and Test Plan}{}% 23
-\BOOKMARK [1][-]{section.7}{Effort Spent}{}% 24
-\BOOKMARK [1][-]{section.8}{References}{}% 25
+\BOOKMARK [2][-]{subsection.3.1}{Add an activity}{section.3}% 21
+\BOOKMARK [2][-]{subsection.3.2}{Notification Controller}{section.3}% 22
+\BOOKMARK [1][-]{section.4}{User Interface Design}{}% 23
+\BOOKMARK [1][-]{section.5}{Requirements Traceability}{}% 24
+\BOOKMARK [1][-]{section.6}{Implementation, Integration and Test Plan}{}% 25
+\BOOKMARK [1][-]{section.7}{Effort Spent}{}% 26
+\BOOKMARK [1][-]{section.8}{References}{}% 27
