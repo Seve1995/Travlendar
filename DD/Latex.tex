@@ -18,6 +18,30 @@ colorlinks=false,
 allbordercolors=white
 }
 
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=none,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
 \begin{document}
 %Code for title page
 \begin{titlepage}
@@ -217,6 +241,132 @@ We choose to use this pattern for different reasons: it fits very well with thre
 \subsection{Other Design Decisions}
 
 \section{Algorithm Design}
+In this section we highlight some of the algorithms used for the implementation of the critical part of our application. In particular, the following are the algorithms used for deploying the application in Android (developed using Java language).
+\subsection{Adding an activity}
+In this piece of code is shown the function called by the event listener when a registered user insert a new activity (meeting or break) in Travlendar+. It calls the function \textit{checkWarning} from the class \textit{NotificationController} that will be explained in the next subsection.
+\begin{lstlisting}
+public class ActivityController {
+	//Add a new activity to an existing trip
+	public void addActivity(RegisteredUser ru, Activity a)
+	{
+		if (ru.getCalendar().getTrips().getTrip(a.getData()) != null)
+				//Create a new trip with the same data of the activity
+				ru.calendar().getTrips().createTrip(a.getData()); 
+		//Get the existing trip with the same data of the activity
+		Trip currentTrip = ru.getCalendar().getTrips().getTrip(a.getData()); 
+		currentTrip.add(a);
+		orderActivities(currentTrip);
+		//If are errors, delete the activity from the user's trip
+		if (NotificationController.checkWarning(t)=true) 
+			currentTrip.remove(a);
+		else 
+			{
+				//Compute and show to the user the path's alternatives to reach the meeting
+				TripController.computeTripPath(currentTrip); 
+			}
+	}
+	
+	//Insertion sort algorithm based on the starting time of activities in the trip (converted in minutes for the sake of semplicity)
+	private void orderActivities(Trip t) 
+	{
+		int i, j;
+		for(i=1; i<t.length(); i++)
+		{
+			int tmp = convertToMinutes(t.get(i).getTime().getHour(), t.get(i).getTime().getMinute());
+			for (j = i - 1; (j >= 0) && (convertToMinutes(t.get(j).getTime().getHour(), t.get(j).getTime().getMinute()) > tmp); j--) 
+			{
+	            t.get(j + 1) = t.get(j);
+	            
+	        }
+			
+			t.get(j + 1) = tmp;
+		}
+	}
+	
+	//Utility function that express a time in its equivalent in minutes 
+	private int convertToMinutes(int hour, int minutes)
+	{
+		return hour*60+minutes;
+	}
+	... //Other functions
+}
+
+
+public class TripController {
+
+	public void computeTripPath(RegisteredUser ru, Trip t)
+	{
+		//Call external services to generate various path alternatives (and by using the trip preferences specified by the user)
+		ExternalServicesManager.computePath(t);
+		//Show the generated alternatives to the user
+		ru.show(t.getPathAlternatives()); 
+	}
+	... //Other functions 
+}
+\end{lstlisting}
+
+\subsection{Notification Controller}
+Below is provided the implementation of the checks that are performed when a new activity is added to an existing trip. When a check returns false, then a warning is generated and it will appear as pop-up notification in the user's device, by invoking the \textit{sendWarning()} function.
+\begin{lstlisting}
+public static class NotificationController {
+	
+	public static boolean checkWarning(Trip t)
+	{
+		boolean error = false;
+		if (overlappingActivities(t)) 
+		{	
+			//Create a new warning by specifying (type, description)
+			Warning warning = new Warning("OverlappingActivities", "Two activities overlap"); 
+			//Activate the function that will send the notification to the user's device
+			warning.sendWarning();
+			error = true;
+		}
+		if (activityUnreachable(t)) 
+		{	
+			//Create a new warning by specifying (type, description)
+			Warning warning = new Warning("ActivityUnreachable", "The new activity make the next activity unreachable"); 
+			//Activate the function that will send the notification to the user's device
+			warning.sendWarning();
+			error = true;
+		}
+		return error;
+	}
+	
+	private static boolean overlappingActivities(Trip t)
+	{
+
+		for(int i=1; i<t.length(); i++)
+		{
+			//timeInMinutes1 expresses the activity i-1's starting hour in minutes 
+			int timeInMinutes1 = convertToMinutes(t.get(i-1).getTime().getHour(), t.get(i-1).getTime().getMinute());
+			//timeInMinutes2 expresses the activity i's starting hour in minutes 
+			int timeInMinutes2 = convertToMinutes(t.get(i).getTime().getHour(), t[i].getTime().getMinute());
+			if (timeInMinutes1+t[i-1].getDuration() > timeInMinutes2)
+				return true;
+
+		}
+		return false;
+	}
+	
+	private static boolean activityUnreachable(Trip t)
+	{	//t.get(i).getTravelDuration() returns the time for moving from the activity i-1 to the activity i.
+		//It is already expressed in minutes
+
+		for(int i=1; i<t.length(); i++)
+		{
+			//timeInMinutes1 expresses the activity i-1's starting hour in minutes 
+			int timeInMinutes1 = convertToMinutes(t.get(i-1).getTime().getHour(), t[i-1].getTime().getMinute());
+			//timeInMinutes2 expresses the activity i's starting hour in minutes 
+			int timeInMinutes2 = convertToMinutes(t.get(i).getTime().getHour(), t[i].getTime().getMinute());
+			
+			if (timeInMinutes1+t[i-1].getDuration()+t.get(i).getTravelDuration() > timeInMinutes2)
+				return true;
+		}
+		return false;
+	}
+	... //Other functions
+}
+\end{lstlisting}
 
 \section{User Interface Design}
 
