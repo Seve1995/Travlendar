@@ -18,48 +18,24 @@
 \contentsline {paragraph}{Section 8: References}{4}{section*.9}
 \contentsline {section}{\numberline {2}Architectural Design}{4}{section.2}
 \contentsline {subsection}{\numberline {2.1}Overview}{4}{subsection.2.1}
-<<<<<<< HEAD
 \contentsline {subsection}{\numberline {2.2}Component View}{6}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Deployment View}{10}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Runtime View}{11}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Component Interfaces}{11}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Selected Architectural Styles and Patterns}{11}{subsection.2.6}
-\contentsline {subsubsection}{\numberline {2.6.1}Three-Tier Architecture}{11}{subsubsection.2.6.1}
-\contentsline {subsubsection}{\numberline {2.6.2}Design Pattern}{12}{subsubsection.2.6.2}
-\contentsline {paragraph}{Client Server}{12}{section*.10}
-\contentsline {paragraph}{MVC Pattern}{12}{section*.11}
-\contentsline {subsection}{\numberline {2.7}Other Design Decisions}{13}{subsection.2.7}
-\contentsline {section}{\numberline {3}Algorithm Design}{13}{section.3}
-\contentsline {section}{\numberline {4}User Interface Design}{13}{section.4}
-\contentsline {section}{\numberline {5}Requirements Traceability}{13}{section.5}
-\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{13}{section.6}
-\contentsline {paragraph}{Objectives and scope}{13}{section*.12}
-\contentsline {paragraph}{Available documents}{13}{section*.13}
-\contentsline {paragraph}{Items to be tested}{13}{section*.14}
-\contentsline {paragraph}{Analysis and test activites}{14}{section*.15}
-\contentsline {section}{\numberline {7}Effort Spent}{14}{section.7}
-\contentsline {section}{\numberline {8}References}{14}{section.8}
-=======
-\contentsline {subsection}{\numberline {2.2}Component View}{5}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Deployment View}{5}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Runtime View}{6}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Component Interfaces}{6}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Selected Architectural Styles and Patterns}{6}{subsection.2.6}
-\contentsline {subsubsection}{\numberline {2.6.1}Three-Tier Architecture}{6}{subsubsection.2.6.1}
-\contentsline {subsubsection}{\numberline {2.6.2}Design Pattern}{7}{subsubsection.2.6.2}
-\contentsline {paragraph}{Client Server}{7}{section*.10}
-\contentsline {paragraph}{MVC Pattern}{7}{section*.11}
-\contentsline {subsection}{\numberline {2.7}Other Design Decisions}{8}{subsection.2.7}
-\contentsline {section}{\numberline {3}Algorithm Design}{8}{section.3}
-\contentsline {subsection}{\numberline {3.1}Add an activity}{8}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Notification Controller}{10}{subsection.3.2}
-\contentsline {section}{\numberline {4}User Interface Design}{12}{section.4}
-\contentsline {section}{\numberline {5}Requirements Traceability}{12}{section.5}
-\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{12}{section.6}
-\contentsline {paragraph}{Objectives and scope}{12}{section*.12}
-\contentsline {paragraph}{Available documents}{12}{section*.13}
-\contentsline {paragraph}{Items to be tested}{13}{section*.14}
-\contentsline {paragraph}{Analysis and test activites}{13}{section*.15}
-\contentsline {section}{\numberline {7}Effort Spent}{13}{section.7}
-\contentsline {section}{\numberline {8}References}{13}{section.8}
->>>>>>> master
+\contentsline {subsubsection}{\numberline {2.2.1}Database}{9}{subsubsection.2.2.1}
+\contentsline {subsection}{\numberline {2.3}Deployment View}{11}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Runtime View}{12}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Component Interfaces}{12}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Selected Architectural Styles and Patterns}{12}{subsection.2.6}
+\contentsline {subsubsection}{\numberline {2.6.1}Three-Tier Architecture}{12}{subsubsection.2.6.1}
+\contentsline {subsubsection}{\numberline {2.6.2}Design Pattern}{13}{subsubsection.2.6.2}
+\contentsline {paragraph}{Client Server}{13}{section*.10}
+\contentsline {paragraph}{MVC Pattern}{13}{section*.11}
+\contentsline {subsection}{\numberline {2.7}Other Design Decisions}{14}{subsection.2.7}
+\contentsline {section}{\numberline {3}Algorithm Design}{14}{section.3}
+\contentsline {section}{\numberline {4}User Interface Design}{14}{section.4}
+\contentsline {section}{\numberline {5}Requirements Traceability}{14}{section.5}
+\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{14}{section.6}
+\contentsline {paragraph}{Objectives and scope}{14}{section*.12}
+\contentsline {paragraph}{Available documents}{14}{section*.13}
+\contentsline {paragraph}{Items to be tested}{14}{section*.14}
+\contentsline {paragraph}{Analysis and test activites}{15}{section*.15}
+\contentsline {section}{\numberline {7}Effort Spent}{15}{section.7}
+\contentsline {section}{\numberline {8}References}{15}{section.8}
