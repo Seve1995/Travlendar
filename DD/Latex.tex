@@ -131,12 +131,44 @@ In this pattern, we have three subsystems to decouple logic and data, logic and 
 \end{itemize}
 
 \includegraphics[scale=0.5]{"General Architecture - Page 1"}
+\pagebreak
 
-TODO HIGH LEVEL COMPONENTS
+
+\begin{figure}
 \subsection{Component View}
 In this section we will present the whole system. We will focus on all components and their interactions. This diagram will provide also an overview on interfaces that components provide for interactions.
+\includegraphics[scale=0.24]{"Component Diagram - Page 1"}
+\end{figure}
+
+\clearpage
+\newpage
+
+\begin{flushleft}
+\begin{itemize}
+\item \textbf{Event listener:} it manages the information that it receives from the user application and it sends it to the different components of our application. It decides where the information must be directed. Moreover the event listener forwards the information to the user application.
+\item \textbf{Notification controller:} it manages the warnings, it creates them thanks to the trip controller and sends them to it that will show them to the user.
+\item \textbf{Trip controller:} it occupies of organizing trips between activities. It uses data of the activity controller and it activates the notification controller. It exploits information of the map controller and of the external services controller (such as weather, traffic, strikes).
+\item \textbf{Activity controller:} it receives information from the user to create meetings, modify them and delete them. It receives also data to create, modify and delete breaks. It gives data to the trip controller so that it can organize journeys between them.
+\item \textbf{Map controller:} it gives the opportunity to the user to see information about trips that he/she has to do showing trips on the map. It manages the daily trip between activities through data of the trip controller.  ???
+\item \textbf{External services controller:} it manages every external service exploited by our application. It receives information from them and it uses them to provide all functionalities of Travlendar+.
+\item \textbf{User controller:} it manages the information about the user. It receives:
+\begin{itemize}
+\item personal information such that name, surname, address;
+\item data for the login (username and password);
+\item global preferences, for example activation or deactivation of travel means or minimum duration of the lunch break.
+\end{itemize} 
+\item \textbf{Model:} it is our representation of the world. It contains all data with Travlendar+ deals with.
+\item \textbf{Database:} it is the database to store data persistently.
+\item \textbf{Push notification service:} it manages the sending of all notification to users' devices.
+\item \textbf{Map service:} it provides the map and services like computation of trip distances and travel time
+\item \textbf{External services:} they provides information and functionalities to our application. Travlendar+ exploits data like traffic, strikes, weather and it uses external applications like Ofo, Enjoy, Trenitalia to provide for example the purchase of tickets and the rent of sharing system vehicles.
+\item \textbf{User application: } it is the GUI. It provides the graphic user interface to the client and communicates with the server.
+\end{itemize}
+\end{flushleft}
+
+
 \subsection{Deployment View}
-TODO INSERIRE DEPLOYMENT
+\includegraphics[scale=0.9]{"Deployment Diagram"}
 
 In  this section we want to show the deployment of our application showing the physical structure of the system.
 We will use two servers, one for the application and the other for the data. We do not specify the type of the server to use but it should be powerful enough to support all data and all requests that there will be.
