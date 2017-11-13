@@ -118,6 +118,10 @@ With this new application, people and their smartphones can have a lot of appoin
 \item API: application programming interface;
 \end{itemize}
 \subsection{Abbreviations}
+\begin{itemize}
+\item	Gi: i-goal
+\item	Ri: i-requirement
+\end{itemize}
 
 \subsection{Reference Documents}
 \begin{itemize}
@@ -191,15 +195,33 @@ In this section we will present the whole system. We will focus on all component
 \end{itemize}
 \end{flushleft}
 
-\pagebreak
+
+
+\begin{figure}
+\begin{flushleft}
+
+
 \subsubsection{Database}
-The DB component will include a DBMS to properly manage the data and their handling. It will interact only with the application server. It will use a secure interface so that the date are safetly stored and the security is guaranteed.
+The DB component will include a DBMS to properly manage the data and their handling. It will interact only with the application server. It will use a secure interface so that the date are safely stored and the security is guaranteed.
 We show the data representation with  E-R schema.
+\end{flushleft}
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.5]{"ER "}}
+\caption{Entity-Relation diagram}
+\end{figure}
 
+\clearpage
+\newpage
 
-\includegraphics[scale=0.5]{"ER "}
+\begin{figure}
+\begin{flushleft}
 \subsection{Deployment View}
-\includegraphics[scale=0.9]{"Deployment Diagram"}
+\end{flushleft}
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.6]{"Deployment Diagram"}}
+\caption{Entity-Relation diagram}
+\begin{flushleft}
+
 
 In  this section we want to show the deployment of our application showing the physical structure of the system.
 We will use two servers, one for the application and the other for the data. We do not specify the type of the server to use but it should be powerful enough to support all data and all requests that there will be.
@@ -210,16 +232,89 @@ The application server will handle all the logic behind the system.
 The database server will run on the DBMS with the software MySQL. We will choose this software because it is reliable and moreover it is widely spread because it is free. This server communicates only with the application server.
 
 Clients can use application through smartphones or tablets. The application will communicate with the application server in a direct way.
+\end{flushleft}
+\end{figure}
+
+\clearpage
+\newpage
 
 \subsection{Runtime View}
+We would like to show the behaviour of the application for some of the most important features: through sequence diagrams we explain how the requests of a user are managed by components of Travlendar+.
+
+We think that the behaviour of Travlendar+ is interesting in particular for these functionalities:
+\begin{itemize}
+\item registration;
+\item login;
+\item creation of an activity;
+\item modification of an activity;
+\item elimination of an activity;
+\item choice of a trip;
+\item modification of user's preferences.
+\end{itemize}
+
+\begin{figure}
+\paragraph{Registration}
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.3]{"Sequence Registration"}}
+\caption{Sequence diagram of the registration process}
+\end{figure}
+
+\begin{figure}
+\paragraph{Login}
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.3]{"Sequence Login"} } 
+\caption{Sequence diagram of the login process}
+\end{figure}
+
+\begin{figure}
+\paragraph{Create an activity}
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.3]{"Sequence createActivity"} } 
+\caption{Sequence diagram of the creation of an activity}
+\end{figure}
+
+\begin{figure}
+\paragraph{Modify an activity}
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.27]{"Sequence modifyActivity"} } 
+\caption{Sequence diagram of the modification of an activity}
+\end{figure}
+
+\begin{figure}
+\paragraph{Delete an activity}
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.28]{"Sequence deleteActivity"} } 
+\caption{Sequence diagram of elimination of an activity}
+\end{figure}
+
+%\begin{figure}
+%\paragraph{Choose the favourite trip}
+%\centering
+%\makebox[\textwidth]{\includegraphics[scale=0.65]{"Sequence chooseFavouriteTrip"} }
+%\caption{Sequence diagram of choosing the trip}
+%\end{figure}
+
+%begin{figure}
+%\paragraph{Modify user's preferences}
+%\centering
+%\makebox[\textwidth]{\includegraphics[scale=0.7]{"Sequence ModifyUserpreferences"}  }
+%\caption{Sequence diagram of modifying user's preferences}
+%\end{figure}
+
+\clearpage
+\newpage
+
 \subsection{Component Interfaces}
 \subsection{Selected Architectural Styles and Patterns}
 \subsubsection{Three-Tier Architecture} 
 As we said before the architectural style that we have chosen for our application is a standard three-tier architecture. The tiers are the following:
-1. GUI Tier: Thin clients. They display information and make the different services and functionalities reachable from the client. Clients can communicate with other tiers.
-2. Application Tier: It controls application functionality, manages requests coming from the clients and sends results, data and notifications to them. It retrieves data from the Data Tier.
-3. Database Tier: Houses database servers where information is stored and retrieved. Data in this tier is kept independent of application servers.
+\begin{itemize}
 
+
+\item[1] GUI Tier: Thin clients. They display information and make the different services and functionalities reachable from the client. Clients can communicate with other tiers.
+\item[2] Application Tier: It controls application functionality, manages requests coming from the clients and sends results, data and notifications to them. It retrieves data from the Data Tier.
+\item[3] Database Tier: Houses database servers where information is stored and retrieved. Data in this tier is kept independent of application servers.
+\end{itemize}
 We choose this type of architecture because it has proved to be effective. It allows a developer the opportunity to extend, modularize, and be able to configure their application.
 Here we list 5 benefits of separating an application into three different tiers:
 \begin{itemize}
@@ -378,8 +473,30 @@ public static class NotificationController {
 
 \section{Requirements Traceability}
 
+%\resizebox*{1\textwidth}{!}{
+\begin{table}[ht]
+\subsection{Functional Requirements}
+\begin{tabular}{p{9cm}|p{5cm}}
+\textbf{ Requirements of Goals} & \textbf{Components} \\ \hline
+\textbf{ {[G\textsubscript{1}]}} user should be able to go to a meeting. & EventListener \linebreak ActivityController \linebreak TripController \\ \hline
+\textbf{ {[G\textsubscript{2}]}} A user should be able to know if he/she cannot arrive on time to a meeting. &EventListener\linebreak ActivityController\linebreak TripController\linebreak NotificationController\\ \hline
+\textbf{ {[G\textsubscript{3}]}} A user should be able to have a break that has a certain
+duration between two meetings.& EventListener \linebreak ActivityController\linebreak UserController \\ \hline
+\textbf{ {[G\textsubscript{4}]}} The time or the location of a meeting can be modified. &EventListener \linebreak ActivityController\linebreak MapController \linebreak  \\ \hline
+\textbf{ {[G\textsubscript{5}]}} A user should be able to unsay a meeting.&EventListener \linebreak ActivityController\linebreak \\ \hline
+\textbf{ {[G\textsubscript{6}]}} A user should be able to have some preferences for the trip.&EventListener \linebreak UserController\linebreak TripController \\ \hline
+\textbf{ {[G\textsubscript{7}]}} A user should be able to know every possible option to go to a meeting with different travel means in order to choose the suitable one.& EventListener \linebreak TripController\linebreak MapController \\ \hline
+\textbf{ {[G\textsubscript{8}]}} A user should be able to buy public transportation tickets or day/week/season pass basing on his/her needs. &EventListener \linebreak TripController\linebreak  ExternalServicesController\\ \hline
+\textbf{ {[G\textsubscript{9}]}} A user would like to see on Tripadvisor advised places for
+his/her breaks. &EventListener \linebreak ActivityController\linebreak ExternalServicesController \\ \hline
+\textbf{ {[G\textsubscript{10}]}} A user would like to locate the nearest vehicle of a vehicle sharing system if he/she wants to use that type of travel means. &EventListener \linebreak ExternalServicesController  \\ \hline
+\textbf{ {[G\textsubscript{11}]}} A user would like to have real-time news on strikes, weather
+and traffic. & EventListener \linebreak  ExternalServicesController\\ \hline
+\end{tabular}
+\end{table}
+%}
 \section{Implementation, Integration and Test Plan}
-In this part we will define a plan to test implementation of our application and also the integration between components.
+In this part we will define a plan to implement the components of Travlendar+ and to test our application and also the integration between components.
 We would like to identify:
 \begin{itemize}
 \item objectives and scope;
