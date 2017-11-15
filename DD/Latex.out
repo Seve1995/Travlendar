@@ -22,8 +22,12 @@
 \BOOKMARK [2][-]{subsection.3.1}{Adding an activity}{section.3}% 22
 \BOOKMARK [2][-]{subsection.3.2}{Notification Controller}{section.3}% 23
 \BOOKMARK [1][-]{section.4}{User Interface Design}{}% 24
-\BOOKMARK [1][-]{section.5}{Requirements Traceability}{}% 25
-\BOOKMARK [2][-]{subsection.5.1}{Functional Requirements}{section.5}% 26
-\BOOKMARK [1][-]{section.6}{Implementation, Integration and Test Plan}{}% 27
-\BOOKMARK [1][-]{section.7}{Effort Spent}{}% 28
-\BOOKMARK [1][-]{section.8}{References}{}% 29
+\BOOKMARK [2][-]{subsection.4.1}{Login and registration}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.2}{My activities}{section.4}% 26
+\BOOKMARK [2][-]{subsection.4.3}{Add activity and modify activity}{section.4}% 27
+\BOOKMARK [2][-]{subsection.4.4}{Trip selection and trip map}{section.4}% 28
+\BOOKMARK [1][-]{section.5}{Requirements Traceability}{}% 29
+\BOOKMARK [2][-]{subsection.5.1}{Functional Requirements}{section.5}% 30
+\BOOKMARK [1][-]{section.6}{Implementation, Integration and Test Plan}{}% 31
+\BOOKMARK [1][-]{section.7}{Effort Spent}{}% 32
+\BOOKMARK [1][-]{section.8}{References}{}% 33

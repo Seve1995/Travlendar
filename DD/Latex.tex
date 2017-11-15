@@ -2,6 +2,7 @@
 
 \usepackage{graphics}
 \usepackage{pdflscape}
+\usepackage{float}
 \usepackage{array}
 \usepackage{color}
 \usepackage{colortbl}
@@ -195,16 +196,13 @@ In this section we will present the whole system. We will focus on all component
 \end{itemize}
 \end{flushleft}
 
-
-
-\begin{figure}
-\begin{flushleft}
-
+\clearpage
+\newpage
 
 \subsubsection{Database}
 The DB component will include a DBMS to properly manage the data and their handling. It will interact only with the application server. It will use a secure interface so that the date are safely stored and the security is guaranteed.
 We show the data representation with  E-R schema.
-\end{flushleft}
+\begin{figure}[H]
 \centering
 \makebox[\textwidth]{\includegraphics[scale=0.5]{"ER "}}
 \caption{Entity-Relation diagram}
@@ -213,15 +211,12 @@ We show the data representation with  E-R schema.
 \clearpage
 \newpage
 
-\begin{figure}
-\begin{flushleft}
 \subsection{Deployment View}
-\end{flushleft}
+\begin{figure}[H]
 \centering
-\makebox[\textwidth]{\includegraphics[scale=0.6]{"Deployment Diagram"}}
+\makebox[\textwidth]{\includegraphics[scale=0.4]{"Deployment Diagram"}}
 \caption{Entity-Relation diagram}
-\begin{flushleft}
-
+\end{figure}
 
 In  this section we want to show the deployment of our application showing the physical structure of the system.
 We will use two servers, one for the application and the other for the data. We do not specify the type of the server to use but it should be powerful enough to support all data and all requests that there will be.
@@ -232,8 +227,6 @@ The application server will handle all the logic behind the system.
 The database server will run on the DBMS with the software MySQL. We will choose this software because it is reliable and moreover it is widely spread because it is free. This server communicates only with the application server.
 
 Clients can use application through smartphones or tablets. The application will communicate with the application server in a direct way.
-\end{flushleft}
-\end{figure}
 
 \clearpage
 \newpage
@@ -469,9 +462,57 @@ public static class NotificationController {
   ... //Other functions 
 } 
 \end{lstlisting} 
+
+
 \section{User Interface Design}
+Mockups of Travlendar+ have already been presented in the \textit{Requirements Analysis and Specification Document} to show the look of our application. Now, we want to describe more in detail the features offered by the graphical interface and the way the user will provide inputs and see output on the different application screens.
+\clearpage
+\newpage
 
+\subsection{Login and registration}\label{sec:Login}
+This is the first screen of the application. It is shown to the user in one of the following cases:
+\begin{itemize}
+\item It's the first launch of the application on the user's device;
+\item The registered user has decided to log out his/her account from the application;
+\item The registered user doesn't select the \textit{Remember me} option and performs a new launch of the application.
+\end{itemize}
+A new user can access the registration process by pressing the \textit{Sign up}, or can access to an existing account by entering the credential in the two input form \textit{Username} and \textit{Password}. By pressing the first \textit{Login} button the user will send his/her credential to the system that will check if their correctness.
+\begin{figure}[H]
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.11]{"Mockup/mockup login"} }
+\end{figure}
+\clearpage
+\newpage
 
+\subsection{My activities}
+This is the main screen of Travlendar+. Here is shown to the registered user a list containing all his/her activities created, divided into the two sections \textit{Meetings} and \textit{Breaks}. In the \textit{Breaks} section are also present the breaks added automatically by Travlendar+ if the user has activated, in his/her account preferences, the option for the flexible lunch. By pressing an element of the list, the user can change the activity details and can also delete it, or can press the plus symbol (see symbol no. 4) to open the Add activity's screen (see section \ref{activityScreen}).
+By pressing the symbol no. 1 the user will open the application's sections list (right figure), which shows all the area of Travlendar+ application. With the two arrows present in the box no. 2 the registered user can select the day of which he/she wants to the activities, and by pressing the current day displayed (i.e. \textit{Today}) the entire calendar will be shown. The symbol of the gear (see symbol no. 3) will open the current trip preferences.
+\begin{figure}[H]
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.11]{"Mockup/mockup meeting"} {\includegraphics[scale=0.11]{"Mockup/mockup options"} }}
+\end{figure}
+\clearpage
+\newpage
+
+\subsection{Add activity and modify activity}\label{activityScreen}
+Referring to the left figure, in this screen the user can specify the type of activity to add by pressing one of the three figure on the top, and then he/she must provide all the required information in order to correctly create the selected activity. By pressing the arrow on the top right, the system will compute various trip option that will be shown to user (see section \ref{trip}). 
+In the right figure, instead, the user can see all the activity details, or he/she can modify an existing activity and can confirm the changes made by pressing the tick button in the upper right. He/she can also delete the activity by pressing the trash icon.
+\begin{figure}[H]
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.11]{"Mockup/mockup add activity"} {\includegraphics[scale=0.11]{"Mockup/mockup modify activity"} }}
+\end{figure}
+\clearpage
+\newpage
+
+\subsection{Trip selection and trip map}\label{trip}
+After the addition of a new activity, the screen present in the left figure shows to the user the various trip option computed by Travlendar+'s external services, compatibly with the user specified trip preferences. After the user selects one of the option available on the list, the right figure's screen is shown, containing the entire itinerary for the current trip. It is also shown the weather for the trip's date and the trip information such as strikes and traffic, if available. The map shows the various meetings and breaks with a blue and red signal, respectively, and by pressing the name of the activity (e.g. Take kids to school) it will enter the activity details (see section \ref{activityScreen}, right screen). By pressing the green GO button the user will be redirected to the travel instruction, while pressing the symbol with the arrow immediately below will activate the GPS service to check the current position of the user.
+
+\begin{figure}[H]
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.11]{"Mockup/mockup trip selection"} {\includegraphics[scale=0.11]{"Mockup/mockup map"} }}
+\end{figure}
+\clearpage
+\newpage
 
 %\resizebox*{1\textwidth}{!}{
 \begin{table}[ht]

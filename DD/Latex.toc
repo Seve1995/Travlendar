@@ -21,29 +21,33 @@
 \contentsline {subsection}{\numberline {2.2}Component View}{6}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}Database}{9}{subsubsection.2.2.1}
 \contentsline {subsection}{\numberline {2.3}Deployment View}{10}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Runtime View}{11}{subsection.2.4}
-\contentsline {paragraph}{Registration}{12}{section*.10}
-\contentsline {paragraph}{Login}{13}{section*.11}
-\contentsline {paragraph}{Create an activity}{14}{section*.12}
-\contentsline {paragraph}{Modify an activity}{15}{section*.13}
-\contentsline {paragraph}{Delete an activity}{16}{section*.14}
-\contentsline {subsection}{\numberline {2.5}Component Interfaces}{17}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Selected Architectural Styles and Patterns}{17}{subsection.2.6}
-\contentsline {subsubsection}{\numberline {2.6.1}Three-Tier Architecture}{17}{subsubsection.2.6.1}
-\contentsline {subsubsection}{\numberline {2.6.2}Design Pattern}{18}{subsubsection.2.6.2}
-\contentsline {paragraph}{Client Server}{18}{section*.15}
-\contentsline {paragraph}{MVC Pattern}{18}{section*.16}
-\contentsline {subsection}{\numberline {2.7}Other Design Decisions}{18}{subsection.2.7}
-\contentsline {section}{\numberline {3}Algorithm Design}{18}{section.3}
-\contentsline {subsection}{\numberline {3.1}Adding an activity}{19}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Notification Controller}{20}{subsection.3.2}
-\contentsline {section}{\numberline {4}User Interface Design}{23}{section.4}
-\contentsline {section}{\numberline {5}Requirements Traceability}{24}{section.5}
-\contentsline {subsection}{\numberline {5.1}Functional Requirements}{24}{subsection.5.1}
-\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{25}{section.6}
-\contentsline {paragraph}{Objectives and scope}{25}{section*.17}
-\contentsline {paragraph}{Available documents}{25}{section*.18}
-\contentsline {paragraph}{Items to be tested}{25}{section*.19}
-\contentsline {paragraph}{Analysis and test activites}{25}{section*.20}
-\contentsline {section}{\numberline {7}Effort Spent}{25}{section.7}
-\contentsline {section}{\numberline {8}References}{25}{section.8}
+\contentsline {subsection}{\numberline {2.4}Runtime View}{12}{subsection.2.4}
+\contentsline {paragraph}{Registration}{13}{section*.10}
+\contentsline {paragraph}{Login}{14}{section*.11}
+\contentsline {paragraph}{Create an activity}{15}{section*.12}
+\contentsline {paragraph}{Modify an activity}{16}{section*.13}
+\contentsline {paragraph}{Delete an activity}{17}{section*.14}
+\contentsline {subsection}{\numberline {2.5}Component Interfaces}{18}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Selected Architectural Styles and Patterns}{18}{subsection.2.6}
+\contentsline {subsubsection}{\numberline {2.6.1}Three-Tier Architecture}{18}{subsubsection.2.6.1}
+\contentsline {subsubsection}{\numberline {2.6.2}Design Pattern}{19}{subsubsection.2.6.2}
+\contentsline {paragraph}{Client Server}{19}{section*.15}
+\contentsline {paragraph}{MVC Pattern}{19}{section*.16}
+\contentsline {subsection}{\numberline {2.7}Other Design Decisions}{19}{subsection.2.7}
+\contentsline {section}{\numberline {3}Algorithm Design}{19}{section.3}
+\contentsline {subsection}{\numberline {3.1}Adding an activity}{20}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Notification Controller}{21}{subsection.3.2}
+\contentsline {section}{\numberline {4}User Interface Design}{24}{section.4}
+\contentsline {subsection}{\numberline {4.1}Login and registration}{25}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}My activities}{26}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Add activity and modify activity}{27}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Trip selection and trip map}{28}{subsection.4.4}
+\contentsline {section}{\numberline {5}Requirements Traceability}{29}{section.5}
+\contentsline {subsection}{\numberline {5.1}Functional Requirements}{29}{subsection.5.1}
+\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{30}{section.6}
+\contentsline {paragraph}{Objectives and scope}{30}{section*.17}
+\contentsline {paragraph}{Available documents}{30}{section*.18}
+\contentsline {paragraph}{Items to be tested}{30}{section*.19}
+\contentsline {paragraph}{Analysis and test activites}{30}{section*.20}
+\contentsline {section}{\numberline {7}Effort Spent}{30}{section.7}
+\contentsline {section}{\numberline {8}References}{30}{section.8}
