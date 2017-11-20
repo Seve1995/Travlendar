@@ -353,8 +353,8 @@ public class ActivityController {
     Trip currentTrip = ru.getCalendar().getTrips().getTrip(a.getData());  
     currentTrip.add(a); 
     orderActivities(currentTrip); 
-    //If are errors, delete the activity from the user's trip 
-    if (NotificationController.checkWarning(t)=true)  
+    //If there are some errors, delete the activity from the user's trip 
+    if (NotificationController.checkWarning(currentTrip)=true)  
       currentTrip.remove(a); 
     else  
       { 
