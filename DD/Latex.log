@@ -1,25 +1,14 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.17)  20 NOV 2017 15:01
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.15)  20 NOV 2017 14:44
->>>>>>> master
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.17)  21 NOV 2017 15:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Latex.tex
 (./Latex.tex
 LaTeX2e <2017-04-15>
-<<<<<<< HEAD
 Babel <3.10> and hyphenation patterns for 22 language(s) loaded.
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/size12.clo
-=======
-Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size12.clo
->>>>>>> master
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -34,7 +23,6 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
@@ -42,20 +30,10 @@ Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
->>>>>>> master
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
@@ -63,20 +41,10 @@ File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
 (/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
->>>>>>> master
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
 ))
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
@@ -84,30 +52,14 @@ Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
->>>>>>> master
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/float/float.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
->>>>>>> master
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count88
 \float@exts=\toks14
@@ -115,11 +67,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks15
 \@floatcapt=\box27
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/tools/array.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
->>>>>>> master
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen103
 \extrarowheight=\dimen104
@@ -127,41 +75,23 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \extratabsurround=\skip43
 \backup@length=\skip44
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics-cfg/color.cfg
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
->>>>>>> master
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/colortbl/colortbl.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty
->>>>>>> master
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks17
 \minrowclearance=\skip45
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics-cfg/color.cfg
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
->>>>>>> master
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -176,19 +106,11 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip10
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
->>>>>>> master
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks18
 \symAMSa=\mathgroup4
@@ -196,7 +118,6 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
@@ -204,15 +125,6 @@ Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics/keyval.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/epsfig.sty
-Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
->>>>>>> master
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
@@ -222,16 +134,11 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \epsfxsize=\dimen107
 \epsfysize=\dimen108
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/inputenc.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
->>>>>>> master
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks20
 \inpenc@posthook=\toks21
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/applemac.def
 File: applemac.def 2015/03/17 v1.2c Input encoding file
 ))
@@ -242,18 +149,6 @@ Package: babel 2017/05/19 3.10 The Babel package
 Language: english 2017/01/24 v3.3q English support from the babel system
 
 (/usr/local/texlive/2017basic/texmf-dist/tex/generic/babel/babel.def
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/applemac.def
-File: applemac.def 2015/03/17 v1.2c Input encoding file
-))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2017/05/19 3.10 The Babel package
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/01/24 v3.3q English support from the babel system
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
->>>>>>> master
 File: babel.def 2017/05/19 3.10 Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen109
@@ -262,7 +157,6 @@ File: babel.def 2017/05/19 3.10 Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
@@ -273,16 +167,6 @@ Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 (/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/hobsub-generic.st
 y
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
->>>>>>> master
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -321,38 +205,22 @@ Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-<<<<<<< HEAD
 ) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-=======
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
->>>>>>> master
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen110
 \Hy@linkcounter=\count90
 \Hy@pagecounter=\count91
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/hyperref/pd1enc.def
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
->>>>>>> master
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count92
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
->>>>>>> master
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4498.
@@ -363,17 +231,10 @@ Package hyperref Info: Backreferencing ON on input line 4516.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/hyperref/backref.sty
 Package: backref 2016/05/21 v1.39 Bibliographical back referencing
 
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/backref.sty
-Package: backref 2016/05/21 v1.39 Bibliographical back referencing
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
->>>>>>> master
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -400,11 +261,7 @@ LaTeX Info: Redefining \pageref on input line 6432.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/hyperref/hpdftex.def
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
->>>>>>> master
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
 \Fld@listcount=\count98
 \c@bookmark@seq@number=\count99
@@ -412,11 +269,7 @@ File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
 )
 Package hyperref Info: Option `colorlinks' set `false' on input line 20.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/listings/listings.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
->>>>>>> master
 \lst@mode=\count100
 \lst@gtempboxa=\box28
 \lst@token=\toks22
@@ -430,30 +283,18 @@ Package hyperref Info: Option `colorlinks' set `false' on input line 20.
 \lst@lineno=\count105
 \lst@maxwidth=\dimen117
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/listings/lstmisc.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
->>>>>>> master
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count106
 \lst@skipnumbers=\count107
 \lst@framebox=\box29
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/listings/listings.cfg
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
->>>>>>> master
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/listings/lstlang1.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
->>>>>>> master
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (./Latex.aux)
@@ -474,11 +315,7 @@ LaTeX Font Info:    ... okay on input line 46.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
->>>>>>> master
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count108
 \scratchdimen=\dimen118
@@ -491,16 +328,9 @@ LaTeX Font Info:    ... okay on input line 46.
 \MPnumerator=\count112
 \makeMPintoPDFobject=\count113
 \everyMPtoPDFconversion=\toks24
-<<<<<<< HEAD
 ) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/grfext.sty
-=======
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
->>>>>>> master
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -510,29 +340,17 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
->>>>>>> master
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box31
 Package hyperref Info: Link coloring OFF on input line 46.
-<<<<<<< HEAD
  (/usr/local/texlive/2017basic/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/gettitlestring.st
 y
-=======
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
->>>>>>> master
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count114
@@ -540,12 +358,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 46.
 LaTeX Info: Redefining \pageref on input line 46.
 LaTeX Info: Redefining \nameref on input line 46.
-<<<<<<< HEAD
  (./Latex.out) (./Latex.out)
-=======
-
-(./Latex.out) (./Latex.out)
->>>>>>> master
 \@outlinefile=\write3
 \openout3 = `Latex.out'.
 
@@ -566,37 +379,22 @@ Package pdftex.def Info: Logos/LogoTravlendar.png used on input line 55.
 (pdftex.def)             Requested size: 350.99762pt x 75.45924pt.
  [1
 
-<<<<<<< HEAD
 {/usr/local/texlive/2017basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./
 Logos/LogoPolimi.png> <./Logos/LogoTravlendar.png>]pdfTeX warning (ext4): desti
 nation with the same identifier (name{page.1}) has been already used, duplicate
  ignored
-=======
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Logos
-/LogoPolimi.png> <./Logos/LogoTravlendar.png>]pdfTeX warning (ext4): destinatio
-n with the same identifier (name{page.1}) has been already used, duplicate igno
-red
->>>>>>> master
 <to be read again> 
                    \relax 
 l.71 \newpage\null\thispagestyle{empty}\newpage
                                                 [1] (./Latex.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/amsfonts/umsa.fd
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
->>>>>>> master
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/amsfonts/umsb.fd
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
->>>>>>> master
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1])
 \tf@toc=\write4
@@ -606,11 +404,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [2]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 103.
 
-<<<<<<< HEAD
  (/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/omscmr.fd
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
->>>>>>> master
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
@@ -656,167 +450,160 @@ Overfull \hbox (22.85081pt too wide) in paragraph at lines 169--171
 [6 <./Component Diagram - Page 1.jpeg>] [7
 
 ] [8]
-<"ER ".png, id=245, 967.06294pt x 549.70369pt>
+<"ER ".png, id=245, 1561.032pt x 1199.682pt>
 File: "ER ".png Graphic file (type png)
  <use "ER ".png>
-Package pdftex.def Info: "ER ".png used on input line 207.
-(pdftex.def)             Requested size: 483.53029pt x 274.85117pt.
+Package pdftex.def Info: "ER ".png used on input line 208.
+(pdftex.def)             Requested size: 780.5141pt x 599.83954pt.
  [9
 
- <./ER .png>]
-<"Deployment Diagram".jpeg, id=253, 922.19531pt x 668.4975pt>
+]
+Overfull \vbox (78.17285pt too high) has occurred while \output is active []
+
+
+[10 <./ER .png>] <"Deployment Diagram".jpeg, id=257, 922.19531pt x 668.4975pt>
 File: "Deployment Diagram".jpeg Graphic file (type jpg)
 
 <use "Deployment Diagram".jpeg>
-Package pdftex.def Info: "Deployment Diagram".jpeg used on input line 217.
+Package pdftex.def Info: "Deployment Diagram".jpeg used on input line 218.
 (pdftex.def)             Requested size: 368.8716pt x 267.39426pt.
- [10
+ [11
 
- <./Deployment Diagram.jpeg>] [11]
-<"Sequence Registration".png, id=263, 1464.2203pt x 967.36406pt>
+ <./Deployment Diagram.jpeg>] [12]
+<"Sequence Registration".png, id=267, 1464.2203pt x 967.36406pt>
 File: "Sequence Registration".png Graphic file (type png)
 
 <use "Sequence Registration".png>
-Package pdftex.def Info: "Sequence Registration".png used on input line 253.
+Package pdftex.def Info: "Sequence Registration".png used on input line 254.
 (pdftex.def)             Requested size: 439.26949pt x 290.21146pt.
 
-<"Sequence Login".jpg, id=264, 1731.46875pt x 1507.6325pt>
+<"Sequence Login".jpg, id=268, 1731.46875pt x 1507.6325pt>
 File: "Sequence Login".jpg Graphic file (type jpg)
 
 <use "Sequence Login".jpg>
-Package pdftex.def Info: "Sequence Login".jpg used on input line 260.
+Package pdftex.def Info: "Sequence Login".jpg used on input line 261.
 (pdftex.def)             Requested size: 519.44464pt x 452.29324pt.
 
-<"Sequence createActivity".jpg, id=265, 2690.05pt x 1647.15375pt>
+<"Sequence createActivity".jpg, id=269, 2690.05pt x 1647.15375pt>
 File: "Sequence createActivity".jpg Graphic file (type jpg)
 
 <use "Sequence createActivity".jpg>
-Package pdftex.def Info: "Sequence createActivity".jpg used on input line 267.
+Package pdftex.def Info: "Sequence createActivity".jpg used on input line 268.
 (pdftex.def)             Requested size: 807.02124pt x 494.14995pt.
 
-<"Sequence modifyActivity".jpg, id=266, 2927.93875pt x 1485.55pt>
+<"Sequence modifyActivity".jpg, id=270, 2927.93875pt x 1485.55pt>
 File: "Sequence modifyActivity".jpg Graphic file (type jpg)
 
 <use "Sequence modifyActivity".jpg>
-Package pdftex.def Info: "Sequence modifyActivity".jpg used on input line 274.
+Package pdftex.def Info: "Sequence modifyActivity".jpg used on input line 275.
 (pdftex.def)             Requested size: 790.55405pt x 401.10387pt.
 
-<"Sequence deleteActivity".jpg, id=267, 1056.94875pt x 2142.0025pt>
+<"Sequence deleteActivity".jpg, id=271, 1056.94875pt x 2142.0025pt>
 File: "Sequence deleteActivity".jpg Graphic file (type jpg)
 
 <use "Sequence deleteActivity".jpg>
-Package pdftex.def Info: "Sequence deleteActivity".jpg used on input line 281.
+Package pdftex.def Info: "Sequence deleteActivity".jpg used on input line 282.
 (pdftex.def)             Requested size: 295.94363pt x 599.75662pt.
 
 
-LaTeX Warning: Float too large for page by 89.75656pt on input line 283.
+LaTeX Warning: Float too large for page by 89.75656pt on input line 284.
 
-[12
+[13
 
-] [13 <./Sequence Registration.png>] [14 <./Sequence Login.jpg>] [15 <./Sequenc
-e createActivity.jpg>] [16 <./Sequence modifyActivity.jpg>] [17 <./Sequence del
-eteActivity.jpg>] [18
+] [14 <./Sequence Registration.png>] [15 <./Sequence Login.jpg>] [16 <./Sequenc
+e createActivity.jpg>] [17 <./Sequence modifyActivity.jpg>] [18 <./Sequence del
+eteActivity.jpg>] [19
 
-] [19] [20] [21] [22]
-Overfull \hbox (40.45609pt too wide) in paragraph at lines 459--460
+] [20] [21] [22] [23]
+Overfull \hbox (40.45609pt too wide) in paragraph at lines 460--461
 [][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[23] [24] <"Mockup/mockup login".png, id=456, 1505.625pt x 2810.5pt>
+[24] [25] <"Mockup/mockup login".png, id=460, 1505.625pt x 2810.5pt>
 File: "Mockup/mockup login".png Graphic file (type png)
 
 <use "Mockup/mockup login".png>
-Package pdftex.def Info: "Mockup/mockup login".png used on input line 484.
-(pdftex.def)             Requested size: 165.61926pt x 309.15596pt.
- [25
-
- <./Mockup/mockup login.png>]
-<"Mockup/mockup meeting".png, id=463, 1505.625pt x 2810.5pt>
-File: "Mockup/mockup meeting".png Graphic file (type png)
-
-<use "Mockup/mockup meeting".png>
-Package pdftex.def Info: "Mockup/mockup meeting".png used on input line 494.
-(pdftex.def)             Requested size: 165.61926pt x 309.15596pt.
-
-<"Mockup/mockup options".png, id=464, 1505.625pt x 2810.5pt>
-File: "Mockup/mockup options".png Graphic file (type png)
-
-<use "Mockup/mockup options".png>
-Package pdftex.def Info: "Mockup/mockup options".png used on input line 494.
+Package pdftex.def Info: "Mockup/mockup login".png used on input line 485.
 (pdftex.def)             Requested size: 165.61926pt x 309.15596pt.
  [26
 
+ <./Mockup/mockup login.png>]
+<"Mockup/mockup meeting".png, id=467, 1505.625pt x 2810.5pt>
+File: "Mockup/mockup meeting".png Graphic file (type png)
+
+<use "Mockup/mockup meeting".png>
+Package pdftex.def Info: "Mockup/mockup meeting".png used on input line 495.
+(pdftex.def)             Requested size: 165.61926pt x 309.15596pt.
+
+<"Mockup/mockup options".png, id=468, 1505.625pt x 2810.5pt>
+File: "Mockup/mockup options".png Graphic file (type png)
+
+<use "Mockup/mockup options".png>
+Package pdftex.def Info: "Mockup/mockup options".png used on input line 495.
+(pdftex.def)             Requested size: 165.61926pt x 309.15596pt.
+ [27
+
  <./Mockup/mockup meeting.png> <./Mockup/mockup options.png>]
-<"Mockup/mockup add activity".png, id=470, 1505.625pt x 2810.5pt>
+<"Mockup/mockup add activity".png, id=475, 1505.625pt x 2810.5pt>
 File: "Mockup/mockup add activity".png Graphic file (type png)
 
 <use "Mockup/mockup add activity".png>
 Package pdftex.def Info: "Mockup/mockup add activity".png used on input line 50
-4.
+5.
 (pdftex.def)             Requested size: 165.61926pt x 309.15596pt.
 
-<"Mockup/mockup modify activity".png, id=471, 1505.625pt x 2810.5pt>
+<"Mockup/mockup modify activity".png, id=476, 1505.625pt x 2810.5pt>
 File: "Mockup/mockup modify activity".png Graphic file (type png)
 
 <use "Mockup/mockup modify activity".png>
 Package pdftex.def Info: "Mockup/mockup modify activity".png used on input line
- 504.
+ 505.
 (pdftex.def)             Requested size: 165.61926pt x 309.15596pt.
- [27
+ [28
 
  <./Mockup/mockup add activity.png> <./Mockup/mockup modify activity.png>]
-<"Mockup/mockup trip selection".png, id=478, 1505.625pt x 2810.5pt>
+<"Mockup/mockup trip selection".png, id=482, 1505.625pt x 2810.5pt>
 File: "Mockup/mockup trip selection".png Graphic file (type png)
 
 <use "Mockup/mockup trip selection".png>
 Package pdftex.def Info: "Mockup/mockup trip selection".png used on input line 
-514.
+515.
 (pdftex.def)             Requested size: 165.61926pt x 309.15596pt.
 
-<"Mockup/mockup map".png, id=479, 1505.625pt x 2810.5pt>
+<"Mockup/mockup map".png, id=483, 1505.625pt x 2810.5pt>
 File: "Mockup/mockup map".png Graphic file (type png)
 
 <use "Mockup/mockup map".png>
-Package pdftex.def Info: "Mockup/mockup map".png used on input line 514.
+Package pdftex.def Info: "Mockup/mockup map".png used on input line 515.
 (pdftex.def)             Requested size: 165.61926pt x 309.15596pt.
- [28
+ [29
 
  <./Mockup/mockup trip selection.png> <./Mockup/mockup map.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 525--525
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
 []|\OT1/cmr/m/n/12 EventListener
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 525--525
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
 \OT1/cmr/m/n/12 Ac-tiv-i-ty-Con-troller
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--526
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
 []|\OT1/cmr/m/n/12 EventListener
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--526
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
 \OT1/cmr/m/n/12 ActivityController
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--526
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
 \OT1/cmr/m/n/12 TripController
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 528--528
-[]|\OT1/cmr/m/n/12 EventListener
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 528--528
-\OT1/cmr/m/n/12 Ac-tiv-i-ty-Con-troller
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 529--529
 []|\OT1/cmr/m/n/12 EventListener
  []
@@ -827,41 +614,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 529--529
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 530--530
+[]|\OT1/cmr/m/n/12 EventListener
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--530
+\OT1/cmr/m/n/12 Ac-tiv-i-ty-Con-troller
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--530
 \OT1/cmr/m/n/12 MapController
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 530--530
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
 []|\OT1/cmr/m/n/12 EventListener
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 530--530
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
 \OT1/cmr/m/n/12 Ac-tiv-i-ty-Con-troller
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 531--531
+Underfull \hbox (badness 10000) in paragraph at lines 532--532
 []|\OT1/cmr/m/n/12 EventListener
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 531--531
+Underfull \hbox (badness 10000) in paragraph at lines 532--532
 \OT1/cmr/m/n/12 User-Con-troller
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 532--532
-[]|\OT1/cmr/m/n/12 EventListener
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 532--532
-\OT1/cmr/m/n/12 Trip-Con-troller
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 533--533
 []|\OT1/cmr/m/n/12 EventListener
  []
@@ -872,13 +659,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 533--533
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
 []|\OT1/cmr/m/n/12 EventListener
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\OT1/cmr/m/n/12 Ac-tiv-i-ty-Con-troller
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
+\OT1/cmr/m/n/12 Trip-Con-troller
  []
 
 
@@ -887,43 +674,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 536--536
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 538--538
+Underfull \hbox (badness 10000) in paragraph at lines 536--536
+\OT1/cmr/m/n/12 Ac-tiv-i-ty-Con-troller
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--537
 []|\OT1/cmr/m/n/12 EventListener
  []
 
 
-Overfull \hbox (32.73857pt too wide) in paragraph at lines 523--540
+Underfull \hbox (badness 10000) in paragraph at lines 539--539
+[]|\OT1/cmr/m/n/12 EventListener
+ []
+
+
+Overfull \hbox (32.73857pt too wide) in paragraph at lines 524--541
 [] 
  []
 
 
-LaTeX Warning: Float too large for page by 17.23306pt on input line 540.
+LaTeX Warning: Float too large for page by 17.23306pt on input line 541.
 
-[29]
-Overfull \hbox (233.19215pt too wide) in paragraph at lines 586--589
-\OT1/cmr/m/n/12 For test plan: https://cs.uwaterloo.ca/ gwed-del-l/cs446/ITandP
-C.pdf http://www.csun.edu/ eugean/comp380/slides/ch15-
+[30] [31
+
+
+] [32]
+Overfull \hbox (19.94237pt too wide) in paragraph at lines 590--591
+ []\OT1/cmr/bx/n/12 Additional fea-tures (no-ti-fi-ca-tions, weather, traf-fic,
+ strikes)[] \OT1/cmr/m/n/12 Travlen-
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 590.
-[30
-
-
-] [31]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 590.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 602.
+[33]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 602.
  (./Latex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 590.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 590.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 602.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 602.
 Package rerunfilecheck Info: File `Latex.out' has not changed.
 (rerunfilecheck)             Checksum: 3D59FE3DE3BE504B829C1A5F496D3380;2246.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 590.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 602.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 8542 strings out of 494437
- 124252 string characters out of 6166644
- 266968 words of memory out of 5000000
- 11541 multiletter control sequences out of 15000+600000
+ 8546 strings out of 494437
+ 124286 string characters out of 6166644
+ 265968 words of memory out of 5000000
+ 11537 multiletter control sequences out of 15000+600000
  11880 words of font info for 44 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  34i,15n,40p,977b,1876s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -935,26 +731,10 @@ s/cm/cmr17.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmtt10.pfb>
-=======
- 8542 strings out of 492995
- 123652 string characters out of 6132703
- 270661 words of memory out of 5000000
- 11749 multiletter control sequences out of 15000+600000
- 11880 words of font info for 44 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 34i,15n,40p,977b,1876s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
->>>>>>> master
-Output written on Latex.pdf (35 pages, 8998876 bytes).
+Output written on Latex.pdf (37 pages, 9035257 bytes).
 PDF statistics:
- 572 PDF objects out of 1000 (max. 8388607)
- 498 compressed objects within 5 object streams
- 213 named destinations out of 1000 (max. 500000)
+ 594 PDF objects out of 1000 (max. 8388607)
+ 517 compressed objects within 6 object streams
+ 221 named destinations out of 1000 (max. 500000)
  363 words of extra memory for PDF output out of 10000 (max. 10000000)
 

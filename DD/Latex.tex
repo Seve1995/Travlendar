@@ -179,7 +179,7 @@ In this section we will present the whole system. We will focus on all component
 \item \textbf{Notification controller:} it manages the warnings, it creates them thanks to the trip controller and sends them to it that will show them to the user.
 \item \textbf{Trip controller:} it occupies of organizing trips between activities. It uses data of the activity controller and it activates the notification controller. It exploits information of the map controller and of the external services controller (such as weather, traffic, strikes).
 \item \textbf{Activity controller:} it receives information from the user to create meetings, modify them and delete them. It receives also data to create, modify and delete breaks. It gives data to the trip controller so that it can organize journeys between them.
-\item \textbf{Map controller:} it gives the opportunity to the user to see information about trips that he/she has to do showing trips on the map. It manages the daily trip between activities through data of the trip controller.  ???
+\item \textbf{Map controller:} it gives the opportunity to the user to see information about trips that he/she has to do showing trips on the map. It visualize the daily trip between activities through data of the trip controller.
 \item \textbf{External services controller:} it manages every external service exploited by our application. It receives information from them and it uses them to provide all functionalities of Travlendar+.
 \item \textbf{User controller:} it manages the information about the user. It receives:
 \begin{itemize}
@@ -188,7 +188,8 @@ In this section we will present the whole system. We will focus on all component
 \item global preferences, for example activation or deactivation of travel means or minimum duration of the lunch break.
 \end{itemize} 
 \item \textbf{Model:} it is our representation of the world. It contains all data with Travlendar+ deals with.
-\item \textbf{Database:} it is the database to store data persistently.
+\item \textbf{Physical Database:} it is the database to store data persistently.
+\item \textbf{Web service Database:} it permits to retrieve data from the physical database using standard web service protocols.
 \item \textbf{Push notification service:} it manages the sending of all notification to users' devices.
 \item \textbf{Map service:} it provides the map and services like computation of trip distances and travel time
 \item \textbf{External services:} they provides information and functionalities to our application. Travlendar+ exploits data like traffic, strikes, weather and it uses external applications like Ofo, Enjoy, Trenitalia to provide for example the purchase of tickets and the rent of sharing system vehicles.
@@ -556,35 +557,46 @@ We would like to identify:
 \begin{itemize}
 \item objectives and scope;
 \item documents and items that need to be available to perform the various quality assurance activities;
-\item items to be tested;
-\item  the analysis and test activities to be performed;
+\item the order in which we will implement the subcomponents of the system;
+\item the order in which we will integrate the subcomponents;
+\item items and functionalities to be tested;
+\item  the analysis and test activities to be performed.
 \end{itemize}
 
 \paragraph{Objectives and scope}
+We want to define a plan to implement and integrate the various components of our application. We would like to test them in order to find and correct the bugs in Travlendar+ with a systematic testing.  
+The scope of the implementation and integration plan described in this section is to make easier for developers to identify the optimal way to implement the application: they can easily find the most critical functionalities and the best way to integrate them with the system. Moreover they are able to organize the division of the work in an efficient way.
+On the other side, the scope of the test plan is a guide line to find problems early and in an exhaustive way, to facilitate changes, to guide the design and to provide a correct modules' interactions.
 \paragraph{Available documents}
 To perform an implementation and an integration test plan with meaningful results, we need that the RASD is available and already completed and discussed at the point the testing will be performed. It describes the application and the functionalities of it.
 Moreover it is required the DD because it provides an idea of the architecture of the system and it depicts components and their functionalities.
-\paragraph{Items to be tested}
-\paragraph{Analysis and test activites}
+\paragraph{Implementation and integration plan}
+We will list all the functionalities with their relatives components in the order that must be followed to implement and to integrate the application.
+\subparagraph{Creation of the database and its web service}
+The first thing to be implemented is the creation of the database that is modelled by the ER diagram and consequently the creation of the web service that relate the physical database to the application server.
+\subparagraph{Creation and management of the trip}
+One of the basic functionality that has to be implemented is the creation and the management of the trip. We will implement the creation of the activity that is followed by the creation of the daily trip. After that we will focus on the management of the trip: the user can modify activities' informations or delete them.
+We will implement and integrate the activity controller, the trip controller and the calendar controller.
 
+\subparagraph{Integration of the third part services}
+The application uses third part services to compute the trip with different travel means and different paths. We will implement the external service by using provided APIs. We will also implement the map controller that exploits the same external application and that shows the daily trip chosen by the user.
+\subparagraph{Management of user's account}
+Travlendar+ has to manage the creation of a new user's account and also to permit to a registered user to login, eventually using pre-existent social networks' account. The component that deals with all these functionalities is the user controller. It leans on the external services controller to handle the verification of external accounts and data.
+ 
+\subparagraph{Management of user's preferences}
+After having implementing all the basic functionalities of the application, it is necessary to add the user's preferences area. In order to do this, it is necessary to add features to the user controller. It must be able to interact with the trip controller so that the chosen trip will respect the preferences of the user.
 
+\subparagraph{Additional features (notifications, weather, traffic, strikes)}
+Travlendar+ must be also able to send warnings to users and inform them about the traffic, the weather or the strikes. The notification controller will be implemented and some features will be added to the external services controller.
 
-%BOZZA TODO LARGE OR SMALL SYSTEM? SEE SLIDES
-%We think that for our application the best approach is a combination between top-down and bottom-up and . In fact using this type of testing, there are a lot of advantages, such that:
-%\begin{itemize}
-%\item major design faults are caught early;
-%\item operational modules are thoroughly tested, so they can be reused with confidence;
-%\item there is fault isolation at all times.
-%\end{itemize} 
-
-
-
+\paragraph{Integration test plan}
+In order to perform a testing activity that will guarantee the discover of bugs and the integration correctness, we chose a strategy that combines thread and critical modules integration testing. We chose to adopt this approach because we think that it's the most suitable one to test large subsystems such as Travlendar+.
+In particular, with the thread approach we verify the key functional capabilities that carry out specific task. A "thread" is a portion of several modules that together provide a user-visible program feature. Threads are integrated and tested incrementally as subsystems and then performed as a a whole system.
+Whereas, the critical modules integration testing consists in prioritize the tests of features and functions in software, based on the risk of failure, the function of their importance and likelihood or impact of failure. 
 
 \section{Effort Spent}
 
 \section{References}
-For test plan:
-https://cs.uwaterloo.ca/~gweddell/cs446/ITandPC.pdf
-http://www.csun.edu/~eugean/comp380/slides/ch15-4spp.pdf
-
+TUTORIALSPOINT PER IL THREAD TESTING
+WIKIPEDI PER IL RISK-BASED TESTING
 \end{document}
