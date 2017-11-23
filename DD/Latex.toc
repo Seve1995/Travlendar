@@ -27,34 +27,36 @@
 \contentsline {paragraph}{Create an activity}{15}{section*.12}
 \contentsline {paragraph}{Modify an activity}{16}{section*.13}
 \contentsline {paragraph}{Delete an activity}{17}{section*.14}
-\contentsline {subsection}{\numberline {2.5}Component Interfaces}{18}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Selected Architectural Styles and Patterns}{18}{subsection.2.6}
-\contentsline {subsubsection}{\numberline {2.6.1}Three-Tier Architecture}{18}{subsubsection.2.6.1}
-\contentsline {subsubsection}{\numberline {2.6.2}Design Pattern}{19}{subsubsection.2.6.2}
-\contentsline {paragraph}{Client Server}{19}{section*.15}
-\contentsline {paragraph}{MVC Pattern}{19}{section*.16}
-\contentsline {subsection}{\numberline {2.7}Other Design Decisions}{19}{subsection.2.7}
-\contentsline {section}{\numberline {3}Algorithm Design}{19}{section.3}
-\contentsline {subsection}{\numberline {3.1}Adding an activity}{20}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Notification Controller}{22}{subsection.3.2}
-\contentsline {section}{\numberline {4}User Interface Design}{24}{section.4}
-\contentsline {subsection}{\numberline {4.1}Login and registration}{25}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}My activities}{26}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Add activity and modify activity}{27}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Trip selection and trip map}{28}{subsection.4.4}
-\contentsline {section}{\numberline {5}Requirements Traceability}{29}{section.5}
-\contentsline {subsection}{\numberline {5.1}Functional Requirements}{29}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Non Functional Requirements}{30}{subsection.5.2}
-\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{30}{section.6}
-\contentsline {paragraph}{Objectives and scope}{30}{section*.17}
-\contentsline {paragraph}{Available documents}{31}{section*.18}
-\contentsline {subsection}{\numberline {6.1}Implementation and integration plan}{31}{subsection.6.1}
-\contentsline {paragraph}{Creation of the database and its web service}{31}{section*.19}
-\contentsline {paragraph}{Creation and management of the trip}{31}{section*.20}
-\contentsline {paragraph}{Integration of the third part services}{32}{section*.21}
-\contentsline {paragraph}{Management of user's account}{32}{section*.22}
-\contentsline {paragraph}{Management of user's preferences}{33}{section*.23}
-\contentsline {paragraph}{Additional features (notifications, weather, traffic, strikes)}{33}{section*.24}
-\contentsline {paragraph}{Integration test plan}{33}{section*.25}
-\contentsline {section}{\numberline {7}Effort Spent}{34}{section.7}
-\contentsline {section}{\numberline {8}References}{34}{section.8}
+\contentsline {paragraph}{Choose the favourite trip}{18}{section*.15}
+\contentsline {paragraph}{Modify user's preferences}{19}{section*.16}
+\contentsline {subsection}{\numberline {2.5}Component Interfaces}{20}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Selected Architectural Styles and Patterns}{21}{subsection.2.6}
+\contentsline {subsubsection}{\numberline {2.6.1}Three-Tier Architecture}{21}{subsubsection.2.6.1}
+\contentsline {subsubsection}{\numberline {2.6.2}Design Pattern}{22}{subsubsection.2.6.2}
+\contentsline {paragraph}{Client Server}{22}{section*.17}
+\contentsline {paragraph}{MVC Pattern}{22}{section*.18}
+\contentsline {subsection}{\numberline {2.7}Other Design Decisions}{22}{subsection.2.7}
+\contentsline {section}{\numberline {3}Algorithm Design}{22}{section.3}
+\contentsline {subsection}{\numberline {3.1}Adding an activity}{22}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Notification Controller}{24}{subsection.3.2}
+\contentsline {section}{\numberline {4}User Interface Design}{27}{section.4}
+\contentsline {subsection}{\numberline {4.1}Login and registration}{28}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}My activities}{29}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Add activity and modify activity}{30}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Trip selection and trip map}{31}{subsection.4.4}
+\contentsline {section}{\numberline {5}Requirements Traceability}{32}{section.5}
+\contentsline {subsection}{\numberline {5.1}Functional Requirements}{32}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Non Functional Requirements}{33}{subsection.5.2}
+\contentsline {section}{\numberline {6}Implementation, Integration and Test Plan}{34}{section.6}
+\contentsline {paragraph}{Objectives and scope}{34}{section*.19}
+\contentsline {paragraph}{Available documents}{34}{section*.20}
+\contentsline {subsection}{\numberline {6.1}Implementation and integration plan}{35}{subsection.6.1}
+\contentsline {paragraph}{Creation of the database and its web service}{35}{section*.21}
+\contentsline {paragraph}{Creation and management of the trip}{35}{section*.22}
+\contentsline {paragraph}{Integration of the third part services}{35}{section*.23}
+\contentsline {paragraph}{Management of user's account}{36}{section*.24}
+\contentsline {paragraph}{Management of user's preferences}{36}{section*.25}
+\contentsline {paragraph}{Additional features (notifications, weather, traffic, strikes)}{37}{section*.26}
+\contentsline {paragraph}{Integration test plan}{37}{section*.27}
+\contentsline {section}{\numberline {7}Effort Spent}{38}{section.7}
+\contentsline {section}{\numberline {8}References}{38}{section.8}

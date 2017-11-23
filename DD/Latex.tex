@@ -268,14 +268,14 @@ We represent the actor that initializes a process and all components of the appl
 \begin{figure}
 \paragraph{Create an activity}
 \centering
-\makebox[\textwidth]{\includegraphics[scale=0.3]{"Sequence createActivity"} } 
+\makebox[\textwidth]{\includegraphics[scale=0.2]{"Sequence createActivity"} } 
 \caption{Sequence diagram of the creation of an activity}
 \end{figure}
 
 \begin{figure}
 \paragraph{Modify an activity}
 \centering
-\makebox[\textwidth]{\includegraphics[scale=0.27]{"Sequence modifyActivity"} } 
+\makebox[\textwidth]{\includegraphics[scale=0.2]{"Sequence modifyActivity"} } 
 \caption{Sequence diagram of the modification of an activity}
 \end{figure}
 
@@ -286,24 +286,33 @@ We represent the actor that initializes a process and all components of the appl
 \caption{Sequence diagram of elimination of an activity}
 \end{figure}
 
-%\begin{figure}
-%\paragraph{Choose the favourite trip}
-%\centering
-%\makebox[\textwidth]{\includegraphics[scale=0.65]{"Sequence chooseFavouriteTrip"} }
-%\caption{Sequence diagram of choosing the trip}
-%\end{figure}
+\begin{figure}
+\paragraph{Choose the favourite trip}
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.38]{"Sequence chooseFavouriteTrip"} }
+\caption{Sequence diagram of choosing the trip}
+\end{figure}
+\clearpage
+\newpage
 
-%begin{figure}
-%\paragraph{Modify user's preferences}
-%\centering
-%\makebox[\textwidth]{\includegraphics[scale=0.7]{"Sequence ModifyUserpreferences"}  }
-%\caption{Sequence diagram of modifying user's preferences}
-%\end{figure}
+\begin{figure}
+\paragraph{Modify user's preferences}
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.4]{"Sequence ModifyUserPreferences"}  }
+\caption{Sequence diagram of modifying user's preferences}
+\end{figure}
 
 \clearpage
 \newpage
 
+
+\begin{figure}
 \subsection{Component Interfaces}
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.6]{"Components interfaces"}  }
+\end{figure}
+\clearpage
+\newpage
 \subsection{Selected Architectural Styles and Patterns}
 \subsubsection{Three-Tier Architecture} 
 As we said before the architectural style that we have chosen for our application is a standard three-tier architecture. The tiers are the following:
@@ -523,7 +532,10 @@ After the addition of a new activity, the screen present in the left figure show
 %\resizebox*{1\textwidth}{!}{
 \begin{table}[ht]
 \section{Requirements Traceability}
+
 \subsection{Functional Requirements}
+We describe the relationship between the requirements of Travlendar+ listed in the RASD and the components that are part of our application.
+To make easier to understand, we do not list every requirement but we express the requirements in terms of the goal to which they refer.
 \begin{tabular}{p{9cm}|p{5cm}}
 \textbf{ Requirements of Goals} & \textbf{Components} \\ \hline
 \textbf{ {[G\textsubscript{1}]}} user should be able to go to a meeting. & EventListener \linebreak ActivityController \linebreak TripController \\ \hline
@@ -546,7 +558,7 @@ and traffic. & EventListener \linebreak  ExternalServicesController\\ \hline
 
 \clearpage
 \newpage
-\subsection{Non Functional Requirements} Todo
+\subsection{Non Functional Requirements} TODO
 \begin{itemize}
 \item \textbf{Performance} 
 \item \textbf{Availability} To ensure availability the server will be running 24 hours per day. 
@@ -554,6 +566,9 @@ and traffic. & EventListener \linebreak  ExternalServicesController\\ \hline
 \item \textbf{Maintainability}
 \item \textbf{Portability}
 \end{itemize}
+
+\pagebreak
+
 \section{Implementation, Integration and Test Plan}
 In this part we will define a plan to implement the components of Travlendar+ and to test our application and also the integration between components.
 We would like to identify:
@@ -617,7 +632,11 @@ In order to perform a testing activity that will guarantee the discover of bugs 
 In particular, with the thread approach we verify the key functional capabilities that carry out specific task. A "thread" is a portion of several modules that together provide a user-visible program feature. Threads are integrated and tested incrementally as subsystems and then performed as a a whole system.
 Whereas, the critical modules integration testing consists in prioritize the tests of features and functions in software, based on the risk of failure, the function of their importance and likelihood or impact of failure. 
 
+\pagebreak
+
 \section{Effort Spent}
+As for the RASD, we always tried to work together also for the DD. We managed to do the work in a distributed way between days. We spent about 28 hours each to write and to try to do our best for this part of the project.
+We spent also other time to fix the RASD and to adjust some diagrams and some details that we thought to be wrong.
 
 \section{References}
 TUTORIALSPOINT PER IL THREAD TESTING
