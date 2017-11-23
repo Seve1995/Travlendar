@@ -570,25 +570,45 @@ On the other side, the scope of the test plan is a guide line to find problems e
 \paragraph{Available documents}
 To perform an implementation and an integration test plan with meaningful results, we need that the RASD is available and already completed and discussed at the point the testing will be performed. It describes the application and the functionalities of it.
 Moreover it is required the DD because it provides an idea of the architecture of the system and it depicts components and their functionalities.
-\paragraph{Implementation and integration plan}
+\subsection{Implementation and integration plan}
 We will list all the functionalities with their relatives components in the order that must be followed to implement and to integrate the application.
-\subparagraph{Creation of the database and its web service}
+\paragraph{Creation of the database and its web service}
 The first thing to be implemented is the creation of the database that is modelled by the ER diagram and consequently the creation of the web service that relate the physical database to the application server.
-\subparagraph{Creation and management of the trip}
+\begin{figure}[H]
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.5]{"Diagrams/impl1"} }
+\end{figure}
+\paragraph{Creation and management of the trip}
 One of the basic functionality that has to be implemented is the creation and the management of the trip. We will implement the creation of the activity that is followed by the creation of the daily trip. After that we will focus on the management of the trip: the user can modify activities' informations or delete them.
 We will implement and integrate the activity controller, the trip controller and the calendar controller.
-
-\subparagraph{Integration of the third part services}
+\begin{figure}[H]
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.5]{"Diagrams/impl2"} }
+\end{figure}
+\paragraph{Integration of the third part services}
 The application uses third part services to compute the trip with different travel means and different paths. We will implement the external service by using provided APIs. We will also implement the map controller that exploits the same external application and that shows the daily trip chosen by the user.
-\subparagraph{Management of user's account}
+\begin{figure}[H]
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.5]{"Diagrams/impl3"} }
+\end{figure}
+\paragraph{Management of user's account}
 Travlendar+ has to manage the creation of a new user's account and also to permit to a registered user to login, eventually using pre-existent social networks' account. The component that deals with all these functionalities is the user controller. It leans on the external services controller to handle the verification of external accounts and data.
- 
-\subparagraph{Management of user's preferences}
+ \begin{figure}[H]
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.5]{"Diagrams/impl4"} }
+\end{figure}
+\paragraph{Management of user's preferences}
 After having implementing all the basic functionalities of the application, it is necessary to add the user's preferences area. In order to do this, it is necessary to add features to the user controller. It must be able to interact with the trip controller so that the chosen trip will respect the preferences of the user.
-
-\subparagraph{Additional features (notifications, weather, traffic, strikes)}
+\begin{figure}[H]
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.5]{"Diagrams/impl5"} }
+\end{figure}
+\paragraph{Additional features (notifications, weather, traffic, strikes)}
 Travlendar+ must be also able to send warnings to users and inform them about the traffic, the weather or the strikes. The notification controller will be implemented and some features will be added to the external services controller.
-
+\begin{figure}[H]
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.5]{"Diagrams/impl6"} }
+\end{figure}
 \paragraph{Integration test plan}
 In order to perform a testing activity that will guarantee the discover of bugs and the integration correctness, we chose a strategy that combines thread and critical modules integration testing. We chose to adopt this approach because we think that it's the most suitable one to test large subsystems such as Travlendar+.
 In particular, with the thread approach we verify the key functional capabilities that carry out specific task. A "thread" is a portion of several modules that together provide a user-visible program feature. Threads are integrated and tested incrementally as subsystems and then performed as a a whole system.
