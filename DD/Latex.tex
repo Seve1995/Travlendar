@@ -164,10 +164,12 @@ In this pattern, we have three subsystems to decouple logic and data, logic and 
 \pagebreak
 
 
-\begin{figure}
 \subsection{Component View}
 In this section we will present the whole system. We will focus on all components and their interactions. This diagram will provide also an overview on interfaces that components provide for interactions.
-\includegraphics[scale=0.24]{"Component Diagram - Page 1"}
+\begin{figure}[H]
+\centering
+\makebox[\textwidth]{\includegraphics[scale=0.22]{"Component Diagram - Page 1"}}
+\caption{Entity-Relation diagram}
 \end{figure}
 
 \clearpage
@@ -200,15 +202,16 @@ In this section we will present the whole system. We will focus on all component
 \clearpage
 \newpage
 
+\begin{landscape}
 \subsubsection{Database}
 The DB component will include a DBMS to properly manage the data and their handling. It will interact only with the application server. It will use a secure interface so that the date are safely stored and the security is guaranteed.
 We show the data representation with  E-R schema.
 \begin{figure}[H]
 \centering
-\makebox[\textwidth]{\includegraphics[scale=0.5]{"ER "}}
+\makebox[\textwidth]{\includegraphics[scale=0.27]{"ER "}}
 \caption{Entity-Relation diagram}
 \end{figure}
-
+\end{landscape}
 \clearpage
 \newpage
 
