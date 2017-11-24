@@ -17,19 +17,18 @@
 \BOOKMARK [2][-]{subsection.2.6}{Selected Architectural Styles and Patterns}{section.2}% 17
 \BOOKMARK [3][-]{subsubsection.2.6.1}{Three-Tier Architecture}{subsection.2.6}% 18
 \BOOKMARK [3][-]{subsubsection.2.6.2}{Design Pattern}{subsection.2.6}% 19
-\BOOKMARK [2][-]{subsection.2.7}{Other Design Decisions}{section.2}% 20
-\BOOKMARK [1][-]{section.3}{Algorithm Design}{}% 21
-\BOOKMARK [2][-]{subsection.3.1}{Adding an activity}{section.3}% 22
-\BOOKMARK [2][-]{subsection.3.2}{Notification Controller}{section.3}% 23
-\BOOKMARK [1][-]{section.4}{User Interface Design}{}% 24
-\BOOKMARK [2][-]{subsection.4.1}{Login and registration}{section.4}% 25
-\BOOKMARK [2][-]{subsection.4.2}{My activities}{section.4}% 26
-\BOOKMARK [2][-]{subsection.4.3}{Add activity and modify activity}{section.4}% 27
-\BOOKMARK [2][-]{subsection.4.4}{Trip selection and trip map}{section.4}% 28
-\BOOKMARK [1][-]{section.5}{Requirements Traceability}{}% 29
-\BOOKMARK [2][-]{subsection.5.1}{Functional Requirements}{section.5}% 30
-\BOOKMARK [2][-]{subsection.5.2}{Non Functional Requirements}{section.5}% 31
-\BOOKMARK [1][-]{section.6}{Implementation, Integration and Test Plan}{}% 32
-\BOOKMARK [2][-]{subsection.6.1}{Implementation and integration plan}{section.6}% 33
-\BOOKMARK [1][-]{section.7}{Effort Spent}{}% 34
-\BOOKMARK [1][-]{section.8}{References}{}% 35
+\BOOKMARK [1][-]{section.3}{Algorithm Design}{}% 20
+\BOOKMARK [2][-]{subsection.3.1}{Adding an activity}{section.3}% 21
+\BOOKMARK [2][-]{subsection.3.2}{Notification Controller}{section.3}% 22
+\BOOKMARK [1][-]{section.4}{User Interface Design}{}% 23
+\BOOKMARK [2][-]{subsection.4.1}{Login and registration}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.2}{My activities}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.3}{Add activity and modify activity}{section.4}% 26
+\BOOKMARK [2][-]{subsection.4.4}{Trip selection and trip map}{section.4}% 27
+\BOOKMARK [1][-]{section.5}{Requirements Traceability}{}% 28
+\BOOKMARK [2][-]{subsection.5.1}{Functional Requirements}{section.5}% 29
+\BOOKMARK [2][-]{subsection.5.2}{Non Functional Requirements}{section.5}% 30
+\BOOKMARK [1][-]{section.6}{Implementation, Integration and Test Plan}{}% 31
+\BOOKMARK [2][-]{subsection.6.1}{Implementation and integration plan}{section.6}% 32
+\BOOKMARK [1][-]{section.7}{Effort Spent}{}% 33
+\BOOKMARK [1][-]{section.8}{References}{}% 34
