@@ -1,25 +1,14 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.17)  25 NOV 2017 15:32
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.15)  24 NOV 2017 11:30
->>>>>>> master
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.17)  25 NOV 2017 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **LatexRASD.tex
 (./LatexRASD.tex
 LaTeX2e <2017-04-15>
-<<<<<<< HEAD
 Babel <3.10> and hyphenation patterns for 22 language(s) loaded.
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/size12.clo
-=======
-Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size12.clo
->>>>>>> master
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -34,7 +23,6 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
@@ -42,20 +30,10 @@ Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
->>>>>>> master
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
@@ -63,20 +41,10 @@ File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
 (/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
->>>>>>> master
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
 ))
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
@@ -84,30 +52,14 @@ Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
->>>>>>> master
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/tools/array.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
->>>>>>> master
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen103
 \extrarowheight=\dimen104
@@ -115,41 +67,23 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \extratabsurround=\skip43
 \backup@length=\skip44
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics-cfg/color.cfg
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
->>>>>>> master
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/colortbl/colortbl.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/colortbl/colortbl.sty
->>>>>>> master
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks15
 \minrowclearance=\skip45
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics-cfg/color.cfg
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
->>>>>>> master
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -164,19 +98,11 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip10
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
->>>>>>> master
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup4
@@ -184,7 +110,6 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
@@ -192,15 +117,6 @@ Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/graphics/keyval.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/epsfig.sty
-Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
->>>>>>> master
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
@@ -210,16 +126,11 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \epsfxsize=\dimen107
 \epsfysize=\dimen108
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/inputenc.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
->>>>>>> master
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/applemac.def
 File: applemac.def 2015/03/17 v1.2c Input encoding file
 ))
@@ -230,18 +141,6 @@ Package: babel 2017/05/19 3.10 The Babel package
 Language: english 2017/01/24 v3.3q English support from the babel system
 
 (/usr/local/texlive/2017basic/texmf-dist/tex/generic/babel/babel.def
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/applemac.def
-File: applemac.def 2015/03/17 v1.2c Input encoding file
-))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2017/05/19 3.10 The Babel package
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/01/24 v3.3q English support from the babel system
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
->>>>>>> master
 File: babel.def 2017/05/19 3.10 Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen109
@@ -250,7 +149,6 @@ File: babel.def 2017/05/19 3.10 Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
@@ -261,16 +159,6 @@ Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 (/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/hobsub-generic.st
 y
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
->>>>>>> master
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -309,38 +197,22 @@ Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-<<<<<<< HEAD
 ) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-=======
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
->>>>>>> master
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen110
 \Hy@linkcounter=\count89
 \Hy@pagecounter=\count90
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/hyperref/pd1enc.def
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
->>>>>>> master
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count91
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
->>>>>>> master
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4498.
@@ -351,17 +223,10 @@ Package hyperref Info: Backreferencing ON on input line 4516.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/hyperref/backref.sty
 Package: backref 2016/05/21 v1.39 Bibliographical back referencing
 
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/backref.sty
-Package: backref 2016/05/21 v1.39 Bibliographical back referencing
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
->>>>>>> master
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -388,11 +253,7 @@ LaTeX Info: Redefining \pageref on input line 6432.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/hyperref/hpdftex.def
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
->>>>>>> master
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
 \Fld@listcount=\count97
 \c@bookmark@seq@number=\count98
@@ -559,11 +420,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
-<<<<<<< HEAD
  (/usr/local/texlive/2017basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-=======
- (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
->>>>>>> master
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count99
 \scratchdimen=\dimen114
@@ -576,16 +433,9 @@ LaTeX Font Info:    ... okay on input line 23.
 \MPnumerator=\count103
 \makeMPintoPDFobject=\count104
 \everyMPtoPDFconversion=\toks21
-<<<<<<< HEAD
 ) (/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/oberdiek/grfext.sty
-=======
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
->>>>>>> master
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -595,29 +445,17 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
->>>>>>> master
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box27
 Package hyperref Info: Link coloring OFF on input line 23.
-<<<<<<< HEAD
  (/usr/local/texlive/2017basic/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2017basic/texmf-dist/tex/generic/oberdiek/gettitlestring.st
 y
-=======
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
->>>>>>> master
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count105
@@ -625,12 +463,7 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 23.
 LaTeX Info: Redefining \pageref on input line 23.
 LaTeX Info: Redefining \nameref on input line 23.
-<<<<<<< HEAD
  (./LatexRASD.out) (./LatexRASD.out)
-=======
-
-(./LatexRASD.out) (./LatexRASD.out)
->>>>>>> master
 \@outlinefile=\write3
 \openout3 = `LatexRASD.out'.
 
@@ -650,37 +483,22 @@ Package pdftex.def Info: Logos/LogoTravlendar.png used on input line 31.
 (pdftex.def)             Requested size: 350.99762pt x 75.45924pt.
  [1
 
-<<<<<<< HEAD
 {/usr/local/texlive/2017basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./
 Logos/LogoPolimi.png> <./Logos/LogoTravlendar.png>]pdfTeX warning (ext4): desti
 nation with the same identifier (name{page.1}) has been already used, duplicate
  ignored
-=======
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Logos
-/LogoPolimi.png> <./Logos/LogoTravlendar.png>]pdfTeX warning (ext4): destinatio
-n with the same identifier (name{page.1}) has been already used, duplicate igno
-red
->>>>>>> master
 <to be read again> 
                    \relax 
 l.47 \newpage\null\thispagestyle{empty}\newpage
                                                 [1] (./LatexRASD.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/amsfonts/umsa.fd
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
->>>>>>> master
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/amsfonts/umsb.fd
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
->>>>>>> master
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1])
 \tf@toc=\write4
@@ -700,30 +518,17 @@ s or day/week/season
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 116.
 
-<<<<<<< HEAD
 (/usr/local/texlive/2017basic/texmf-dist/tex/latex/base/omscmr.fd
-=======
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
->>>>>>> master
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 116.
-<<<<<<< HEAD
  [3] [4]
 [5] [6] <"Diagrams/Class Diagramv3".png, id=328, 1463.4675pt x 1129.21875pt>
 File: "Diagrams/Class Diagramv3".png Graphic file (type png)
 
 <use "Diagrams/Class Diagramv3".png>
-Package pdftex.def Info: "Diagrams/Class Diagramv3".png used on input line 193.
-=======
- [3] [4] [5]
-[6] <"Diagrams/Class Diagramv3".png, id=328, 1463.4675pt x 1129.21875pt>
-File: "Diagrams/Class Diagramv3".png Graphic file (type png)
-
-<use "Diagrams/Class Diagramv3".png>
-Package pdftex.def Info: "Diagrams/Class Diagramv3".png used on input line 196.
->>>>>>> master
+Package pdftex.def Info: "Diagrams/Class Diagramv3".png used on input line 195.
 
 (pdftex.def)             Requested size: 585.37663pt x 451.6795pt.
  [7] [8 <./Diagrams/Class Diagramv3.png>]
@@ -731,36 +536,21 @@ Package pdftex.def Info: "Diagrams/Class Diagramv3".png used on input line 196.
 File: "Diagrams/Statemachine1".png Graphic file (type png)
 
 <use "Diagrams/Statemachine1".png>
-<<<<<<< HEAD
-Package pdftex.def Info: "Diagrams/Statemachine1".png used on input line 203.
-=======
-Package pdftex.def Info: "Diagrams/Statemachine1".png used on input line 206.
->>>>>>> master
+Package pdftex.def Info: "Diagrams/Statemachine1".png used on input line 205.
 (pdftex.def)             Requested size: 321.60397pt x 229.9107pt.
 
 <"Diagrams/Statemachine2".png, id=341, 1136.74687pt x 585.68813pt>
 File: "Diagrams/Statemachine2".png Graphic file (type png)
 
 <use "Diagrams/Statemachine2".png>
-<<<<<<< HEAD
-Package pdftex.def Info: "Diagrams/Statemachine2".png used on input line 206.
+Package pdftex.def Info: "Diagrams/Statemachine2".png used on input line 208.
 (pdftex.def)             Requested size: 511.53137pt x 263.55722pt.
 
 
-LaTeX Warning: Float too large for page by 19.05118pt on input line 208.
+LaTeX Warning: Float too large for page by 19.05118pt on input line 210.
 
 [9 <./Diagrams/Statemachine1.png> <./Diagrams/Statemachine2.png>]
-Overfull \hbox (5.01074pt too wide) in paragraph at lines 224--225
-=======
-Package pdftex.def Info: "Diagrams/Statemachine2".png used on input line 209.
-(pdftex.def)             Requested size: 511.53137pt x 263.55722pt.
-
-
-LaTeX Warning: Float too large for page by 19.05118pt on input line 211.
-
-[9 <./Diagrams/Statemachine1.png> <./Diagrams/Statemachine2.png>]
-Overfull \hbox (5.01074pt too wide) in paragraph at lines 227--228
->>>>>>> master
+Overfull \hbox (5.01074pt too wide) in paragraph at lines 226--227
  []\OT1/cmr/bx/n/12 Personalization[] \OT1/cmr/m/n/12 Travlen-dar+ of-fers a lo
 t of op-tions that can be cus-tomized,
  []
@@ -772,11 +562,7 @@ t of op-tions that can be cus-tomized,
 File: "Diagrams/worldAndMachine".png Graphic file (type png)
 
 <use "Diagrams/worldAndMachine".png>
-<<<<<<< HEAD
-Package pdftex.def Info: "Diagrams/worldAndMachine".png used on input line 307.
-=======
-Package pdftex.def Info: "Diagrams/worldAndMachine".png used on input line 310.
->>>>>>> master
+Package pdftex.def Info: "Diagrams/worldAndMachine".png used on input line 309.
 
 (pdftex.def)             Requested size: 411.6832pt x 262.27676pt.
  [12] [13] [14 <./Diagrams/worldAndMachine.png>] <"Mockup/mockup login".png, id
@@ -784,33 +570,21 @@ Package pdftex.def Info: "Diagrams/worldAndMachine".png used on input line 310.
 File: "Mockup/mockup login".png Graphic file (type png)
 
 <use "Mockup/mockup login".png>
-<<<<<<< HEAD
-Package pdftex.def Info: "Mockup/mockup login".png used on input line 326.
-=======
-Package pdftex.def Info: "Mockup/mockup login".png used on input line 329.
->>>>>>> master
+Package pdftex.def Info: "Mockup/mockup login".png used on input line 328.
 (pdftex.def)             Requested size: 195.73811pt x 365.37782pt.
  [15 <./Mockup/mockup login.png>]
 <"Mockup/mockup meeting".png, id=390, 1505.625pt x 2810.5pt>
 File: "Mockup/mockup meeting".png Graphic file (type png)
 
 <use "Mockup/mockup meeting".png>
-<<<<<<< HEAD
-Package pdftex.def Info: "Mockup/mockup meeting".png used on input line 334.
-=======
-Package pdftex.def Info: "Mockup/mockup meeting".png used on input line 337.
->>>>>>> master
+Package pdftex.def Info: "Mockup/mockup meeting".png used on input line 336.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
  [16 <./Mockup/mockup meeting.png>]
 <"Mockup/mockup options".png, id=396, 1505.625pt x 2810.5pt>
 File: "Mockup/mockup options".png Graphic file (type png)
 
 <use "Mockup/mockup options".png>
-<<<<<<< HEAD
-Package pdftex.def Info: "Mockup/mockup options".png used on input line 342.
-=======
-Package pdftex.def Info: "Mockup/mockup options".png used on input line 345.
->>>>>>> master
+Package pdftex.def Info: "Mockup/mockup options".png used on input line 344.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
  [17 <./Mockup/mockup options.png>]
 <"Mockup/mockup add activity".png, id=402, 1505.625pt x 2810.5pt>
@@ -818,11 +592,7 @@ File: "Mockup/mockup add activity".png Graphic file (type png)
 
 <use "Mockup/mockup add activity".png>
 Package pdftex.def Info: "Mockup/mockup add activity".png used on input line 35
-<<<<<<< HEAD
-0.
-=======
-3.
->>>>>>> master
+2.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
  [18 <./Mockup/mockup add activity.png>]
 <"Mockup/mockup modify activity".png, id=408, 1505.625pt x 2810.5pt>
@@ -830,11 +600,7 @@ File: "Mockup/mockup modify activity".png Graphic file (type png)
 
 <use "Mockup/mockup modify activity".png>
 Package pdftex.def Info: "Mockup/mockup modify activity".png used on input line
-<<<<<<< HEAD
- 358.
-=======
- 361.
->>>>>>> master
+ 360.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
  [19 <./Mockup/mockup modify activity.png>] <"Mockup/mockup trip selection".png
 , id=414, 1505.625pt x 2810.5pt>
@@ -842,22 +608,14 @@ File: "Mockup/mockup trip selection".png Graphic file (type png)
 
 <use "Mockup/mockup trip selection".png>
 Package pdftex.def Info: "Mockup/mockup trip selection".png used on input line 
-<<<<<<< HEAD
-366.
-=======
-369.
->>>>>>> master
+368.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
  [20 <./Mockup/mockup trip selection.png>] <"Mockup/mockup map".png, id=420, 15
 05.625pt x 2810.5pt>
 File: "Mockup/mockup map".png Graphic file (type png)
 
 <use "Mockup/mockup map".png>
-<<<<<<< HEAD
-Package pdftex.def Info: "Mockup/mockup map".png used on input line 374.
-=======
-Package pdftex.def Info: "Mockup/mockup map".png used on input line 377.
->>>>>>> master
+Package pdftex.def Info: "Mockup/mockup map".png used on input line 376.
 (pdftex.def)             Requested size: 225.834pt x 421.55681pt.
  [21 <./Mockup/mockup map.png>] [22
 
@@ -869,201 +627,107 @@ Package pdftex.def Info: "Mockup/mockup map".png used on input line 377.
 
 ] [23] [24]
 [25] [26] [27] [28] [29]
-<<<<<<< HEAD
-Overfull \hbox (25.582pt too wide) in paragraph at lines 559--581
+Overfull \hbox (25.582pt too wide) in paragraph at lines 561--583
 [][] 
  []
 
-[30] <"Diagrams/UseCase Registration".png, id=486, 794.97pt x 509.65407pt>
-=======
-Overfull \hbox (25.582pt too wide) in paragraph at lines 562--584
-[][] 
- []
-
-[30] <"Diagrams/UseCase Registration".png, id=486, 709.14937pt x 501.37312pt>
->>>>>>> master
+[30] <"Diagrams/UseCase Registration".png, id=486, 670.00313pt x 356.0803pt>
 File: "Diagrams/UseCase Registration".png Graphic file (type png)
 
 <use "Diagrams/UseCase Registration".png>
 Package pdftex.def Info: "Diagrams/UseCase Registration".png used on input line
-<<<<<<< HEAD
- 586.
-(pdftex.def)             Requested size: 516.72438pt x 331.27121pt.
-=======
- 589.
-(pdftex.def)             Requested size: 460.94164pt x 325.88866pt.
->>>>>>> master
+ 588.
+(pdftex.def)             Requested size: 435.49687pt x 231.44945pt.
 
 <"Diagrams/SequenceDiagram Registration".png, id=487, 691.08188pt x 886.81313pt
 >
 File: "Diagrams/SequenceDiagram Registration".png Graphic file (type png)
  <use "Diagrams/SequenceDiagram Registration".png>
 Package pdftex.def Info: "Diagrams/SequenceDiagram Registration".png used on in
-<<<<<<< HEAD
-put line 593.
+put line 595.
 (pdftex.def)             Requested size: 442.2909pt x 567.55847pt.
 
 
-LaTeX Warning: Float too large for page by 45.89178pt on input line 595.
+LaTeX Warning: Float too large for page by 45.89178pt on input line 597.
 
 [31 <./Diagrams/UseCase Registration.png>] [32 <./Diagrams/SequenceDiagram Regi
 stration.png>]
-Overfull \hbox (25.582pt too wide) in paragraph at lines 605--625
-=======
-put line 596.
-(pdftex.def)             Requested size: 442.2909pt x 567.55847pt.
-
-
-LaTeX Warning: Float too large for page by 45.89178pt on input line 598.
-
-[31 <./Diagrams/UseCase Registration.png>] [32 <./Diagrams/SequenceDiagram Regi
-stration.png>]
-Overfull \hbox (25.582pt too wide) in paragraph at lines 608--628
->>>>>>> master
+Overfull \hbox (25.582pt too wide) in paragraph at lines 607--627
 [][] 
  []
 
 [33
 
-] <"Diagrams/UseCase Login".png, id=509, 670.00313pt x 334.24875pt>
+] <"Diagrams/UseCase Login".png, id=509, 794.97pt x 509.65407pt>
 File: "Diagrams/UseCase Login".png Graphic file (type png)
 
 <use "Diagrams/UseCase Login".png>
-<<<<<<< HEAD
-Package pdftex.def Info: "Diagrams/UseCase Login".png used on input line 630.
-=======
-Package pdftex.def Info: "Diagrams/UseCase Login".png used on input line 633.
->>>>>>> master
-(pdftex.def)             Requested size: 468.999pt x 233.97252pt.
+Package pdftex.def Info: "Diagrams/UseCase Login".png used on input line 632.
+(pdftex.def)             Requested size: 556.4752pt x 356.7554pt.
 
 <"Diagrams/SequenceDiagram Login".png, id=510, 805.50937pt x 1139.00531pt>
 File: "Diagrams/SequenceDiagram Login".png Graphic file (type png)
 
 <use "Diagrams/SequenceDiagram Login".png>
 Package pdftex.def Info: "Diagrams/SequenceDiagram Login".png used on input lin
-<<<<<<< HEAD
-e 636.
+e 638.
 (pdftex.def)             Requested size: 443.03152pt x 626.45486pt.
 
 
-LaTeX Warning: Float too large for page by 104.78818pt on input line 638.
+LaTeX Warning: Float too large for page by 104.78818pt on input line 640.
 
 [34 <./Diagrams/UseCase Login.png>] [35 <./Diagrams/SequenceDiagram Login.png>]
 
-Overfull \hbox (25.582pt too wide) in paragraph at lines 648--665
-=======
-e 639.
-(pdftex.def)             Requested size: 443.03152pt x 626.45486pt.
-
-
-LaTeX Warning: Float too large for page by 104.78818pt on input line 641.
-
-[34 <./Diagrams/UseCase Login.png>] [35 <./Diagrams/SequenceDiagram Login.png>]
-
-Overfull \hbox (25.582pt too wide) in paragraph at lines 651--674
->>>>>>> master
+Overfull \hbox (25.582pt too wide) in paragraph at lines 650--673
 [][]
  []
 
 [36
 
 ]
-<<<<<<< HEAD
-<"Diagrams/UseCase Creation of an activity".png, id=530, 1032.85875pt x 615.047
+<"Diagrams/UseCase Creation of an activity".png, id=532, 1032.85875pt x 615.047
 8pt>
 File: "Diagrams/UseCase Creation of an activity".png Graphic file (type png)
  <use "Diagrams/UseCase Creation of an activity".png>
 Package pdftex.def Info: "Diagrams/UseCase Creation of an activity".png used on
- input line 669.
+ input line 677.
 (pdftex.def)             Requested size: 516.42812pt x 307.52315pt.
 
-<"Diagrams/Sequence createActvity".png, id=531, 1284.29813pt x 1184.17406pt>
-=======
-<"Diagrams/UseCase Creation of an activity".png, id=532, 880.79062pt x 501.3731
-2pt>
-File: "Diagrams/UseCase Creation of an activity".png Graphic file (type png)
- <use "Diagrams/UseCase Creation of an activity".png>
-Package pdftex.def Info: "Diagrams/UseCase Creation of an activity".png used on
- input line 678.
-(pdftex.def)             Requested size: 440.39423pt x 250.68594pt.
-
 <"Diagrams/Sequence createActvity".png, id=533, 1322.69156pt x 1207.51125pt>
->>>>>>> master
 File: "Diagrams/Sequence createActvity".png Graphic file (type png)
 
 <use "Diagrams/Sequence createActvity".png>
 Package pdftex.def Info: "Diagrams/Sequence createActvity".png used on input li
-<<<<<<< HEAD
-ne 674.
-(pdftex.def)             Requested size: 577.92882pt x 532.87341pt.
-
-
-LaTeX Warning: Float too large for page by 11.20673pt on input line 676.
-
-[37 <./Diagrams/UseCase Creation of an activity.png>] [38 <./Diagrams/Sequence 
-createActvity.png>]
-Overfull \hbox (54.03474pt too wide) in paragraph at lines 685--709
-[][] 
- []
-
-<"Diagrams/UseCase Modify activity".png, id=544, 785.93625pt x 587.94656pt>
-=======
-ne 683.
+ne 682.
 (pdftex.def)             Requested size: 595.2057pt x 543.37505pt.
 
 
-LaTeX Warning: Float too large for page by 21.70836pt on input line 685.
+LaTeX Warning: Float too large for page by 21.70836pt on input line 684.
 
 [37 <./Diagrams/UseCase Creation of an activity.png>] [38 <./Diagrams/Sequence 
 createActvity.png>]
-Overfull \hbox (54.03474pt too wide) in paragraph at lines 694--718
+Overfull \hbox (54.03474pt too wide) in paragraph at lines 693--717
 [][] 
  []
 
 <"Diagrams/UseCase Modify activity".png, id=546, 785.93625pt x 587.94656pt>
->>>>>>> master
 File: "Diagrams/UseCase Modify activity".png Graphic file (type png)
 
 <use "Diagrams/UseCase Modify activity".png>
 Package pdftex.def Info: "Diagrams/UseCase Modify activity".png used on input l
-<<<<<<< HEAD
-ine 713.
-(pdftex.def)             Requested size: 392.96716pt x 293.97256pt.
-
-<"Diagrams/Sequence modifyActivity".png, id=545, 1174.3875pt x 1121.69063pt>
-=======
-ine 722.
+ine 721.
 (pdftex.def)             Requested size: 392.96716pt x 293.97256pt.
 
 <"Diagrams/Sequence modifyActivity".png, id=547, 1174.3875pt x 1359.57938pt>
->>>>>>> master
 File: "Diagrams/Sequence modifyActivity".png Graphic file (type png)
 
 <use "Diagrams/Sequence modifyActivity".png>
 Package pdftex.def Info: "Diagrams/Sequence modifyActivity".png used on input l
-<<<<<<< HEAD
-ine 720.
-(pdftex.def)             Requested size: 528.4695pt x 504.75612pt.
- [39
-
-] [40
-
- <./Diagrams/UseCase Modify activity.png>] [41 <./Diagrams/Sequence modifyActiv
-ity.png>]
-<"Diagrams/UseCase Delete".png, id=572, 671.50874pt x 344.03531pt>
-File: "Diagrams/UseCase Delete".png Graphic file (type png)
-
-<use "Diagrams/UseCase Delete".png>
-Package pdftex.def Info: "Diagrams/UseCase Delete".png used on input line 750.
-(pdftex.def)             Requested size: 470.05292pt x 240.82307pt.
-
-<"Diagrams/Sequence deleteActivity".png, id=573, 1202.99437pt x 953.06062pt>
-=======
-ine 729.
+ine 728.
 (pdftex.def)             Requested size: 528.4695pt x 611.80508pt.
 
 
-LaTeX Warning: Float too large for page by 90.1384pt on input line 731.
+LaTeX Warning: Float too large for page by 90.1384pt on input line 730.
 
 [39
 
@@ -1075,26 +739,18 @@ ity.png>]
 File: "Diagrams/UseCase Delete".png Graphic file (type png)
 
 <use "Diagrams/UseCase Delete".png>
-Package pdftex.def Info: "Diagrams/UseCase Delete".png used on input line 759.
+Package pdftex.def Info: "Diagrams/UseCase Delete".png used on input line 758.
 (pdftex.def)             Requested size: 470.05292pt x 240.82307pt.
 
 <"Diagrams/Sequence deleteActivity".png, id=574, 1202.99437pt x 943.27406pt>
->>>>>>> master
 File: "Diagrams/Sequence deleteActivity".png Graphic file (type png)
 
 <use "Diagrams/Sequence deleteActivity".png>
 Package pdftex.def Info: "Diagrams/Sequence deleteActivity".png used on input l
-<<<<<<< HEAD
-ine 756.
-(pdftex.def)             Requested size: 541.34247pt x 428.87332pt.
-
-Overfull \hbox (25.582pt too wide) in paragraph at lines 730--759
-=======
-ine 765.
+ine 764.
 (pdftex.def)             Requested size: 541.34247pt x 424.4694pt.
 
-Overfull \hbox (25.582pt too wide) in paragraph at lines 739--768
->>>>>>> master
+Overfull \hbox (25.582pt too wide) in paragraph at lines 738--767
 [][]
  []
 
@@ -1102,184 +758,101 @@ Overfull \hbox (25.582pt too wide) in paragraph at lines 739--768
 
 ] [43 <./Diagrams/UseCase Delete.png>] [44 <./Diagrams/Sequence deleteActivity.
 png>]
-<<<<<<< HEAD
-Overfull \hbox (25.582pt too wide) in paragraph at lines 767--783
-=======
-Overfull \hbox (25.582pt too wide) in paragraph at lines 776--792
->>>>>>> master
+Overfull \hbox (25.582pt too wide) in paragraph at lines 775--791
 [][] 
  []
 
 [45
 
-<<<<<<< HEAD
-] <"Diagrams/UseCase Choose trip".png, id=601, 865.73438pt x 532.99126pt>
-=======
-] <"Diagrams/UseCase Choose trip".png, id=602, 662.475pt x 519.44063pt>
->>>>>>> master
+] <"Diagrams/UseCase Choose trip".png, id=602, 865.73438pt x 532.99126pt>
 File: "Diagrams/UseCase Choose trip".png Graphic file (type png)
 
 <use "Diagrams/UseCase Choose trip".png>
 Package pdftex.def Info: "Diagrams/UseCase Choose trip".png used on input line 
-<<<<<<< HEAD
-787.
+795.
 (pdftex.def)             Requested size: 562.72069pt x 346.44022pt.
-
-<"Diagrams/Sequence chooseFavouriteTrip".png, id=602, 861.2175pt x 534.49687pt>
-File: "Diagrams/Sequence chooseFavouriteTrip".png Graphic file (type png)
-<use "Diagrams/Sequence chooseFavouriteTrip".png>
-Package pdftex.def Info: "Diagrams/Sequence chooseFavouriteTrip".png used on in
-put line 794.
-(pdftex.def)             Requested size: 559.78474pt x 347.41884pt.
- [46 <./Diagrams/UseCase Choose trip.png>] [47 <./Diagrams/Sequence chooseFavou
-riteTrip.png>]
-Overfull \hbox (25.582pt too wide) in paragraph at lines 806--827
-=======
-796.
-(pdftex.def)             Requested size: 430.60365pt x 337.6324pt.
 
 <"Diagrams/Sequence chooseFavouriteTrip".png, id=603, 861.2175pt x 587.19376pt>
 File: "Diagrams/Sequence chooseFavouriteTrip".png Graphic file (type png)
 <use "Diagrams/Sequence chooseFavouriteTrip".png>
 Package pdftex.def Info: "Diagrams/Sequence chooseFavouriteTrip".png used on in
-put line 803.
+put line 802.
 (pdftex.def)             Requested size: 559.78474pt x 381.67142pt.
  [46 <./Diagrams/UseCase Choose trip.png>] [47 <./Diagrams/Sequence chooseFavou
 riteTrip.png>]
-Overfull \hbox (25.582pt too wide) in paragraph at lines 815--836
->>>>>>> master
+Overfull \hbox (25.582pt too wide) in paragraph at lines 814--835
 [][] 
  []
 
 [48
 
 ]
-<<<<<<< HEAD
-<"Diagrams/UseCase Modify user preferences".png, id=624, 707.64375pt x 459.2156
-=======
 <"Diagrams/UseCase Modify user preferences".png, id=625, 707.64375pt x 459.2156
->>>>>>> master
 2pt>
 File: "Diagrams/UseCase Modify user preferences".png Graphic file (type png)
  <use "Diagrams/UseCase Modify user preferences".png>
 Package pdftex.def Info: "Diagrams/UseCase Modify user preferences".png used on
-<<<<<<< HEAD
- input line 831.
-(pdftex.def)             Requested size: 459.963pt x 298.4866pt.
-
-<"Diagrams/SequenceDiagram Modify user's preferences".png, id=625, 660.21657pt 
-=======
- input line 840.
+ input line 839.
 (pdftex.def)             Requested size: 459.963pt x 298.4866pt.
 
 <"Diagrams/SequenceDiagram Modify user's preferences".png, id=626, 660.21657pt 
->>>>>>> master
 x 612.78937pt>
 File: "Diagrams/SequenceDiagram Modify user's preferences".png Graphic file (ty
 pe png)
  <use "Diagrams/SequenceDiagram Modify user's preferences".png>
 Package pdftex.def Info: "Diagrams/SequenceDiagram Modify user's preferences".p
-<<<<<<< HEAD
-ng used on input line 836.
-=======
-ng used on input line 845.
->>>>>>> master
+ng used on input line 844.
 (pdftex.def)             Requested size: 462.14844pt x 428.94963pt.
 
 [49 <./Diagrams/UseCase Modify user preferences.png>] [50 <./Diagrams/SequenceD
 iagram Modify user's preferences.png>] [51
 
 ] [52] [53]
-<<<<<<< HEAD
-<"Alloy/1 - DataType".png, id=651, 490.08093pt x 506.6428pt>
-File: "Alloy/1 - DataType".png Graphic file (type png)
-
-<use "Alloy/1 - DataType".png>
-Package pdftex.def Info: "Alloy/1 - DataType".png used on input line 920.
-(pdftex.def)             Requested size: 367.5598pt x 379.98117pt.
- [54 <./Alloy/1 - DataType.png>]
-<"Alloy/2 - Signatures".png, id=656, 314.67563pt x 414.79968pt>
-File: "Alloy/2 - Signatures".png Graphic file (type png)
-
-<use "Alloy/2 - Signatures".png>
-Package pdftex.def Info: "Alloy/2 - Signatures".png used on input line 927.
-=======
 <"Alloy/1 - DataType".png, id=652, 490.08093pt x 506.6428pt>
 File: "Alloy/1 - DataType".png Graphic file (type png)
 
 <use "Alloy/1 - DataType".png>
-Package pdftex.def Info: "Alloy/1 - DataType".png used on input line 929.
+Package pdftex.def Info: "Alloy/1 - DataType".png used on input line 928.
 (pdftex.def)             Requested size: 367.5598pt x 379.98117pt.
  [54 <./Alloy/1 - DataType.png>]
 <"Alloy/2 - Signatures".png, id=657, 314.67563pt x 414.79968pt>
 File: "Alloy/2 - Signatures".png Graphic file (type png)
 
 <use "Alloy/2 - Signatures".png>
-Package pdftex.def Info: "Alloy/2 - Signatures".png used on input line 936.
->>>>>>> master
+Package pdftex.def Info: "Alloy/2 - Signatures".png used on input line 935.
 (pdftex.def)             Requested size: 283.20544pt x 373.31627pt.
  [55
 
  <./Alloy/2 - Signatures.png>]
-<<<<<<< HEAD
-<"Alloy/3 - Signatures".png, id=661, 304.13625pt x 645.16031pt>
-File: "Alloy/3 - Signatures".png Graphic file (type png)
-
-<use "Alloy/3 - Signatures".png>
-Package pdftex.def Info: "Alloy/3 - Signatures".png used on input line 933.
-(pdftex.def)             Requested size: 273.72008pt x 580.6389pt.
-
-
-LaTeX Warning: Float too large for page by 32.1389pt on input line 934.
-=======
 <"Alloy/3 - Signatures".png, id=662, 304.13625pt x 645.16031pt>
 File: "Alloy/3 - Signatures".png Graphic file (type png)
 
 <use "Alloy/3 - Signatures".png>
-Package pdftex.def Info: "Alloy/3 - Signatures".png used on input line 942.
+Package pdftex.def Info: "Alloy/3 - Signatures".png used on input line 941.
 (pdftex.def)             Requested size: 273.72008pt x 580.6389pt.
 
 
-LaTeX Warning: Float too large for page by 32.1389pt on input line 943.
->>>>>>> master
+LaTeX Warning: Float too large for page by 32.1389pt on input line 942.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [56 <./Alloy/3 - Signatures.png>]
-<<<<<<< HEAD
-<"Alloy/4 - Facts".png, id=666, 405.01312pt x 623.32875pt>
-File: "Alloy/4 - Facts".png Graphic file (type png)
-
-<use "Alloy/4 - Facts".png>
-Package pdftex.def Info: "Alloy/4 - Facts".png used on input line 940.
-(pdftex.def)             Requested size: 263.2554pt x 405.15889pt.
-
-<"Alloy/5 - Facts".png, id=667, 482.55281pt x 529.22719pt>
-File: "Alloy/5 - Facts".png Graphic file (type png)
-
-<use "Alloy/5 - Facts".png>
-Package pdftex.def Info: "Alloy/5 - Facts".png used on input line 943.
-(pdftex.def)             Requested size: 434.2935pt x 476.30006pt.
-
-Overfull \hbox (48.21013pt too wide) in paragraph at lines 943--944
-=======
 <"Alloy/4 - Facts".png, id=667, 405.01312pt x 623.32875pt>
 File: "Alloy/4 - Facts".png Graphic file (type png)
 
 <use "Alloy/4 - Facts".png>
-Package pdftex.def Info: "Alloy/4 - Facts".png used on input line 949.
+Package pdftex.def Info: "Alloy/4 - Facts".png used on input line 948.
 (pdftex.def)             Requested size: 263.2554pt x 405.15889pt.
 
 <"Alloy/5 - Facts".png, id=668, 482.55281pt x 529.22719pt>
 File: "Alloy/5 - Facts".png Graphic file (type png)
 
 <use "Alloy/5 - Facts".png>
-Package pdftex.def Info: "Alloy/5 - Facts".png used on input line 952.
+Package pdftex.def Info: "Alloy/5 - Facts".png used on input line 951.
 (pdftex.def)             Requested size: 434.2935pt x 476.30006pt.
 
-Overfull \hbox (48.21013pt too wide) in paragraph at lines 952--953
->>>>>>> master
+Overfull \hbox (48.21013pt too wide) in paragraph at lines 951--952
 [][] 
  []
 
@@ -1290,107 +863,58 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
  <./Alloy/4 - Facts.png>] [58 <./Alloy/5 - Facts.png>]
-<<<<<<< HEAD
-<"Alloy/6 - Facts".png, id=677, 472.76625pt x 364.36125pt>
-File: "Alloy/6 - Facts".png Graphic file (type png)
-
-<use "Alloy/6 - Facts".png>
-Package pdftex.def Info: "Alloy/6 - Facts".png used on input line 949.
-(pdftex.def)             Requested size: 472.76509pt x 364.36035pt.
-
-Overfull \hbox (86.68172pt too wide) in paragraph at lines 949--950
-=======
 <"Alloy/6 - Facts".png, id=678, 472.76625pt x 364.36125pt>
 File: "Alloy/6 - Facts".png Graphic file (type png)
 
 <use "Alloy/6 - Facts".png>
-Package pdftex.def Info: "Alloy/6 - Facts".png used on input line 958.
+Package pdftex.def Info: "Alloy/6 - Facts".png used on input line 957.
 (pdftex.def)             Requested size: 472.76509pt x 364.36035pt.
 
-Overfull \hbox (86.68172pt too wide) in paragraph at lines 958--959
->>>>>>> master
+Overfull \hbox (86.68172pt too wide) in paragraph at lines 957--958
 [][] 
  []
 
 [59
 
  <./Alloy/6 - Facts.png>]
-<<<<<<< HEAD
-<"Alloy/7 - Assertions".png, id=682, 469.00218pt x 510.40688pt>
-File: "Alloy/7 - Assertions".png Graphic file (type png)
-
-<use "Alloy/7 - Assertions".png>
-Package pdftex.def Info: "Alloy/7 - Assertions".png used on input line 956.
-=======
 <"Alloy/7 - Assertions".png, id=683, 469.00218pt x 510.40688pt>
 File: "Alloy/7 - Assertions".png Graphic file (type png)
 
 <use "Alloy/7 - Assertions".png>
-Package pdftex.def Info: "Alloy/7 - Assertions".png used on input line 965.
->>>>>>> master
+Package pdftex.def Info: "Alloy/7 - Assertions".png used on input line 964.
 (pdftex.def)             Requested size: 351.75078pt x 382.80421pt.
  [60
 
  <./Alloy/7 - Assertions.png>]
-<<<<<<< HEAD
-<"Alloy/8 - Predicates".png, id=687, 515.67656pt x 401.24907pt>
-File: "Alloy/8 - Predicates".png Graphic file (type png)
-
-<use "Alloy/8 - Predicates".png>
-Package pdftex.def Info: "Alloy/8 - Predicates".png used on input line 963.
-(pdftex.def)             Requested size: 386.75647pt x 300.93605pt.
-
-Overfull \hbox (0.6731pt too wide) in paragraph at lines 963--964
-[][] 
- []
-
-<"Alloy/9 - Execution results".png, id=688, 460.72125pt x 118.94438pt>
-=======
 <"Alloy/8 - Predicates".png, id=688, 515.67656pt x 401.24907pt>
 File: "Alloy/8 - Predicates".png Graphic file (type png)
 
 <use "Alloy/8 - Predicates".png>
-Package pdftex.def Info: "Alloy/8 - Predicates".png used on input line 972.
+Package pdftex.def Info: "Alloy/8 - Predicates".png used on input line 971.
 (pdftex.def)             Requested size: 386.75647pt x 300.93605pt.
 
-Overfull \hbox (0.6731pt too wide) in paragraph at lines 972--973
+Overfull \hbox (0.6731pt too wide) in paragraph at lines 971--972
 [][] 
  []
 
 <"Alloy/9 - Execution results".png, id=689, 460.72125pt x 118.94438pt>
->>>>>>> master
 File: "Alloy/9 - Execution results".png Graphic file (type png)
 
 <use "Alloy/9 - Execution results".png>
 Package pdftex.def Info: "Alloy/9 - Execution results".png used on input line 9
-<<<<<<< HEAD
-67.
-=======
-76.
->>>>>>> master
+75.
 (pdftex.def)             Requested size: 253.39746pt x 65.4196pt.
  [61
 
  <./Alloy/8 - Predicates.png> <./Alloy/9 - Execution results.png>]
-<<<<<<< HEAD
-<"Alloy/10 - Instance1".png, id=693, 1786.675pt x 760.8425pt>
-File: "Alloy/10 - Instance1".png Graphic file (type png)
-
-<use "Alloy/10 - Instance1".png>
-Package pdftex.def Info: "Alloy/10 - Instance1".png used on input line 975.
-(pdftex.def)             Requested size: 625.34563pt x 266.29886pt.
-
-Overfull \hbox (80.76225pt too wide) in paragraph at lines 975--976
-=======
 <"Alloy/10 - Instance1".png, id=694, 1786.675pt x 760.8425pt>
 File: "Alloy/10 - Instance1".png Graphic file (type png)
 
 <use "Alloy/10 - Instance1".png>
-Package pdftex.def Info: "Alloy/10 - Instance1".png used on input line 984.
+Package pdftex.def Info: "Alloy/10 - Instance1".png used on input line 983.
 (pdftex.def)             Requested size: 625.34563pt x 266.29886pt.
 
-Overfull \hbox (80.76225pt too wide) in paragraph at lines 984--985
->>>>>>> master
+Overfull \hbox (80.76225pt too wide) in paragraph at lines 983--984
 [][] 
  []
 
@@ -1398,25 +922,14 @@ Overfull \hbox (80.76225pt too wide) in paragraph at lines 984--985
 
 
  <./Alloy/10 - Instance1.png (PNG copy)>]
-<<<<<<< HEAD
-<"Alloy/11 - Instance2".png, id=699, 2187.17125pt x 768.8725pt>
-File: "Alloy/11 - Instance2".png Graphic file (type png)
-
-<use "Alloy/11 - Instance2".png>
-Package pdftex.def Info: "Alloy/11 - Instance2".png used on input line 984.
-(pdftex.def)             Requested size: 656.15645pt x 230.66353pt.
-
-Overfull \hbox (111.57307pt too wide) in paragraph at lines 984--985
-=======
 <"Alloy/11 - Instance2".png, id=700, 2187.17125pt x 768.8725pt>
 File: "Alloy/11 - Instance2".png Graphic file (type png)
 
 <use "Alloy/11 - Instance2".png>
-Package pdftex.def Info: "Alloy/11 - Instance2".png used on input line 993.
+Package pdftex.def Info: "Alloy/11 - Instance2".png used on input line 992.
 (pdftex.def)             Requested size: 656.15645pt x 230.66353pt.
 
-Overfull \hbox (111.57307pt too wide) in paragraph at lines 993--994
->>>>>>> master
+Overfull \hbox (111.57307pt too wide) in paragraph at lines 992--993
 [][] 
  []
 
@@ -1425,25 +938,14 @@ Overfull \hbox (111.57307pt too wide) in paragraph at lines 993--994
 
 
  <./Alloy/11 - Instance2.png (PNG copy)>]
-<<<<<<< HEAD
-<"Alloy/12 - Instance3".png, id=706, 2303.60625pt x 897.3525pt>
-File: "Alloy/12 - Instance3".png Graphic file (type png)
-
-<use "Alloy/12 - Instance3".png>
-Package pdftex.def Info: "Alloy/12 - Instance3".png used on input line 993.
-(pdftex.def)             Requested size: 691.08722pt x 269.20782pt.
-
-Overfull \hbox (146.50385pt too wide) in paragraph at lines 993--994
-=======
 <"Alloy/12 - Instance3".png, id=707, 2303.60625pt x 897.3525pt>
 File: "Alloy/12 - Instance3".png Graphic file (type png)
 
 <use "Alloy/12 - Instance3".png>
-Package pdftex.def Info: "Alloy/12 - Instance3".png used on input line 1002.
+Package pdftex.def Info: "Alloy/12 - Instance3".png used on input line 1001.
 (pdftex.def)             Requested size: 691.08722pt x 269.20782pt.
 
-Overfull \hbox (146.50385pt too wide) in paragraph at lines 1002--1003
->>>>>>> master
+Overfull \hbox (146.50385pt too wide) in paragraph at lines 1001--1002
 [][] 
  []
 
@@ -1455,21 +957,12 @@ Overfull \hbox (146.50385pt too wide) in paragraph at lines 1002--1003
 
 
 ]
-<<<<<<< HEAD
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1015.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1023.
  [66]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1015.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1023.
  (./LatexRASD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1015.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1015.
-=======
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1024.
- [66]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1024.
- (./LatexRASD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1024.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1024.
->>>>>>> master
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1023.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1023.
 
 Package rerunfilecheck Info: File `LatexRASD.out' has not changed.
 (rerunfilecheck)             Checksum: 735E9A25B3530B4C3EFDA6253C8F895F;3698.
@@ -1477,12 +970,11 @@ Package rerunfilecheck Info: File `LatexRASD.out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-<<<<<<< HEAD
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1015.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1023.
  ) 
 Here is how much of TeX's memory you used:
- 6870 strings out of 494437
- 104276 string characters out of 6166644
+ 6871 strings out of 494437
+ 104283 string characters out of 6166644
  192551 words of memory out of 5000000
  9872 multiletter control sequences out of 15000+600000
  11234 words of font info for 42 fonts, out of 8000000 for 9000
@@ -1497,35 +989,10 @@ onts/cm/cmr8.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017basic/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmtt12.pfb>
-Output written on LatexRASD.pdf (70 pages, 9228448 bytes).
-PDF statistics:
- 797 PDF objects out of 1000 (max. 8388607)
- 649 compressed objects within 7 object streams
- 210 named destinations out of 1000 (max. 500000)
-=======
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1024.
- ) 
-Here is how much of TeX's memory you used:
- 6871 strings out of 492995
- 103743 string characters out of 6132703
- 196244 words of memory out of 5000000
- 10080 multiletter control sequences out of 15000+600000
- 11234 words of font info for 42 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 34i,13n,35p,1507b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on LatexRASD.pdf (70 pages, 9234392 bytes).
+Output written on LatexRASD.pdf (70 pages, 9260915 bytes).
 PDF statistics:
  799 PDF objects out of 1000 (max. 8388607)
  651 compressed objects within 7 object streams
  211 named destinations out of 1000 (max. 500000)
->>>>>>> master
  620 words of extra memory for PDF output out of 10000 (max. 10000000)
 

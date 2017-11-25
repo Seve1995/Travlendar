@@ -152,11 +152,7 @@ There are two types of actors:
 \begin{itemize}
 \item We have modified some sequence diagrams adding some details about the computation of the trip, after having better defined them in the DD . Consequently, we have adjusted the corresponding tables.
 \item We have modified the class diagram with some adjustments.
-
-
-\end{itemize}
-\begin{itemize}
-\item Modification of use case diagrams by inserting missing actors.
+\item We have modify the use case diagrams by inserting missing actors.
 \end{itemize}
 \subsection{Reference documents}\label{RASD}
 \begin{itemize}
@@ -564,7 +560,7 @@ Since he lives in Milan and he hates public transports, he decides to try the ap
 
 \begin{tabular}{cp{10cm}} 
 Use case ID& {[U\textsubscript{1}]}\\ \hline
-Actor&Visitor, External services\\ \hline 
+Actor&Visitor\\ \hline 
 
 Input condition&NULL \\ \hline
 Event flow&The registration's process is: \begin{enumerate}
@@ -610,7 +606,7 @@ In case of an exception the invalid fields are coloured with red. The visitor ca
 
 \begin{tabular}{cp{10cm}} 
 Use case ID& {[U\textsubscript{2}]}\\ \hline
-Actor&Visitor, registered user\\ \hline 
+Actor&Visitor, registered user, external services\\ \hline 
 
 Input condition&The user is on the homepage.\\ \hline
 Event flow&The login's process is:\begin{enumerate}
