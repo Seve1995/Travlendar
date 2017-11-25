@@ -556,13 +556,20 @@ and traffic. & EventListener \linebreak  ExternalServicesController\\ \hline
 
 \clearpage
 \newpage
-\subsection{Non Functional Requirements} TODO
+\subsection{Non Functional Requirements} 
 \begin{itemize}
 \item \textbf{Performance} 
-\item \textbf{Availability} To ensure availability the server will be running 24 hours per day. 
+As already stated in the \textit{Design constraint}'s section of our RASD, the application will be developed for both Swift (for the iOs version) and Java (for the Android version) programming languages, rather than developing a single cross-platform application. This choice involves some advantages in terms of performance, including less response time and a better use of the graphics libraries belonging to each language.
+
+\item \textbf{Availability} To ensure availability the database server and the application will be running 24 hours per day. Moreover, it is implemented the database replication capability to automatically maintain a copy of the database at a separate location. This allow the system to switch to a backup system quickly since it doesn't have to wait for a restore from tape, which could potentially take hours.
+
 \item \textbf{Security}
+To protect data exchange between the application and the server, we adopt the Hyper Text Transfer Protocol Secure (HTTPS) to encrypt all the communications and to ensure that the can not be intercepted by external subjects. 
+Instead, database security is guaranteed by the implementation of a a secure authentication method for manipulating data and the use of roles and privileges, to allow or block the execution of certain queries by the user of the application.
+
 \item \textbf{Maintainability}
-\item \textbf{Portability}
+System maintenance and testing are periodically performed in order to find out possible errors, security flaws or bottleneck that could affect the proper running of the application.
+
 \end{itemize}
 
 \pagebreak
@@ -637,6 +644,13 @@ As for the RASD, we always tried to work together also for the DD. We managed to
 We spent also other time to fix the RASD and to adjust some diagrams and some details that we thought to be wrong.
 
 \section{References}
-TUTORIALSPOINT PER IL THREAD TESTING
-WIKIPEDI PER IL RISK-BASED TESTING
+\begin{itemize}
+\item Professor Rossi's slides;
+\item [{[1]}] \url{https://msdn.microsoft.com/it-it/library/windows/desktop/ms685068(v=vs.85).aspx} (To describe the three tier architecture);
+\item [{[2]}] \url{https://www.alertra.com/blog/2010/improve-availability-performance-using-database-replication
+} (To describe the database replication process);
+\item [{[3]}] \url{https://docs.oracle.com/cd/B14117_01/server.101/b10743/security.htm} (To describe some non functional requirements);
+\item [{[4]}] \url{https://www.tutorialspoint.com/software_testing_dictionary/thread_testing.htm} (To understand the thread testing procedure);
+\item [{[5]}] \url{https://en.wikipedia.org/wiki/Risk-based_testing} (To understand the risk-based testing procedure);
+\end{itemize}
 \end{document}
