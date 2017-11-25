@@ -149,7 +149,9 @@ There are two types of actors:
 \item Ui: i-use case
 \end{itemize}
 \subsection{Revision history}\label{RASD}
-
+\begin{itemize}
+\item Modification of use case diagrams by inserting missing actors.
+\end{itemize}
 \subsection{Reference documents}\label{RASD}
 \begin{itemize}
 \item Specification Document: Mandatory project assignment;
@@ -556,7 +558,7 @@ Since he lives in Milan and he hates public transports, he decides to try the ap
 
 \begin{tabular}{cp{10cm}} 
 Use case ID& {[U\textsubscript{1}]}\\ \hline
-Actor&Visitor\\ \hline 
+Actor&Visitor, External services\\ \hline 
 
 Input condition&NULL \\ \hline
 Event flow&The registration's process is: \begin{enumerate}
@@ -645,7 +647,7 @@ In both the cases, the user is notified with an error message and invited to try
 
 \begin{tabular}{cp{10cm}} 
 Use case ID& {[U\textsubscript{3}]}\\ \hline
-Actor&Registered user\\ \hline 
+Actor&Registered user, External services\\ \hline 
 Input condition&The registered user is already logged into Travlendar+.\\ \hline
 Event flow&The process for the creation of a new activity is: \begin{enumerate}
 \item The registered user tap on the plus icon (``new activity button").
@@ -764,7 +766,7 @@ Exception& The possible exception is that U has already tapped on "delete" but h
 
 \begin{tabular}{cp{10cm}} 
 Use case ID& {[U\textsubscript{6}]}\\ \hline
-Actor&Registered user U \\ \hline 
+Actor&Registered user U, External services \\ \hline 
 
 Input condition&U is the creator of the event A and is logged in.\\ \hline
 Event flow&Once the activity has been created, the screen with the choice of the trip between all meetings of that day appears. U can choose one by tapping on it. \\ \hline
