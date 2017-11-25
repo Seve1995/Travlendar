@@ -150,6 +150,12 @@ There are two types of actors:
 \end{itemize}
 \subsection{Revision history}\label{RASD}
 \begin{itemize}
+\item We have modified some sequence diagrams adding some details about the computation of the trip, after having better defined them in the DD . Consequently, we have adjusted the corresponding tables.
+\item We have modified the class diagram with some adjustments.
+
+
+\end{itemize}
+\begin{itemize}
 \item Modification of use case diagrams by inserting missing actors.
 \end{itemize}
 \subsection{Reference documents}\label{RASD}
@@ -652,12 +658,18 @@ Input condition&The registered user is already logged into Travlendar+.\\ \hline
 Event flow&The process for the creation of a new activity is: \begin{enumerate}
 \item The registered user tap on the plus icon (``new activity button").
 \item Travlendar+ shows a new page with the form, and the creation process starts. The user is required to specify the type of activity (meeting or break) and to insert all the attributes about the activity, such as name, date, time, location and favourite means. If the activity is of type ``break", the registered user must also specify a minimum duration of the activity.
-\item The registered user tap on ``ok".
-\end{enumerate} \\ \hline
-Output condition& Travlendar+ redirects the registered user on the main screen. On the map is appeared the new activity on its location. 
-\\ \hline
-Exception& The possible exception is that the user does not fill a mandatory field or fills it with invalid data. In such cases, the invalid fields are coloured with red. The user must insert the correct data in order to complete the creation of the activity.
+\item The registered user tap on ``ok" to confirm.
 
+
+\end{enumerate} \\ \hline
+Output condition& Travlendar+ redirects the registered user on the screen for the choice of the path and updates the calendar. 
+\\ \hline
+Exception& The possible exceptions are:
+\begin{enumerate}
+
+\item The user does not fill a mandatory field or fills it with invalid data. In such cases, the invalid fields are coloured with red. The user must insert the correct data in order to complete the creation of the activity.
+\item The activity overlaps with other ones. In this case the user receives a warning.
+\end{enumerate}
 \\ \hline \
 
 \end{tabular}
@@ -692,17 +704,17 @@ Event flow&The process for the modification of a new activity is: \begin{enumera
 \item The application shows the screen form of the activity that contains the fields to fill with the attributes.
 \item U can modify the fields by tapping on it.
 \item U taps on ``ok" when he/she has completed the modification.
-\item The application updates the calendar with the new information.
-\item The application redirects U to the main screen. 
+
 \end{enumerate} \\ \hline
-Output condition& Travlendar+ updates the calendar with the modified activity, then redirects U on the main screen. If the location of the location has been modified, on the map on the main screen the activity appears in the new location.
+Output condition& Travlendar+ updates the calendar with the modified activity, then compute the new trip. If the location of the location has been modified, on the map on the main screen the activity appears in the new location.
 \\ \hline
 Exception& The possible exceptions are:
 \begin{enumerate}
 \item U inserts an invalid modification.
 \item U does not want to apply the modifications.
+\item The modified activity overlaps with some other activities.
 \end{enumerate} 
-In the first case, the invalid field is highlighted with red. In the second one, the U can tap ``cancel" when the system asks for confirmation and no changes will be made.
+In the first case, the invalid field is highlighted with red. In the second one, the U can tap ``cancel" when the system asks for confirmation and no changes will be made. In the third case, the user receives a warning.
 \\ \hline \
 
 \end{tabular}
@@ -738,7 +750,7 @@ Event flow&The elimination of an activity's process is:
 \item U taps on ``delete". 
 \item The application asks a confirm for the elimination. If U answers ``ok", the activity is deleted from the calendar.
 \end{enumerate}\\ \hline
-Output condition& Travlendar+ updates the calendar, in particular, it deletes the activity from the map and from the calendar.
+Output condition& Travlendar+ updates the calendar, in particular, it deletes the activity from the map and from the calendar. The application also computes the new trip.
 \\ \hline
 Exception& The possible exception is that U has already tapped on "delete" but he/she does not want to delete the activity. In that case he/she can tap on ``cancel" when the system asks for the confirmation.
 \\ \hline \
