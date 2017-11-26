@@ -12,10 +12,10 @@
 \contentsline {paragraph}{Section 2: Architectural Design}{3}{section*.3}
 \contentsline {paragraph}{Section 3: Algorithm Design}{3}{section*.4}
 \contentsline {paragraph}{Section 4: User Interface Design}{3}{section*.5}
-\contentsline {paragraph}{Section 5: Requirements Traceability}{3}{section*.6}
-\contentsline {paragraph}{Section 6: Implementation, Integration and Test Plan}{3}{section*.7}
-\contentsline {paragraph}{Section 7: Effort spent}{3}{section*.8}
-\contentsline {paragraph}{Section 8: References}{3}{section*.9}
+\contentsline {paragraph}{Section 5: Requirements Traceability}{4}{section*.6}
+\contentsline {paragraph}{Section 6: Implementation, Integration and Test Plan}{4}{section*.7}
+\contentsline {paragraph}{Section 7: Effort spent}{4}{section*.8}
+\contentsline {paragraph}{Section 8: References}{4}{section*.9}
 \contentsline {section}{\numberline {2}Architectural Design}{4}{section.2}
 \contentsline {subsection}{\numberline {2.1}Overview}{4}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Component View}{6}{subsection.2.2}

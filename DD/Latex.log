@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.17)  25 NOV 2017 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.17)  26 NOV 2017 13:55
 entering extended mode
 **./Latex.tex
 (Latex.tex
@@ -414,279 +414,252 @@ been already used, duplicate ignored
                    \relax 
 l.106 \item M
              eeting: an activity among the registered user and other people....
-[1] [2] [3]
-<"General Architecture - Page 1".png, id=220, 794.97pt x 614.295pt>
+[1] [2]
+Overfull \hbox (59.7749pt too wide) in paragraph at lines 132--133
+[][]$\OT1/cmtt/m/n/12 https : / / msdn . microsoft . com / it-[]it / library / 
+windows / desktop / ms685068(v =
+ []
+
+
+Overfull \hbox (216.14998pt too wide) in paragraph at lines 134--135
+[][]$\OT1/cmtt/m/n/12 https : / / www . alertra . com / blog / 2010 / improve-[
+]availability-[]performance-[]using-[]database-[]replication$[]
+ []
+
+
+Overfull \hbox (34.57489pt too wide) in paragraph at lines 135--136
+[][]$\OT1/cmtt/m/n/12 https : / / docs . oracle . com / cd / B14117 _ 01 / serv
+er . 101 / b10743 / security .
+ []
+
+
+Overfull \hbox (3.69987pt too wide) in paragraph at lines 136--137
+[][]$\OT1/cmtt/m/n/12 https : / / www . tutorialspoint . com / software _ testi
+ng _ dictionary /
+ []
+
+[3] [4] <"General Architecture - Page 1".png, id=233, 794.97pt x 614.295pt>
 File: "General Architecture - Page 1".png Graphic file (type png)
 
 <use "General Architecture - Page 1".png>
 Package pdftex.def Info: "General Architecture - Page 1".png used on input line
- 163.
+ 169.
 (pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
 
-Overfull \hbox (25.10884pt too wide) in paragraph at lines 163--165
+Overfull \hbox (25.10884pt too wide) in paragraph at lines 169--171
 [][]
  []
 
-[4] [5 <./General Architecture - Page 1.png>]
-<"Component Diagram - Page 1".jpeg, id=230, 2080.77374pt x 1860.9525pt>
+[5 <./General Architecture - Page 1.png>]
+<"Component Diagram - Page 1".jpeg, id=239, 2080.77374pt x 1860.9525pt>
 File: "Component Diagram - Page 1".jpeg Graphic file (type jpg)
 
 <use "Component Diagram - Page 1".jpeg>
 Package pdftex.def Info: "Component Diagram - Page 1".jpeg used on input line 1
-71.
+77.
 (pdftex.def)             Requested size: 457.77165pt x 409.41081pt.
  [6 <./Component Diagram - Page 1.jpeg>] [7
 
-] [8] <"ER ".png, id=244, 1635.86156pt x 1008.76875pt>
+] [8] <"ER ".png, id=253, 1635.86156pt x 1008.76875pt>
 File: "ER ".png Graphic file (type png)
  <use "ER ".png>
-Package pdftex.def Info: "ER ".png used on input line 211.
+Package pdftex.def Info: "ER ".png used on input line 217.
 (pdftex.def)             Requested size: 441.68852pt x 272.3712pt.
 
 [9
 
 
- <./ER .png>] <"Deployment Diagram".jpeg, id=251, 922.19531pt x 668.4975pt>
+ <./ER .png>] <"Deployment Diagram".jpeg, id=260, 922.19531pt x 668.4975pt>
 File: "Deployment Diagram".jpeg Graphic file (type jpg)
 
 <use "Deployment Diagram".jpeg>
-Package pdftex.def Info: "Deployment Diagram".jpeg used on input line 221.
+Package pdftex.def Info: "Deployment Diagram".jpeg used on input line 227.
 (pdftex.def)             Requested size: 368.8716pt x 267.39426pt.
  [10
 
 
  <./Deployment Diagram.jpeg>] [11]
-<"Sequence Registration".png, id=261, 1464.2203pt x 967.36406pt>
+<"Sequence Registration".png, id=270, 1464.2203pt x 967.36406pt>
 File: "Sequence Registration".png Graphic file (type png)
 
 <use "Sequence Registration".png>
-Package pdftex.def Info: "Sequence Registration".png used on input line 257.
+Package pdftex.def Info: "Sequence Registration".png used on input line 263.
 (pdftex.def)             Requested size: 439.26949pt x 290.21146pt.
 
-<"Sequence Login".jpg, id=262, 1731.46875pt x 1507.6325pt>
+<"Sequence Login".jpg, id=271, 1731.46875pt x 1507.6325pt>
 File: "Sequence Login".jpg Graphic file (type jpg)
 
 <use "Sequence Login".jpg>
-Package pdftex.def Info: "Sequence Login".jpg used on input line 264.
+Package pdftex.def Info: "Sequence Login".jpg used on input line 270.
 (pdftex.def)             Requested size: 519.44464pt x 452.29324pt.
 
-<"Sequence createActivity".jpg, id=263, 2690.05pt x 1647.15375pt>
+<"Sequence createActivity".jpg, id=272, 2690.05pt x 1647.15375pt>
 File: "Sequence createActivity".jpg Graphic file (type jpg)
 
 <use "Sequence createActivity".jpg>
-Package pdftex.def Info: "Sequence createActivity".jpg used on input line 271.
+Package pdftex.def Info: "Sequence createActivity".jpg used on input line 277.
 (pdftex.def)             Requested size: 538.00047pt x 329.42491pt.
 
-<"Sequence modifyActivity".jpg, id=264, 2927.93875pt x 1485.55pt>
+<"Sequence modifyActivity".jpg, id=273, 2927.93875pt x 1485.55pt>
 File: "Sequence modifyActivity".jpg Graphic file (type jpg)
 
 <use "Sequence modifyActivity".jpg>
-Package pdftex.def Info: "Sequence modifyActivity".jpg used on input line 278.
+Package pdftex.def Info: "Sequence modifyActivity".jpg used on input line 284.
 (pdftex.def)             Requested size: 585.5774pt x 297.10474pt.
 
-<"Sequence deleteActivity".png, id=265, 1729.21031pt x 964.35281pt>
+<"Sequence deleteActivity".png, id=274, 1729.21031pt x 964.35281pt>
 File: "Sequence deleteActivity".png Graphic file (type png)
 
 <use "Sequence deleteActivity".png>
-Package pdftex.def Info: "Sequence deleteActivity".png used on input line 285.
+Package pdftex.def Info: "Sequence deleteActivity".png used on input line 291.
 (pdftex.def)             Requested size: 484.1756pt x 270.01695pt.
 
-<"Sequence chooseFavouriteTrip".png, id=266, 1576.38937pt x 684.30656pt>
+<"Sequence chooseFavouriteTrip".png, id=275, 1576.38937pt x 684.30656pt>
 File: "Sequence chooseFavouriteTrip".png Graphic file (type png)
 
 <use "Sequence chooseFavouriteTrip".png>
 Package pdftex.def Info: "Sequence chooseFavouriteTrip".png used on input line 
-292.
+298.
 (pdftex.def)             Requested size: 599.0342pt x 260.03918pt.
  [12
 
 ] [13 <./Sequence Registration.png>] [14 <./Sequence Login.jpg>] [15 <./Sequenc
 e createActivity.jpg>] [16 <./Sequence modifyActivity.jpg>] [17 <./Sequence del
 eteActivity.png>] [18 <./Sequence chooseFavouriteTrip.png>]
-<"Sequence ModifyUserPreferences".jpg, id=311, 1487.5575pt x 808.01875pt>
+<"Sequence ModifyUserPreferences".jpg, id=320, 1487.5575pt x 808.01875pt>
 File: "Sequence ModifyUserPreferences".jpg Graphic file (type jpg)
 
 <use "Sequence ModifyUserPreferences".jpg>
 Package pdftex.def Info: "Sequence ModifyUserPreferences".jpg used on input lin
-e 301.
+e 307.
 (pdftex.def)             Requested size: 595.01247pt x 323.20177pt.
  [19 <./Sequence ModifyUserPreferences.jpg>] <"Components interfaces".jpg, id=3
-18, 892.5345pt x 968.418pt>
+27, 892.5345pt x 968.418pt>
 File: "Components interfaces".jpg Graphic file (type jpg)
 
 <use "Components interfaces".jpg>
-Package pdftex.def Info: "Components interfaces".jpg used on input line 312.
+Package pdftex.def Info: "Components interfaces".jpg used on input line 318.
 (pdftex.def)             Requested size: 535.52484pt x 581.05528pt.
 
 
-LaTeX Warning: Float too large for page by 54.10526pt on input line 313.
+LaTeX Warning: Float too large for page by 54.10526pt on input line 319.
 
 [20 <./Components interfaces.jpg>] [21
 
 
 
 ] [22] [23] [24] [25]
-Overfull \hbox (40.45609pt too wide) in paragraph at lines 470--471
+Overfull \hbox (40.45609pt too wide) in paragraph at lines 476--477
 [][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[26] [27] <"Mockup/mockup login".png, id=474, 1505.625pt x 2810.5pt>
+[26] [27] <"Mockup/mockup login".png, id=483, 1505.625pt x 2810.5pt>
 File: "Mockup/mockup login".png Graphic file (type png)
 
 <use "Mockup/mockup login".png>
-Package pdftex.def Info: "Mockup/mockup login".png used on input line 495.
+Package pdftex.def Info: "Mockup/mockup login".png used on input line 501.
 (pdftex.def)             Requested size: 165.61926pt x 309.15596pt.
  [28
 
  <./Mockup/mockup login.png>]
-<"Mockup/mockup meeting".png, id=481, 1505.625pt x 2810.5pt>
+<"Mockup/mockup meeting".png, id=490, 1505.625pt x 2810.5pt>
 File: "Mockup/mockup meeting".png Graphic file (type png)
 
 <use "Mockup/mockup meeting".png>
-Package pdftex.def Info: "Mockup/mockup meeting".png used on input line 505.
+Package pdftex.def Info: "Mockup/mockup meeting".png used on input line 511.
 (pdftex.def)             Requested size: 165.61926pt x 309.15596pt.
 
-<"Mockup/mockup options".png, id=482, 1505.625pt x 2810.5pt>
+<"Mockup/mockup options".png, id=491, 1505.625pt x 2810.5pt>
 File: "Mockup/mockup options".png Graphic file (type png)
 
 <use "Mockup/mockup options".png>
-Package pdftex.def Info: "Mockup/mockup options".png used on input line 505.
+Package pdftex.def Info: "Mockup/mockup options".png used on input line 511.
 (pdftex.def)             Requested size: 165.61926pt x 309.15596pt.
  [29
 
  <./Mockup/mockup meeting.png> <./Mockup/mockup options.png>]
-<"Mockup/mockup add activity".png, id=488, 1505.625pt x 2810.5pt>
+<"Mockup/mockup add activity".png, id=497, 1505.625pt x 2810.5pt>
 File: "Mockup/mockup add activity".png Graphic file (type png)
 
 <use "Mockup/mockup add activity".png>
-Package pdftex.def Info: "Mockup/mockup add activity".png used on input line 51
-5.
+Package pdftex.def Info: "Mockup/mockup add activity".png used on input line 52
+1.
 (pdftex.def)             Requested size: 165.61926pt x 309.15596pt.
 
-<"Mockup/mockup modify activity".png, id=489, 1505.625pt x 2810.5pt>
+<"Mockup/mockup modify activity".png, id=498, 1505.625pt x 2810.5pt>
 File: "Mockup/mockup modify activity".png Graphic file (type png)
 
 <use "Mockup/mockup modify activity".png>
 Package pdftex.def Info: "Mockup/mockup modify activity".png used on input line
- 515.
+ 521.
 (pdftex.def)             Requested size: 165.61926pt x 309.15596pt.
  [30
 
  <./Mockup/mockup add activity.png> <./Mockup/mockup modify activity.png>]
-<"Mockup/mockup trip selection".png, id=495, 1505.625pt x 2810.5pt>
+<"Mockup/mockup trip selection".png, id=504, 1505.625pt x 2810.5pt>
 File: "Mockup/mockup trip selection".png Graphic file (type png)
 
 <use "Mockup/mockup trip selection".png>
 Package pdftex.def Info: "Mockup/mockup trip selection".png used on input line 
-525.
+531.
 (pdftex.def)             Requested size: 165.61926pt x 309.15596pt.
 
-<"Mockup/mockup map".png, id=496, 1505.625pt x 2810.5pt>
+<"Mockup/mockup map".png, id=505, 1505.625pt x 2810.5pt>
 File: "Mockup/mockup map".png Graphic file (type png)
 
 <use "Mockup/mockup map".png>
-Package pdftex.def Info: "Mockup/mockup map".png used on input line 525.
+Package pdftex.def Info: "Mockup/mockup map".png used on input line 531.
 (pdftex.def)             Requested size: 165.61926pt x 309.15596pt.
  [31
 
  <./Mockup/mockup trip selection.png> <./Mockup/mockup map.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 539--539
+Underfull \hbox (badness 10000) in paragraph at lines 545--545
 []|\OT1/cmr/m/n/12 EventListener
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 539--539
+Underfull \hbox (badness 10000) in paragraph at lines 545--545
 \OT1/cmr/m/n/12 Ac-tiv-i-ty-Con-troller
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
+Underfull \hbox (badness 10000) in paragraph at lines 546--546
 []|\OT1/cmr/m/n/12 EventListener
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
+Underfull \hbox (badness 10000) in paragraph at lines 546--546
 \OT1/cmr/m/n/12 ActivityController
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
+Underfull \hbox (badness 10000) in paragraph at lines 546--546
 \OT1/cmr/m/n/12 TripController
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--542
+Underfull \hbox (badness 10000) in paragraph at lines 548--548
 []|\OT1/cmr/m/n/12 EventListener
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--542
+Underfull \hbox (badness 10000) in paragraph at lines 548--548
 \OT1/cmr/m/n/12 Ac-tiv-i-ty-Con-troller
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
+Underfull \hbox (badness 10000) in paragraph at lines 549--549
 []|\OT1/cmr/m/n/12 EventListener
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
+Underfull \hbox (badness 10000) in paragraph at lines 549--549
 \OT1/cmr/m/n/12 Ac-tiv-i-ty-Con-troller
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
+Underfull \hbox (badness 10000) in paragraph at lines 549--549
 \OT1/cmr/m/n/12 MapController
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 544--544
-[]|\OT1/cmr/m/n/12 EventListener
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 544--544
-\OT1/cmr/m/n/12 Ac-tiv-i-ty-Con-troller
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 545--545
-[]|\OT1/cmr/m/n/12 EventListener
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 545--545
-\OT1/cmr/m/n/12 User-Con-troller
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 546--546
-[]|\OT1/cmr/m/n/12 EventListener
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 546--546
-\OT1/cmr/m/n/12 Trip-Con-troller
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 547--547
-[]|\OT1/cmr/m/n/12 EventListener
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 547--547
-\OT1/cmr/m/n/12 Trip-Con-troller
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 549--549
-[]|\OT1/cmr/m/n/12 EventListener
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 549--549
-\OT1/cmr/m/n/12 Ac-tiv-i-ty-Con-troller
  []
 
 
@@ -695,95 +668,122 @@ Underfull \hbox (badness 10000) in paragraph at lines 550--550
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 550--550
+\OT1/cmr/m/n/12 Ac-tiv-i-ty-Con-troller
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--551
+[]|\OT1/cmr/m/n/12 EventListener
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--551
+\OT1/cmr/m/n/12 User-Con-troller
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 552--552
 []|\OT1/cmr/m/n/12 EventListener
  []
 
 
-Overfull \hbox (32.73857pt too wide) in paragraph at lines 535--554
+Underfull \hbox (badness 10000) in paragraph at lines 552--552
+\OT1/cmr/m/n/12 Trip-Con-troller
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--553
+[]|\OT1/cmr/m/n/12 EventListener
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--553
+\OT1/cmr/m/n/12 Trip-Con-troller
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 555--555
+[]|\OT1/cmr/m/n/12 EventListener
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 555--555
+\OT1/cmr/m/n/12 Ac-tiv-i-ty-Con-troller
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
+[]|\OT1/cmr/m/n/12 EventListener
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--558
+[]|\OT1/cmr/m/n/12 EventListener
+ []
+
+
+Overfull \hbox (32.73857pt too wide) in paragraph at lines 541--560
 [] 
  []
 
 
-LaTeX Warning: Float too large for page by 74.76639pt on input line 554.
+LaTeX Warning: Float too large for page by 74.76639pt on input line 560.
 
 [32] [33
 
 
-] [34] <"Diagrams/impl1".png, id=518, 577.15625pt x 140.525pt>
+] [34] <"Diagrams/impl1".png, id=527, 577.15625pt x 140.525pt>
 File: "Diagrams/impl1".png Graphic file (type png)
 
 <use "Diagrams/impl1".png>
-Package pdftex.def Info: "Diagrams/impl1".png used on input line 602.
+Package pdftex.def Info: "Diagrams/impl1".png used on input line 608.
 (pdftex.def)             Requested size: 288.57741pt x 70.26231pt.
 
-<"Diagrams/impl2".png, id=519, 585.68813pt x 277.035pt>
+<"Diagrams/impl2".png, id=528, 585.68813pt x 277.035pt>
 File: "Diagrams/impl2".png Graphic file (type png)
 
 <use "Diagrams/impl2".png>
-Package pdftex.def Info: "Diagrams/impl2".png used on input line 609.
+Package pdftex.def Info: "Diagrams/impl2".png used on input line 615.
 (pdftex.def)             Requested size: 292.84334pt x 138.51715pt.
 
-<"Diagrams/impl3".png, id=520, 616.3025pt x 297.61188pt>
+<"Diagrams/impl3".png, id=529, 616.3025pt x 297.61188pt>
 File: "Diagrams/impl3".png Graphic file (type png)
 
 <use "Diagrams/impl3".png>
-Package pdftex.def Info: "Diagrams/impl3".png used on input line 615.
+Package pdftex.def Info: "Diagrams/impl3".png used on input line 621.
 (pdftex.def)             Requested size: 308.1505pt x 148.80557pt.
  [35 <./Diagrams/impl1.png> <./Diagrams/impl2.png>]
-<"Diagrams/impl4".png, id=528, 589.70313pt x 134.00063pt>
+<"Diagrams/impl4".png, id=537, 589.70313pt x 134.00063pt>
 File: "Diagrams/impl4".png Graphic file (type png)
 
 <use "Diagrams/impl4".png>
-Package pdftex.def Info: "Diagrams/impl4".png used on input line 621.
+Package pdftex.def Info: "Diagrams/impl4".png used on input line 627.
 (pdftex.def)             Requested size: 294.85083pt x 67.00014pt.
 
-<"Diagrams/impl5".png, id=529, 594.72188pt x 130.98938pt>
+<"Diagrams/impl5".png, id=538, 594.72188pt x 130.98938pt>
 File: "Diagrams/impl5".png Graphic file (type png)
 
 <use "Diagrams/impl5".png>
-Package pdftex.def Info: "Diagrams/impl5".png used on input line 627.
+Package pdftex.def Info: "Diagrams/impl5".png used on input line 633.
 (pdftex.def)             Requested size: 297.36021pt x 65.49452pt.
 
-<"Diagrams/impl6".png, id=530, 604.75937pt x 295.60437pt>
+<"Diagrams/impl6".png, id=539, 604.75937pt x 295.60437pt>
 File: "Diagrams/impl6".png Graphic file (type png)
 
 <use "Diagrams/impl6".png>
-Package pdftex.def Info: "Diagrams/impl6".png used on input line 633.
+Package pdftex.def Info: "Diagrams/impl6".png used on input line 639.
 (pdftex.def)             Requested size: 302.37894pt x 147.80182pt.
 
-Overfull \hbox (2.31755pt too wide) in paragraph at lines 630--634
+Overfull \hbox (2.31755pt too wide) in paragraph at lines 636--640
  []\OT1/cmr/bx/n/12 Additional fea-tures (no-ti-fi-ca-tions, weather, traf-fic,
  strikes)[] \OT1/cmr/m/n/12 Travlen-
  []
 
 [36 <./Diagrams/impl3.png> <./Diagrams/impl4.png> <./Diagrams/impl5.png>]
 [37 <./Diagrams/impl6.png>]
-Overfull \hbox (59.7749pt too wide) in paragraph at lines 649--650
-[][]$\OT1/cmtt/m/n/12 https : / / msdn . microsoft . com / it-[]it / library / 
-windows / desktop / ms685068(v =
- []
-
-
-Overfull \hbox (216.14998pt too wide) in paragraph at lines 651--652
-[][]$\OT1/cmtt/m/n/12 https : / / www . alertra . com / blog / 2010 / improve-[
-]availability-[]performance-[]using-[]database-[]replication$[]
- []
-
-
-Overfull \hbox (34.57489pt too wide) in paragraph at lines 652--653
-[][]$\OT1/cmtt/m/n/12 https : / / docs . oracle . com / cd / B14117 _ 01 / serv
-er . 101 / b10743 / security .
- []
-
-
-Overfull \hbox (3.69987pt too wide) in paragraph at lines 653--654
-[][]$\OT1/cmtt/m/n/12 https : / / www . tutorialspoint . com / software _ testi
-ng _ dictionary /
- []
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 656.
-[38]
+ [38]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 656.
  (Latex.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 656.
@@ -795,7 +795,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 656.
 Here is how much of TeX's memory you used:
  8607 strings out of 493323
  124159 string characters out of 3139068
- 276379 words of memory out of 3000000
+ 277379 words of memory out of 3000000
  11770 multiletter control sequences out of 15000+200000
  12049 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -808,7 +808,7 @@ s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmtt12.pfb>
-Output written on Latex.pdf (42 pages, 9671855 bytes).
+Output written on Latex.pdf (42 pages, 9671792 bytes).
 PDF statistics:
  635 PDF objects out of 1000 (max. 8388607)
  230 named destinations out of 1000 (max. 500000)
