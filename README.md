@@ -12,4 +12,5 @@ This is the repository for the project of the Software Engineering II's course a
 * Giuseppe Severino
 
 ## Assignments
-1. **RASD**: [download the latest version here](https://github.com/Seve1995/PidoPlizzariSeverino/raw/master/DeliveryFolder/RASD1.pdf)
+1. **RASD**: [download the latest version here](https://github.com/Seve1995/PidoPlizzariSeverino/raw/master/DeliveryFolder/RASD2.pdf)
+2. **DD**: [download the latest version here](https://github.com/Seve1995/PidoPlizzariSeverino/raw/master/DeliveryFolder/DD1.pdf)
